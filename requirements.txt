@@ -1,0 +1,25 @@
+# UK Company SEO Lead Generation System Dependencies
+
+# Core Database & ORM
+sqlalchemy>=2.0.41
+pydantic>=2.11.5
+
+# CLI Framework
+click>=8.1.8
+
+# Web Scraping & Browser Automation
+playwright>=1.52.0
+aiohttp>=3.12.12
+beautifulsoup4>=4.13.4
+lxml>=5.4.0
+requests>=2.32.4
+selenium>=4.33.0
+
+# Additional Web Driver Management
+webdriver-manager>=4.0.2
+
+# Async Processing & Rate Limiting
+asyncio-throttle>=1.0.2
+
+# Additional Standard Dependencies
+typing-extensions>=4.13.2

@@ -1,0 +1,138 @@
+[
+  {
+    "input_data": {
+      "company_name": "Jump The Gun",
+      "website": "https://www.yelp.co.uk/biz/jump-the-gun-brighton",
+      "domain": null,
+      "location": {
+        "city": "Brighton"
+      },
+      "sector": "retail",
+      "existing_contact": {
+        "person": "Support Center",
+        "role": "Customer Service"
+      }
+    },
+    "company_enrichment": null,
+    "contact_enrichments": [
+      {
+        "personal": {
+          "full_name": "Support Center",
+          "first_name": "Support",
+          "last_name": "Center",
+          "middle_name": null,
+          "title": null,
+          "gender": null,
+          "age_range": null
+        },
+        "professional": {
+          "current_role": "Customer Service",
+          "department": null,
+          "seniority_level": null,
+          "years_in_role": null,
+          "years_at_company": null,
+          "previous_companies": [],
+          "skills": []
+        },
+        "social": null,
+        "email": null,
+        "email_validation": null,
+        "phone": null,
+        "confidence": 0.7,
+        "data_sources": [
+          "input_data"
+        ],
+        "last_updated": "2025-06-11 12:19:51.869700"
+      }
+    ],
+    "email_discovery": {
+      "domain": "www.yelp.co.uk",
+      "patterns": [],
+      "catch_all": null,
+      "mx_records": [],
+      "common_emails": [],
+      "confidence": 0.0
+    },
+    "email_candidates": [],
+    "status": "enriched",
+    "confidence_score": 0.42,
+    "processing_time_ms": 179,
+    "error_message": null,
+    "data_sources_used": [
+      "input_data",
+      "email_discovery"
+    ],
+    "created_at": "2025-06-11 12:19:51.869746",
+    "updated_at": "2025-06-11 12:19:51.869747"
+  },
+  {
+    "input_data": {
+      "company_name": "Gene Commerce Limited",
+      "website": "https://genecommerce.com/",
+      "domain": null,
+      "location": {
+        "city": "Brighton"
+      },
+      "sector": "e-commerce",
+      "existing_contact": null
+    },
+    "company_enrichment": null,
+    "contact_enrichments": [],
+    "email_discovery": {
+      "domain": "genecommerce.com",
+      "patterns": [],
+      "catch_all": null,
+      "mx_records": [],
+      "common_emails": [],
+      "confidence": 0.0
+    },
+    "email_candidates": [],
+    "status": "partial",
+    "confidence_score": 0.0,
+    "processing_time_ms": 110,
+    "error_message": null,
+    "data_sources_used": [
+      "email_discovery"
+    ],
+    "created_at": "2025-06-11 12:19:51.980010",
+    "updated_at": "2025-06-11 12:19:51.980011"
+  },
+  {
+    "input_data": {
+      "company_name": "Bozboz",
+      "website": "https://bozboz.co.uk/",
+      "domain": null,
+      "location": {
+        "city": "Brighton"
+      },
+      "sector": "web development",
+      "existing_contact": null
+    },
+    "company_enrichment": null,
+    "contact_enrichments": [],
+    "email_discovery": {
+      "domain": "bozboz.co.uk",
+      "patterns": [],
+      "catch_all": false,
+      "mx_records": [
+        "aspmx.l.google.com.",
+        "alt2.aspmx.l.google.com.",
+        "alt1.aspmx.l.google.com.",
+        "alt3.aspmx.l.google.com.",
+        "alt4.aspmx.l.google.com."
+      ],
+      "common_emails": [],
+      "confidence": 0.5
+    },
+    "email_candidates": [],
+    "status": "enriched",
+    "confidence_score": 0.5,
+    "processing_time_ms": 1373,
+    "error_message": null,
+    "data_sources_used": [
+      "email_discovery"
+    ],
+    "created_at": "2025-06-11 12:19:53.354429",
+    "updated_at": "2025-06-11 12:19:53.354431"
+  }
+]

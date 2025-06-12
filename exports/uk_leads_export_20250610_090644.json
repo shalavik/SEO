@@ -1,0 +1,202 @@
+{
+  "export_info": {
+    "timestamp": "2025-06-10T09:06:44.617114",
+    "total_leads": 2,
+    "format": "json",
+    "source": "UK Company SEO Lead Generation System"
+  },
+  "leads": [
+    {
+      "lead_id": "test-3",
+      "company": {
+        "name": "Example Company",
+        "website": "https://example.com",
+        "location": {
+          "city": "Brighton",
+          "region": null,
+          "address": "123 Test St"
+        },
+        "business": {
+          "sector": "technology",
+          "employees": 10,
+          "size_category": "small"
+        }
+      },
+      "contact": {
+        "person": "Example Domain",
+        "role": null,
+        "seniority_tier": null,
+        "email": null,
+        "phone": null,
+        "linkedin_url": null,
+        "confidence": 0.1,
+        "extraction_method": "contact_page"
+      },
+      "seo_analysis": {
+        "overall_score": 30.0,
+        "pagespeed_score": 0.0,
+        "mobile_friendly": false,
+        "meta_description_missing": true,
+        "h1_tags_present": true,
+        "ssl_certificate": true,
+        "load_time": 0.0,
+        "critical_issues": [
+          "Missing meta description"
+        ]
+      },
+      "lead_qualification": {
+        "final_score": 67.0,
+        "priority_tier": "B",
+        "tier_label": "Warm Lead - High Priority",
+        "factor_breakdown": {
+          "seo_opportunity": {
+            "score": 100.0,
+            "weight": 0.35,
+            "contribution": 35.0
+          },
+          "business_size": {
+            "score": 50.0,
+            "weight": 0.25,
+            "contribution": 12.5
+          },
+          "sector_fit": {
+            "score": 65.0,
+            "weight": 0.2,
+            "contribution": 13.0
+          },
+          "growth_indicators": {
+            "score": 60.0,
+            "weight": 0.1,
+            "contribution": 6.0
+          },
+          "contact_quality": {
+            "score": 5.0,
+            "weight": 0.1,
+            "contribution": 0.5
+          }
+        },
+        "confidence": 0.8
+      },
+      "outreach_intelligence": {
+        "urgency": "medium",
+        "estimated_value": "£1,000-3,000/month",
+        "recommended_actions": [
+          "Offer free SEO audit",
+          "Highlight missing meta descriptions",
+          "Emphasize mobile optimization"
+        ],
+        "talking_points": [
+          "Industry expertise in technology",
+          "Local SEO for Brighton market",
+          "Current SEO score 30/100 - significant room for improvement"
+        ],
+        "follow_up_schedule": {
+          "initial_contact": "within 72 hours",
+          "follow_up_1": "3 days after initial",
+          "follow_up_2": "1 week after follow_up_1"
+        }
+      },
+      "metadata": {
+        "created_at": null,
+        "updated_at": "2025-06-10T09:06:02.476701",
+        "status": "qualified",
+        "export_timestamp": "2025-06-10T09:06:44.616948"
+      }
+    },
+    {
+      "lead_id": "test-1",
+      "company": {
+        "name": "BBC News",
+        "website": "https://www.bbc.com",
+        "location": {
+          "city": "London",
+          "region": null,
+          "address": "Broadcasting House"
+        },
+        "business": {
+          "sector": "media",
+          "employees": 1000,
+          "size_category": "large"
+        }
+      },
+      "contact": {
+        "person": null,
+        "role": "Skip to contentAdvertisementAdvertisementBritish Broadcasting CorporationRegisterSign InHomeNewsSportBusinessInnovationCultureArtsTravelEarthAudioVideoLiveHomeNewsIsrael-Gaza WarWar in UkraineUS & CanadaUKUK PoliticsEnglandN. IrelandN. Ireland PoliticsScotlandScotland PoliticsWalesWales PoliticsAfricaAsiaChinaIndiaAustraliaEuropeLatin AmericaMiddle EastIn PicturesBBC InDepthBBC VerifySportBusinessExecutive LoungeTechnology of BusinessFuture of BusinessInnovationTechnologyScience & HealthArtificial IntelligenceAI v the MindCultureFilm & TVMusicArt & DesignStyleBooksEntertainment NewsArtsArts in MotionTravelDestinationsAfricaAntarcticaAsiaAustralia and PacificCaribbean & BermudaCentral AmericaEuropeMiddle EastNorth AmericaSouth AmericaWorld’s TableCulture & ExperiencesAdventuresThe SpeciaListEarthNatural WondersWeather & ScienceClimate SolutionsSustainable BusinessGreen LivingAudioPodcastsRadioAudio FAQsVideoLiveLive NewsLive SportHomeNewsSportBusinessInnovationCultureArtsTravelEarthAudioVideoLiveWeatherNewslettersGreta Thunberg deported, Israel says, after Gaza aid boat interceptedThe activists' yacht, which was trying to carry aid to Gaza, was intercepted by Israeli forces in the early hours of Monday.17 mins agoMiddle EastPalestinians say local gunmen and Israeli forces opened fire near Gaza aid siteWitnesses say the gunmen shot at them while organising queues for food near a site run by an Israeli- and US-backed group.10 hrs agoMiddle EastGreta Thunberg deported, Israel says, after Gaza aid boat interceptedThe activists' yacht, which was trying to carry aid to Gaza, was intercepted by Israeli forces in the early hours of Monday.17 mins agoMiddle EastPalestinians say local gunmen and Israeli forces opened fire near Gaza aid siteWitnesses say the gunmen shot at them while organising queues for food near a site run by an Israeli- and US-backed group.10 hrs agoMiddle EastLIVETrump orders Marines to LA in additional deployment as unrest calmsCalifornia Governor Gavin Newsom, who is suing the Trump administration over troop deployments, calls the president \"dictatorial\" and \"deranged\".Russian strikes in Ukraine hit Kyiv and kill two in OdesaRussia launched 315 drones across the country, including \"one of the largest strikes on Kyiv,\" Zelensky said.1 hr agoEuropeLIVEBBC Verify Live: US anti-ICE protests trigger online misinformationLatest updates from the BBC's specialists in fact-checking, verifying video and tackling disinformation.China's electric cars are becoming slicker and cheaper - but is there a deeper cost?The future for EVs will inevitably involve China. But where does that leave the UK and Europe markets – and what of the questions around national security?10 hrs agoBBC InDepthWorld fertility rates in 'unprecedented decline', UN saysHundreds of millions of people are not able to have the number of children they want, the UN warns.5 hrs agoAsiaOnly from the BBCFrom festivals to weddings: Why drone shows are boomingLight shows involving hundreds and even thousands of drones are becoming big attractions.10 hrs agoIs there such a thing as American cuisine?For her new book, Peach Street to Lobster Lane, British food writer Felicity Cloake cycles across the US from coast to coast in search of a definition for its national cuisine.24 hrs agoTravelListenTrump to deploy 700 marines to Los AngelesCalifornia Attorney General accuses Trump of trying to manufacture a crisis29 minsSaveMore newsFour crew members missing as Singapore-flagged cargo ship burns off India coastTwo of the missing crew in the Singapore-flagged ship are from Taiwan, one from Myanmar and one from Indonesia.2 hrs agoAsiaLIVETransfer news latest: Clubs look to sign players before Tuesday's deadlineAll the latest transfer news as clubs look to bring in players before Tuesday's deadline and before the Club World Cup begins.RFK Jr sacks entire US vaccine committeeThe US health secretary, a vaccine sceptic who has been criticised by health experts, said the panel was 'plagued' with conflicts of interest.9 hrs agoUS & CanadaKetamine swapped for salt as smugglers exploit Europe loophole in booming marketCrime gangs are using increasingly elaborate routes to traffic the drug across Europe to the UK, the BBC is told.4 hrs agoEuropeUber brings forward trialling driverless taxis in UKThe autonomous cars with no human safety driver at the wheel will be trialled in London next spring.33 mins agoLIVETransfer news latest: Clubs look to sign players before Tuesday's deadlineAll the latest transfer news as clubs look to bring in players before Tuesday's deadline and before the Club World Cup begins.'Scary and stressful': Indian students reconsider plans for US educationIndians make up the largest group of international students in the US, and fill a crucial skills gap.11 hrs agoWorldSouth Korean woman fined for pulling down male colleague's trousersThe woman has also been ordered to complete eight hours of sexual violence prevention education.6 hrs agoAsiaRFK Jr sacks entire US vaccine committeeThe US health secretary, a vaccine sceptic who has been criticised by health experts, said the panel was 'plagued' with conflicts of interest.9 hrs agoUS & CanadaMust watchMoment Israeli forces board Gaza aid boatOnboard security footage from the Madleen aid vessel shows activists throwing their tech overboard and putting up their hands.12 hrs agoMiddle EastBBC Verify examines tunnels footage after IDF says Hamas leader body foundThe IDF have released new footage that they say shows the underground tunnel network underneath the European hospital in southern Gaza. BBC Verify pieces together the evidence.12 hrs agoBBC VerifyAustralian journalist hit by 'rubber bullet' while reporting from LAChannel Nine's Lauren Tomasi appeared to be hit by a non-lethal round as she reported from the scene.23 hrs agoUS & CanadaRunaway pet Zebra airlifted after capture in TennesseeEd the zebra was on the loose since May 31 when authorities captured the pet and airlifted it to a waiting animal trailer.19 hrs agoUS & CanadaPeople flee as van drives erratically at LA protestsBBC reporter Christal Hayes was driving home when she witnessed the incident at a junction.1 day agoUS & CanadaNational Guard on LA streets as unrest eruptsProtests flare up in Los Angeles, as demonstrators against immigration raids face off with law enforcement1 day agoUS & CanadaMan seen running across Heathrow taxiwayA man managed to get access to the Heathrow taxiway before being caught by staff and police.16 hrs agoLondonFrench Open final 'the most exciting match I've played'Carlos Alcaraz says the French Open final against Jannik Sinner is \"the most exciting match that I've played so far\".\nSpain's Alcaraz saved three championship points in the fourth set before securing a 4-6 6-7 (4-7) 6-4 7-6 (7-3) 7-6 (10-2) win after five hours and 29 minutes.1 day agoTennisFilm & TVMaterialists review: A 'captivating' romance ★★★★☆Dakota Johnson, Chris Evans and Pedro Pascal make for a starry love triangle in this exquisite new film from director Celine Song, who previously made the Oscar-nominated Past Lives.See moreInnovationMarie Curie's century-old radioactive fingerprintsMarie Curie worked with radioactive material with her bare hands. More than 100 years later, Sophie Hardach travels to Paris to trace the radioactive fingerprints she left behind.See moreUS & Canada newsUS cities follow LA's protests over Trump's immigration raidsFrom Boston to Houston, demonstrators elsewhere have followed the displays of opposition in LA.11 mins agoUS & CanadaEverything we know about the LA protests5 hrs agoUS & CanadaMan charged over abortion drug in partner's drink5 hrs agoUS & CanadaNewsom says Trump 'deranged' as more troops deployed to LA protests5 hrs agoUS & CanadaMore world newsForeign Office staff told to consider resigning if they disagree over GazaMore than 300 Foreign Office staff had raised concerns about potential UK \"complicity\" in Israel's conduct in Gaza.5 hrs agoMiddle EastPoliticians accused of Liberia parliament arson bailed for $440,00013 hrs agoAfricaPolice stakeout of Cameroon's presidential hopeful ends16 hrs agoAfricaProtest hits Kenya after shock death of man held by police17 hrs agoAfricaSport'Opposite of Postecoglou' - what could Spurs expect from 'chef' Frank?Would Thomas Frank, who has likened managing in the Premier League to being head chef in a high-end restaurant, serve up success at Tottenham?11 hrs agoTottenhamMadrid makes debut as Imola dropped from 20263 hrs agoFormula 1How you lose is more important - Bellamy10 hrs agoWales Men'Go for it' - Tuchel wants England to 'play with smile'12 hrs agoEngland MenBusinessHBO and CNN owner to split streaming and cable businessesIt comes as streaming services attract hundreds of millions of users around the world but cable TV has seen audiences decline.6 hrs agoBusinessUS and China meet for trade talks in London15 hrs agoBusinessCanada pledges to meet Nato's 2% defence spending target within a year13 hrs agoUS & CanadaTrump-Musk row heightens fears over Nasa budget cuts2 days agoScience & EnvironmentLatest audioThe Documentary PodcastBalochistan - the women of the vanishedSave26 minsWorld Business ReportTrade Talks: US and China meet in LondonSave26 minsGlobal News PodcastIsrael blocks activist Gaza aid shipSave30 minsFootball DailyEngland set for Senegal FriendlySave32 minsThe Documentary PodcastAuntie Flo: Making plants danceSave25 minsAmericastAmericanswers... on 5 Live! Why has Donald Trump sent the National Guard to protests in LA?Save25 minsGlobal News PodcastLos Angeles: Clashes erupt for a third day as the US National Guard arrivesSave33 minsWorld Business ReportUS-China trade war: Talks in London beginSave26 minsTechTeachers can use AI to save time on marking, new guidance saysFor the first time teachers in England are receiving guidelines on how they should and shouldn't use AI.8 hrs agoUKXbox handheld console finally revealed after a decade of speculation23 hrs agoTechnologyIt's the Race Across The World finale, and Love Island is back: What's coming up this week2 days agoCan Gaelic football finally have its video game hit?2 days agoScience & health'My left breast was moved to my right after cancer recurred'A second-time cancer patient's \"crazy\" idea to transplant a breast leads to world first surgery.2 days agoWalesDoctors trialling 'poo pills' to flush out dangerous superbugs2 days agoHealthHow Covid-19 has left its mark on children3 days agoFutureWe always joked dad looked nothing like his parents - then we found out why3 days agoHealthCultureSly Stone, leader of Sly and the Family Stone, dies aged 82The funk music icon died following a \"prolonged battle\" with COPD and other underlying health issues, his family said.12 hrs agoCultureDespair to delight: Lost Rodin 'copy'  sells for $1m9 hrs agoEuropeJudge dismisses Justin Baldoni's $400m defamation lawsuit against Blake Lively12 hrs agoUS & CanadaHow Jurassic Park made dinosaurs into film stars23 hrs agoCultureArtsFive works that reveal Banksy's hidden philosophyBanksy's new mural in Marseille is not the first image he has connected to the history of ideas. A Banksy expert reveals the philosophy behind these popular artworks.8 days agoCultureOscar Wilde's life reimagined in dystopian musical2 days agoLondonHow India's 'biggest art deal' buried MF Husain masterpieces in a bank vault2 days agoAsiaHow a little town became Japan's unexpected art haven30 May 2025TravelWatchWhat if all the world's oceans disappeared?The startling and apocalyptic consequences if all the world's oceans were to simply vanish in an instant.See moreTravelHow a terrorist hotspot became a tourism gemLong overshadowed by headlines of extremism, Georgia's Pankisi Valley is now welcoming travellers with Sufi rituals, mountain trails and home-cooked Kist food.2 days agoTravelHas matcha madness gone too far?3 days agoTravelHow WW2 changed the French diet4 days agoTravelScotland's epic 210-mile bikepacking adventure5 days agoTravelWorld's TableEight rare juices you can only try in the AmazonFar from smoothie bars and powdered sachets, these wild Amazonian juices are pulped just hours after picking – making them rich in flavour and cultural meaning.8 days agoTravelThe women saving Japan's vanishing cuisine1 Jun 2025TravelAfrica's ice cream cafe that nurtures self-esteem22 May 2025TravelWhat happens to family recipes when home is lost?19 May 2025TravelEarthOceans cannot become 'wild west', warns UN chiefUN Secretary General Antonio Guterres spoke at the start of the UN Oceans Conference in Nice, France.21 hrs agoEuropeIs it better to neglect your garden?2 days agoFutureUK proposes wider ban on destructive ocean bottom trawling22 hrs agoScience & EnvironmentWilliam warns ocean life 'diminishing before our eyes'2 days agoScience & EnvironmentVideoA new golden era for opera begins at the MetDiscover how New York's Metropolitan Opera is on a mission to redefine the art form for a new generation.23 hrs agoArts in MotionInside one of the world's most advanced supercomputers4 days agoTech NowHow to cure your flying fears5 days agoTechnologyWatch a T. rex ambush a young triceratops6 days agoNatural wondersDiscover more from the BBCFuture EarthEssential climate news and hopeful developments across the globe. Every Tuesday from climate correspondent Carl Nasman, direct to your inbox.Download the BBC appClick here to download the BBC app for Apple and Android devices.Royal WatchThe full story on the Royal Family, in your inbox every Thursday.Register for a BBC accountDon't have time to read everything right now? Your BBC account lets you save articles and videos for later.Sign up for the Essential ListThe week’s best stories, handpicked by BBC editors, in your inbox every Tuesday and Friday.Sign up to News BriefingNews and expert analysis for every schedule. Get the morning and evening editions of our flagship newsletter in your inbox.British Broadcasting CorporationHomeNewsSportBusinessInnovationCultureArtsTravelEarthAudioVideoLiveWeatherBBC ShopBritBoxBBC in other languagesFollow BBC on:Terms of UseAbout the BBCPrivacy PolicyCookiesAccessibility HelpContact the BBCAdvertise with usDo not share or sell my infoContact technical supportCopyright 2025 BBC. All rights reserved.TheBBCisnot responsible for the content of external sites.Read about our approach to external linking.",
+        "seniority_tier": "tier_1",
+        "email": null,
+        "phone": null,
+        "linkedin_url": null,
+        "confidence": 0.1,
+        "extraction_method": "homepage"
+      },
+      "seo_analysis": {
+        "overall_score": 51.7,
+        "pagespeed_score": 0.0,
+        "mobile_friendly": false,
+        "meta_description_missing": false,
+        "h1_tags_present": true,
+        "ssl_certificate": true,
+        "load_time": 0.0,
+        "critical_issues": [
+          "Multiple H1 tags detected"
+        ]
+      },
+      "lead_qualification": {
+        "final_score": 64.5,
+        "priority_tier": "C",
+        "tier_label": "Qualified Lead - Standard Priority",
+        "factor_breakdown": {
+          "seo_opportunity": {
+            "score": 60.0,
+            "weight": 0.35,
+            "contribution": 21.0
+          },
+          "business_size": {
+            "score": 90.0,
+            "weight": 0.25,
+            "contribution": 22.5
+          },
+          "sector_fit": {
+            "score": 65.0,
+            "weight": 0.2,
+            "contribution": 13.0
+          },
+          "growth_indicators": {
+            "score": 75.0,
+            "weight": 0.1,
+            "contribution": 7.5
+          },
+          "contact_quality": {
+            "score": 5.0,
+            "weight": 0.1,
+            "contribution": 0.5
+          }
+        },
+        "confidence": 0.8
+      },
+      "outreach_intelligence": {
+        "urgency": "low",
+        "estimated_value": "£500-1,500/month",
+        "recommended_actions": [
+          "Emphasize mobile optimization"
+        ],
+        "talking_points": [
+          "Industry expertise in media",
+          "Local SEO for London market",
+          "Current SEO score 52/100 - significant room for improvement"
+        ],
+        "follow_up_schedule": {
+          "initial_contact": "within 72 hours",
+          "follow_up_1": "3 days after initial",
+          "follow_up_2": "1 week after follow_up_1"
+        }
+      },
+      "metadata": {
+        "created_at": null,
+        "updated_at": "2025-06-10T09:06:02.475661",
+        "status": "qualified",
+        "export_timestamp": "2025-06-10T09:06:44.616959"
+      }
+    }
+  ]
+}

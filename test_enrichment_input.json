@@ -1,0 +1,24 @@
+[
+    {
+        "company_name": "Jump The Gun",
+        "website": "https://www.yelp.co.uk/biz/jump-the-gun-brighton",
+        "sector": "retail",
+        "location": {"city": "Brighton"},
+        "existing_contact": {
+            "person": "Support Center",
+            "role": "Customer Service"
+        }
+    },
+    {
+        "company_name": "Gene Commerce Limited",
+        "website": "https://genecommerce.com",
+        "sector": "e-commerce",
+        "location": {"city": "Brighton"}
+    },
+    {
+        "company_name": "Bozboz",
+        "website": "https://bozboz.co.uk",
+        "sector": "web development",
+        "location": {"city": "Brighton"}
+    }
+] 

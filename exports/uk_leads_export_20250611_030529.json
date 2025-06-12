@@ -1,0 +1,103 @@
+{
+  "export_info": {
+    "timestamp": "2025-06-11T03:05:29.516398",
+    "total_leads": 1,
+    "format": "json",
+    "source": "UK Company SEO Lead Generation System"
+  },
+  "leads": [
+    {
+      "lead_id": "1fcce0aa4df685f84afe998ec7169b66",
+      "company": {
+        "name": "2.Primark",
+        "website": "https://www.yelp.co.uk/biz/primark-brighton-2?osq=retail",
+        "location": {
+          "city": "Brighton",
+          "region": null,
+          "address": null
+        },
+        "business": {
+          "sector": "retail",
+          "employees": null,
+          "size_category": null
+        }
+      },
+      "contact": {
+        "person": "Support Center",
+        "role": null,
+        "seniority_tier": null,
+        "email": null,
+        "phone": null,
+        "linkedin_url": null,
+        "confidence": 0.1,
+        "extraction_method": "contact_page"
+      },
+      "seo_analysis": {
+        "overall_score": 54.0,
+        "pagespeed_score": 0.0,
+        "mobile_friendly": false,
+        "meta_description_missing": false,
+        "h1_tags_present": true,
+        "ssl_certificate": true,
+        "load_time": 0.0,
+        "critical_issues": []
+      },
+      "lead_qualification": {
+        "final_score": 60.5,
+        "priority_tier": "C",
+        "tier_label": "Qualified Lead - Standard Priority",
+        "factor_breakdown": {
+          "seo_opportunity": {
+            "score": 60.0,
+            "weight": 0.35,
+            "contribution": 21.0
+          },
+          "business_size": {
+            "score": 50.0,
+            "weight": 0.25,
+            "contribution": 12.5
+          },
+          "sector_fit": {
+            "score": 95.0,
+            "weight": 0.2,
+            "contribution": 19.0
+          },
+          "growth_indicators": {
+            "score": 75.0,
+            "weight": 0.1,
+            "contribution": 7.5
+          },
+          "contact_quality": {
+            "score": 5.0,
+            "weight": 0.1,
+            "contribution": 0.5
+          }
+        },
+        "confidence": 0.8
+      },
+      "outreach_intelligence": {
+        "urgency": "low",
+        "estimated_value": "£500-1,500/month",
+        "recommended_actions": [
+          "Emphasize mobile optimization"
+        ],
+        "talking_points": [
+          "Industry expertise in retail",
+          "Local SEO for Brighton market",
+          "Current SEO score 54/100 - significant room for improvement"
+        ],
+        "follow_up_schedule": {
+          "initial_contact": "within 72 hours",
+          "follow_up_1": "3 days after initial",
+          "follow_up_2": "1 week after follow_up_1"
+        }
+      },
+      "metadata": {
+        "created_at": "2025-06-11T02:32:36.041070",
+        "updated_at": "2025-06-11T03:04:22.251790",
+        "status": "qualified",
+        "export_timestamp": "2025-06-11T03:05:29.516280"
+      }
+    }
+  ]
+}
