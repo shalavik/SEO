@@ -7,7 +7,12 @@ Fetches 2 entries from each of the 11 directory sites to validate functionality
 import asyncio
 import sys
 import logging
-from . import DIRECTORY_SOURCES, get_fetcher
+import os
+
+# Add the src directory to the path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+
+from src.seo_leads.fetchers import DIRECTORY_SOURCES, get_fetcher
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s - %(message)s')
