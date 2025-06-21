@@ -1,0 +1,1007 @@
+{
+  "test_metadata": {
+    "test_name": "Simple System Test - 10 URLs",
+    "test_date": "2025-06-17T20:31:29.824834",
+    "total_test_time": 5.833621978759766,
+    "system_version": "Simple Content Analysis System v1.0",
+    "description": "Comprehensive analysis of 10 plumbing company websites"
+  },
+  "test_configuration": {
+    "urls_tested": 10,
+    "concurrent_limit": 3,
+    "timeout_per_request": 15,
+    "analysis_methods": [
+      "business_name_analysis",
+      "website_content_analysis",
+      "contact_information_extraction",
+      "seo_analysis",
+      "content_quality_assessment"
+    ]
+  },
+  "overall_metrics": {
+    "total_companies_tested": 10,
+    "successful_discoveries": 9,
+    "success_rate_percentage": 90.0,
+    "total_executives_found": 41,
+    "average_executives_per_company": 4.1,
+    "websites_accessible": 8,
+    "accessibility_rate_percentage": 80.0,
+    "average_processing_time": 1.458265233039856,
+    "total_processing_time": 5.833621978759766,
+    "fastest_discovery": 0.463397741317749,
+    "slowest_discovery": 3.3303098678588867
+  },
+  "aggregate_analysis": {
+    "content_quality": {
+      "average_quality_score": 85.0,
+      "sites_with_contact_info": 8,
+      "sites_with_about_section": 7,
+      "sites_with_services_section": 8,
+      "quality_distribution": {
+        "high_quality": 7,
+        "medium_quality": 1,
+        "low_quality": 1
+      }
+    },
+    "seo_quality": {
+      "average_seo_score": 83.33333333333333,
+      "sites_with_meta_description": 5,
+      "sites_with_title_tag": 9,
+      "sites_with_h1_tag": 7,
+      "seo_distribution": {
+        "good_seo": 7,
+        "fair_seo": 2,
+        "poor_seo": 0
+      }
+    },
+    "contact_information": {
+      "total_phone_numbers": 15,
+      "total_email_addresses": 12,
+      "sites_with_phone_numbers": 8,
+      "sites_with_email_addresses": 7,
+      "contact_completeness_rate": 75.0
+    },
+    "discovery_methods": {
+      "business_name_analysis": 2,
+      "website_content_analysis": 39,
+      "total_discoveries": 41
+    },
+    "website_accessibility": {
+      "accessible_sites": 8,
+      "inaccessible_sites": 2,
+      "accessibility_rate": 80.0,
+      "error_breakdown": {
+        "ssl_certificate_errors": 1,
+        "timeout_errors": 0,
+        "other_errors": 1
+      }
+    }
+  },
+  "individual_results": [
+    {
+      "company_name": "GPJ Plumbing",
+      "company_url": "http://gpj-plumbing.co.uk/",
+      "processing_time": 3.3303098678588867,
+      "executives_found": 5,
+      "executives_data": [
+        {
+          "name": "West Heath",
+          "title": "Technical Specialist",
+          "company": "GPJ Plumbing",
+          "company_domain": "gpj-plumbing.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Kings Norton",
+          "title": "Technical Specialist",
+          "company": "GPJ Plumbing",
+          "company_domain": "gpj-plumbing.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Cofton Hackett",
+          "title": "Technical Specialist",
+          "company": "GPJ Plumbing",
+          "company_domain": "gpj-plumbing.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Call Now",
+          "title": "Team Member",
+          "company": "GPJ Plumbing",
+          "company_domain": "gpj-plumbing.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Light Commercial",
+          "title": "Team Member",
+          "company": "GPJ Plumbing",
+          "company_domain": "gpj-plumbing.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        }
+      ],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "status_code": 200,
+        "content_length": 94037,
+        "response_time": 3.3303098678588867
+      },
+      "content_analysis": {
+        "quality_score": 100,
+        "has_contact_info": true,
+        "has_phone": true,
+        "has_email": true,
+        "has_address": true,
+        "has_about_section": true,
+        "has_services_section": true,
+        "has_contact_page": true,
+        "content_length": 94037,
+        "business_focused": true
+      },
+      "seo_analysis": {
+        "seo_score": 100,
+        "has_meta_description": true,
+        "has_title_tag": true,
+        "has_h1": true,
+        "has_h2": true,
+        "has_images": true,
+        "page_title": "GPJ PLUMBING",
+        "title_length": 12
+      },
+      "contact_information": {
+        "phones": [
+          "07563888041"
+        ],
+        "emails": [
+          "support@webador.com",
+          "Gpjplumbing52@gmail.com"
+        ],
+        "phone_count": 1,
+        "email_count": 2,
+        "has_contact_details": true
+      },
+      "discovery_sources": [
+        "business_name_analysis",
+        "content_analysis"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "company_name": "Emergency Plumber Services",
+      "company_url": "https://www.emergencyplumber.services/",
+      "processing_time": 1.4029879570007324,
+      "executives_found": 5,
+      "executives_data": [
+        {
+          "name": "Comments Feed",
+          "title": "Technical Specialist",
+          "company": "Emergency Plumber Services",
+          "company_domain": "emergencyplumber.services",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Hour Call",
+          "title": "Technical Specialist",
+          "company": "Emergency Plumber Services",
+          "company_domain": "emergencyplumber.services",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Out Service",
+          "title": "Technical Specialist",
+          "company": "Emergency Plumber Services",
+          "company_domain": "emergencyplumber.services",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Hour Emergency",
+          "title": "Technical Specialist",
+          "company": "Emergency Plumber Services",
+          "company_domain": "emergencyplumber.services",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Birmingham Emergency",
+          "title": "Technical Specialist",
+          "company": "Emergency Plumber Services",
+          "company_domain": "emergencyplumber.services",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        }
+      ],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "status_code": 200,
+        "content_length": 91607,
+        "response_time": 1.4029879570007324
+      },
+      "content_analysis": {
+        "quality_score": 100,
+        "has_contact_info": true,
+        "has_phone": true,
+        "has_email": true,
+        "has_address": true,
+        "has_about_section": true,
+        "has_services_section": true,
+        "has_contact_page": true,
+        "content_length": 91607,
+        "business_focused": false
+      },
+      "seo_analysis": {
+        "seo_score": 60,
+        "has_meta_description": false,
+        "has_title_tag": true,
+        "has_h1": false,
+        "has_h2": true,
+        "has_images": true,
+        "page_title": "www.emergencyplumber.services",
+        "title_length": 29
+      },
+      "contact_information": {
+        "phones": [
+          "0121 582 2355",
+          "01215822355"
+        ],
+        "emails": [
+          "info@emergencyplumber.services"
+        ],
+        "phone_count": 2,
+        "email_count": 1,
+        "has_contact_details": true
+      },
+      "discovery_sources": [
+        "business_name_analysis",
+        "content_analysis"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "company_name": "247 Plumbing and Gas",
+      "company_url": "https://247plumbingandgas.co.uk/",
+      "processing_time": 1.0356559753417969,
+      "executives_found": 5,
+      "executives_data": [
+        {
+          "name": "Comments Feed",
+          "title": "Team Member",
+          "company": "247 Plumbing and Gas",
+          "company_domain": "247plumbingandgas.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Helvetica Neue",
+          "title": "Team Member",
+          "company": "247 Plumbing and Gas",
+          "company_domain": "247plumbingandgas.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Times New",
+          "title": "Team Member",
+          "company": "247 Plumbing and Gas",
+          "company_domain": "247plumbingandgas.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "New York",
+          "title": "Team Member",
+          "company": "247 Plumbing and Gas",
+          "company_domain": "247plumbingandgas.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Noto Serif",
+          "title": "Team Member",
+          "company": "247 Plumbing and Gas",
+          "company_domain": "247plumbingandgas.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        }
+      ],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "status_code": 200,
+        "content_length": 70942,
+        "response_time": 1.0356559753417969
+      },
+      "content_analysis": {
+        "quality_score": 100,
+        "has_contact_info": true,
+        "has_phone": true,
+        "has_email": true,
+        "has_address": true,
+        "has_about_section": true,
+        "has_services_section": true,
+        "has_contact_page": true,
+        "content_length": 70942,
+        "business_focused": true
+      },
+      "seo_analysis": {
+        "seo_score": 80,
+        "has_meta_description": false,
+        "has_title_tag": true,
+        "has_h1": true,
+        "has_h2": true,
+        "has_images": true,
+        "page_title": "247 Plumbing And Gas",
+        "title_length": 20
+      },
+      "contact_information": {
+        "phones": [
+          "0121 400 1002"
+        ],
+        "emails": [
+          "sales@247plumbingandgas.co.uk"
+        ],
+        "phone_count": 1,
+        "email_count": 1,
+        "has_contact_details": true
+      },
+      "discovery_sources": [
+        "business_name_analysis",
+        "content_analysis"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "company_name": "Hancox Gas and Plumbing",
+      "company_url": "http://www.hancoxgasandplumbing.co.uk/",
+      "processing_time": 3.0165858268737793,
+      "executives_found": 5,
+      "executives_data": [
+        {
+          "name": "Hancox",
+          "title": "Business Owner",
+          "company": "Hancox Gas and Plumbing",
+          "company_domain": "hancoxgasandplumbing.co.uk",
+          "confidence_score": 0.8,
+          "discovery_method": "business_name_analysis",
+          "source": "company_name",
+          "contact_info": {}
+        },
+        {
+          "name": "Sutton Coldfield",
+          "title": "Team Member",
+          "company": "Hancox Gas and Plumbing",
+          "company_domain": "hancoxgasandplumbing.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "The Bootstrap",
+          "title": "Team Member",
+          "company": "Hancox Gas and Plumbing",
+          "company_domain": "hancoxgasandplumbing.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Helvetica Neue",
+          "title": "Team Member",
+          "company": "Hancox Gas and Plumbing",
+          "company_domain": "hancoxgasandplumbing.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Apple Color",
+          "title": "Team Member",
+          "company": "Hancox Gas and Plumbing",
+          "company_domain": "hancoxgasandplumbing.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        }
+      ],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "status_code": 200,
+        "content_length": 673535,
+        "response_time": 3.0165858268737793
+      },
+      "content_analysis": {
+        "quality_score": 100,
+        "has_contact_info": true,
+        "has_phone": true,
+        "has_email": true,
+        "has_address": true,
+        "has_about_section": true,
+        "has_services_section": true,
+        "has_contact_page": true,
+        "content_length": 673535,
+        "business_focused": true
+      },
+      "seo_analysis": {
+        "seo_score": 100,
+        "has_meta_description": true,
+        "has_title_tag": true,
+        "has_h1": true,
+        "has_h2": true,
+        "has_images": true,
+        "page_title": "Gas &amp; Plumbing Services Birmingham, Sutton Coldfield",
+        "title_length": 56
+      },
+      "contact_information": {
+        "phones": [
+          "01213554379",
+          "0121 355 4379",
+          "0770 101 8254"
+        ],
+        "emails": [
+          "info@hancoxgasandplumbing.co.uk"
+        ],
+        "phone_count": 3,
+        "email_count": 1,
+        "has_contact_details": true
+      },
+      "discovery_sources": [
+        "business_name_analysis",
+        "content_analysis"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "company_name": "Metro Plumb Birmingham",
+      "company_url": "https://metroplumb.co.uk/locations/metro-plumb-birmingham/",
+      "processing_time": 1.5461537837982178,
+      "executives_found": 5,
+      "executives_data": [
+        {
+          "name": "Local Plumbers",
+          "title": "Senior Executive",
+          "company": "Metro Plumb Birmingham",
+          "company_domain": "metroplumb.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "End Google",
+          "title": "Director/Manager",
+          "company": "Metro Plumb Birmingham",
+          "company_domain": "metroplumb.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Tag Manager",
+          "title": "Director/Manager",
+          "company": "Metro Plumb Birmingham",
+          "company_domain": "metroplumb.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "End Moneypenny",
+          "title": "Team Member",
+          "company": "Metro Plumb Birmingham",
+          "company_domain": "metroplumb.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Birmingham Offers",
+          "title": "Team Member",
+          "company": "Metro Plumb Birmingham",
+          "company_domain": "metroplumb.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        }
+      ],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "status_code": 200,
+        "content_length": 167098,
+        "response_time": 1.5461537837982178
+      },
+      "content_analysis": {
+        "quality_score": 100,
+        "has_contact_info": true,
+        "has_phone": true,
+        "has_email": true,
+        "has_address": true,
+        "has_about_section": true,
+        "has_services_section": true,
+        "has_contact_page": true,
+        "content_length": 167098,
+        "business_focused": true
+      },
+      "seo_analysis": {
+        "seo_score": 100,
+        "has_meta_description": true,
+        "has_title_tag": true,
+        "has_h1": true,
+        "has_h2": true,
+        "has_images": true,
+        "page_title": "Metro Plumb Birmingham | Local Plumbers available 24/7/365",
+        "title_length": 58
+      },
+      "contact_information": {
+        "phones": [
+          "0808 250 9949",
+          "0121 291 8203",
+          "08082509949"
+        ],
+        "emails": [
+          "birminghamcentral@metroplumb.co.uk",
+          "FranchiseBrands@2x-150x74-1.png",
+          "WillowPumps@2x-150x32-1.png",
+          "Metrorod@2x-150x37-1.png"
+        ],
+        "phone_count": 3,
+        "email_count": 4,
+        "has_contact_details": true
+      },
+      "discovery_sources": [
+        "business_name_analysis",
+        "content_analysis"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "company_name": "TJ Works",
+      "company_url": "https://www.tjworks.co.uk/",
+      "processing_time": 0.463397741317749,
+      "executives_found": 0,
+      "executives_data": [],
+      "website_health": {
+        "status": "error",
+        "accessible": false,
+        "status_code": null,
+        "content_length": 0,
+        "response_time": 0.463397741317749
+      },
+      "content_analysis": {},
+      "seo_analysis": {},
+      "contact_information": {},
+      "discovery_sources": [],
+      "success": false,
+      "error": "Cannot connect to host www.tjworks.co.uk:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.tjworks.co.uk'. (_ssl.c:1129)\")]"
+    },
+    {
+      "company_name": "Afterglow Heating",
+      "company_url": "https://afterglowheating.co.uk/",
+      "processing_time": 1.2474310398101807,
+      "executives_found": 5,
+      "executives_data": [
+        {
+          "name": "Afterglow",
+          "title": "Business Owner",
+          "company": "Afterglow Heating",
+          "company_domain": "afterglowheating.co.uk",
+          "confidence_score": 0.8,
+          "discovery_method": "business_name_analysis",
+          "source": "company_name",
+          "contact_info": {}
+        },
+        {
+          "name": "Unvented Hot",
+          "title": "Team Member",
+          "company": "Afterglow Heating",
+          "company_domain": "afterglowheating.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Water Cylinders",
+          "title": "Team Member",
+          "company": "Afterglow Heating",
+          "company_domain": "afterglowheating.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Kings Heath",
+          "title": "Technical Specialist",
+          "company": "Afterglow Heating",
+          "company_domain": "afterglowheating.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Emergency Plumber",
+          "title": "Technical Specialist",
+          "company": "Afterglow Heating",
+          "company_domain": "afterglowheating.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        }
+      ],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "status_code": 200,
+        "content_length": 55325,
+        "response_time": 1.2474310398101807
+      },
+      "content_analysis": {
+        "quality_score": 100,
+        "has_contact_info": true,
+        "has_phone": true,
+        "has_email": true,
+        "has_address": true,
+        "has_about_section": true,
+        "has_services_section": true,
+        "has_contact_page": true,
+        "content_length": 55325,
+        "business_focused": false
+      },
+      "seo_analysis": {
+        "seo_score": 100,
+        "has_meta_description": true,
+        "has_title_tag": true,
+        "has_h1": true,
+        "has_h2": true,
+        "has_images": true,
+        "page_title": "Plumbers in Birmingham: Afterglow Plumbing &amp; Heating Limited",
+        "title_length": 64
+      },
+      "contact_information": {
+        "phones": [
+          "07826 924452",
+          "07826924452"
+        ],
+        "emails": [
+          "info@afterglowbirmingham.co.uk"
+        ],
+        "phone_count": 2,
+        "email_count": 1,
+        "has_contact_details": true
+      },
+      "discovery_sources": [
+        "business_name_analysis",
+        "content_analysis"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "company_name": "AS Plumbing Heating",
+      "company_url": "http://asplumbingheating.com/",
+      "processing_time": 0.5080039501190186,
+      "executives_found": 5,
+      "executives_data": [
+        {
+          "name": "Google Tag",
+          "title": "Director/Manager",
+          "company": "AS Plumbing Heating",
+          "company_domain": "asplumbingheating.com",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "End Google",
+          "title": "Director/Manager",
+          "company": "AS Plumbing Heating",
+          "company_domain": "asplumbingheating.com",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Tag Manager",
+          "title": "Director/Manager",
+          "company": "AS Plumbing Heating",
+          "company_domain": "asplumbingheating.com",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Water Tanks",
+          "title": "Technical Specialist",
+          "company": "AS Plumbing Heating",
+          "company_domain": "asplumbingheating.com",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Comments Feed",
+          "title": "Team Member",
+          "company": "AS Plumbing Heating",
+          "company_domain": "asplumbingheating.com",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        }
+      ],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "status_code": 200,
+        "content_length": 130702,
+        "response_time": 0.5080039501190186
+      },
+      "content_analysis": {
+        "quality_score": 100,
+        "has_contact_info": true,
+        "has_phone": true,
+        "has_email": true,
+        "has_address": true,
+        "has_about_section": true,
+        "has_services_section": true,
+        "has_contact_page": true,
+        "content_length": 130702,
+        "business_focused": true
+      },
+      "seo_analysis": {
+        "seo_score": 80,
+        "has_meta_description": true,
+        "has_title_tag": true,
+        "has_h1": false,
+        "has_h2": true,
+        "has_images": true,
+        "page_title": "A &amp; S Plumbing &amp; Heating | Local plumbers near you",
+        "title_length": 58
+      },
+      "contact_information": {
+        "phones": [
+          "0121 792 4288",
+          "07702 757 353"
+        ],
+        "emails": [
+          "info@asplumbingheating.com",
+          "user@website.com"
+        ],
+        "phone_count": 2,
+        "email_count": 2,
+        "has_contact_details": true
+      },
+      "discovery_sources": [
+        "business_name_analysis",
+        "content_analysis"
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "company_name": "MKH Plumbing Birmingham",
+      "company_url": "https://www.facebook.com/MKHPBirmingham/",
+      "processing_time": 0.6913812160491943,
+      "executives_found": 1,
+      "executives_data": [
+        {
+          "name": "Lucida Grande",
+          "title": "Senior Executive",
+          "company": "MKH Plumbing Birmingham",
+          "company_domain": "facebook.com",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        }
+      ],
+      "website_health": {
+        "status": "error",
+        "accessible": false,
+        "status_code": 400,
+        "content_length": 1542,
+        "response_time": 0.6913812160491943
+      },
+      "content_analysis": {
+        "quality_score": 0,
+        "has_contact_info": false,
+        "has_phone": false,
+        "has_email": false,
+        "has_address": false,
+        "has_about_section": false,
+        "has_services_section": false,
+        "has_contact_page": false,
+        "content_length": 1542,
+        "business_focused": false
+      },
+      "seo_analysis": {
+        "seo_score": 50,
+        "has_meta_description": false,
+        "has_title_tag": true,
+        "has_h1": true,
+        "has_h2": false,
+        "has_images": true,
+        "page_title": "Error",
+        "title_length": 5
+      },
+      "contact_information": {
+        "phones": [],
+        "emails": [],
+        "phone_count": 0,
+        "email_count": 0,
+        "has_contact_details": false
+      },
+      "discovery_sources": [
+        "business_name_analysis",
+        "content_analysis"
+      ],
+      "success": false,
+      "error": null
+    },
+    {
+      "company_name": "Maximum Heat Emergency Plumber",
+      "company_url": "http://www.maximumheatemergencyplumberbirmingham.co.uk/",
+      "processing_time": 1.340744972229004,
+      "executives_found": 5,
+      "executives_data": [
+        {
+          "name": "First Name",
+          "title": "Team Member",
+          "company": "Maximum Heat Emergency Plumber",
+          "company_domain": "maximumheatemergencyplumberbirmingham.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Last Name",
+          "title": "Team Member",
+          "company": "Maximum Heat Emergency Plumber",
+          "company_domain": "maximumheatemergencyplumberbirmingham.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Request Now",
+          "title": "Team Member",
+          "company": "Maximum Heat Emergency Plumber",
+          "company_domain": "maximumheatemergencyplumberbirmingham.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Saturday Open",
+          "title": "Team Member",
+          "company": "Maximum Heat Emergency Plumber",
+          "company_domain": "maximumheatemergencyplumberbirmingham.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        },
+        {
+          "name": "Sunday Open",
+          "title": "Team Member",
+          "company": "Maximum Heat Emergency Plumber",
+          "company_domain": "maximumheatemergencyplumberbirmingham.co.uk",
+          "confidence_score": 0.6,
+          "discovery_method": "website_content_analysis",
+          "source": "website_content",
+          "contact_info": {}
+        }
+      ],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "status_code": 200,
+        "content_length": 15928,
+        "response_time": 1.340744972229004
+      },
+      "content_analysis": {
+        "quality_score": 65,
+        "has_contact_info": true,
+        "has_phone": true,
+        "has_email": false,
+        "has_address": true,
+        "has_about_section": false,
+        "has_services_section": true,
+        "has_contact_page": true,
+        "content_length": 15928,
+        "business_focused": false
+      },
+      "seo_analysis": {
+        "seo_score": 80,
+        "has_meta_description": false,
+        "has_title_tag": true,
+        "has_h1": true,
+        "has_h2": true,
+        "has_images": true,
+        "page_title": "Maximum Heat (Emergency Plumber) Birmingham",
+        "title_length": 43
+      },
+      "contact_information": {
+        "phones": [
+          "0121 389 4063"
+        ],
+        "emails": [],
+        "phone_count": 1,
+        "email_count": 0,
+        "has_contact_details": true
+      },
+      "discovery_sources": [
+        "business_name_analysis",
+        "content_analysis"
+      ],
+      "success": true,
+      "error": null
+    }
+  ],
+  "recommendations": [
+    "Website accessibility is 80.0% - consider implementing fallback data sources for inaccessible sites"
+  ]
+}

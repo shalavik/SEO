@@ -1,0 +1,140 @@
+{
+  "test_info": {
+    "timestamp": "2025-06-15T09:41:15.080503",
+    "version": "ASYNC_FIXED_VERSION_1.0",
+    "total_urls": 5,
+    "successful_urls": 5,
+    "failed_urls": 0,
+    "total_processing_time": 832.74,
+    "average_processing_time": 166.55
+  },
+  "summary_stats": {
+    "companies_processed": 5,
+    "executives_discovered": 0,
+    "emails_discovered": 5,
+    "phone_numbers_discovered": 8,
+    "success_rate": "100.0%"
+  },
+  "improvements_made": [
+    "Converted to async/await architecture matching system design",
+    "Added comprehensive rate limiting with random delays (3-20s between calls)",
+    "Implemented robust error handling for all enrichers",
+    "Added fallback mechanisms for failed API calls",
+    "Improved phone number and email extraction with regex patterns",
+    "Added inter-URL delays (15-30s) to prevent rate limiting",
+    "Enhanced JSON serialization for all object types",
+    "Used Playwright for robust website content extraction",
+    "Added proper async context management for browser operations"
+  ],
+  "url_results": [
+    {
+      "url": "https://macplumbheat.co.uk/",
+      "status": "success",
+      "processing_time": 186.98,
+      "company": {
+        "name": "Expert In Heating & Plumbing In Birmingham",
+        "domain": "macplumbheat.co.uk",
+        "description": "Business website: macplumbheat.co.uk",
+        "emails": [
+          "info@macplumbingheating.co.uk",
+          "info@macplumbingheating.co.uk"
+        ],
+        "phone_numbers": [
+          "0121 448 4356",
+          "01214484356",
+          "PhoneNumberResult(phone_number='01214484356', formatted_number='01214 484356', number_type='landline', confidence=1.0, source='website_tel_link', associated_executive=None, validation_notes=['Valid UK format'])"
+        ]
+      },
+      "executives": [],
+      "discovery_stats": {
+        "total_executives": 0,
+        "total_emails": 2,
+        "total_phones": 3
+      }
+    },
+    {
+      "url": "https://ltfplumbing.co.uk/subscription",
+      "status": "success",
+      "processing_time": 116.94,
+      "company": {
+        "name": "Subscription",
+        "domain": "ltfplumbing.co.uk",
+        "description": "Business website: ltfplumbing.co.uk",
+        "emails": [
+          "contact@sansoxygen.com",
+          "filler@godaddy.com",
+          "filler@godaddy.com"
+        ],
+        "phone_numbers": [
+          "07577304279",
+          "PhoneNumberResult(phone_number='07577304279', formatted_number='07577 304 279', number_type='mobile', confidence=1.0, source='website_tel_link', associated_executive=None, validation_notes=['Valid UK format'])"
+        ]
+      },
+      "executives": [],
+      "discovery_stats": {
+        "total_executives": 0,
+        "total_emails": 3,
+        "total_phones": 2
+      }
+    },
+    {
+      "url": "http://www.ctmplumbing.co.uk/",
+      "status": "success",
+      "processing_time": 115.77,
+      "company": {
+        "name": "Company from www.ctmplumbing.co.uk",
+        "domain": "www.ctmplumbing.co.uk",
+        "description": "",
+        "emails": [],
+        "phone_numbers": []
+      },
+      "executives": [],
+      "discovery_stats": {
+        "total_executives": 0,
+        "total_emails": 0,
+        "total_phones": 0
+      }
+    },
+    {
+      "url": "https://kingsheathplumbing.freeindex.co.uk/",
+      "status": "success",
+      "processing_time": 163.92,
+      "company": {
+        "name": "Kings Heath Plumbing, Birmingham",
+        "domain": "kingsheathplumbing.freeindex.co.uk",
+        "description": "Business website: kingsheathplumbing.freeindex.co.uk",
+        "emails": [],
+        "phone_numbers": [
+          "01212427265"
+        ]
+      },
+      "executives": [],
+      "discovery_stats": {
+        "total_executives": 0,
+        "total_emails": 0,
+        "total_phones": 1
+      }
+    },
+    {
+      "url": "http://www.perry-plumbing.co.uk/",
+      "status": "success",
+      "processing_time": 154.11,
+      "company": {
+        "name": "Your trusted and recommended Gas Safe plumbers in Sutton Coldfield, Birmingham",
+        "domain": "www.perry-plumbing.co.uk",
+        "description": "Business website: www.perry-plumbing.co.uk",
+        "emails": [],
+        "phone_numbers": [
+          "0121 387 0304",
+          "01213870304"
+        ]
+      },
+      "executives": [],
+      "discovery_stats": {
+        "total_executives": 0,
+        "total_emails": 0,
+        "total_phones": 2
+      }
+    }
+  ]
+}

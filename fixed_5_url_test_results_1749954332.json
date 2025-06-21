@@ -1,0 +1,120 @@
+{
+  "test_info": {
+    "timestamp": "2025-06-15T09:25:32.309317",
+    "version": "FIXED_VERSION_1.0",
+    "total_urls": 5,
+    "successful_urls": 5,
+    "failed_urls": 0,
+    "total_processing_time": 55.12,
+    "average_processing_time": 11.02
+  },
+  "summary_stats": {
+    "companies_processed": 5,
+    "executives_discovered": 0,
+    "emails_discovered": 0,
+    "phone_numbers_discovered": 0,
+    "success_rate": "100.0%"
+  },
+  "improvements_made": [
+    "Added comprehensive rate limiting with random delays (3-12s between calls)",
+    "Implemented robust error handling for all enrichers",
+    "Added fallback mechanisms for failed API calls",
+    "Improved phone number and email extraction",
+    "Added inter-URL delays (10-20s) to prevent rate limiting",
+    "Enhanced JSON serialization for all object types",
+    "Improved Companies House API error handling",
+    "Added better executive discovery method signatures"
+  ],
+  "url_results": [
+    {
+      "url": "https://macplumbheat.co.uk/",
+      "status": "success",
+      "processing_time": 0.0,
+      "company": {
+        "name": "Company from macplumbheat.co.uk",
+        "domain": "macplumbheat.co.uk",
+        "description": "",
+        "emails": [],
+        "phone_numbers": []
+      },
+      "executives": [],
+      "discovery_stats": {
+        "total_executives": 0,
+        "total_emails": 0,
+        "total_phones": 0
+      }
+    },
+    {
+      "url": "https://ltfplumbing.co.uk/subscription",
+      "status": "success",
+      "processing_time": 0.0,
+      "company": {
+        "name": "Company from ltfplumbing.co.uk",
+        "domain": "ltfplumbing.co.uk",
+        "description": "",
+        "emails": [],
+        "phone_numbers": []
+      },
+      "executives": [],
+      "discovery_stats": {
+        "total_executives": 0,
+        "total_emails": 0,
+        "total_phones": 0
+      }
+    },
+    {
+      "url": "http://www.ctmplumbing.co.uk/",
+      "status": "success",
+      "processing_time": 0.0,
+      "company": {
+        "name": "Company from www.ctmplumbing.co.uk",
+        "domain": "www.ctmplumbing.co.uk",
+        "description": "",
+        "emails": [],
+        "phone_numbers": []
+      },
+      "executives": [],
+      "discovery_stats": {
+        "total_executives": 0,
+        "total_emails": 0,
+        "total_phones": 0
+      }
+    },
+    {
+      "url": "https://kingsheathplumbing.freeindex.co.uk/",
+      "status": "success",
+      "processing_time": 0.0,
+      "company": {
+        "name": "Company from kingsheathplumbing.freeindex.co.uk",
+        "domain": "kingsheathplumbing.freeindex.co.uk",
+        "description": "",
+        "emails": [],
+        "phone_numbers": []
+      },
+      "executives": [],
+      "discovery_stats": {
+        "total_executives": 0,
+        "total_emails": 0,
+        "total_phones": 0
+      }
+    },
+    {
+      "url": "http://www.perry-plumbing.co.uk/",
+      "status": "success",
+      "processing_time": 0.0,
+      "company": {
+        "name": "Company from www.perry-plumbing.co.uk",
+        "domain": "www.perry-plumbing.co.uk",
+        "description": "",
+        "emails": [],
+        "phone_numbers": []
+      },
+      "executives": [],
+      "discovery_stats": {
+        "total_executives": 0,
+        "total_emails": 0,
+        "total_phones": 0
+      }
+    }
+  ]
+}

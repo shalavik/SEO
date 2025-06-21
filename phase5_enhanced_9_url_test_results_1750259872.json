@@ -1,0 +1,141 @@
+{
+  "test_metadata": {
+    "test_name": "Phase 5 Enhanced 9 URLs Executive Discovery Test",
+    "test_date": "2025-06-18T22:17:52.822828",
+    "total_urls": 9,
+    "phase5_available": false,
+    "components": [
+      "Advanced Name Validation Engine",
+      "Context-Aware Contact Extractor",
+      "Executive Seniority Analyzer",
+      "LinkedIn Discovery Engine",
+      "Multi-Source Validation Engine"
+    ]
+  },
+  "companies": [
+    {
+      "url": "https://sitelift.site/richardhopeplumbingservices/",
+      "company_name": "Richard Hope Plumbing Services",
+      "status": "basic_fallback",
+      "message": "Phase 5 enhanced engine not available - basic analysis performed",
+      "phase5_executive_discovery": {
+        "executives_found": 0,
+        "executives": [],
+        "error": "Phase 5 engine not loaded"
+      },
+      "processing_time": 2.8e-05
+    },
+    {
+      "url": "https://www.am-electrical.co.uk/waterheater/",
+      "company_name": "AM Electrical",
+      "status": "basic_fallback",
+      "message": "Phase 5 enhanced engine not available - basic analysis performed",
+      "phase5_executive_discovery": {
+        "executives_found": 0,
+        "executives": [],
+        "error": "Phase 5 engine not loaded"
+      },
+      "processing_time": 1.4e-05
+    },
+    {
+      "url": "https://www.trustatrader.com/traders/hgs-plumbing-heating-plumbers-selly-oak",
+      "company_name": "HGS Plumbing & Heating",
+      "status": "basic_fallback",
+      "message": "Phase 5 enhanced engine not available - basic analysis performed",
+      "phase5_executive_discovery": {
+        "executives_found": 0,
+        "executives": [],
+        "error": "Phase 5 engine not loaded"
+      },
+      "processing_time": 1.2e-05
+    },
+    {
+      "url": "https://davisplumbing1.wixsite.com/davisplumbing",
+      "company_name": "Davis Plumbing",
+      "status": "basic_fallback",
+      "message": "Phase 5 enhanced engine not available - basic analysis performed",
+      "phase5_executive_discovery": {
+        "executives_found": 0,
+        "executives": [],
+        "error": "Phase 5 engine not loaded"
+      },
+      "processing_time": 1.1e-05
+    },
+    {
+      "url": "http://mccannsheatingandplumbing.co.uk/",
+      "company_name": "McCann's Heating and Plumbing",
+      "status": "basic_fallback",
+      "message": "Phase 5 enhanced engine not available - basic analysis performed",
+      "phase5_executive_discovery": {
+        "executives_found": 0,
+        "executives": [],
+        "error": "Phase 5 engine not loaded"
+      },
+      "processing_time": 1.1e-05
+    },
+    {
+      "url": "http://www.fandpplumbing.co.uk/",
+      "company_name": "F&P Plumbing",
+      "status": "basic_fallback",
+      "message": "Phase 5 enhanced engine not available - basic analysis performed",
+      "phase5_executive_discovery": {
+        "executives_found": 0,
+        "executives": [],
+        "error": "Phase 5 engine not loaded"
+      },
+      "processing_time": 1e-05
+    },
+    {
+      "url": "http://www.birminghamemergencyplumberforceheat.co.uk/",
+      "company_name": "Birmingham Emergency Plumber Force Heat",
+      "status": "basic_fallback",
+      "message": "Phase 5 enhanced engine not available - basic analysis performed",
+      "phase5_executive_discovery": {
+        "executives_found": 0,
+        "executives": [],
+        "error": "Phase 5 engine not loaded"
+      },
+      "processing_time": 1e-05
+    },
+    {
+      "url": "https://www.pheaseyheating.co.uk/",
+      "company_name": "Pheasey Heating",
+      "status": "basic_fallback",
+      "message": "Phase 5 enhanced engine not available - basic analysis performed",
+      "phase5_executive_discovery": {
+        "executives_found": 0,
+        "executives": [],
+        "error": "Phase 5 engine not loaded"
+      },
+      "processing_time": 1e-05
+    },
+    {
+      "url": "http://www.emergeplumbing.co.uk/",
+      "company_name": "Emerge Plumbing",
+      "status": "basic_fallback",
+      "message": "Phase 5 enhanced engine not available - basic analysis performed",
+      "phase5_executive_discovery": {
+        "executives_found": 0,
+        "executives": [],
+        "error": "Phase 5 engine not loaded"
+      },
+      "processing_time": 1e-05
+    }
+  ],
+  "phase5_analytics": {
+    "executive_discovery_rate": 0,
+    "name_validation_accuracy": 0,
+    "contact_attribution_rate": 0,
+    "decision_maker_identification": 0,
+    "linkedin_discovery_rate": 0,
+    "data_quality_average": 0
+  },
+  "test_summary": {
+    "total_processing_time": 0.000128,
+    "average_time_per_url": 1.4222222222222222e-05,
+    "successful_extractions": 0,
+    "failed_extractions": 0,
+    "fallback_extractions": 9,
+    "success_rate": 0
+  }
+}

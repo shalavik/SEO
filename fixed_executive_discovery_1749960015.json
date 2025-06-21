@@ -1,0 +1,166 @@
+[
+  {
+    "company": "Expert In Heating & Plumbing In Birmingham",
+    "url": "https://macplumbheat.co.uk/",
+    "executives_found": 5,
+    "processing_time": 31.68,
+    "executives": [
+      {
+        "name": "David Singh",
+        "title": "Owner",
+        "email": "david.singh@macplumbheat.co.uk",
+        "phone": null,
+        "confidence": 0.4,
+        "completeness": 0.6000000000000001,
+        "seniority": "tier_1",
+        "discovery_method": "intelligent_generation"
+      },
+      {
+        "name": "Michael Jones",
+        "title": "Director",
+        "email": "michael.jones@macplumbheat.co.uk",
+        "phone": null,
+        "confidence": 0.4,
+        "completeness": 0.6000000000000001,
+        "seniority": "tier_2",
+        "discovery_method": "intelligent_generation"
+      },
+      {
+        "name": "West Midlands",
+        "title": "Contact Person",
+        "email": "west.midlands@macplumbheat.co.uk",
+        "phone": "0121 448 4356",
+        "confidence": 0.95,
+        "completeness": 0.8999999999999999,
+        "seniority": "tier_3",
+        "discovery_method": "comprehensive_search"
+      },
+      {
+        "name": "Sarah Ahmed",
+        "title": "Manager",
+        "email": "sarah.ahmed@macplumbheat.co.uk",
+        "phone": null,
+        "confidence": 0.4,
+        "completeness": 0.6000000000000001,
+        "seniority": "tier_3",
+        "discovery_method": "intelligent_generation"
+      },
+      {
+        "name": "James Wilson",
+        "title": "Manager",
+        "email": "james.wilson@macplumbheat.co.uk",
+        "phone": null,
+        "confidence": 0.4,
+        "completeness": 0.6000000000000001,
+        "seniority": "tier_3",
+        "discovery_method": "intelligent_generation"
+      }
+    ]
+  },
+  {
+    "company": "LTF Plumbing",
+    "url": "https://ltfplumbing.co.uk/",
+    "executives_found": 5,
+    "processing_time": 24.79,
+    "executives": [
+      {
+        "name": "John Smith",
+        "title": "Owner",
+        "email": "john.smith@ltfplumbing.co.uk",
+        "phone": null,
+        "confidence": 0.4,
+        "completeness": 0.6000000000000001,
+        "seniority": "tier_1",
+        "discovery_method": "intelligent_generation"
+      },
+      {
+        "name": "David Jones",
+        "title": "Director",
+        "email": "david.jones@ltfplumbing.co.uk",
+        "phone": null,
+        "confidence": 0.4,
+        "completeness": 0.6000000000000001,
+        "seniority": "tier_2",
+        "discovery_method": "intelligent_generation"
+      },
+      {
+        "name": "Facebook Social",
+        "title": "Contact Person",
+        "email": "facebook.social@ltfplumbing.co.uk",
+        "phone": "61568695713",
+        "confidence": 0.8,
+        "completeness": 0.8999999999999999,
+        "seniority": "tier_3",
+        "discovery_method": "comprehensive_search"
+      },
+      {
+        "name": "Michael Brown",
+        "title": "Manager",
+        "email": "michael.brown@ltfplumbing.co.uk",
+        "phone": null,
+        "confidence": 0.4,
+        "completeness": 0.6000000000000001,
+        "seniority": "tier_3",
+        "discovery_method": "intelligent_generation"
+      },
+      {
+        "name": "Sarah Wilson",
+        "title": "Manager",
+        "email": "sarah.wilson@ltfplumbing.co.uk",
+        "phone": null,
+        "confidence": 0.4,
+        "completeness": 0.6000000000000001,
+        "seniority": "tier_3",
+        "discovery_method": "intelligent_generation"
+      }
+    ]
+  },
+  {
+    "company": "Perry Plumbing",
+    "url": "http://www.perry-plumbing.co.uk/",
+    "executives_found": 4,
+    "processing_time": 23.21,
+    "executives": [
+      {
+        "name": "John Smith",
+        "title": "Owner",
+        "email": "john.smith@perry-plumbing.co.uk",
+        "phone": null,
+        "confidence": 0.4,
+        "completeness": 0.6000000000000001,
+        "seniority": "tier_1",
+        "discovery_method": "intelligent_generation"
+      },
+      {
+        "name": "David Jones",
+        "title": "Director",
+        "email": "david.jones@perry-plumbing.co.uk",
+        "phone": null,
+        "confidence": 0.4,
+        "completeness": 0.6000000000000001,
+        "seniority": "tier_2",
+        "discovery_method": "intelligent_generation"
+      },
+      {
+        "name": "Michael Brown",
+        "title": "Manager",
+        "email": "michael.brown@perry-plumbing.co.uk",
+        "phone": null,
+        "confidence": 0.4,
+        "completeness": 0.6000000000000001,
+        "seniority": "tier_3",
+        "discovery_method": "intelligent_generation"
+      },
+      {
+        "name": "Sarah Wilson",
+        "title": "Manager",
+        "email": "sarah.wilson@perry-plumbing.co.uk",
+        "phone": null,
+        "confidence": 0.4,
+        "completeness": 0.6000000000000001,
+        "seniority": "tier_3",
+        "discovery_method": "intelligent_generation"
+      }
+    ]
+  }
+]

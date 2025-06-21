@@ -1,0 +1,68 @@
+{
+  "test_info": {
+    "name": "Simple Executive Discovery Test",
+    "timestamp": "2025-06-15T14:38:50.432058",
+    "total_companies": 5,
+    "total_processing_time_seconds": 140.00025010108948,
+    "average_time_per_company": 28.000050020217895
+  },
+  "summary": {
+    "successful_processes": 5,
+    "failed_processes": 0,
+    "total_executives_found": 0,
+    "companies_with_executives": 0,
+    "average_executives_per_company": 0.0
+  },
+  "results": [
+    {
+      "company_name": "GPJ Plumbing",
+      "website_url": "http://gpj-plumbing.co.uk/",
+      "sector": "plumbing",
+      "executives_found": 0,
+      "executives": [],
+      "processing_time_seconds": 138.48774313926697,
+      "timestamp": "2025-06-15T14:38:48.919565",
+      "status": "success"
+    },
+    {
+      "company_name": "Emergency Plumber Services",
+      "website_url": "https://www.emergencyplumber.services/",
+      "sector": "plumbing",
+      "executives_found": 0,
+      "executives": [],
+      "processing_time_seconds": 0.3547229766845703,
+      "timestamp": "2025-06-15T14:38:49.274475",
+      "status": "success"
+    },
+    {
+      "company_name": "247 Plumbing and Gas",
+      "website_url": "https://247plumbingandgas.co.uk/",
+      "sector": "plumbing",
+      "executives_found": 0,
+      "executives": [],
+      "processing_time_seconds": 0.35405802726745605,
+      "timestamp": "2025-06-15T14:38:49.628562",
+      "status": "success"
+    },
+    {
+      "company_name": "Hancox Gas and Plumbing",
+      "website_url": "http://www.hancoxgasandplumbing.co.uk/",
+      "sector": "plumbing",
+      "executives_found": 0,
+      "executives": [],
+      "processing_time_seconds": 0.4512660503387451,
+      "timestamp": "2025-06-15T14:38:50.079856",
+      "status": "success"
+    },
+    {
+      "company_name": "Metro Plumb Birmingham",
+      "website_url": "https://metroplumb.co.uk/locations/metro-plumb-birmingham/",
+      "sector": "plumbing",
+      "executives_found": 0,
+      "executives": [],
+      "processing_time_seconds": 0.35214805603027344,
+      "timestamp": "2025-06-15T14:38:50.432035",
+      "status": "success"
+    }
+  ]
+}

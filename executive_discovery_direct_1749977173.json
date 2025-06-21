@@ -1,0 +1,73 @@
+{
+  "test_info": {
+    "name": "Executive Discovery Module Test",
+    "timestamp": "2025-06-15T15:46:13.995295",
+    "total_companies": 5,
+    "total_processing_time_seconds": 3.719329833984375e-05,
+    "average_time_per_company": 7.43865966796875e-06
+  },
+  "summary": {
+    "successful_processes": 0,
+    "failed_processes": 5,
+    "total_executives_found": 0,
+    "companies_with_executives": 0,
+    "average_executives_per_company": 0.0
+  },
+  "results": [
+    {
+      "company_name": "GPJ Plumbing",
+      "website_url": "http://gpj-plumbing.co.uk/",
+      "company_domain": "gpj-plumbing.co.uk",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "processing_time_seconds": 4.76837158203125e-06,
+      "error": "discover_executives() got an unexpected keyword argument 'company_domain'",
+      "status": "failed"
+    },
+    {
+      "company_name": "Emergency Plumber Services",
+      "website_url": "https://www.emergencyplumber.services/",
+      "company_domain": "emergencyplumber.services",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "processing_time_seconds": 2.86102294921875e-06,
+      "error": "discover_executives() got an unexpected keyword argument 'company_domain'",
+      "status": "failed"
+    },
+    {
+      "company_name": "247 Plumbing and Gas",
+      "website_url": "https://247plumbingandgas.co.uk/",
+      "company_domain": "247plumbingandgas.co.uk",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "processing_time_seconds": 2.1457672119140625e-06,
+      "error": "discover_executives() got an unexpected keyword argument 'company_domain'",
+      "status": "failed"
+    },
+    {
+      "company_name": "Hancox Gas and Plumbing",
+      "website_url": "http://www.hancoxgasandplumbing.co.uk/",
+      "company_domain": "hancoxgasandplumbing.co.uk",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "processing_time_seconds": 1.9073486328125e-06,
+      "error": "discover_executives() got an unexpected keyword argument 'company_domain'",
+      "status": "failed"
+    },
+    {
+      "company_name": "Metro Plumb Birmingham",
+      "website_url": "https://metroplumb.co.uk/locations/metro-plumb-birmingham/",
+      "company_domain": "metroplumb.co.uk",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "processing_time_seconds": 2.1457672119140625e-06,
+      "error": "discover_executives() got an unexpected keyword argument 'company_domain'",
+      "status": "failed"
+    }
+  ]
+}

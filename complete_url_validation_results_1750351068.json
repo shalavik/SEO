@@ -1,0 +1,167 @@
+{
+  "test_summary": {
+    "urls_tested": 8,
+    "test_timestamp": "2025-06-19T23:37:39.475151",
+    "total_executives_found": 4,
+    "total_emails_found": 1,
+    "total_phones_found": 1,
+    "quality_issues_detected": []
+  },
+  "detailed_results": [
+    {
+      "url": "http://www.mjmplumbingservices.uk/",
+      "processing_time": 0.36113500595092773,
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "http://rnplumbingandheating.co.uk/",
+      "processing_time": 2.3804662227630615,
+      "extraction_results": {
+        "executives_found": 1,
+        "emails_attributed": 0,
+        "phones_attributed": 0
+      },
+      "executives_data": [
+        {
+          "name": "Michael Torbert",
+          "email": null,
+          "phone": null,
+          "confidence": 0.6
+        }
+      ],
+      "semantic_validation": [
+        {
+          "name": "Michael Torbert",
+          "confidence": 0.6,
+          "validation_reasons": [
+            "'Michael' found in UK first names database",
+            "Has proper name characteristics"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "http://www.andrewrileyheating.co.uk/",
+      "processing_time": 1.2963440418243408,
+      "extraction_results": {
+        "executives_found": 1,
+        "emails_attributed": 1,
+        "phones_attributed": 1
+      },
+      "executives_data": [
+        {
+          "name": "Andrew Riley",
+          "email": "admin@andrewrileyheating.co.uk",
+          "phone": "01214397129",
+          "confidence": 0.9500000000000001
+        }
+      ],
+      "semantic_validation": [
+        {
+          "name": "Andrew Riley",
+          "confidence": 0.9500000000000001,
+          "validation_reasons": [
+            "'Andrew' found in UK first names database",
+            "'Riley' found in UK surnames database",
+            "Has proper name characteristics"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "http://www.boldmereplumbingservices.co.uk/",
+      "processing_time": 1.3356671333312988,
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "http://jmplumbingheating.co.uk/",
+      "processing_time": 1.6063470840454102,
+      "extraction_results": {
+        "executives_found": 1,
+        "emails_attributed": 0,
+        "phones_attributed": 0
+      },
+      "executives_data": [
+        {
+          "name": "James McManus",
+          "email": null,
+          "phone": null,
+          "confidence": 0.9
+        }
+      ],
+      "semantic_validation": [
+        {
+          "name": "James McManus",
+          "confidence": 0.9,
+          "validation_reasons": [
+            "'James' found in UK first names database",
+            "'McManus' found in UK surnames database",
+            "Found in executive context: 'head'",
+            "Completed from single name + email"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.nunnplumbingandgas.co.uk/contact",
+      "processing_time": 0.47142505645751953,
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "https://konigashomeservices.co.uk/",
+      "processing_time": 1.3320858478546143,
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "http://www.ttsafegas.com/",
+      "processing_time": 0.4927527904510498,
+      "extraction_results": {
+        "executives_found": 1,
+        "emails_attributed": 0,
+        "phones_attributed": 0
+      },
+      "executives_data": [
+        {
+          "name": "Tyler Maroon",
+          "email": null,
+          "phone": null,
+          "confidence": 0.6
+        }
+      ],
+      "semantic_validation": [
+        {
+          "name": "Tyler Maroon",
+          "confidence": 0.6,
+          "validation_reasons": [
+            "'Tyler' found in UK first names database",
+            "Has proper name characteristics"
+          ]
+        }
+      ]
+    }
+  ]
+}

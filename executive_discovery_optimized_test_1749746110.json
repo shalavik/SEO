@@ -1,0 +1,171 @@
+{
+  "test_metadata": {
+    "timestamp": "2025-06-12T16:32:46.485513",
+    "test_type": "optimized_executive_discovery",
+    "companies_tested": 5,
+    "optimizations": [
+      "LinkedIn disabled for speed",
+      "Improved title extraction",
+      "Enhanced email enrichment",
+      "Lower confidence threshold",
+      "Better text cleaning"
+    ],
+    "config": {
+      "linkedin_enabled": false,
+      "website_enabled": true,
+      "email_enrichment": true,
+      "max_executives": 5,
+      "timeout": 30.0,
+      "confidence_threshold": 0.4
+    }
+  },
+  "company_results": [
+    {
+      "company_info": {
+        "id": "supreme-plumbers",
+        "name": "Supreme Plumbers",
+        "website": "https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com",
+        "sector": "plumbing",
+        "location": "UK",
+        "expected_executives": [
+          "owner",
+          "manager"
+        ],
+        "priority": "high"
+      },
+      "discovery_result": {
+        "processing_time": 16.770936250686646,
+        "success_rate": 0.0,
+        "discovery_sources": [],
+        "executives_found": 0,
+        "emails_discovered": 0,
+        "primary_decision_maker_found": false
+      },
+      "executives": []
+    },
+    {
+      "company_info": {
+        "id": "ideal-plumbing",
+        "name": "Ideal Plumbing Services",
+        "website": "https://idealplumbingservices.co.uk",
+        "sector": "plumbing",
+        "location": "UK",
+        "expected_executives": [
+          "director",
+          "manager"
+        ],
+        "priority": "high"
+      },
+      "discovery_result": {
+        "processing_time": 25.78536868095398,
+        "success_rate": 0.0,
+        "discovery_sources": [],
+        "executives_found": 0,
+        "emails_discovered": 0,
+        "primary_decision_maker_found": false
+      },
+      "executives": []
+    },
+    {
+      "company_info": {
+        "id": "2nd-city-gas",
+        "name": "2nd City Gas, Plumbing and Heating",
+        "website": "https://2ndcitygasplumbingandheating.co.uk",
+        "sector": "plumbing",
+        "location": "UK",
+        "expected_executives": [
+          "owner",
+          "director"
+        ],
+        "priority": "medium"
+      },
+      "discovery_result": {
+        "processing_time": 16.15933895111084,
+        "success_rate": 0.0,
+        "discovery_sources": [],
+        "executives_found": 0,
+        "emails_discovered": 0,
+        "primary_decision_maker_found": false
+      },
+      "executives": []
+    },
+    {
+      "company_info": {
+        "id": "jack-plumber",
+        "name": "Jack The Plumber",
+        "website": "https://jacktheplumber.co.uk",
+        "sector": "plumbing",
+        "location": "UK",
+        "expected_executives": [
+          "owner",
+          "founder"
+        ],
+        "priority": "high"
+      },
+      "discovery_result": {
+        "processing_time": 31.35919690132141,
+        "success_rate": 0.0,
+        "discovery_sources": [],
+        "executives_found": 0,
+        "emails_discovered": 0,
+        "primary_decision_maker_found": false
+      },
+      "executives": []
+    },
+    {
+      "company_info": {
+        "id": "swift-emergency",
+        "name": "Swift Emergency Plumber",
+        "website": "https://swiftemergencyplumber.com",
+        "sector": "plumbing",
+        "location": "UK",
+        "expected_executives": [
+          "director",
+          "manager"
+        ],
+        "priority": "medium"
+      },
+      "discovery_result": {
+        "processing_time": 45.83982801437378,
+        "success_rate": 0.0,
+        "discovery_sources": [],
+        "executives_found": 0,
+        "emails_discovered": 0,
+        "primary_decision_maker_found": false
+      },
+      "executives": []
+    }
+  ],
+  "executive_discoveries": [],
+  "performance_metrics": {
+    "total_processing_time": 143.92333793640137,
+    "avg_processing_time_per_company": 27.183208465576172,
+    "total_executives_found": 0,
+    "companies_with_executives": 0,
+    "executive_discovery_rate_percent": 0.0,
+    "decision_maker_discovery_rate_percent": 0.0,
+    "email_discovery_rate_percent": 0.0,
+    "processing_times": [
+      16.7711238861084,
+      25.785675048828125,
+      16.159658908843994,
+      31.359525203704834,
+      45.84005928039551
+    ],
+    "engine_statistics": {
+      "companies_processed": 0,
+      "executives_found": 0,
+      "linkedin_success_rate": 0.0,
+      "website_success_rate": 0.0,
+      "overall_success_rate": 0.0,
+      "avg_processing_time": 0.0
+    }
+  },
+  "quality_assessment": {
+    "tier_1_executives_found": 0,
+    "tier_2_executives_found": 0,
+    "tier_3_executives_found": 0,
+    "average_confidence_score": 0.0,
+    "high_confidence_executives": 0
+  }
+}

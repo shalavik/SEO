@@ -1,0 +1,256 @@
+{
+  "test_metadata": {
+    "test_name": "Enhanced Pipeline Test - 5 Plumbing Companies",
+    "test_date": "2025-06-13T09:09:40.296986",
+    "companies_tested": 5,
+    "pipeline_components": [
+      "Enhanced Executive Discovery",
+      "SEO Analysis",
+      "Lead Qualification"
+    ]
+  },
+  "companies": [
+    {
+      "company_info": {
+        "name": "MK Plumbing Birmingham",
+        "website": "https://mkplumbingbirmingham.co.uk/",
+        "sector": "plumbing",
+        "city": "Birmingham",
+        "region": "West Midlands"
+      },
+      "processing_time": 88.17940831184387,
+      "executives": [
+        {
+          "full_name": "Plumbing Birmingham",
+          "title": "Service Provider",
+          "seniority_tier": "tier_3",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence": 0.6,
+          "data_completeness": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "website_page_scraping"
+        }
+      ],
+      "seo_analysis": {
+        "overall_score": 45.0,
+        "performance": {
+          "pagespeed_score": 0.0,
+          "load_time": 0.0,
+          "mobile_friendly": false
+        },
+        "content": {
+          "meta_description_missing": false,
+          "h1_tags_present": true,
+          "ssl_certificate": true
+        },
+        "critical_issues": [],
+        "processing_time": 1.3805091381072998
+      },
+      "lead_qualification": {},
+      "status": "failed",
+      "errors": [
+        "Error processing MK Plumbing Birmingham: 'NoneType' object has no attribute 'final_score'"
+      ],
+      "executive_discovery": {
+        "executives_found": 1,
+        "processing_time": 86.79800605773926,
+        "primary_decision_maker": "Plumbing Birmingham",
+        "discovery_sources": [
+          "companies_house",
+          "google_search",
+          "website"
+        ],
+        "success_rate": 0.1
+      }
+    },
+    {
+      "company_info": {
+        "name": "Rescue Plumbing & Gas Ltd",
+        "website": "http://www.rescueplumbing.co.uk/",
+        "sector": "plumbing",
+        "city": "Birmingham",
+        "region": "West Midlands"
+      },
+      "processing_time": 309.0677387714386,
+      "executives": [],
+      "seo_analysis": {
+        "overall_score": 15.0,
+        "performance": {
+          "pagespeed_score": 0.0,
+          "load_time": 0.0,
+          "mobile_friendly": false
+        },
+        "content": {
+          "meta_description_missing": true,
+          "h1_tags_present": false,
+          "ssl_certificate": false
+        },
+        "critical_issues": [],
+        "processing_time": 0.9259889125823975
+      },
+      "lead_qualification": {},
+      "status": "failed",
+      "errors": [
+        "Error processing Rescue Plumbing & Gas Ltd: 'NoneType' object has no attribute 'final_score'"
+      ],
+      "executive_discovery": {
+        "executives_found": 0,
+        "processing_time": 308.13792991638184,
+        "primary_decision_maker": null,
+        "discovery_sources": [
+          "companies_house",
+          "google_search",
+          "website"
+        ],
+        "success_rate": 0.0
+      }
+    },
+    {
+      "company_info": {
+        "name": "GD Plumbing & Heating Services Ltd",
+        "website": "https://www.gdplumbingandheatingservices.co.uk/",
+        "sector": "plumbing",
+        "city": "Birmingham",
+        "region": "West Midlands"
+      },
+      "processing_time": 60.949718713760376,
+      "executives": [],
+      "seo_analysis": {
+        "overall_score": 45.0,
+        "performance": {
+          "pagespeed_score": 0.0,
+          "load_time": 0.0,
+          "mobile_friendly": false
+        },
+        "content": {
+          "meta_description_missing": false,
+          "h1_tags_present": true,
+          "ssl_certificate": true
+        },
+        "critical_issues": [],
+        "processing_time": 0.7987980842590332
+      },
+      "lead_qualification": {},
+      "status": "failed",
+      "errors": [
+        "Error processing GD Plumbing & Heating Services Ltd: 'NoneType' object has no attribute 'final_score'"
+      ],
+      "executive_discovery": {
+        "executives_found": 0,
+        "processing_time": 60.14960217475891,
+        "primary_decision_maker": null,
+        "discovery_sources": [
+          "companies_house",
+          "google_search",
+          "website"
+        ],
+        "success_rate": 0.0
+      }
+    },
+    {
+      "company_info": {
+        "name": "Matt Plumbing and Heating",
+        "website": "http://www.mattplumbingandheating.com/",
+        "sector": "plumbing",
+        "city": "Birmingham",
+        "region": "West Midlands"
+      },
+      "processing_time": 94.93704295158386,
+      "executives": [],
+      "seo_analysis": {
+        "overall_score": 20.0,
+        "performance": {
+          "pagespeed_score": 0.0,
+          "load_time": 0.0,
+          "mobile_friendly": false
+        },
+        "content": {
+          "meta_description_missing": true,
+          "h1_tags_present": false,
+          "ssl_certificate": true
+        },
+        "critical_issues": [
+          "Missing meta description",
+          "Missing H1 tag"
+        ],
+        "processing_time": 0.9140560626983643
+      },
+      "lead_qualification": {},
+      "status": "failed",
+      "errors": [
+        "Error processing Matt Plumbing and Heating: 'NoneType' object has no attribute 'final_score'"
+      ],
+      "executive_discovery": {
+        "executives_found": 0,
+        "processing_time": 94.02215814590454,
+        "primary_decision_maker": null,
+        "discovery_sources": [
+          "companies_house",
+          "google_search",
+          "website"
+        ],
+        "success_rate": 0.0
+      }
+    },
+    {
+      "company_info": {
+        "name": "Summit Plumbing and Heating",
+        "website": "http://summitplumbingandheating.co.uk/",
+        "sector": "plumbing",
+        "city": "Birmingham",
+        "region": "West Midlands"
+      },
+      "processing_time": 116.22332906723022,
+      "executives": [],
+      "seo_analysis": {
+        "overall_score": 45.0,
+        "performance": {
+          "pagespeed_score": 0.0,
+          "load_time": 0.0,
+          "mobile_friendly": false
+        },
+        "content": {
+          "meta_description_missing": false,
+          "h1_tags_present": true,
+          "ssl_certificate": true
+        },
+        "critical_issues": [],
+        "processing_time": 1.3818042278289795
+      },
+      "lead_qualification": {},
+      "status": "failed",
+      "errors": [
+        "Error processing Summit Plumbing and Heating: 'NoneType' object has no attribute 'final_score'"
+      ],
+      "executive_discovery": {
+        "executives_found": 0,
+        "processing_time": 114.83970999717712,
+        "primary_decision_maker": null,
+        "discovery_sources": [
+          "companies_house",
+          "google_search",
+          "website"
+        ],
+        "success_rate": 0.0
+      }
+    }
+  ],
+  "summary": {
+    "total_companies": 5,
+    "executives_found": 1,
+    "average_seo_score": 34.0,
+    "lead_distribution": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "total_processing_time": 669.3573200702667,
+    "success_rate": 0.0,
+    "average_processing_time_per_company": 133.87146401405334
+  }
+}

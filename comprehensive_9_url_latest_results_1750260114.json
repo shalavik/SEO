@@ -1,0 +1,787 @@
+{
+  "test_metadata": {
+    "test_name": "Comprehensive 9 URLs Latest System Test",
+    "test_date": "2025-06-18T22:21:33.514714",
+    "total_urls": 9,
+    "system_version": "Latest with Phase 5 Enhancements",
+    "description": "Complete analysis with contact extraction, SEO, and executive discovery"
+  },
+  "companies": [
+    {
+      "url": "https://sitelift.site/richardhopeplumbingservices/",
+      "company_name": "Richard Hope Plumbing Services",
+      "status": "success",
+      "contact_extraction": {
+        "emails": [
+          "rhope@hotmail.co.uk"
+        ],
+        "phones": [
+          "07795 844498"
+        ],
+        "executives": [
+          {
+            "name": "DOCTYPE html",
+            "title": "Unknown"
+          },
+          {
+            "name": "html lang",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta charset",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta http",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta name",
+            "title": "Unknown"
+          },
+          {
+            "name": "Global Marketing",
+            "title": "Unknown"
+          },
+          {
+            "name": "Richard Hope",
+            "title": "Unknown"
+          },
+          {
+            "name": "Plumbing Services",
+            "title": "Unknown"
+          },
+          {
+            "name": "is your",
+            "title": "Unknown"
+          },
+          {
+            "name": "trusted partner",
+            "title": "Unknown"
+          }
+        ],
+        "attribution": {
+          "attributed_contacts": 0,
+          "attribution_confidence": 0.0,
+          "attributions": []
+        }
+      },
+      "seo_analysis": {
+        "title": "Richard Hope Plumbing Services - Home - Emergency Plumbing Services in Doe Bank",
+        "title_length": 79,
+        "title_optimized": false,
+        "has_meta_description": true,
+        "meta_description": "Richard Hope Plumbing Services is your trusted partner for all your plumbing needs in Doe Bank and surrounding areas, offering prompt and reliable solutions to ensure your home runs smoothly.\r\n&lt;br&gt;\r\n&lt;br&gt;Specialising in emergency plumbing, we provide swift responses to urgent issues, safeguarding your property from potential damage. Our expert team excels in tap repairs, fixing leaks and ensuring your fixtures function perfectly. We also offer comprehensive radiator services, from installations to maintenance, keeping your heating system efficient and effective. Additionally, we handle toilet repairs with precision, resolving any issues quickly and effectively.\r\n&lt;br&gt;\r\n&lt;br&gt;We are committed to delivering exceptional workmanship and customer satisfaction.",
+        "h1_count": 5,
+        "has_h1": true,
+        "h1_tags": [
+          "Richard Hope Plumbing Services",
+          "Richard Hope Plumbing Services",
+          "Richard Hope Plumbing Services"
+        ],
+        "has_ssl": true,
+        "mobile_viewport": true,
+        "structured_data": false,
+        "content_length": 18126,
+        "content_quality_score": 85,
+        "local_seo_signals": 0
+      },
+      "business_intelligence": {
+        "decision_makers_identified": 0,
+        "contact_completeness": 2,
+        "executive_coverage": 10,
+        "attribution_confidence": 0.0
+      },
+      "processing_time": 0.984098
+    },
+    {
+      "url": "https://www.am-electrical.co.uk/waterheater/",
+      "company_name": "AM Electrical",
+      "status": "success",
+      "contact_extraction": {
+        "emails": [
+          "info@am-electrical.co.uk"
+        ],
+        "phones": [
+          "+447785781652",
+          "07785 781652"
+        ],
+        "executives": [
+          {
+            "name": "Google Tag",
+            "title": "Manager"
+          },
+          {
+            "name": "DOCTYPE html",
+            "title": "Unknown"
+          },
+          {
+            "name": "html dir",
+            "title": "Unknown"
+          },
+          {
+            "name": "responsive av",
+            "title": "Unknown"
+          },
+          {
+            "name": "disabled av",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta charset",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta name",
+            "title": "Unknown"
+          },
+          {
+            "name": "mobile setting",
+            "title": "Unknown"
+          },
+          {
+            "name": "CSS and",
+            "title": "Unknown"
+          },
+          {
+            "name": "Water Heater",
+            "title": "Unknown"
+          }
+        ],
+        "attribution": {
+          "attributed_contacts": 0,
+          "attribution_confidence": 0.0,
+          "attributions": []
+        }
+      },
+      "seo_analysis": {
+        "title": "Water Heater Repair Birmingham | Pulsacoil &amp; Hot Water Tank",
+        "title_length": 63,
+        "title_optimized": false,
+        "has_meta_description": true,
+        "meta_description": "From immersion heater not working to hot water tank leaking, AM Electrical in Birmingham handles water heater repair or replacement, Pulsacoil 2000, electric boiler repair—servicing Halesowen, Stourbridge &amp; Hagley.",
+        "h1_count": 0,
+        "has_h1": false,
+        "h1_tags": [],
+        "has_ssl": true,
+        "mobile_viewport": true,
+        "structured_data": true,
+        "content_length": 238378,
+        "content_quality_score": 85,
+        "local_seo_signals": 2
+      },
+      "business_intelligence": {
+        "decision_makers_identified": 0,
+        "contact_completeness": 3,
+        "executive_coverage": 10,
+        "attribution_confidence": 0.0
+      },
+      "processing_time": 3.7964
+    },
+    {
+      "url": "https://www.trustatrader.com/traders/hgs-plumbing-heating-plumbers-selly-oak",
+      "company_name": "HGS Plumbing & Heating",
+      "status": "success",
+      "contact_extraction": {
+        "emails": [
+          "144x174@2x.png"
+        ],
+        "phones": [
+          "07552 035832"
+        ],
+        "executives": [
+          {
+            "name": "DOCTYPE HTML",
+            "title": "Unknown"
+          },
+          {
+            "name": "html lang",
+            "title": "Unknown"
+          },
+          {
+            "name": "HGS Plumbing",
+            "title": "Unknown"
+          },
+          {
+            "name": "Approved Plumbers",
+            "title": "Unknown"
+          },
+          {
+            "name": "link rel",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta\n            name",
+            "title": "Unknown"
+          },
+          {
+            "name": "it is",
+            "title": "Unknown"
+          },
+          {
+            "name": "hard to",
+            "title": "Unknown"
+          },
+          {
+            "name": "plumber near",
+            "title": "Unknown"
+          },
+          {
+            "name": "particularly in",
+            "title": "Unknown"
+          }
+        ],
+        "attribution": {
+          "attributed_contacts": 0,
+          "attribution_confidence": 0.0,
+          "attributions": []
+        }
+      },
+      "seo_analysis": {
+        "title": "HGS Plumbing &amp; Heating, Birmingham | Approved Plumbers | TrustATrader",
+        "title_length": 73,
+        "title_optimized": false,
+        "has_meta_description": true,
+        "meta_description": "Often, it is hard to find a plumber near you, particularly in the case of an emergency. **HGS Plumbing &amp; Heating** has been providing trusted, rated local...",
+        "h1_count": 1,
+        "has_h1": true,
+        "h1_tags": [
+          "\n                    HGS Plumbing &amp; Heating\n                "
+        ],
+        "has_ssl": true,
+        "mobile_viewport": true,
+        "structured_data": false,
+        "content_length": 177998,
+        "content_quality_score": 85,
+        "local_seo_signals": 1
+      },
+      "business_intelligence": {
+        "decision_makers_identified": 0,
+        "contact_completeness": 2,
+        "executive_coverage": 10,
+        "attribution_confidence": 0.0
+      },
+      "processing_time": 1.475804
+    },
+    {
+      "url": "https://davisplumbing1.wixsite.com/davisplumbing",
+      "company_name": "Davis Plumbing",
+      "status": "success",
+      "contact_extraction": {
+        "emails": [
+          "c183baa23371454f99f417f6616b724d@sentry.wixpress.com",
+          "enquiries@davisplumbing.uk",
+          "dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com",
+          "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+          "8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com",
+          "0e6a29e4756740a8a63493e912ba2174@sentry.wixpress.com",
+          "baf30a2b91654c5a840931f0137bed30@sentry.wixpress.com",
+          "2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com"
+        ],
+        "phones": [
+          "07548272229",
+          "07498327110"
+        ],
+        "executives": [
+          {
+            "name": "DOCTYPE html",
+            "title": "Unknown"
+          },
+          {
+            "name": "html lang",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta charset",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta name",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta http",
+            "title": "Unknown"
+          },
+          {
+            "name": "com Website",
+            "title": "Unknown"
+          },
+          {
+            "name": "link rel",
+            "title": "Unknown"
+          },
+          {
+            "name": "shortcut icon",
+            "title": "Unknown"
+          },
+          {
+            "name": "Safari Pinned",
+            "title": "Unknown"
+          },
+          {
+            "name": "Tab Icon",
+            "title": "Unknown"
+          }
+        ],
+        "attribution": {
+          "attributed_contacts": 0,
+          "attribution_confidence": 0.0,
+          "attributions": []
+        }
+      },
+      "seo_analysis": {
+        "title": "Home | Davis plumbing",
+        "title_length": 21,
+        "title_optimized": false,
+        "has_meta_description": false,
+        "meta_description": null,
+        "h1_count": 0,
+        "has_h1": false,
+        "h1_tags": [],
+        "has_ssl": true,
+        "mobile_viewport": true,
+        "structured_data": true,
+        "content_length": 692094,
+        "content_quality_score": 100,
+        "local_seo_signals": 1
+      },
+      "business_intelligence": {
+        "decision_makers_identified": 0,
+        "contact_completeness": 10,
+        "executive_coverage": 10,
+        "attribution_confidence": 0.0
+      },
+      "processing_time": 1.112233
+    },
+    {
+      "url": "http://mccannsheatingandplumbing.co.uk/",
+      "company_name": "McCann's Heating and Plumbing",
+      "status": "success",
+      "contact_extraction": {
+        "emails": [],
+        "phones": [],
+        "executives": [
+          {
+            "name": "doctype html",
+            "title": "Unknown"
+          },
+          {
+            "name": "html class",
+            "title": "Unknown"
+          },
+          {
+            "name": "Mccanns Heating",
+            "title": "Unknown"
+          },
+          {
+            "name": "Plumbing Services",
+            "title": "Unknown"
+          },
+          {
+            "name": "in Birmingham",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta name",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta charset",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta http",
+            "title": "Unknown"
+          },
+          {
+            "name": "We provide",
+            "title": "Unknown"
+          },
+          {
+            "name": "all aspects",
+            "title": "Unknown"
+          }
+        ],
+        "attribution": {
+          "attributed_contacts": 0,
+          "attribution_confidence": 0.0,
+          "attributions": []
+        }
+      },
+      "seo_analysis": {
+        "title": "Mccanns Heating &amp; Plumbing Services in Birmingham",
+        "title_length": 53,
+        "title_optimized": true,
+        "has_meta_description": true,
+        "meta_description": "We provide all aspects of plumbing and heating installation services throughout Birmingham",
+        "h1_count": 1,
+        "has_h1": true,
+        "h1_tags": [
+          "\r\n                            Covering all areas in Birmingham and Solihull\r\n                        "
+        ],
+        "has_ssl": false,
+        "mobile_viewport": true,
+        "structured_data": false,
+        "content_length": 15217,
+        "content_quality_score": 85,
+        "local_seo_signals": 1
+      },
+      "business_intelligence": {
+        "decision_makers_identified": 0,
+        "contact_completeness": 0,
+        "executive_coverage": 10,
+        "attribution_confidence": 0.0
+      },
+      "processing_time": 1.142393
+    },
+    {
+      "url": "http://www.fandpplumbing.co.uk/",
+      "company_name": "F&P Plumbing",
+      "status": "success",
+      "contact_extraction": {
+        "emails": [
+          "info@fandpplumbing.co.uk"
+        ],
+        "phones": [
+          "07727 961777"
+        ],
+        "executives": [
+          {
+            "name": "self instan",
+            "title": "ceo"
+          },
+          {
+            "name": "Google Tag",
+            "title": "Manager"
+          },
+          {
+            "name": "doctype html",
+            "title": "Unknown"
+          },
+          {
+            "name": "html lang",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta charset",
+            "title": "Unknown"
+          },
+          {
+            "name": "var gform",
+            "title": "Unknown"
+          },
+          {
+            "name": "typeof InitializeEditor",
+            "title": "Unknown"
+          },
+          {
+            "name": "The use",
+            "title": "Unknown"
+          },
+          {
+            "name": "of gform",
+            "title": "Unknown"
+          },
+          {
+            "name": "is deprecated",
+            "title": "Unknown"
+          }
+        ],
+        "attribution": {
+          "attributed_contacts": 0,
+          "attribution_confidence": 0.0,
+          "attributions": []
+        }
+      },
+      "seo_analysis": {
+        "title": "Boiler Installation &amp; Repair | West Midlands | F and P Plumbing",
+        "title_length": 67,
+        "title_optimized": false,
+        "has_meta_description": true,
+        "meta_description": "Professional and reliable plumbing &amp; heating services. F&amp;P PLUMBING &amp; HEATING has been providing exceptional service for over 20 years!",
+        "h1_count": 1,
+        "has_h1": true,
+        "h1_tags": [
+          "F&amp;P Plumbing &amp; Heating"
+        ],
+        "has_ssl": false,
+        "mobile_viewport": true,
+        "structured_data": true,
+        "content_length": 310114,
+        "content_quality_score": 85,
+        "local_seo_signals": 2
+      },
+      "business_intelligence": {
+        "decision_makers_identified": 1,
+        "contact_completeness": 2,
+        "executive_coverage": 10,
+        "attribution_confidence": 0.0
+      },
+      "processing_time": 1.665817
+    },
+    {
+      "url": "http://www.birminghamemergencyplumberforceheat.co.uk/",
+      "company_name": "Birmingham Emergency Plumber Force Heat",
+      "status": "success",
+      "contact_extraction": {
+        "emails": [],
+        "phones": [],
+        "executives": [
+          {
+            "name": "DOCTYPE html",
+            "title": "Unknown"
+          },
+          {
+            "name": "html lang",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta charset",
+            "title": "Unknown"
+          },
+          {
+            "name": "Emergency Plumber",
+            "title": "Unknown"
+          },
+          {
+            "name": "Force Heat",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta name",
+            "title": "Unknown"
+          },
+          {
+            "name": "link rel",
+            "title": "Unknown"
+          },
+          {
+            "name": "shortcut icon",
+            "title": "Unknown"
+          },
+          {
+            "name": "div id",
+            "title": "Unknown"
+          },
+          {
+            "name": "div class",
+            "title": "Unknown"
+          }
+        ],
+        "attribution": {
+          "attributed_contacts": 0,
+          "attribution_confidence": 0.0,
+          "attributions": []
+        }
+      },
+      "seo_analysis": {
+        "title": "Birmingham - Emergency Plumber - Force Heat",
+        "title_length": 43,
+        "title_optimized": true,
+        "has_meta_description": false,
+        "meta_description": null,
+        "h1_count": 2,
+        "has_h1": true,
+        "h1_tags": [
+          "Birmingham - Emergency Plumber - Force Heat",
+          "FREE QUOTE"
+        ],
+        "has_ssl": false,
+        "mobile_viewport": true,
+        "structured_data": false,
+        "content_length": 15932,
+        "content_quality_score": 70,
+        "local_seo_signals": 1
+      },
+      "business_intelligence": {
+        "decision_makers_identified": 0,
+        "contact_completeness": 0,
+        "executive_coverage": 10,
+        "attribution_confidence": 0.0
+      },
+      "processing_time": 0.455907
+    },
+    {
+      "url": "https://www.pheaseyheating.co.uk/",
+      "company_name": "Pheasey Heating",
+      "status": "success",
+      "contact_extraction": {
+        "emails": [
+          "info@pheaseyheating.co.uk"
+        ],
+        "phones": [],
+        "executives": [
+          {
+            "name": "DOCTYPE html",
+            "title": "Unknown"
+          },
+          {
+            "name": "html class",
+            "title": "Unknown"
+          },
+          {
+            "name": "wide avada",
+            "title": "Unknown"
+          },
+          {
+            "name": "top avada",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta http",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta name",
+            "title": "Unknown"
+          },
+          {
+            "name": "This site",
+            "title": "Unknown"
+          },
+          {
+            "name": "is optimized",
+            "title": "Unknown"
+          },
+          {
+            "name": "with the",
+            "title": "Unknown"
+          },
+          {
+            "name": "Yoast SEO",
+            "title": "Unknown"
+          }
+        ],
+        "attribution": {
+          "attributed_contacts": 0,
+          "attribution_confidence": 0.0,
+          "attributions": []
+        }
+      },
+      "seo_analysis": {
+        "title": "Central Heating Installer and Gas Engineer in Streetly, Birmingham",
+        "title_length": 66,
+        "title_optimized": false,
+        "has_meta_description": true,
+        "meta_description": "Central Heating Engineer and Gas Engineer in Streetly, Sutton Coldfield | Central Heating Installer, Gas Engineer &amp; Boiler Installation",
+        "h1_count": 1,
+        "has_h1": true,
+        "h1_tags": [
+          "Specialists in Gas Central Heating and Boiler Installations"
+        ],
+        "has_ssl": true,
+        "mobile_viewport": true,
+        "structured_data": true,
+        "content_length": 160391,
+        "content_quality_score": 85,
+        "local_seo_signals": 1
+      },
+      "business_intelligence": {
+        "decision_makers_identified": 0,
+        "contact_completeness": 1,
+        "executive_coverage": 10,
+        "attribution_confidence": 0.0
+      },
+      "processing_time": 1.468097
+    },
+    {
+      "url": "http://www.emergeplumbing.co.uk/",
+      "company_name": "Emerge Plumbing",
+      "status": "success",
+      "contact_extraction": {
+        "emails": [],
+        "phones": [
+          "07470540782"
+        ],
+        "executives": [
+          {
+            "name": "The site",
+            "title": "owner"
+          },
+          {
+            "name": "self instan",
+            "title": "ceo"
+          },
+          {
+            "name": "DOCTYPE html",
+            "title": "Unknown"
+          },
+          {
+            "name": "html lang",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta charset",
+            "title": "Unknown"
+          },
+          {
+            "name": "meta name",
+            "title": "Unknown"
+          },
+          {
+            "name": "This site",
+            "title": "Unknown"
+          },
+          {
+            "name": "is optimized",
+            "title": "Unknown"
+          },
+          {
+            "name": "with the",
+            "title": "Unknown"
+          },
+          {
+            "name": "Yoast SEO",
+            "title": "Unknown"
+          }
+        ],
+        "attribution": {
+          "attributed_contacts": 0,
+          "attribution_confidence": 0.0,
+          "attributions": []
+        }
+      },
+      "seo_analysis": {
+        "title": "Home - Emerge Plumbing LTD",
+        "title_length": 26,
+        "title_optimized": false,
+        "has_meta_description": false,
+        "meta_description": null,
+        "h1_count": 2,
+        "has_h1": true,
+        "h1_tags": [
+          "Welcome to Emerge Plumbing Ltd - Birmingham's Premier Plumbing Service",
+          "Our Expert Plumbing Services in Birmingham"
+        ],
+        "has_ssl": false,
+        "mobile_viewport": true,
+        "structured_data": true,
+        "content_length": 160808,
+        "content_quality_score": 100,
+        "local_seo_signals": 1
+      },
+      "business_intelligence": {
+        "decision_makers_identified": 2,
+        "contact_completeness": 1,
+        "executive_coverage": 10,
+        "attribution_confidence": 0.0
+      },
+      "processing_time": 9.278322
+    }
+  ],
+  "system_analytics": {
+    "email_discovery_rate": 66.66666666666666,
+    "phone_discovery_rate": 66.66666666666666,
+    "executive_identification_rate": 100.0,
+    "seo_analysis_success": 100.0,
+    "contact_attribution_accuracy": 0.0
+  },
+  "test_summary": {
+    "total_processing_time": 21.379166,
+    "average_time_per_url": 2.375462888888889,
+    "successful_extractions": 9,
+    "failed_extractions": 0,
+    "success_rate": 100.0
+  }
+}

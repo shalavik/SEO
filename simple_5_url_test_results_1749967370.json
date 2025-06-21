@@ -1,0 +1,57 @@
+{
+  "test_info": {
+    "name": "Simple 5-URL Pipeline Test",
+    "timestamp": "2025-06-15T13:02:50.305605",
+    "total_companies": 5,
+    "total_processing_time_seconds": 0.01,
+    "average_time_per_company": 0.0
+  },
+  "summary": {
+    "successful_processes": 0,
+    "failed_processes": 5,
+    "total_executives_found": 0,
+    "total_contacts_found": 0
+  },
+  "results": [
+    {
+      "url": "http://gpj-plumbing.co.uk/",
+      "company_name": "GPJ Plumbing",
+      "processing_time_seconds": 0.0,
+      "timestamp": "2025-06-15T13:02:50.303503",
+      "error": "analyze_website_seo() got an unexpected keyword argument 'company_name'",
+      "status": "error"
+    },
+    {
+      "url": "https://www.emergencyplumber.services/",
+      "company_name": "Emergency Plumber Services",
+      "processing_time_seconds": 0.0,
+      "timestamp": "2025-06-15T13:02:50.304169",
+      "error": "analyze_website_seo() got an unexpected keyword argument 'company_name'",
+      "status": "error"
+    },
+    {
+      "url": "https://247plumbingandgas.co.uk/",
+      "company_name": "247 Plumbing and Gas",
+      "processing_time_seconds": 0.0,
+      "timestamp": "2025-06-15T13:02:50.304770",
+      "error": "analyze_website_seo() got an unexpected keyword argument 'company_name'",
+      "status": "error"
+    },
+    {
+      "url": "http://www.hancoxgasandplumbing.co.uk/",
+      "company_name": "Hancox Gas and Plumbing",
+      "processing_time_seconds": 0.0,
+      "timestamp": "2025-06-15T13:02:50.305202",
+      "error": "analyze_website_seo() got an unexpected keyword argument 'company_name'",
+      "status": "error"
+    },
+    {
+      "url": "https://metroplumb.co.uk/locations/metro-plumb-birmingham/",
+      "company_name": "Metro Plumb Birmingham",
+      "processing_time_seconds": 0.0,
+      "timestamp": "2025-06-15T13:02:50.305599",
+      "error": "analyze_website_seo() got an unexpected keyword argument 'company_name'",
+      "status": "error"
+    }
+  ]
+}

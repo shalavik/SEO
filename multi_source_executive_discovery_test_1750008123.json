@@ -1,0 +1,106 @@
+{
+  "test_info": {
+    "name": "Multi-Source Executive Discovery Test",
+    "timestamp": "2025-06-16T00:22:00.558548",
+    "engine_type": "multi_source",
+    "total_companies": 5,
+    "target_success_rate": 0.8,
+    "target_executives_per_company": 2
+  },
+  "results": [
+    {
+      "company_id": "test-gpj-plumbing",
+      "company_name": "GPJ Plumbing",
+      "company_domain": "gpj-plumbing.co.uk",
+      "website_url": "http://gpj-plumbing.co.uk/",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "discovery_sources": [],
+      "total_processing_time": 1.0189659595489502,
+      "success_rate": 0.0,
+      "discovery_timestamp": "2025-06-16T00:22:01.577531",
+      "status": "error",
+      "error_message": "'MultiSourceResult' object has no attribute 'executives_found'"
+    },
+    {
+      "company_id": "test-emergency-plumber-services",
+      "company_name": "Emergency Plumber Services",
+      "company_domain": "emergencyplumber.services",
+      "website_url": "https://www.emergencyplumber.services/",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "discovery_sources": [],
+      "total_processing_time": 0.5226037502288818,
+      "success_rate": 0.0,
+      "discovery_timestamp": "2025-06-16T00:22:02.100157",
+      "status": "error",
+      "error_message": "'MultiSourceResult' object has no attribute 'executives_found'"
+    },
+    {
+      "company_id": "test-247-plumbing-and-gas",
+      "company_name": "247 Plumbing and Gas",
+      "company_domain": "247plumbingandgas.co.uk",
+      "website_url": "https://247plumbingandgas.co.uk/",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "discovery_sources": [],
+      "total_processing_time": 0.47272181510925293,
+      "success_rate": 0.0,
+      "discovery_timestamp": "2025-06-16T00:22:02.572903",
+      "status": "error",
+      "error_message": "'MultiSourceResult' object has no attribute 'executives_found'"
+    },
+    {
+      "company_id": "test-hancox-gas-and-plumbing",
+      "company_name": "Hancox Gas and Plumbing",
+      "company_domain": "hancoxgasandplumbing.co.uk",
+      "website_url": "http://www.hancoxgasandplumbing.co.uk/",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "discovery_sources": [],
+      "total_processing_time": 0.6521260738372803,
+      "success_rate": 0.0,
+      "discovery_timestamp": "2025-06-16T00:22:03.225057",
+      "status": "error",
+      "error_message": "'MultiSourceResult' object has no attribute 'executives_found'"
+    },
+    {
+      "company_id": "test-metro-plumb-birmingham",
+      "company_name": "Metro Plumb Birmingham",
+      "company_domain": "metroplumb.co.uk",
+      "website_url": "https://metroplumb.co.uk/locations/metro-plumb-birmingham/",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "discovery_sources": [],
+      "total_processing_time": 0.5403690338134766,
+      "success_rate": 0.0,
+      "discovery_timestamp": "2025-06-16T00:22:03.765450",
+      "status": "error",
+      "error_message": "'MultiSourceResult' object has no attribute 'executives_found'"
+    }
+  ],
+  "summary": {
+    "total_companies_processed": 5,
+    "successful_companies": 0,
+    "failed_companies": 5,
+    "total_executives_found": 0,
+    "companies_with_executives": 0,
+    "success_rate": 0.0,
+    "average_executives_per_company": 0.0,
+    "total_processing_time_seconds": 3.206904888153076,
+    "average_processing_time_seconds": 0.6413809776306152,
+    "target_achievement": {
+      "success_rate_target": 0.8,
+      "success_rate_actual": 0.0,
+      "success_rate_achievement": 0.0,
+      "executives_target": 2.0,
+      "executives_actual": 0.0,
+      "executives_achievement": 0.0
+    }
+  }
+}

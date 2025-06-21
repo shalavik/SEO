@@ -1,0 +1,513 @@
+{
+  "test_metadata": {
+    "test_date": "2025-06-18T13:39:01.342248",
+    "test_name": "Comprehensive 5 URL Pipeline Test - Phase 5 Enhanced",
+    "urls_tested": [
+      "http://www.chparker-plumbing.co.uk/",
+      "http://www.msheatingandplumbing.co.uk/",
+      "http://www.absolute-plumbing-solutions.com/",
+      "https://coldspringplumbers.co.uk/",
+      "http://www.meregreengasandplumbing.co.uk/",
+      "https://manorvale.co.uk/",
+      "https://www.starcitiesheatingandplumbing.co.uk/",
+      "http://www.yourplumbingservices.co.uk/",
+      "http://complete-heating.co.uk/",
+      "https://www.celmeng.co.uk/"
+    ],
+    "total_companies": 10
+  },
+  "results": [
+    {
+      "url": "http://www.chparker-plumbing.co.uk/",
+      "company_name": "Chparker Plumbing",
+      "success": true,
+      "processing_time": 0.007760047912597656,
+      "content_length": 566,
+      "raw_executives": [
+        {
+          "name": "Chris directly",
+          "title": "Contact Person",
+          "confidence": 0.75,
+          "extraction_method": "contact_pattern"
+        },
+        {
+          "name": "Chris Parker",
+          "title": "Contact Person",
+          "confidence": 0.75,
+          "extraction_method": "contact_pattern"
+        }
+      ],
+      "raw_phones": [
+        "0121 456 7890"
+      ],
+      "raw_emails": [
+        "info@chparker-plumbing.co.uk"
+      ],
+      "executive_profiles": [
+        {
+          "name": "Chris directly",
+          "title": "Contact Person",
+          "phone": "0121 456 7890",
+          "email": "info@chparker-plumbing.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true,
+          "confidence": 0.95,
+          "extraction_method": "contact_pattern"
+        },
+        {
+          "name": "Chris Parker",
+          "title": "Contact Person",
+          "phone": "0121 456 7890",
+          "email": "info@chparker-plumbing.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true,
+          "confidence": 0.95,
+          "extraction_method": "contact_pattern"
+        }
+      ],
+      "quality_analysis": {
+        "grade": "B",
+        "score": 0.7,
+        "status": "Good - Solid outreach potential",
+        "usability": "Good for outreach",
+        "metrics": {
+          "total_profiles": 2,
+          "decision_makers": 0,
+          "outreach_ready": 2,
+          "high_confidence": 2,
+          "contact_items": 2
+        }
+      }
+    },
+    {
+      "url": "http://www.msheatingandplumbing.co.uk/",
+      "company_name": "Msheatingandplumbing",
+      "success": true,
+      "processing_time": 0.0014410018920898438,
+      "content_length": 1026,
+      "raw_executives": [
+        {
+          "name": "Zubair",
+          "title": "Contact Person",
+          "confidence": 0.75,
+          "extraction_method": "contact_pattern"
+        }
+      ],
+      "raw_phones": [],
+      "raw_emails": [
+        "m.zubair@msheatingandplumbing.co.uk",
+        "info@msheatingandplumbing.co.uk"
+      ],
+      "executive_profiles": [
+        {
+          "name": "Zubair",
+          "title": "Contact Person",
+          "phone": "",
+          "email": "m.zubair@msheatingandplumbing.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true,
+          "confidence": 0.85,
+          "extraction_method": "contact_pattern"
+        }
+      ],
+      "quality_analysis": {
+        "grade": "B",
+        "score": 0.7,
+        "status": "Good - Solid outreach potential",
+        "usability": "Good for outreach",
+        "metrics": {
+          "total_profiles": 1,
+          "decision_makers": 0,
+          "outreach_ready": 1,
+          "high_confidence": 1,
+          "contact_items": 2
+        }
+      }
+    },
+    {
+      "url": "http://www.absolute-plumbing-solutions.com/",
+      "company_name": "Absolute Plumbing Solutions",
+      "success": true,
+      "processing_time": 0.003009796142578125,
+      "content_length": 1211,
+      "raw_executives": [
+        {
+          "name": "Mike Johnson",
+          "title": "Contact Person",
+          "confidence": 0.75,
+          "extraction_method": "contact_pattern"
+        }
+      ],
+      "raw_phones": [
+        "0800 772 0326"
+      ],
+      "raw_emails": [
+        "info@absoluteplumbing-heatingsolutions.co.uk",
+        "mike@absoluteplumbing-heatingsolutions.co.uk"
+      ],
+      "executive_profiles": [
+        {
+          "name": "Mike Johnson",
+          "title": "Contact Person",
+          "phone": "0800 772 0326",
+          "email": "mike@absoluteplumbing-heatingsolutions.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true,
+          "confidence": 0.95,
+          "extraction_method": "contact_pattern"
+        }
+      ],
+      "quality_analysis": {
+        "grade": "B",
+        "score": 0.7,
+        "status": "Good - Solid outreach potential",
+        "usability": "Good for outreach",
+        "metrics": {
+          "total_profiles": 1,
+          "decision_makers": 0,
+          "outreach_ready": 1,
+          "high_confidence": 1,
+          "contact_items": 3
+        }
+      }
+    },
+    {
+      "url": "https://coldspringplumbers.co.uk/",
+      "company_name": "Coldspringplumbers",
+      "success": true,
+      "processing_time": 0.001331329345703125,
+      "content_length": 524,
+      "raw_executives": [
+        {
+          "name": "Tom Wilson Emergency Line",
+          "title": "Lead Professional",
+          "confidence": 0.85,
+          "extraction_method": "lead_professional_pattern"
+        },
+        {
+          "name": "Tom Wilson",
+          "title": "Lead Professional",
+          "confidence": 0.85,
+          "extraction_method": "lead_professional_pattern"
+        }
+      ],
+      "raw_phones": [
+        "0800 123 4567"
+      ],
+      "raw_emails": [
+        "emergency@coldspringplumbers.co.uk"
+      ],
+      "executive_profiles": [
+        {
+          "name": "Tom Wilson Emergency Line",
+          "title": "Lead Professional",
+          "phone": "0800 123 4567",
+          "email": "emergency@coldspringplumbers.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true,
+          "confidence": 1.0,
+          "extraction_method": "lead_professional_pattern"
+        },
+        {
+          "name": "Tom Wilson",
+          "title": "Lead Professional",
+          "phone": "0800 123 4567",
+          "email": "emergency@coldspringplumbers.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true,
+          "confidence": 1.0,
+          "extraction_method": "lead_professional_pattern"
+        }
+      ],
+      "quality_analysis": {
+        "grade": "B",
+        "score": 0.7,
+        "status": "Good - Solid outreach potential",
+        "usability": "Good for outreach",
+        "metrics": {
+          "total_profiles": 2,
+          "decision_makers": 0,
+          "outreach_ready": 2,
+          "high_confidence": 2,
+          "contact_items": 2
+        }
+      }
+    },
+    {
+      "url": "http://www.meregreengasandplumbing.co.uk/",
+      "company_name": "Meregreengasandplumbing",
+      "success": true,
+      "processing_time": 0.0026552677154541016,
+      "content_length": 1184,
+      "raw_executives": [
+        {
+          "name": "Gary Thompson directly",
+          "title": "Contact Person",
+          "confidence": 0.75,
+          "extraction_method": "contact_pattern"
+        },
+        {
+          "name": "Gary Thompson",
+          "title": "Contact Person",
+          "confidence": 0.75,
+          "extraction_method": "contact_pattern"
+        }
+      ],
+      "raw_phones": [],
+      "raw_emails": [
+        "gary@meregreengasandplumbing.co.uk",
+        "info@meregreengasandplumbing.co.uk"
+      ],
+      "executive_profiles": [
+        {
+          "name": "Gary Thompson directly",
+          "title": "Contact Person",
+          "phone": "",
+          "email": "gary@meregreengasandplumbing.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true,
+          "confidence": 0.85,
+          "extraction_method": "contact_pattern"
+        },
+        {
+          "name": "Gary Thompson",
+          "title": "Contact Person",
+          "phone": "",
+          "email": "gary@meregreengasandplumbing.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true,
+          "confidence": 0.85,
+          "extraction_method": "contact_pattern"
+        }
+      ],
+      "quality_analysis": {
+        "grade": "B",
+        "score": 0.7,
+        "status": "Good - Solid outreach potential",
+        "usability": "Good for outreach",
+        "metrics": {
+          "total_profiles": 2,
+          "decision_makers": 0,
+          "outreach_ready": 2,
+          "high_confidence": 2,
+          "contact_items": 2
+        }
+      }
+    },
+    {
+      "url": "https://manorvale.co.uk/",
+      "company_name": "Manorvale",
+      "success": true,
+      "processing_time": 0.0010590553283691406,
+      "content_length": 511,
+      "raw_executives": [
+        {
+          "name": "James Manor",
+          "title": "Contact Person",
+          "confidence": 0.75,
+          "extraction_method": "contact_pattern"
+        }
+      ],
+      "raw_phones": [
+        "0121 789 0123"
+      ],
+      "raw_emails": [
+        "james@manorvale.co.uk"
+      ],
+      "executive_profiles": [
+        {
+          "name": "James Manor",
+          "title": "Contact Person",
+          "phone": "0121 789 0123",
+          "email": "james@manorvale.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true,
+          "confidence": 0.95,
+          "extraction_method": "contact_pattern"
+        }
+      ],
+      "quality_analysis": {
+        "grade": "B",
+        "score": 0.7,
+        "status": "Good - Solid outreach potential",
+        "usability": "Good for outreach",
+        "metrics": {
+          "total_profiles": 1,
+          "decision_makers": 0,
+          "outreach_ready": 1,
+          "high_confidence": 1,
+          "contact_items": 2
+        }
+      }
+    },
+    {
+      "url": "https://www.starcitiesheatingandplumbing.co.uk/",
+      "company_name": "Starcitiesheatingandplumbing",
+      "success": true,
+      "processing_time": 0.002123117446899414,
+      "content_length": 1049,
+      "raw_executives": [
+        {
+          "name": "John Williams Senior Plumber",
+          "title": "Lead Professional",
+          "confidence": 0.85,
+          "extraction_method": "lead_professional_pattern"
+        },
+        {
+          "name": "Dave Smith",
+          "title": "Contact Person",
+          "confidence": 0.75,
+          "extraction_method": "contact_pattern"
+        }
+      ],
+      "raw_phones": [],
+      "raw_emails": [
+        "fixit@starcitiesheatingandplumbing.co.uk",
+        "dave.smith@starcitiesheatingandplumbing.co.uk"
+      ],
+      "executive_profiles": [
+        {
+          "name": "John Williams Senior Plumber",
+          "title": "Lead Professional",
+          "phone": "",
+          "email": "fixit@starcitiesheatingandplumbing.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true,
+          "confidence": 0.95,
+          "extraction_method": "lead_professional_pattern"
+        },
+        {
+          "name": "Dave Smith",
+          "title": "Contact Person",
+          "phone": "",
+          "email": "dave.smith@starcitiesheatingandplumbing.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true,
+          "confidence": 0.85,
+          "extraction_method": "contact_pattern"
+        }
+      ],
+      "quality_analysis": {
+        "grade": "B",
+        "score": 0.7,
+        "status": "Good - Solid outreach potential",
+        "usability": "Good for outreach",
+        "metrics": {
+          "total_profiles": 2,
+          "decision_makers": 0,
+          "outreach_ready": 2,
+          "high_confidence": 2,
+          "contact_items": 2
+        }
+      }
+    },
+    {
+      "url": "http://www.yourplumbingservices.co.uk/",
+      "company_name": "Yourplumbingservices",
+      "success": true,
+      "processing_time": 0.0010209083557128906,
+      "content_length": 511,
+      "raw_executives": [
+        {
+          "name": "Steve Johnson",
+          "title": "Contact Person",
+          "confidence": 0.75,
+          "extraction_method": "contact_pattern"
+        }
+      ],
+      "raw_phones": [
+        "0121 234 5678"
+      ],
+      "raw_emails": [
+        "steve@yourplumbingservices.co.uk"
+      ],
+      "executive_profiles": [
+        {
+          "name": "Steve Johnson",
+          "title": "Contact Person",
+          "phone": "0121 234 5678",
+          "email": "steve@yourplumbingservices.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true,
+          "confidence": 0.95,
+          "extraction_method": "contact_pattern"
+        }
+      ],
+      "quality_analysis": {
+        "grade": "B",
+        "score": 0.7,
+        "status": "Good - Solid outreach potential",
+        "usability": "Good for outreach",
+        "metrics": {
+          "total_profiles": 1,
+          "decision_makers": 0,
+          "outreach_ready": 1,
+          "high_confidence": 1,
+          "contact_items": 2
+        }
+      }
+    },
+    {
+      "url": "http://complete-heating.co.uk/",
+      "company_name": "Complete Heating",
+      "success": true,
+      "processing_time": 0.0030269622802734375,
+      "content_length": 503,
+      "raw_executives": [],
+      "raw_phones": [
+        "0121 000 0000"
+      ],
+      "raw_emails": [
+        "info@example.co.uk"
+      ],
+      "executive_profiles": [],
+      "quality_analysis": {
+        "grade": "F",
+        "score": 0.0,
+        "status": "No executives found",
+        "usability": "Not usable for outreach",
+        "metrics": {
+          "total_profiles": 0,
+          "decision_makers": 0,
+          "outreach_ready": 0,
+          "high_confidence": 0,
+          "contact_items": 2
+        }
+      }
+    },
+    {
+      "url": "https://www.celmeng.co.uk/",
+      "company_name": "Celmeng",
+      "success": true,
+      "processing_time": 0.001157999038696289,
+      "content_length": 505,
+      "raw_executives": [],
+      "raw_phones": [
+        "0121 567 8901"
+      ],
+      "raw_emails": [
+        "michael@celmeng.co.uk"
+      ],
+      "executive_profiles": [],
+      "quality_analysis": {
+        "grade": "F",
+        "score": 0.0,
+        "status": "No executives found",
+        "usability": "Not usable for outreach",
+        "metrics": {
+          "total_profiles": 0,
+          "decision_makers": 0,
+          "outreach_ready": 0,
+          "high_confidence": 0,
+          "contact_items": 2
+        }
+      }
+    }
+  ],
+  "summary": {
+    "successful_extractions": 10,
+    "total_executive_profiles": 12,
+    "total_decision_makers": 0,
+    "total_outreach_ready": 12
+  }
+}

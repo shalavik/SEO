@@ -1,0 +1,88 @@
+{
+  "test_info": {
+    "name": "Executive Discovery Module Test",
+    "timestamp": "2025-06-15T16:06:34.715366",
+    "total_companies": 5,
+    "total_processing_time_seconds": 368.9100868701935,
+    "average_time_per_company": 73.7820173740387
+  },
+  "summary": {
+    "successful_processes": 5,
+    "failed_processes": 0,
+    "total_executives_found": 0,
+    "companies_with_executives": 0,
+    "average_executives_per_company": 0.0
+  },
+  "results": [
+    {
+      "company_id": "test-gpj-plumbing",
+      "company_name": "GPJ Plumbing",
+      "company_domain": "gpj-plumbing.co.uk",
+      "website_url": "http://gpj-plumbing.co.uk/",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "discovery_sources": [],
+      "total_processing_time": 79.34851622581482,
+      "success_rate": 0.0,
+      "discovery_timestamp": "2025-06-15T09:01:45.153910",
+      "status": "success"
+    },
+    {
+      "company_id": "test-emergency-plumber-services",
+      "company_name": "Emergency Plumber Services",
+      "company_domain": "emergencyplumber.services",
+      "website_url": "https://www.emergencyplumber.services/",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "discovery_sources": [],
+      "total_processing_time": 30.95506000518799,
+      "success_rate": 0.0,
+      "discovery_timestamp": "2025-06-15T09:02:16.140601",
+      "status": "success"
+    },
+    {
+      "company_id": "test-247-plumbing-and-gas",
+      "company_name": "247 Plumbing and Gas",
+      "company_domain": "247plumbingandgas.co.uk",
+      "website_url": "https://247plumbingandgas.co.uk/",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "discovery_sources": [],
+      "total_processing_time": 36.76407504081726,
+      "success_rate": 0.0,
+      "discovery_timestamp": "2025-06-15T09:02:52.907809",
+      "status": "success"
+    },
+    {
+      "company_id": "test-hancox-gas-and-plumbing",
+      "company_name": "Hancox Gas and Plumbing",
+      "company_domain": "hancoxgasandplumbing.co.uk",
+      "website_url": "http://www.hancoxgasandplumbing.co.uk/",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "discovery_sources": [],
+      "total_processing_time": 169.46118712425232,
+      "success_rate": 0.0,
+      "discovery_timestamp": "2025-06-15T09:05:42.372029",
+      "status": "success"
+    },
+    {
+      "company_id": "test-metro-plumb-birmingham",
+      "company_name": "Metro Plumb Birmingham",
+      "company_domain": "metroplumb.co.uk",
+      "website_url": "https://metroplumb.co.uk/locations/metro-plumb-birmingham/",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "discovery_sources": [],
+      "total_processing_time": 52.33800220489502,
+      "success_rate": 0.0,
+      "discovery_timestamp": "2025-06-15T09:06:34.713001",
+      "status": "success"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "test_metadata": {
+    "test_name": "Enhanced Executive Discovery System Test",
+    "test_date": "2025-06-13T03:51:59.809749",
+    "companies_tested": 2,
+    "data_sources": [
+      "companies_house",
+      "google_search",
+      "website_scraping"
+    ],
+    "cost": "\u00a30.00 (FREE)",
+    "target_success_rate": "80%+"
+  },
+  "company_results": [
+    {
+      "company_id": "jack-the-plumber",
+      "company_name": "Jack The Plumber",
+      "website": "https://jacktheplumber.co.uk",
+      "executives_found": 0,
+      "success_rate": 0.0,
+      "processing_time_seconds": 6.546674728393555,
+      "error": "__init__() got an unexpected keyword argument 'website_url'"
+    },
+    {
+      "company_id": "ideal-plumbing",
+      "company_name": "Ideal Plumbing Services",
+      "website": "https://idealplumbingservices.co.uk",
+      "executives_found": 0,
+      "success_rate": 0.0,
+      "processing_time_seconds": 6.306793212890625,
+      "error": "__init__() got an unexpected keyword argument 'website_url'"
+    }
+  ],
+  "overall_statistics": {
+    "total_companies_tested": 2,
+    "successful_companies": 0,
+    "overall_success_rate": "0.0%",
+    "total_executives_found": 0,
+    "total_processing_time_seconds": 14.855592012405396,
+    "cost_analysis": {
+      "total_cost": "\u00a30.00",
+      "cost_per_company": "\u00a30.00",
+      "cost_per_executive": "\u00a30.00"
+    }
+  }
+}

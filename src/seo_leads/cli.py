@@ -15,6 +15,7 @@ import logging
 import sys
 from typing import Optional
 import click
+import time
 
 from .config import get_config, get_processing_config
 from .database import initialize_database, get_db_session, get_processing_metrics
@@ -539,6 +540,205 @@ def list_sources():
         
     except Exception as e:
         click.echo(f"❌ Error listing sources: {e}", err=True)
+        sys.exit(1)
+
+@cli.command()
+@click.option('--company-name', required=True, help='Company name to search for executives')
+@click.option('--website-url', required=True, help='Company website URL')
+@click.option('--linkedin-enabled/--no-linkedin', default=True, help='Enable LinkedIn scraping')
+@click.option('--website-enabled/--no-website', default=True, help='Enable website scraping')
+@click.option('--parallel/--sequential', default=True, help='Use parallel processing')
+def discover_executives(company_name, website_url, linkedin_enabled, website_enabled, parallel):
+    """Discover executive contacts for a single company"""
+    try:
+        import asyncio
+        from .processors.executive_discovery import ExecutiveDiscoveryEngine, ExecutiveDiscoveryConfig
+        from .processors.executive_email_enricher import ExecutiveEmailEnricher
+        
+        click.echo(f"🔍 Discovering executives for {company_name}...")
+        click.echo(f"   Website: {website_url}")
+        click.echo(f"   LinkedIn: {'✅' if linkedin_enabled else '❌'}")
+        click.echo(f"   Website: {'✅' if website_enabled else '❌'}")
+        click.echo(f"   Processing: {'Parallel' if parallel else 'Sequential'}")
+        
+        async def run_discovery():
+            # Setup configuration
+            config = ExecutiveDiscoveryConfig(
+                linkedin_enabled=linkedin_enabled,
+                website_enabled=website_enabled,
+                parallel_processing=parallel,
+                max_executives_per_company=10,
+                processing_timeout=45.0
+            )
+            
+            # Initialize discovery engine
+            engine = ExecutiveDiscoveryEngine(config)
+            await engine.initialize()
+            
+            try:
+                # Discover executives
+                result = await engine.discover_executives(
+                    company_id=f"test-{int(time.time())}",
+                    company_name=company_name,
+                    website_url=website_url
+                )
+                
+                # Display results
+                click.echo(f"\n📊 Discovery Results:")
+                click.echo(f"   ⏱️  Processing time: {result.total_processing_time:.2f} seconds")
+                click.echo(f"   📈 Success rate: {result.success_rate:.1%}")
+                click.echo(f"   🔍 Sources used: {', '.join(result.discovery_sources)}")
+                click.echo(f"   👥 Executives found: {len(result.executives_found)}")
+                
+                if result.primary_decision_maker:
+                    pdm = result.primary_decision_maker
+                    click.echo(f"\n🎯 Primary Decision Maker:")
+                    click.echo(f"   👤 Name: {pdm.full_name}")
+                    click.echo(f"   💼 Title: {pdm.title}")
+                    click.echo(f"   📧 Email: {pdm.email or 'Not found'}")
+                    click.echo(f"   📱 Phone: {pdm.phone or 'Not found'}")
+                    click.echo(f"   🔗 LinkedIn: {pdm.linkedin_url or 'Not found'}")
+                    click.echo(f"   ⭐ Confidence: {pdm.overall_confidence:.1%}")
+                
+                if result.executives_found:
+                    click.echo(f"\n👥 All Executives ({len(result.executives_found)}):")
+                    for i, exec in enumerate(result.executives_found, 1):
+                        tier_emoji = "🔥" if exec.seniority_tier == "tier_1" else "⚡" if exec.seniority_tier == "tier_2" else "💫"
+                        email_status = "📧" if exec.email else "❌"
+                        linkedin_status = "🔗" if exec.linkedin_url else "❌"
+                        
+                        click.echo(f"   {i}. {tier_emoji} {exec.full_name} - {exec.title}")
+                        click.echo(f"      Sources: {', '.join(exec.discovery_sources)} | "
+                                 f"Email: {email_status} | LinkedIn: {linkedin_status} | "
+                                 f"Confidence: {exec.overall_confidence:.1%}")
+                
+                # Get engine statistics
+                stats = engine.get_statistics()
+                click.echo(f"\n📈 Engine Statistics:")
+                click.echo(f"   Companies processed: {stats['companies_processed']}")
+                click.echo(f"   Executives found: {stats['executives_found']}")
+                click.echo(f"   LinkedIn success rate: {stats['linkedin_success_rate']:.1%}")
+                click.echo(f"   Website success rate: {stats['website_success_rate']:.1%}")
+                
+                return result
+                
+            finally:
+                await engine.close()
+        
+        result = asyncio.run(run_discovery())
+        
+        if result.executives_found:
+            click.echo(f"\n✅ Executive discovery successful!")
+        else:
+            click.echo(f"\n⚠️  No executives found")
+        
+    except Exception as e:
+        click.echo(f"❌ Error during executive discovery: {e}", err=True)
+        import traceback
+        click.echo(f"   {traceback.format_exc()}", err=True)
+        sys.exit(1)
+
+@cli.command()
+@click.option('--batch-size', default=5, help='Number of companies to process')
+@click.option('--linkedin-enabled/--no-linkedin', default=True, help='Enable LinkedIn scraping')
+@click.option('--website-enabled/--no-website', default=True, help='Enable website scraping')
+def test_executive_discovery(batch_size, linkedin_enabled, website_enabled):
+    """Test executive discovery on existing companies in database"""
+    try:
+        import asyncio
+        from .processors.executive_discovery import ExecutiveDiscoveryEngine, ExecutiveDiscoveryConfig
+        from .database import get_db_session
+        from .models import UKCompany
+        
+        click.echo(f"🧪 Testing executive discovery on {batch_size} companies...")
+        
+        async def run_test():
+            # Get companies from database
+            with get_db_session() as session:
+                companies = session.query(UKCompany).filter(
+                    UKCompany.website_url.isnot(None)
+                ).limit(batch_size).all()
+                
+                if not companies:
+                    click.echo("❌ No companies found in database")
+                    return
+                
+                click.echo(f"Found {len(companies)} companies to test")
+            
+            # Setup configuration
+            config = ExecutiveDiscoveryConfig(
+                linkedin_enabled=linkedin_enabled,
+                website_enabled=website_enabled,
+                parallel_processing=True,
+                max_executives_per_company=5,
+                processing_timeout=30.0,
+                delay_between_companies=2.0
+            )
+            
+            # Initialize discovery engine
+            engine = ExecutiveDiscoveryEngine(config)
+            await engine.initialize()
+            
+            try:
+                results = []
+                
+                for i, company in enumerate(companies, 1):
+                    click.echo(f"\n📊 Processing {i}/{len(companies)}: {company.company_name}")
+                    
+                    try:
+                        result = await engine.discover_executives(
+                            str(company.id),
+                            company.company_name,
+                            company.website_url
+                        )
+                        results.append(result)
+                        
+                        exec_count = len(result.executives_found)
+                        pdm_found = "✅" if result.primary_decision_maker else "❌"
+                        sources = ", ".join(result.discovery_sources)
+                        
+                        click.echo(f"   Results: {exec_count} executives | PDM: {pdm_found} | Sources: {sources}")
+                        
+                    except Exception as e:
+                        click.echo(f"   ❌ Failed: {e}")
+                        continue
+                
+                # Summary statistics
+                total_executives = sum(len(r.executives_found) for r in results)
+                companies_with_executives = sum(1 for r in results if r.executives_found)
+                companies_with_pdm = sum(1 for r in results if r.primary_decision_maker)
+                avg_processing_time = sum(r.total_processing_time for r in results) / len(results) if results else 0
+                
+                click.echo(f"\n📈 Test Summary:")
+                click.echo(f"   Companies processed: {len(results)}")
+                click.echo(f"   Total executives found: {total_executives}")
+                click.echo(f"   Companies with executives: {companies_with_executives}/{len(results)} ({companies_with_executives/len(results)*100:.1f}%)")
+                click.echo(f"   Companies with primary decision maker: {companies_with_pdm}/{len(results)} ({companies_with_pdm/len(results)*100:.1f}%)")
+                click.echo(f"   Average processing time: {avg_processing_time:.2f} seconds")
+                
+                # Engine statistics
+                stats = engine.get_statistics()
+                click.echo(f"\n🎯 Engine Performance:")
+                click.echo(f"   LinkedIn success rate: {stats['linkedin_success_rate']:.1%}")
+                click.echo(f"   Website success rate: {stats['website_success_rate']:.1%}")
+                click.echo(f"   Overall success rate: {stats['overall_success_rate']:.1%}")
+                
+                return results
+                
+            finally:
+                await engine.close()
+        
+        results = asyncio.run(run_test())
+        
+        if results:
+            click.echo(f"\n✅ Executive discovery test complete!")
+        else:
+            click.echo(f"\n⚠️  Test completed with no results")
+        
+    except Exception as e:
+        click.echo(f"❌ Error during executive discovery test: {e}", err=True)
+        import traceback
+        click.echo(f"   {traceback.format_exc()}", err=True)
         sys.exit(1)
 
 if __name__ == '__main__':

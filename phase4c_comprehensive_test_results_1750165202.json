@@ -1,0 +1,253 @@
+{
+  "test_metadata": {
+    "test_name": "Phase 4C Comprehensive Test - 10 URLs",
+    "test_date": "2025-06-17T20:00:02.889468",
+    "phase4c_components_available": false,
+    "total_test_time": 6.910771131515503,
+    "system_version": "Phase 4C Production Integration"
+  },
+  "test_configuration": {
+    "urls_tested": 10,
+    "concurrent_limit": 3,
+    "timeout_per_request": 30,
+    "api_gateway_enabled": false,
+    "intelligent_cache_enabled": false,
+    "alternative_sources_enabled": false
+  },
+  "overall_metrics": {
+    "total_companies_tested": 10,
+    "successful_discoveries": 0,
+    "success_rate_percentage": 0.0,
+    "total_executives_found": 0,
+    "average_executives_per_company": 0.0,
+    "average_processing_time": 0.0,
+    "total_processing_time": 6.910771131515503
+  },
+  "phase4c_metrics": {
+    "companies_house_successes": 0,
+    "social_media_successes": 0,
+    "fallback_content_successes": 0,
+    "api_calls_made": 0,
+    "cache_hits": 0
+  },
+  "individual_results": [
+    {
+      "company_name": "GPJ Plumbing",
+      "company_url": "http://gpj-plumbing.co.uk/",
+      "processing_time": 4.814954996109009,
+      "executives_found": 0,
+      "unique_executives": [],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "content_length": 94037,
+        "response_time": 4.814954996109009
+      },
+      "source_results": {
+        "fallback_only": true
+      },
+      "quality_metrics": {
+        "testing_mode": "fallback"
+      },
+      "success": true,
+      "error": null
+    },
+    {
+      "company_name": "Emergency Plumber Services",
+      "company_url": "https://www.emergencyplumber.services/",
+      "processing_time": 1.5500342845916748,
+      "executives_found": 0,
+      "unique_executives": [],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "content_length": 91607,
+        "response_time": 1.5500342845916748
+      },
+      "source_results": {
+        "fallback_only": true
+      },
+      "quality_metrics": {
+        "testing_mode": "fallback"
+      },
+      "success": true,
+      "error": null
+    },
+    {
+      "company_name": "247 Plumbing and Gas",
+      "company_url": "https://247plumbingandgas.co.uk/",
+      "processing_time": 1.3735551834106445,
+      "executives_found": 0,
+      "unique_executives": [],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "content_length": 70942,
+        "response_time": 1.3735551834106445
+      },
+      "source_results": {
+        "fallback_only": true
+      },
+      "quality_metrics": {
+        "testing_mode": "fallback"
+      },
+      "success": true,
+      "error": null
+    },
+    {
+      "company_name": "Hancox Gas and Plumbing",
+      "company_url": "http://www.hancoxgasandplumbing.co.uk/",
+      "processing_time": 3.1004581451416016,
+      "executives_found": 0,
+      "unique_executives": [],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "content_length": 673535,
+        "response_time": 3.1004581451416016
+      },
+      "source_results": {
+        "fallback_only": true
+      },
+      "quality_metrics": {
+        "testing_mode": "fallback"
+      },
+      "success": true,
+      "error": null
+    },
+    {
+      "company_name": "Metro Plumb Birmingham",
+      "company_url": "https://metroplumb.co.uk/locations/metro-plumb-birmingham/",
+      "processing_time": 1.5261220932006836,
+      "executives_found": 0,
+      "unique_executives": [],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "content_length": 167098,
+        "response_time": 1.5261220932006836
+      },
+      "source_results": {
+        "fallback_only": true
+      },
+      "quality_metrics": {
+        "testing_mode": "fallback"
+      },
+      "success": true,
+      "error": null
+    },
+    {
+      "company_name": "TJ Works",
+      "company_url": "https://www.tjworks.co.uk/",
+      "processing_time": 1.1587800979614258,
+      "executives_found": 0,
+      "unique_executives": [],
+      "website_health": {
+        "status": "error",
+        "accessible": false
+      },
+      "source_results": {},
+      "quality_metrics": {},
+      "success": false,
+      "error": "Cannot connect to host www.tjworks.co.uk:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.tjworks.co.uk'. (_ssl.c:1129)\")]"
+    },
+    {
+      "company_name": "Afterglow Heating",
+      "company_url": "https://afterglowheating.co.uk/",
+      "processing_time": 1.5621519088745117,
+      "executives_found": 0,
+      "unique_executives": [],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "content_length": 55306,
+        "response_time": 1.5621519088745117
+      },
+      "source_results": {
+        "fallback_only": true
+      },
+      "quality_metrics": {
+        "testing_mode": "fallback"
+      },
+      "success": true,
+      "error": null
+    },
+    {
+      "company_name": "AS Plumbing Heating",
+      "company_url": "http://asplumbingheating.com/",
+      "processing_time": 0.6418960094451904,
+      "executives_found": 0,
+      "unique_executives": [],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "content_length": 129820,
+        "response_time": 0.6418960094451904
+      },
+      "source_results": {
+        "fallback_only": true
+      },
+      "quality_metrics": {
+        "testing_mode": "fallback"
+      },
+      "success": true,
+      "error": null
+    },
+    {
+      "company_name": "MKH Plumbing Birmingham",
+      "company_url": "https://www.facebook.com/MKHPBirmingham/",
+      "processing_time": 0.7413959503173828,
+      "executives_found": 0,
+      "unique_executives": [],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "content_length": 517976,
+        "response_time": 0.7413959503173828
+      },
+      "source_results": {
+        "fallback_only": true
+      },
+      "quality_metrics": {
+        "testing_mode": "fallback"
+      },
+      "success": true,
+      "error": null
+    },
+    {
+      "company_name": "Maximum Heat Emergency Plumber",
+      "company_url": "http://www.maximumheatemergencyplumberbirmingham.co.uk/",
+      "processing_time": 1.708940029144287,
+      "executives_found": 0,
+      "unique_executives": [],
+      "website_health": {
+        "status": "accessible",
+        "accessible": true,
+        "content_length": 15928,
+        "response_time": 1.708940029144287
+      },
+      "source_results": {
+        "fallback_only": true
+      },
+      "quality_metrics": {
+        "testing_mode": "fallback"
+      },
+      "success": true,
+      "error": null
+    }
+  ],
+  "summary_analysis": {
+    "most_successful_source": "companies_house",
+    "website_accessibility_rate": 90.0,
+    "quality_distribution": {
+      "high_quality": 0,
+      "medium_quality": 0,
+      "low_quality": 10
+    },
+    "performance_analysis": {
+      "min_time": 0.0,
+      "max_time": 0.0,
+      "avg_time": 0.0
+    }
+  }
+}

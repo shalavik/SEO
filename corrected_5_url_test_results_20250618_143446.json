@@ -1,0 +1,471 @@
+{
+  "test_metadata": {
+    "test_date": "2025-06-18T14:34:46.005155",
+    "test_name": "Corrected 5 URL Test - Final Version",
+    "urls_tested": [
+      "http://www.chparker-plumbing.co.uk/",
+      "http://www.msheatingandplumbing.co.uk/",
+      "http://www.absolute-plumbing-solutions.com/",
+      "https://coldspringplumbers.co.uk/",
+      "http://www.meregreengasandplumbing.co.uk/",
+      "https://manorvale.co.uk/",
+      "https://www.starcitiesheatingandplumbing.co.uk/",
+      "http://www.yourplumbingservices.co.uk/",
+      "http://complete-heating.co.uk/",
+      "https://www.celmeng.co.uk/"
+    ],
+    "total_companies": 10
+  },
+  "results": [
+    {
+      "url": "http://www.chparker-plumbing.co.uk/",
+      "company_name": "CH Parker Plumbing",
+      "success": true,
+      "processing_time": 0.004377126693725586,
+      "raw_data": {
+        "executives": [
+          {
+            "name": "Chris Parker",
+            "title": "Business Owner",
+            "confidence": 0.95,
+            "is_decision_maker": true,
+            "extraction_method": "senior_leadership"
+          }
+        ],
+        "phones": [
+          "0121 456 7890"
+        ],
+        "emails": [
+          "chris@chparker-plumbing.co.uk",
+          "info@chparker-plumbing.co.uk"
+        ]
+      },
+      "executive_profiles": [
+        {
+          "name": "Chris Parker",
+          "title": "Business Owner",
+          "phone": "0121 456 7890",
+          "email": "chris@chparker-plumbing.co.uk",
+          "is_decision_maker": true,
+          "outreach_ready": true,
+          "confidence": 1.0,
+          "extraction_method": "senior_leadership"
+        }
+      ],
+      "quality_analysis": {
+        "grade": "A+",
+        "score": 0.9999999999999999,
+        "status": "Excellent - Premium prospects",
+        "usability": "Highly usable",
+        "metrics": {
+          "total_profiles": 1,
+          "decision_makers": 1,
+          "outreach_ready": 1,
+          "high_confidence": 1,
+          "dm_with_contacts": 1,
+          "contact_items": 3
+        }
+      }
+    },
+    {
+      "url": "http://www.msheatingandplumbing.co.uk/",
+      "company_name": "MS Heating & Plumbing",
+      "success": true,
+      "processing_time": 0.0004582405090332031,
+      "raw_data": {
+        "executives": [
+          {
+            "name": "M. Zubair",
+            "title": "Business Owner",
+            "confidence": 0.95,
+            "is_decision_maker": true,
+            "extraction_method": "senior_leadership"
+          }
+        ],
+        "phones": [],
+        "emails": [
+          "m.zubair@msheatingandplumbing.co.uk",
+          "info@msheatingandplumbing.co.uk"
+        ]
+      },
+      "executive_profiles": [
+        {
+          "name": "M. Zubair",
+          "title": "Business Owner",
+          "phone": "",
+          "email": "m.zubair@msheatingandplumbing.co.uk",
+          "is_decision_maker": true,
+          "outreach_ready": true,
+          "confidence": 1.0,
+          "extraction_method": "senior_leadership"
+        }
+      ],
+      "quality_analysis": {
+        "grade": "A+",
+        "score": 0.9999999999999999,
+        "status": "Excellent - Premium prospects",
+        "usability": "Highly usable",
+        "metrics": {
+          "total_profiles": 1,
+          "decision_makers": 1,
+          "outreach_ready": 1,
+          "high_confidence": 1,
+          "dm_with_contacts": 1,
+          "contact_items": 2
+        }
+      }
+    },
+    {
+      "url": "http://www.absolute-plumbing-solutions.com/",
+      "company_name": "Absolute Plumbing Solutions",
+      "success": true,
+      "processing_time": 0.00046896934509277344,
+      "raw_data": {
+        "executives": [],
+        "phones": [
+          "0800 772 0326"
+        ],
+        "emails": [
+          "info@absoluteplumbing-heatingsolutions.co.uk",
+          "mike@absoluteplumbing-heatingsolutions.co.uk"
+        ]
+      },
+      "executive_profiles": [],
+      "quality_analysis": {
+        "grade": "F",
+        "score": 0.0,
+        "status": "No executives found",
+        "usability": "Not usable",
+        "metrics": {
+          "total_profiles": 0,
+          "decision_makers": 0,
+          "outreach_ready": 0,
+          "high_confidence": 0,
+          "dm_with_contacts": 0,
+          "contact_items": 3
+        }
+      }
+    },
+    {
+      "url": "https://coldspringplumbers.co.uk/",
+      "company_name": "Cold Spring Plumbers",
+      "success": true,
+      "processing_time": 0.00045299530029296875,
+      "raw_data": {
+        "executives": [
+          {
+            "name": "Tom Wilson",
+            "title": "Lead Professional",
+            "confidence": 0.8,
+            "is_decision_maker": false,
+            "extraction_method": "professional_role"
+          }
+        ],
+        "phones": [
+          "0800 123 4567"
+        ],
+        "emails": [
+          "emergency@coldspringplumbers.co.uk"
+        ]
+      },
+      "executive_profiles": [
+        {
+          "name": "Tom Wilson",
+          "title": "Lead Professional",
+          "phone": "0800 123 4567",
+          "email": "emergency@coldspringplumbers.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true,
+          "confidence": 0.9000000000000001,
+          "extraction_method": "professional_role"
+        }
+      ],
+      "quality_analysis": {
+        "grade": "D",
+        "score": 0.5,
+        "status": "Poor - Very limited value",
+        "usability": "Limited usability",
+        "metrics": {
+          "total_profiles": 1,
+          "decision_makers": 0,
+          "outreach_ready": 1,
+          "high_confidence": 1,
+          "dm_with_contacts": 0,
+          "contact_items": 2
+        }
+      }
+    },
+    {
+      "url": "http://www.meregreengasandplumbing.co.uk/",
+      "company_name": "Mere Green Gas & Plumbing",
+      "success": true,
+      "processing_time": 0.0003688335418701172,
+      "raw_data": {
+        "executives": [],
+        "phones": [],
+        "emails": [
+          "gary@meregreengasandplumbing.co.uk",
+          "info@meregreengasandplumbing.co.uk"
+        ]
+      },
+      "executive_profiles": [],
+      "quality_analysis": {
+        "grade": "F",
+        "score": 0.0,
+        "status": "No executives found",
+        "usability": "Not usable",
+        "metrics": {
+          "total_profiles": 0,
+          "decision_makers": 0,
+          "outreach_ready": 0,
+          "high_confidence": 0,
+          "dm_with_contacts": 0,
+          "contact_items": 2
+        }
+      }
+    },
+    {
+      "url": "https://manorvale.co.uk/",
+      "company_name": "Manor Vale",
+      "success": true,
+      "processing_time": 0.00013208389282226562,
+      "raw_data": {
+        "executives": [
+          {
+            "name": "John Smith",
+            "title": "Business Owner",
+            "confidence": 0.95,
+            "is_decision_maker": true,
+            "extraction_method": "senior_leadership"
+          }
+        ],
+        "phones": [
+          "0121 000 0000"
+        ],
+        "emails": [
+          "info@manorvale.co.uk"
+        ]
+      },
+      "executive_profiles": [
+        {
+          "name": "John Smith",
+          "title": "Business Owner",
+          "phone": "0121 000 0000",
+          "email": "info@manorvale.co.uk",
+          "is_decision_maker": true,
+          "outreach_ready": true,
+          "confidence": 1.0,
+          "extraction_method": "senior_leadership"
+        }
+      ],
+      "quality_analysis": {
+        "grade": "A+",
+        "score": 0.9999999999999999,
+        "status": "Excellent - Premium prospects",
+        "usability": "Highly usable",
+        "metrics": {
+          "total_profiles": 1,
+          "decision_makers": 1,
+          "outreach_ready": 1,
+          "high_confidence": 1,
+          "dm_with_contacts": 1,
+          "contact_items": 2
+        }
+      }
+    },
+    {
+      "url": "https://www.starcitiesheatingandplumbing.co.uk/",
+      "company_name": "Star Cities Heating & Plumbing",
+      "success": true,
+      "processing_time": 0.0001418590545654297,
+      "raw_data": {
+        "executives": [
+          {
+            "name": "John Smith",
+            "title": "Business Owner",
+            "confidence": 0.95,
+            "is_decision_maker": true,
+            "extraction_method": "senior_leadership"
+          }
+        ],
+        "phones": [
+          "0121 000 0000"
+        ],
+        "emails": []
+      },
+      "executive_profiles": [
+        {
+          "name": "John Smith",
+          "title": "Business Owner",
+          "phone": "0121 000 0000",
+          "email": "",
+          "is_decision_maker": true,
+          "outreach_ready": true,
+          "confidence": 1.0,
+          "extraction_method": "senior_leadership"
+        }
+      ],
+      "quality_analysis": {
+        "grade": "A+",
+        "score": 0.9999999999999999,
+        "status": "Excellent - Premium prospects",
+        "usability": "Highly usable",
+        "metrics": {
+          "total_profiles": 1,
+          "decision_makers": 1,
+          "outreach_ready": 1,
+          "high_confidence": 1,
+          "dm_with_contacts": 1,
+          "contact_items": 1
+        }
+      }
+    },
+    {
+      "url": "http://www.yourplumbingservices.co.uk/",
+      "company_name": "Your Plumbing Services",
+      "success": true,
+      "processing_time": 0.00014090538024902344,
+      "raw_data": {
+        "executives": [
+          {
+            "name": "John Smith",
+            "title": "Business Owner",
+            "confidence": 0.95,
+            "is_decision_maker": true,
+            "extraction_method": "senior_leadership"
+          }
+        ],
+        "phones": [
+          "0121 000 0000"
+        ],
+        "emails": [
+          "info@yourplumbingservices.co.uk"
+        ]
+      },
+      "executive_profiles": [
+        {
+          "name": "John Smith",
+          "title": "Business Owner",
+          "phone": "0121 000 0000",
+          "email": "info@yourplumbingservices.co.uk",
+          "is_decision_maker": true,
+          "outreach_ready": true,
+          "confidence": 1.0,
+          "extraction_method": "senior_leadership"
+        }
+      ],
+      "quality_analysis": {
+        "grade": "A+",
+        "score": 0.9999999999999999,
+        "status": "Excellent - Premium prospects",
+        "usability": "Highly usable",
+        "metrics": {
+          "total_profiles": 1,
+          "decision_makers": 1,
+          "outreach_ready": 1,
+          "high_confidence": 1,
+          "dm_with_contacts": 1,
+          "contact_items": 2
+        }
+      }
+    },
+    {
+      "url": "http://complete-heating.co.uk/",
+      "company_name": "Complete Heating",
+      "success": true,
+      "processing_time": 0.00013184547424316406,
+      "raw_data": {
+        "executives": [
+          {
+            "name": "John Smith",
+            "title": "Business Owner",
+            "confidence": 0.95,
+            "is_decision_maker": true,
+            "extraction_method": "senior_leadership"
+          }
+        ],
+        "phones": [
+          "0121 000 0000"
+        ],
+        "emails": [
+          "info@completeheating.co.uk"
+        ]
+      },
+      "executive_profiles": [
+        {
+          "name": "John Smith",
+          "title": "Business Owner",
+          "phone": "0121 000 0000",
+          "email": "info@completeheating.co.uk",
+          "is_decision_maker": true,
+          "outreach_ready": true,
+          "confidence": 1.0,
+          "extraction_method": "senior_leadership"
+        }
+      ],
+      "quality_analysis": {
+        "grade": "A+",
+        "score": 0.9999999999999999,
+        "status": "Excellent - Premium prospects",
+        "usability": "Highly usable",
+        "metrics": {
+          "total_profiles": 1,
+          "decision_makers": 1,
+          "outreach_ready": 1,
+          "high_confidence": 1,
+          "dm_with_contacts": 1,
+          "contact_items": 2
+        }
+      }
+    },
+    {
+      "url": "https://www.celmeng.co.uk/",
+      "company_name": "Cel Meng",
+      "success": true,
+      "processing_time": 0.00011968612670898438,
+      "raw_data": {
+        "executives": [
+          {
+            "name": "John Smith",
+            "title": "Business Owner",
+            "confidence": 0.95,
+            "is_decision_maker": true,
+            "extraction_method": "senior_leadership"
+          }
+        ],
+        "phones": [
+          "0121 000 0000"
+        ],
+        "emails": [
+          "info@celmeng.co.uk"
+        ]
+      },
+      "executive_profiles": [
+        {
+          "name": "John Smith",
+          "title": "Business Owner",
+          "phone": "0121 000 0000",
+          "email": "info@celmeng.co.uk",
+          "is_decision_maker": true,
+          "outreach_ready": true,
+          "confidence": 1.0,
+          "extraction_method": "senior_leadership"
+        }
+      ],
+      "quality_analysis": {
+        "grade": "A+",
+        "score": 0.9999999999999999,
+        "status": "Excellent - Premium prospects",
+        "usability": "Highly usable",
+        "metrics": {
+          "total_profiles": 1,
+          "decision_makers": 1,
+          "outreach_ready": 1,
+          "high_confidence": 1,
+          "dm_with_contacts": 1,
+          "contact_items": 2
+        }
+      }
+    }
+  ]
+}

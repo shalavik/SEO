@@ -1,0 +1,135 @@
+{
+  "test_metadata": {
+    "test_date": "2025-06-18T11:32:43.904669",
+    "test_name": "Phase 5 Simple Validation Test",
+    "companies_tested": 4
+  },
+  "results": [
+    {
+      "company": "MS Heating & Plumbing",
+      "url": "http://www.msheatingandplumbing.co.uk/",
+      "extracted_executives": [
+        "M. Zubair"
+      ],
+      "extracted_phones": [],
+      "extracted_emails": [],
+      "executive_profiles": [
+        {
+          "name": "M. Zubair",
+          "title": "Executive",
+          "phone": "",
+          "email": "",
+          "is_decision_maker": false,
+          "outreach_ready": false
+        }
+      ],
+      "scores": {
+        "executives": 1.0,
+        "phones": 0.0,
+        "emails": 1.0,
+        "overall": 0.6666666666666666
+      }
+    },
+    {
+      "company": "Absolute Plumbing & Heating Solutions",
+      "url": "http://www.absolute-plumbing-solutions.com/",
+      "extracted_executives": [
+        "Mike"
+      ],
+      "extracted_phones": [
+        "0800 772 0326"
+      ],
+      "extracted_emails": [
+        "info@absoluteplumbing-heatingsolutions.co.uk"
+      ],
+      "executive_profiles": [
+        {
+          "name": "Mike",
+          "title": "Executive",
+          "phone": "0800 772 0326",
+          "email": "info@absoluteplumbing-heatingsolutions.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true
+        }
+      ],
+      "scores": {
+        "executives": 1.0,
+        "phones": 0.5,
+        "emails": 1.0,
+        "overall": 0.8333333333333334
+      }
+    },
+    {
+      "company": "Mere Green Gas and Plumbing",
+      "url": "http://www.meregreengasandplumbing.co.uk/",
+      "extracted_executives": [
+        "Gary"
+      ],
+      "extracted_phones": [],
+      "extracted_emails": [],
+      "executive_profiles": [
+        {
+          "name": "Gary",
+          "title": "Executive",
+          "phone": "",
+          "email": "",
+          "is_decision_maker": false,
+          "outreach_ready": false
+        }
+      ],
+      "scores": {
+        "executives": 1.0,
+        "phones": 0.0,
+        "emails": 1.0,
+        "overall": 0.6666666666666666
+      }
+    },
+    {
+      "company": "Star Cities Heating & Plumbing",
+      "url": "https://www.starcitiesheatingandplumbing.co.uk/",
+      "extracted_executives": [
+        "Dave",
+        "Smith",
+        "Dave Smith"
+      ],
+      "extracted_phones": [
+        "078 3323 1442"
+      ],
+      "extracted_emails": [
+        "fixit@starcitiesheatingandplumbing.co.uk"
+      ],
+      "executive_profiles": [
+        {
+          "name": "Dave",
+          "title": "Lead Engineer",
+          "phone": "078 3323 1442",
+          "email": "fixit@starcitiesheatingandplumbing.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true
+        },
+        {
+          "name": "Smith",
+          "title": "Lead Engineer",
+          "phone": "078 3323 1442",
+          "email": "fixit@starcitiesheatingandplumbing.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true
+        },
+        {
+          "name": "Dave Smith",
+          "title": "Lead Engineer",
+          "phone": "078 3323 1442",
+          "email": "fixit@starcitiesheatingandplumbing.co.uk",
+          "is_decision_maker": false,
+          "outreach_ready": true
+        }
+      ],
+      "scores": {
+        "executives": 1.0,
+        "phones": 1.0,
+        "emails": 1.0,
+        "overall": 1.0
+      }
+    }
+  ]
+}

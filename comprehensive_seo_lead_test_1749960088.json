@@ -1,0 +1,70 @@
+{
+  "test_info": {
+    "total_urls": 5,
+    "successful_urls": 0,
+    "failed_urls": 5,
+    "success_rate": "0.0%",
+    "total_processing_time": 0.0,
+    "average_processing_time": 0.0
+  },
+  "aggregate_stats": {
+    "total_companies": 0,
+    "total_executives": 0,
+    "total_emails": 0,
+    "total_phones": 0,
+    "executives_with_emails": 0,
+    "executives_with_phones": 0,
+    "tier_1_executives": 0,
+    "tier_2_executives": 0,
+    "tier_3_executives": 0,
+    "average_executives_per_company": 0
+  },
+  "results": [
+    {
+      "url": "https://macplumbheat.co.uk/",
+      "company_name": "Unknown",
+      "domain": "macplumbheat.co.uk",
+      "processing_time_seconds": 0.0,
+      "status": "failed",
+      "error": "'ContactExtractor' object has no attribute 'extract_company_info'",
+      "timestamp": "2025-06-15T11:01:28.296994"
+    },
+    {
+      "url": "https://ltfplumbing.co.uk/subscription",
+      "company_name": "Unknown",
+      "domain": "ltfplumbing.co.uk",
+      "processing_time_seconds": 0.0,
+      "status": "failed",
+      "error": "'ContactExtractor' object has no attribute 'extract_company_info'",
+      "timestamp": "2025-06-15T11:01:28.297014"
+    },
+    {
+      "url": "http://www.ctmplumbing.co.uk/",
+      "company_name": "Unknown",
+      "domain": "ctmplumbing.co.uk",
+      "processing_time_seconds": 0.0,
+      "status": "failed",
+      "error": "'ContactExtractor' object has no attribute 'extract_company_info'",
+      "timestamp": "2025-06-15T11:01:28.297031"
+    },
+    {
+      "url": "https://kingsheathplumbing.freeindex.co.uk/",
+      "company_name": "Unknown",
+      "domain": "kingsheathplumbing.freeindex.co.uk",
+      "processing_time_seconds": 0.0,
+      "status": "failed",
+      "error": "'ContactExtractor' object has no attribute 'extract_company_info'",
+      "timestamp": "2025-06-15T11:01:28.297047"
+    },
+    {
+      "url": "http://www.perry-plumbing.co.uk/",
+      "company_name": "Unknown",
+      "domain": "perry-plumbing.co.uk",
+      "processing_time_seconds": 0.0,
+      "status": "failed",
+      "error": "'ContactExtractor' object has no attribute 'extract_company_info'",
+      "timestamp": "2025-06-15T11:01:28.297061"
+    }
+  ],
+  "test_timestamp": "2025-06-15T11:01:28.297069"
+}

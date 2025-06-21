@@ -1,0 +1,225 @@
+{
+  "test_metadata": {
+    "test_name": "Direct Executive Discovery Test - 10 URLs",
+    "test_date": "2025-06-17T20:06:02.834190",
+    "total_test_time": 5.371646165847778,
+    "system_version": "Direct Content Analysis System",
+    "discovery_method": "content_analysis_with_business_name_extraction"
+  },
+  "test_configuration": {
+    "urls_tested": 10,
+    "concurrent_limit": 3,
+    "timeout_per_request": 15,
+    "analysis_methods": [
+      "business_name_analysis",
+      "website_content_analysis",
+      "contact_information_extraction"
+    ]
+  },
+  "overall_metrics": {
+    "total_companies_tested": 10,
+    "successful_discoveries": 0,
+    "success_rate_percentage": 0.0,
+    "total_executives_found": 0,
+    "average_executives_per_company": 0.0,
+    "average_processing_time": 1.393388557434082,
+    "total_processing_time": 5.371646165847778,
+    "fastest_discovery": 0.3973388671875,
+    "slowest_discovery": 3.169055938720703
+  },
+  "content_quality_analysis": {
+    "average_quality_score": 0,
+    "sites_with_contact_info": 0,
+    "sites_with_phone": 0,
+    "sites_with_email": 0,
+    "contact_info_rate": 0.0
+  },
+  "individual_results": [
+    {
+      "company_name": "GPJ Plumbing",
+      "company_url": "http://gpj-plumbing.co.uk/",
+      "processing_time": 3.169055938720703,
+      "executives_found": 0,
+      "executives_data": [],
+      "website_health": {
+        "status": "error",
+        "accessible": false,
+        "status_code": null,
+        "content_length": 0,
+        "response_time": 3.169055938720703
+      },
+      "content_analysis": {},
+      "discovery_sources": [],
+      "success": false,
+      "error": "name 're' is not defined"
+    },
+    {
+      "company_name": "Emergency Plumber Services",
+      "company_url": "https://www.emergencyplumber.services/",
+      "processing_time": 1.3706979751586914,
+      "executives_found": 0,
+      "executives_data": [],
+      "website_health": {
+        "status": "error",
+        "accessible": false,
+        "status_code": null,
+        "content_length": 0,
+        "response_time": 1.3706979751586914
+      },
+      "content_analysis": {},
+      "discovery_sources": [],
+      "success": false,
+      "error": "name 're' is not defined"
+    },
+    {
+      "company_name": "247 Plumbing and Gas",
+      "company_url": "https://247plumbingandgas.co.uk/",
+      "processing_time": 1.0931529998779297,
+      "executives_found": 0,
+      "executives_data": [],
+      "website_health": {
+        "status": "error",
+        "accessible": false,
+        "status_code": null,
+        "content_length": 0,
+        "response_time": 1.0931529998779297
+      },
+      "content_analysis": {},
+      "discovery_sources": [],
+      "success": false,
+      "error": "name 're' is not defined"
+    },
+    {
+      "company_name": "Hancox Gas and Plumbing",
+      "company_url": "http://www.hancoxgasandplumbing.co.uk/",
+      "processing_time": 2.60457181930542,
+      "executives_found": 0,
+      "executives_data": [],
+      "website_health": {
+        "status": "error",
+        "accessible": false,
+        "status_code": null,
+        "content_length": 0,
+        "response_time": 2.60457181930542
+      },
+      "content_analysis": {},
+      "discovery_sources": [],
+      "success": false,
+      "error": "name 're' is not defined"
+    },
+    {
+      "company_name": "Metro Plumb Birmingham",
+      "company_url": "https://metroplumb.co.uk/locations/metro-plumb-birmingham/",
+      "processing_time": 1.1051719188690186,
+      "executives_found": 0,
+      "executives_data": [],
+      "website_health": {
+        "status": "error",
+        "accessible": false,
+        "status_code": null,
+        "content_length": 0,
+        "response_time": 1.1051719188690186
+      },
+      "content_analysis": {},
+      "discovery_sources": [],
+      "success": false,
+      "error": "name 're' is not defined"
+    },
+    {
+      "company_name": "TJ Works",
+      "company_url": "https://www.tjworks.co.uk/",
+      "processing_time": 0.46028685569763184,
+      "executives_found": 0,
+      "executives_data": [],
+      "website_health": {
+        "status": "error",
+        "accessible": false,
+        "status_code": null,
+        "content_length": 0,
+        "response_time": 0.46028685569763184
+      },
+      "content_analysis": {},
+      "discovery_sources": [],
+      "success": false,
+      "error": "Cannot connect to host www.tjworks.co.uk:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.tjworks.co.uk'. (_ssl.c:1129)\")]"
+    },
+    {
+      "company_name": "Afterglow Heating",
+      "company_url": "https://afterglowheating.co.uk/",
+      "processing_time": 1.5317480564117432,
+      "executives_found": 0,
+      "executives_data": [],
+      "website_health": {
+        "status": "error",
+        "accessible": false,
+        "status_code": null,
+        "content_length": 0,
+        "response_time": 1.5317480564117432
+      },
+      "content_analysis": {},
+      "discovery_sources": [],
+      "success": false,
+      "error": "name 're' is not defined"
+    },
+    {
+      "company_name": "AS Plumbing Heating",
+      "company_url": "http://asplumbingheating.com/",
+      "processing_time": 0.8685972690582275,
+      "executives_found": 0,
+      "executives_data": [],
+      "website_health": {
+        "status": "error",
+        "accessible": false,
+        "status_code": null,
+        "content_length": 0,
+        "response_time": 0.8685972690582275
+      },
+      "content_analysis": {},
+      "discovery_sources": [],
+      "success": false,
+      "error": "name 're' is not defined"
+    },
+    {
+      "company_name": "MKH Plumbing Birmingham",
+      "company_url": "https://www.facebook.com/MKHPBirmingham/",
+      "processing_time": 0.3973388671875,
+      "executives_found": 0,
+      "executives_data": [],
+      "website_health": {
+        "status": "error",
+        "accessible": false,
+        "status_code": null,
+        "content_length": 0,
+        "response_time": 0.3973388671875
+      },
+      "content_analysis": {},
+      "discovery_sources": [],
+      "success": false,
+      "error": "name 're' is not defined"
+    },
+    {
+      "company_name": "Maximum Heat Emergency Plumber",
+      "company_url": "http://www.maximumheatemergencyplumberbirmingham.co.uk/",
+      "processing_time": 1.333263874053955,
+      "executives_found": 0,
+      "executives_data": [],
+      "website_health": {
+        "status": "error",
+        "accessible": false,
+        "status_code": null,
+        "content_length": 0,
+        "response_time": 1.333263874053955
+      },
+      "content_analysis": {},
+      "discovery_sources": [],
+      "success": false,
+      "error": "name 're' is not defined"
+    }
+  ],
+  "summary_analysis": {
+    "websites_with_executives": 0,
+    "websites_accessible": 0,
+    "average_content_quality": 0.0,
+    "discovery_method_breakdown": {}
+  }
+}

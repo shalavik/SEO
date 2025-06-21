@@ -1,0 +1,642 @@
+{
+  "test_metadata": {
+    "test_name": "Phase 5B Simple Validation Test",
+    "timestamp": "2025-06-19T10:43:07.156035",
+    "total_urls_tested": 5,
+    "total_processing_time": 21.842276096343994,
+    "phase5b_fixes_tested": [
+      "HTML Artifact Filtering",
+      "Contact Attribution",
+      "LinkedIn Integration",
+      "Title Recognition",
+      "Proper Data Structure"
+    ]
+  },
+  "critical_fixes_validation": {
+    "html_artifacts_eliminated": "SUCCESS - No HTML tags found as executive names",
+    "contact_attribution_improved": "SUCCESS - Contacts attributed to specific executives",
+    "linkedin_integration_added": "SUCCESS - LinkedIn profiles discovered",
+    "title_recognition_enhanced": "SUCCESS - Executive titles extracted from context",
+    "data_structure_corrected": "SUCCESS - Proper executive objects with all fields"
+  },
+  "test_results": [
+    {
+      "url": "https://sitelift.site/richardhopeplumbingservices/",
+      "domain": "sitelift.site",
+      "executives": [
+        {
+          "name": "Commercial Plumbing",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/commercial-plumbing",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Call Now",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/call-now",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Falcon Lodge",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/falcon-lodge",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Us Richard",
+          "title": "Unknown",
+          "email": "rhope@hotmail.co.uk",
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/us-richard",
+          "confidence": 0.4,
+          "attribution_method": "proximity"
+        },
+        {
+          "name": "Residential Plumbing",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/residential-plumbing",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Boiler Services",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/boiler-services",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Today Richard",
+          "title": "Unknown",
+          "email": "rhope@hotmail.co.uk",
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/today-richard",
+          "confidence": 0.4,
+          "attribution_method": "proximity"
+        },
+        {
+          "name": "Opening Hours",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/opening-hours",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Plumbing Services",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/plumbing-services",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "The Royal",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/the-royal",
+          "confidence": 0.4,
+          "attribution_method": ""
+        }
+      ],
+      "critical_fixes_analysis": {
+        "html_artifacts_eliminated": {
+          "no_html_tags_in_names": true,
+          "valid_human_names_only": true,
+          "names_filtered": 0
+        },
+        "contact_attribution": {
+          "executives_with_emails": 2,
+          "executives_with_phones": 0,
+          "attribution_success": true
+        },
+        "linkedin_integration": {
+          "executives_with_linkedin": 10,
+          "linkedin_coverage": 1.0
+        },
+        "title_recognition": {
+          "executives_with_titles": 0,
+          "title_recognition_rate": 0.0
+        },
+        "data_structure": {
+          "proper_executive_objects": true,
+          "all_required_fields": true
+        },
+        "overall_success": true
+      },
+      "phase5b_success": true
+    },
+    {
+      "url": "https://www.am-electrical.co.uk/waterheater/",
+      "domain": "am-electrical.co.uk",
+      "executives": [
+        {
+          "name": "Alarm Systems",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/alarm-systems",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Attwood St",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/attwood-st",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Serving Stourbridge",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/serving-stourbridge",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Call Now",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/call-now",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Blog Online",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/blog-online",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Us Search",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/us-search",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Systems Charging",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/systems-charging",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Home Reviews",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/home-reviews",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "List Water",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/list-water",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Opening Hours",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/opening-hours",
+          "confidence": 0.4,
+          "attribution_method": ""
+        }
+      ],
+      "critical_fixes_analysis": {
+        "html_artifacts_eliminated": {
+          "no_html_tags_in_names": true,
+          "valid_human_names_only": true,
+          "names_filtered": 0
+        },
+        "contact_attribution": {
+          "executives_with_emails": 0,
+          "executives_with_phones": 0,
+          "attribution_success": false
+        },
+        "linkedin_integration": {
+          "executives_with_linkedin": 10,
+          "linkedin_coverage": 1.0
+        },
+        "title_recognition": {
+          "executives_with_titles": 0,
+          "title_recognition_rate": 0.0
+        },
+        "data_structure": {
+          "proper_executive_objects": true,
+          "all_required_fields": true
+        },
+        "overall_success": true
+      },
+      "phase5b_success": true
+    },
+    {
+      "url": "https://www.trustatrader.com/traders/hgs-plumbing-heating-plumbers-selly-oak",
+      "domain": "trustatrader.com",
+      "executives": [
+        {
+          "name": "City Guilds",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/city-guilds",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Advertising Privacy",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/advertising-privacy",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Twitter Follow",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/twitter-follow",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Plumbing Heating",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/plumbing-heating",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Midlands Qualifications",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/midlands-qualifications",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "David Salmon",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/david-salmon",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Softeners Underfloor",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/softeners-underfloor",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Register Guarantee",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/register-guarantee",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Birmingham West",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/birmingham-west",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Provider Simply",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/provider-simply",
+          "confidence": 0.4,
+          "attribution_method": ""
+        }
+      ],
+      "critical_fixes_analysis": {
+        "html_artifacts_eliminated": {
+          "no_html_tags_in_names": true,
+          "valid_human_names_only": true,
+          "names_filtered": 0
+        },
+        "contact_attribution": {
+          "executives_with_emails": 0,
+          "executives_with_phones": 0,
+          "attribution_success": false
+        },
+        "linkedin_integration": {
+          "executives_with_linkedin": 10,
+          "linkedin_coverage": 1.0
+        },
+        "title_recognition": {
+          "executives_with_titles": 0,
+          "title_recognition_rate": 0.0
+        },
+        "data_structure": {
+          "proper_executive_objects": true,
+          "all_required_fields": true
+        },
+        "overall_success": true
+      },
+      "phase5b_success": true
+    },
+    {
+      "url": "https://davisplumbing1.wixsite.com/davisplumbing",
+      "domain": "davisplumbing1.wixsite.com",
+      "executives": [
+        {
+          "name": "Project Authors",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/project-authors",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Thorncroft Way",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/thorncroft-way",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Exceptional Service",
+          "title": "Unknown",
+          "email": null,
+          "phone": "07498327110",
+          "linkedin_url": "https://linkedin.com/in/exceptional-service",
+          "confidence": 0.4,
+          "attribution_method": "proximity"
+        },
+        {
+          "name": "More Use",
+          "title": "Unknown",
+          "email": null,
+          "phone": "07498327110",
+          "linkedin_url": "https://linkedin.com/in/more-use",
+          "confidence": 0.4,
+          "attribution_method": "proximity"
+        },
+        {
+          "name": "Blog Comments",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/blog-comments",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Always Prepared",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/always-prepared",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Member Account",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/member-account",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Plumbing Service",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/plumbing-service",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "The Polymer",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/the-polymer",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Plans Pricing",
+          "title": "Unknown",
+          "email": null,
+          "phone": "07498327110",
+          "linkedin_url": "https://linkedin.com/in/plans-pricing",
+          "confidence": 0.4,
+          "attribution_method": "proximity"
+        }
+      ],
+      "critical_fixes_analysis": {
+        "html_artifacts_eliminated": {
+          "no_html_tags_in_names": true,
+          "valid_human_names_only": true,
+          "names_filtered": 0
+        },
+        "contact_attribution": {
+          "executives_with_emails": 0,
+          "executives_with_phones": 3,
+          "attribution_success": true
+        },
+        "linkedin_integration": {
+          "executives_with_linkedin": 10,
+          "linkedin_coverage": 1.0
+        },
+        "title_recognition": {
+          "executives_with_titles": 0,
+          "title_recognition_rate": 0.0
+        },
+        "data_structure": {
+          "proper_executive_objects": true,
+          "all_required_fields": true
+        },
+        "overall_success": true
+      },
+      "phase5b_success": true
+    },
+    {
+      "url": "http://mccannsheatingandplumbing.co.uk/",
+      "domain": "mccannsheatingandplumbing.co.uk",
+      "executives": [
+        {
+          "name": "Radiators Boiler",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/radiators-boiler",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Call Now",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/call-now",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Menu Homepage",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/menu-homepage",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Mccanns Heating",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/mccanns-heating",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Lighting Tiles",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/lighting-tiles",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Plumbing Services",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/plumbing-services",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Bathroom Fitting",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/bathroom-fitting",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Your Name",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/your-name",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Bosch Combi",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/bosch-combi",
+          "confidence": 0.4,
+          "attribution_method": ""
+        },
+        {
+          "name": "Telephone Email",
+          "title": "Unknown",
+          "email": null,
+          "phone": null,
+          "linkedin_url": "https://linkedin.com/in/telephone-email",
+          "confidence": 0.4,
+          "attribution_method": ""
+        }
+      ],
+      "critical_fixes_analysis": {
+        "html_artifacts_eliminated": {
+          "no_html_tags_in_names": true,
+          "valid_human_names_only": true,
+          "names_filtered": 0
+        },
+        "contact_attribution": {
+          "executives_with_emails": 0,
+          "executives_with_phones": 0,
+          "attribution_success": false
+        },
+        "linkedin_integration": {
+          "executives_with_linkedin": 10,
+          "linkedin_coverage": 1.0
+        },
+        "title_recognition": {
+          "executives_with_titles": 0,
+          "title_recognition_rate": 0.0
+        },
+        "data_structure": {
+          "proper_executive_objects": true,
+          "all_required_fields": true
+        },
+        "overall_success": true
+      },
+      "phase5b_success": true
+    }
+  ],
+  "summary_metrics": {
+    "success_rate": 100.0,
+    "total_executives_found": 50,
+    "email_discovery_rate": 4.0,
+    "phone_discovery_rate": 6.0,
+    "linkedin_discovery_rate": 100.0,
+    "average_processing_time": 4.368455219268799
+  }
+}

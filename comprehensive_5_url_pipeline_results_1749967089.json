@@ -1,0 +1,52 @@
+{
+  "test_info": {
+    "name": "Comprehensive 5-URL Pipeline Test",
+    "timestamp": "2025-06-15T12:58:09.057530",
+    "total_urls": 5,
+    "total_processing_time_seconds": 0.03,
+    "average_time_per_url": 0.01
+  },
+  "summary": {
+    "successful_processes": 0,
+    "failed_processes": 5,
+    "total_executives_found": 0,
+    "total_contacts_found": 0
+  },
+  "results": [
+    {
+      "url": "http://gpj-plumbing.co.uk/",
+      "processing_time_seconds": 0.03,
+      "timestamp": "2025-06-15T12:58:09.055549",
+      "error": "'name' is an invalid keyword argument for UKCompany",
+      "status": "error"
+    },
+    {
+      "url": "https://www.emergencyplumber.services/",
+      "processing_time_seconds": 0.0,
+      "timestamp": "2025-06-15T12:58:09.056304",
+      "error": "'name' is an invalid keyword argument for UKCompany",
+      "status": "error"
+    },
+    {
+      "url": "https://247plumbingandgas.co.uk/",
+      "processing_time_seconds": 0.0,
+      "timestamp": "2025-06-15T12:58:09.056820",
+      "error": "'name' is an invalid keyword argument for UKCompany",
+      "status": "error"
+    },
+    {
+      "url": "http://www.hancoxgasandplumbing.co.uk/",
+      "processing_time_seconds": 0.0,
+      "timestamp": "2025-06-15T12:58:09.057195",
+      "error": "'name' is an invalid keyword argument for UKCompany",
+      "status": "error"
+    },
+    {
+      "url": "https://metroplumb.co.uk/locations/metro-plumb-birmingham/",
+      "processing_time_seconds": 0.0,
+      "timestamp": "2025-06-15T12:58:09.057528",
+      "error": "'name' is an invalid keyword argument for UKCompany",
+      "status": "error"
+    }
+  ]
+}

@@ -11,9 +11,12 @@ from datetime import datetime
 from enum import Enum
 from typing import Dict, List, Optional, Any
 from pydantic import BaseModel, HttpUrl, Field, validator
-from sqlalchemy import Column, Integer, String, Float, Text, DateTime, JSON, Boolean
+from sqlalchemy import Column, Integer, String, Float, Text, DateTime, JSON, Boolean, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
+from sqlalchemy.dialects.postgresql import UUID
+import uuid
+from dataclasses import dataclass, field
 
 Base = declarative_base()
 
@@ -104,6 +107,9 @@ class UKCompany(Base):
     error_message = Column(Text)
     retry_count = Column(Integer, default=0)
 
+    # Executives relationship
+    executives = relationship("ExecutiveContactDB", back_populates="company")
+
 class ProcessingStatus(Base):
     """Track processing status across pipeline stages"""
     __tablename__ = "processing_status"
@@ -178,6 +184,12 @@ class LeadQualification(BaseModel):
     tier_label: str
     factor_breakdown: Dict[str, FactorBreakdown]
     confidence: float = Field(ge=0.0, le=1.0, default=0.8)
+    
+    # Additional fields for production pipeline compatibility
+    estimated_value: Optional[float] = None
+    urgency: Optional[str] = None
+    talking_points: List[str] = []
+    recommended_actions: List[str] = []
 
 class OutreachIntelligence(BaseModel):
     """Outreach automation intelligence"""
@@ -210,11 +222,11 @@ class PipelineMetrics(BaseModel):
 
 # Lead scoring constants based on creative design decisions
 SCORING_WEIGHTS = {
-    'seo_opportunity': 0.35,      # SEO improvement potential
-    'business_size': 0.25,        # Company size and revenue potential  
-    'sector_fit': 0.20,          # SEO importance in industry
-    'growth_indicators': 0.10,    # Business growth signals
-    'contact_quality': 0.10       # Decision maker accessibility
+    'seo': 0.35,                 # SEO improvement potential (renamed for consistency)
+    'business': 0.25,            # Company size and revenue potential  
+    'sector': 0.20,              # SEO importance in industry
+    'growth': 0.10,              # Business growth signals
+    'contact': 0.10              # Decision maker accessibility
 }
 
 SECTOR_SEO_DEPENDENCY = {
@@ -238,4 +250,144 @@ SENIOR_ROLE_PATTERNS = {
         'patterns': ['manager', 'lead', 'senior', 'supervisor'],
         'confidence_multiplier': 0.7
     }
-} 
+}
+
+# Executive Contact Models
+@dataclass
+class ExecutiveContact:
+    """Enhanced contact model for decision makers"""
+    # Identity (required fields first)
+    first_name: str
+    last_name: str
+    full_name: str
+    title: str
+    seniority_tier: str  # tier_1, tier_2, tier_3
+    company_name: str
+    company_domain: str
+    
+    # Contact Details (optional fields with defaults)
+    email: Optional[str] = None
+    email_confidence: float = 0.0
+    phone: Optional[str] = None
+    phone_confidence: float = 0.0
+    linkedin_url: Optional[str] = None
+    linkedin_verified: bool = False
+    
+    # Discovery Metadata
+    discovery_sources: List[str] = field(default_factory=list)  # ['website', 'linkedin']
+    discovery_method: str = ""
+    data_completeness_score: float = 0.0
+    overall_confidence: float = 0.0
+    processing_time_ms: int = 0
+    extracted_at: datetime = field(default_factory=datetime.utcnow)
+
+@dataclass 
+class ExecutiveDiscoveryResult:
+    """Result of executive discovery process"""
+    company_id: str
+    company_name: str
+    company_domain: str
+    executives_found: List[ExecutiveContact]
+    primary_decision_maker: Optional[ExecutiveContact]
+    discovery_sources: List[str]
+    total_processing_time: float
+    success_rate: float
+    discovery_timestamp: datetime = field(default_factory=datetime.utcnow)
+
+# Executive Role Patterns
+EXECUTIVE_PATTERNS = {
+    'tier_1': [
+        'Chief Executive Officer', 'CEO', 'Managing Director', 'MD',
+        'Founder', 'Co-Founder', 'Owner', 'Principal', 'President'
+    ],
+    'tier_2': [
+        'Director', 'Executive Director', 'Operations Director',
+        'Sales Director', 'Marketing Director', 'Finance Director',
+        'Commercial Director', 'Business Development Director'
+    ],
+    'tier_3': [
+        'Manager', 'General Manager', 'Operations Manager',
+        'Senior Manager', 'Team Lead', 'Department Head',
+        'Business Manager', 'Regional Manager'
+    ]
+}
+
+# LinkedIn Discovery Models
+@dataclass
+class LinkedInProfile:
+    """LinkedIn profile data structure"""
+    profile_url: str
+    full_name: str
+    title: str
+    company_name: str
+    location: Optional[str] = None
+    experience: Optional[str] = None
+    education: Optional[str] = None
+    connections: Optional[int] = None
+    profile_image_url: Optional[str] = None
+    verified: bool = False
+    extracted_at: datetime = field(default_factory=datetime.utcnow)
+
+@dataclass
+class LinkedInCompanyData:
+    """LinkedIn company page data"""
+    company_url: str
+    company_name: str
+    industry: Optional[str] = None
+    size: Optional[str] = None
+    location: Optional[str] = None
+    website: Optional[str] = None
+    description: Optional[str] = None
+    employee_count: Optional[int] = None
+    employees: List[LinkedInProfile] = field(default_factory=list)
+    executives: List[LinkedInProfile] = field(default_factory=list)
+
+# Website Discovery Models  
+@dataclass
+class WebsiteExecutive:
+    """Executive found on company website"""
+    full_name: str
+    title: str
+    bio: Optional[str] = None
+    email: Optional[str] = None
+    phone: Optional[str] = None
+    image_url: Optional[str] = None
+    page_url: str = ""
+    confidence: float = 0.0
+
+# Enhanced Database Models (extend existing UKCompany)
+class ExecutiveContactDB(Base):
+    """Database model for executive contacts"""
+    __tablename__ = "executive_contacts"
+    
+    id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    company_id = Column(UUID(as_uuid=True), ForeignKey('uk_companies.id'), nullable=False)
+    
+    # Identity
+    first_name = Column(String(100), nullable=False)
+    last_name = Column(String(100), nullable=False)
+    full_name = Column(String(200), nullable=False)
+    title = Column(String(200), nullable=False)
+    seniority_tier = Column(String(20), nullable=False)  # tier_1, tier_2, tier_3
+    
+    # Contact Details
+    email = Column(String(255))
+    email_confidence = Column(Float, default=0.0)
+    phone = Column(String(50))
+    phone_confidence = Column(Float, default=0.0)
+    linkedin_url = Column(String(500))
+    linkedin_verified = Column(Boolean, default=False)
+    
+    # Discovery Metadata
+    discovery_sources = Column(JSON)  # ['website', 'linkedin']
+    discovery_method = Column(String(100))
+    data_completeness_score = Column(Float, default=0.0)
+    overall_confidence = Column(Float, default=0.0)
+    processing_time_ms = Column(Integer, default=0)
+    
+    # Timestamps
+    extracted_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    
+    # Relationships
+    company = relationship("UKCompany", back_populates="executives") 

@@ -1,0 +1,210 @@
+{
+  "test_summary": {
+    "urls_tested": 6,
+    "test_timestamp": "2025-06-19T23:29:12.881325",
+    "total_executives_found": 3,
+    "total_emails_found": 1,
+    "total_phones_found": 1,
+    "total_titles_extracted": 3,
+    "system_performance": {
+      "average_processing_time": 3.4404714902242026,
+      "executive_discovery_rate": 0.5,
+      "contact_attribution_rate": 0.6666666666666666,
+      "title_extraction_rate": 1.0,
+      "overall_quality_score": 0.7222222222222222
+    }
+  },
+  "detailed_results": [
+    {
+      "url": "http://www.mjmplumbingservices.uk/",
+      "content_length": 160078,
+      "processing_times": {
+        "fetch_time": 0.3534069061279297,
+        "name_extraction_time": 0.003038167953491211,
+        "contact_attribution_time": 0,
+        "title_extraction_time": 0,
+        "total_time": 0.3564600944519043
+      },
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0,
+        "titles_extracted": 0,
+        "linkedin_profiles": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "http://rnplumbingandheating.co.uk/",
+      "content_length": 46145,
+      "processing_times": {
+        "fetch_time": 2.217471122741699,
+        "name_extraction_time": 0.0011627674102783203,
+        "contact_attribution_time": 0.03135514259338379,
+        "title_extraction_time": 0.019541025161743164,
+        "total_time": 10.755204200744629
+      },
+      "extraction_results": {
+        "executives_found": 2,
+        "emails_attributed": 0,
+        "phones_attributed": 0,
+        "titles_extracted": 2,
+        "linkedin_profiles": 0
+      },
+      "executives_data": [
+        {
+          "name": "Michael Torbert",
+          "title": "Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_scores": {
+            "name": 0.6,
+            "title": 0.3,
+            "email": 0.0,
+            "phone": 0.0
+          }
+        },
+        {
+          "name": "Low Price",
+          "title": "Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_scores": {
+            "name": 0.5,
+            "title": 0.3,
+            "email": 0.0,
+            "phone": 0.0
+          }
+        }
+      ],
+      "semantic_validation": [
+        {
+          "name": "Michael Torbert",
+          "confidence": 0.6,
+          "validation_reasons": [
+            "'Michael' found in UK first names database",
+            "Has proper name characteristics"
+          ],
+          "context_snippet": "10/favicon.ico\" type=\"image/x-icon\"/>\n\t    <title>Plumber in Northfield | Richards Plumbing and Heat..."
+        },
+        {
+          "name": "Low Price",
+          "confidence": 0.5,
+          "validation_reasons": [
+            "'Price' found in UK surnames database",
+            "Has proper name characteristics"
+          ],
+          "context_snippet": "></span>\r\n                </span>\r\n            </div>\r\n        \r\n            <div class=\"text-icon-t..."
+        }
+      ]
+    },
+    {
+      "url": "http://www.andrewrileyheating.co.uk/",
+      "content_length": 101337,
+      "processing_times": {
+        "fetch_time": 1.2414889335632324,
+        "name_extraction_time": 0.002229928970336914,
+        "contact_attribution_time": 0.03457999229431152,
+        "title_extraction_time": 0.07039713859558105,
+        "total_time": 6.297875881195068
+      },
+      "extraction_results": {
+        "executives_found": 1,
+        "emails_attributed": 1,
+        "phones_attributed": 1,
+        "titles_extracted": 1,
+        "linkedin_profiles": 0
+      },
+      "executives_data": [
+        {
+          "name": "Andrew Riley",
+          "title": "Director",
+          "email": "admin@andrewrileyheating.co.uk",
+          "phone": "01214397129",
+          "linkedin_url": null,
+          "confidence_scores": {
+            "name": 0.9500000000000001,
+            "title": 0.3,
+            "email": 0.7,
+            "phone": 0.6
+          }
+        }
+      ],
+      "semantic_validation": [
+        {
+          "name": "Andrew Riley",
+          "confidence": 0.9500000000000001,
+          "validation_reasons": [
+            "'Andrew' found in UK first names database",
+            "'Riley' found in UK surnames database",
+            "Has proper name characteristics"
+          ],
+          "context_snippet": ".co.uk/\"/>\r\n  <script type=\"application/ld+json\">\r\n\r\n\n    {\n        \"@context\" : \"https://schema.org..."
+        }
+      ]
+    },
+    {
+      "url": "http://www.boldmereplumbingservices.co.uk/",
+      "content_length": 7985,
+      "processing_times": {
+        "fetch_time": 1.2723429203033447,
+        "name_extraction_time": 0.0001819133758544922,
+        "contact_attribution_time": 0.03457999229431152,
+        "title_extraction_time": 0.07039713859558105,
+        "total_time": 1.2725367546081543
+      },
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0,
+        "titles_extracted": 0,
+        "linkedin_profiles": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "http://jmplumbingheating.co.uk/",
+      "content_length": 79615,
+      "processing_times": {
+        "fetch_time": 1.610666275024414,
+        "name_extraction_time": 0.0016629695892333984,
+        "contact_attribution_time": 0.03457999229431152,
+        "title_extraction_time": 0.07039713859558105,
+        "total_time": 1.6123411655426025
+      },
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0,
+        "titles_extracted": 0,
+        "linkedin_profiles": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "https://www.nunnplumbingandgas.co.uk/contact",
+      "content_length": 397305,
+      "processing_times": {
+        "fetch_time": 0.3423480987548828,
+        "name_extraction_time": 0.006051063537597656,
+        "contact_attribution_time": 0.03457999229431152,
+        "title_extraction_time": 0.07039713859558105,
+        "total_time": 0.34841084480285645
+      },
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0,
+        "titles_extracted": 0,
+        "linkedin_profiles": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    }
+  ]
+}

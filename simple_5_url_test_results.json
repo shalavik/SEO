@@ -1,0 +1,156 @@
+{
+  "test_info": {
+    "test_name": "Simple 5 URL Test (No Business Directory)",
+    "timestamp": "2025-06-14T21:13:41.335467",
+    "total_processing_time": 10.88,
+    "urls_tested": 5
+  },
+  "processing_stats": {
+    "total_companies": 5,
+    "successful_companies": 4,
+    "total_executives": 0,
+    "total_emails": 5,
+    "total_phones": 11,
+    "total_linkedin": 0,
+    "success_rate": 80.0,
+    "avg_processing_time": 2.1340000000000003
+  },
+  "results": [
+    {
+      "url": "https://macplumbheat.co.uk/",
+      "status": "success",
+      "processing_time": 2.82,
+      "company": {
+        "name": "Expert In Heating &amp; Plumbing In Birmingham | Local Heating &amp; Plumbing Near Me",
+        "domain": "macplumbheat.co.uk",
+        "industry": "Plumbing & Heating",
+        "location": {
+          "country": "UK"
+        },
+        "description": "Company website: https://macplumbheat.co.uk/",
+        "phone_numbers": [
+          "0121 448 4356",
+          "0121 448 4356",
+          "0121 448 4356"
+        ],
+        "emails": [
+          "info@macplumbingheating.co.uk",
+          "info@macplumbingheating.co.uk"
+        ],
+        "executives": []
+      },
+      "metrics": {
+        "executives_found": 0,
+        "emails_found": 2,
+        "phones_found": 3,
+        "linkedin_profiles": 0
+      }
+    },
+    {
+      "url": "https://ltfplumbing.co.uk/subscription",
+      "status": "success",
+      "processing_time": 1.75,
+      "company": {
+        "name": "Subscription | LTF Plumbing",
+        "domain": "ltfplumbing.co.uk",
+        "industry": "Plumbing & Heating",
+        "location": {
+          "country": "UK"
+        },
+        "description": "Company website: https://ltfplumbing.co.uk/subscription",
+        "phone_numbers": [
+          "07577304279",
+          "07577304279"
+        ],
+        "emails": [
+          "contact@sansoxygen.com",
+          "filler@godaddy.com",
+          "filler@godaddy.com"
+        ],
+        "executives": []
+      },
+      "metrics": {
+        "executives_found": 0,
+        "emails_found": 3,
+        "phones_found": 2,
+        "linkedin_profiles": 0
+      }
+    },
+    {
+      "url": "http://www.ctmplumbing.co.uk/",
+      "status": "error",
+      "error": "Failed to extract basic company info",
+      "processing_time": 0,
+      "company": null,
+      "metrics": {
+        "executives_found": 0,
+        "emails_found": 0,
+        "phones_found": 0,
+        "linkedin_profiles": 0
+      }
+    },
+    {
+      "url": "https://kingsheathplumbing.freeindex.co.uk/",
+      "status": "success",
+      "processing_time": 3.9,
+      "company": {
+        "name": "Kings Heath Plumbing, Birmingham | 41 reviews | Plumber - FreeIndex",
+        "domain": "kingsheathplumbing.freeindex.co.uk",
+        "industry": "Plumbing & Heating",
+        "location": {
+          "country": "UK"
+        },
+        "description": "Company website: https://kingsheathplumbing.freeindex.co.uk/",
+        "phone_numbers": [
+          "01212427265",
+          "0170113170850",
+          "0170124150933"
+        ],
+        "emails": [],
+        "executives": []
+      },
+      "metrics": {
+        "executives_found": 0,
+        "emails_found": 0,
+        "phones_found": 3,
+        "linkedin_profiles": 0
+      }
+    },
+    {
+      "url": "http://www.perry-plumbing.co.uk/",
+      "status": "success",
+      "processing_time": 2.2,
+      "company": {
+        "name": "Your trusted and recommended Gas Safe plumbers in Sutton Coldfield, Birmingham",
+        "domain": "perry-plumbing.co.uk",
+        "industry": "Plumbing & Heating",
+        "location": {
+          "country": "UK"
+        },
+        "description": "Company website: http://www.perry-plumbing.co.uk/",
+        "phone_numbers": [
+          "0121 387 0304",
+          "0888587968632",
+          "01213870304"
+        ],
+        "emails": [],
+        "executives": []
+      },
+      "metrics": {
+        "executives_found": 0,
+        "emails_found": 0,
+        "phones_found": 3,
+        "linkedin_profiles": 0
+      }
+    }
+  ],
+  "summary": {
+    "companies_processed": 4,
+    "executives_discovered": 0,
+    "emails_discovered": 5,
+    "phone_numbers_discovered": 11,
+    "linkedin_profiles_found": 0,
+    "success_rate_percent": 80.0,
+    "average_processing_time_seconds": 2.13
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "test_info": {
+    "name": "Final 5-URL Pipeline Test",
+    "timestamp": "2025-06-15T13:24:27.974715",
+    "total_companies": 5,
+    "total_processing_time_seconds": 565.93,
+    "average_time_per_company": 113.19
+  },
+  "summary": {
+    "successful_processes": 5,
+    "failed_processes": 0,
+    "total_executives_found": 0,
+    "total_contacts_found": 0,
+    "average_seo_score": 37.0,
+    "average_lead_score": 70.78
+  },
+  "results": [
+    {
+      "url": "http://gpj-plumbing.co.uk/",
+      "company_name": "GPJ Plumbing",
+      "company_id": "222cf48d-5b56-4daa-bdbf-09f846e69bbb",
+      "processing_time_seconds": 159.35,
+      "timestamp": "2025-06-15T13:17:41.391040",
+      "seo_analysis": {
+        "status": "completed",
+        "overall_score": 45.0,
+        "mobile_friendly": false,
+        "page_speed_score": 0.0,
+        "ssl_certificate": true,
+        "critical_issues": [
+          "Multiple H1 tags detected"
+        ]
+      },
+      "contact_extraction": {
+        "status": "completed",
+        "contacts_found": 0,
+        "contacts": []
+      },
+      "executive_discovery": {
+        "status": "completed",
+        "executives_found": 0,
+        "executives": [],
+        "discovery_stats": {
+          "total_processing_time": 76.90193104743958,
+          "success_rate": 0.0
+        }
+      },
+      "lead_qualification": {
+        "status": "completed",
+        "overall_score": 69.2,
+        "priority_tier": "C",
+        "tier_label": "C",
+        "estimated_value": 1500.0,
+        "urgency": "medium",
+        "talking_points": [
+          "I noticed GPJ Plumbing has significant SEO improvement opportunities that could drive more local customers",
+          "Your website's loading speed could be costing you potential customers - we can help improve this significantly",
+          "With most customers searching on mobile, optimizing GPJ Plumbing's mobile experience could boost your visibility"
+        ],
+        "recommended_actions": [
+          "Add to nurture sequence",
+          "Send educational content about SEO benefits",
+          "Schedule follow-up in 2 weeks",
+          "Highlight critical SEO issues in initial outreach"
+        ]
+      },
+      "status": "success"
+    },
+    {
+      "url": "https://www.emergencyplumber.services/",
+      "company_name": "Emergency Plumber Services",
+      "company_id": "0041a7c3-21ae-4632-84b3-aa8701f96da6",
+      "processing_time_seconds": 72.08,
+      "timestamp": "2025-06-15T13:18:53.472865",
+      "seo_analysis": {
+        "status": "completed",
+        "overall_score": 20.0,
+        "mobile_friendly": false,
+        "page_speed_score": 0.0,
+        "ssl_certificate": true,
+        "critical_issues": [
+          "Missing meta description",
+          "Missing H1 tag"
+        ]
+      },
+      "contact_extraction": {
+        "status": "completed",
+        "contacts_found": 0,
+        "contacts": []
+      },
+      "executive_discovery": {
+        "status": "completed",
+        "executives_found": 0,
+        "executives": [],
+        "discovery_stats": {
+          "total_processing_time": 21.99461603164673,
+          "success_rate": 0.0
+        }
+      },
+      "lead_qualification": {
+        "status": "completed",
+        "overall_score": 76.5,
+        "priority_tier": "B",
+        "tier_label": "B",
+        "estimated_value": 3000.0,
+        "urgency": "high",
+        "talking_points": [
+          "I noticed Emergency Plumber Services has significant SEO improvement opportunities that could drive more local customers",
+          "Your website's loading speed could be costing you potential customers - we can help improve this significantly",
+          "With most customers searching on mobile, optimizing Emergency Plumber Services's mobile experience could boost your visibility"
+        ],
+        "recommended_actions": [
+          "Send personalized email with specific recommendations",
+          "Follow up within 48 hours",
+          "Prepare quick wins SEO strategy",
+          "Highlight critical SEO issues in initial outreach"
+        ]
+      },
+      "status": "success"
+    },
+    {
+      "url": "https://247plumbingandgas.co.uk/",
+      "company_name": "247 Plumbing and Gas",
+      "company_id": "6c437ff1-a284-497d-b3d0-4530de2b21e7",
+      "processing_time_seconds": 58.1,
+      "timestamp": "2025-06-15T13:19:51.575730",
+      "seo_analysis": {
+        "status": "completed",
+        "overall_score": 30.0,
+        "mobile_friendly": false,
+        "page_speed_score": 0.0,
+        "ssl_certificate": true,
+        "critical_issues": [
+          "Missing meta description"
+        ]
+      },
+      "contact_extraction": {
+        "status": "completed",
+        "contacts_found": 0,
+        "contacts": []
+      },
+      "executive_discovery": {
+        "status": "completed",
+        "executives_found": 0,
+        "executives": [],
+        "discovery_stats": {
+          "total_processing_time": 23.81895089149475,
+          "success_rate": 0.0
+        }
+      },
+      "lead_qualification": {
+        "status": "completed",
+        "overall_score": 69.8,
+        "priority_tier": "C",
+        "tier_label": "C",
+        "estimated_value": 1500.0,
+        "urgency": "medium",
+        "talking_points": [
+          "I noticed 247 Plumbing and Gas has significant SEO improvement opportunities that could drive more local customers",
+          "Your website's loading speed could be costing you potential customers - we can help improve this significantly",
+          "With most customers searching on mobile, optimizing 247 Plumbing and Gas's mobile experience could boost your visibility"
+        ],
+        "recommended_actions": [
+          "Add to nurture sequence",
+          "Send educational content about SEO benefits",
+          "Schedule follow-up in 2 weeks",
+          "Highlight critical SEO issues in initial outreach"
+        ]
+      },
+      "status": "success"
+    },
+    {
+      "url": "http://www.hancoxgasandplumbing.co.uk/",
+      "company_name": "Hancox Gas and Plumbing",
+      "company_id": "cfcb6df3-8628-4764-ac58-eb90ce899457",
+      "processing_time_seconds": 75.38,
+      "timestamp": "2025-06-15T13:21:06.959297",
+      "seo_analysis": {
+        "status": "completed",
+        "overall_score": 45.0,
+        "mobile_friendly": false,
+        "page_speed_score": 0.0,
+        "ssl_certificate": true,
+        "critical_issues": []
+      },
+      "contact_extraction": {
+        "status": "completed",
+        "contacts_found": 0,
+        "contacts": []
+      },
+      "executive_discovery": {
+        "status": "completed",
+        "executives_found": 0,
+        "executives": [],
+        "discovery_stats": {
+          "total_processing_time": 45.476011991500854,
+          "success_rate": 0.0
+        }
+      },
+      "lead_qualification": {
+        "status": "completed",
+        "overall_score": 69.2,
+        "priority_tier": "C",
+        "tier_label": "C",
+        "estimated_value": 1500.0,
+        "urgency": "medium",
+        "talking_points": [
+          "I noticed Hancox Gas and Plumbing has significant SEO improvement opportunities that could drive more local customers",
+          "Your website's loading speed could be costing you potential customers - we can help improve this significantly",
+          "With most customers searching on mobile, optimizing Hancox Gas and Plumbing's mobile experience could boost your visibility"
+        ],
+        "recommended_actions": [
+          "Add to nurture sequence",
+          "Send educational content about SEO benefits",
+          "Schedule follow-up in 2 weeks"
+        ]
+      },
+      "status": "success"
+    },
+    {
+      "url": "https://metroplumb.co.uk/locations/metro-plumb-birmingham/",
+      "company_name": "Metro Plumb Birmingham",
+      "company_id": "4e40dad4-5890-4c9b-8883-121e26c5945d",
+      "processing_time_seconds": 201.01,
+      "timestamp": "2025-06-15T13:24:27.974499",
+      "seo_analysis": {
+        "status": "completed",
+        "overall_score": 45.0,
+        "mobile_friendly": false,
+        "page_speed_score": 0.0,
+        "ssl_certificate": true,
+        "critical_issues": []
+      },
+      "contact_extraction": {
+        "status": "completed",
+        "contacts_found": 0,
+        "contacts": []
+      },
+      "executive_discovery": {
+        "status": "completed",
+        "executives_found": 0,
+        "executives": [],
+        "discovery_stats": {
+          "total_processing_time": 20.028596878051758,
+          "success_rate": 0.0
+        }
+      },
+      "lead_qualification": {
+        "status": "completed",
+        "overall_score": 69.2,
+        "priority_tier": "C",
+        "tier_label": "C",
+        "estimated_value": 1500.0,
+        "urgency": "medium",
+        "talking_points": [
+          "I noticed Metro Plumb Birmingham has significant SEO improvement opportunities that could drive more local customers",
+          "Your website's loading speed could be costing you potential customers - we can help improve this significantly",
+          "With most customers searching on mobile, optimizing Metro Plumb Birmingham's mobile experience could boost your visibility"
+        ],
+        "recommended_actions": [
+          "Add to nurture sequence",
+          "Send educational content about SEO benefits",
+          "Schedule follow-up in 2 weeks"
+        ]
+      },
+      "status": "success"
+    }
+  ]
+}

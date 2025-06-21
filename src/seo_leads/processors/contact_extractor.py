@@ -24,6 +24,8 @@ from playwright.async_api import async_playwright, Page
 from ..config import get_api_config, get_processing_config
 from ..database import get_db_session
 from ..models import UKCompany, ContactInfo, ContactSeniorityTier, SENIOR_ROLE_PATTERNS
+from .executive_discovery import ExecutiveDiscoveryEngine, ExecutiveDiscoveryConfig
+from .executive_email_enricher import ExecutiveEmailEnricher
 
 logger = logging.getLogger(__name__)
 
@@ -54,6 +56,18 @@ class ContactExtractor:
     def __init__(self):
         self.api_config = get_api_config()
         self.processing_config = get_processing_config()
+        
+        # Initialize executive discovery engine
+        self.executive_discovery_enabled = True
+        self.executive_discovery_config = ExecutiveDiscoveryConfig(
+            linkedin_enabled=True,
+            website_enabled=True,
+            parallel_processing=True,
+            max_executives_per_company=5,
+            processing_timeout=30.0
+        )
+        self.executive_engine = None
+        self.email_enricher = ExecutiveEmailEnricher()
         
         # Contact page patterns
         self.contact_page_patterns = [
@@ -549,7 +563,8 @@ class ContactExtractor:
                     company.contact_seniority_tier = contact.seniority_tier
                     company.email = contact.email
                     company.phone = contact.phone
-                    company.linkedin_url = contact.linkedin_url
+                    # Convert HttpUrl to string for database storage
+                    company.linkedin_url = str(contact.linkedin_url) if contact.linkedin_url else None
                     company.contact_confidence = contact.confidence
                     company.contact_extraction_method = result.extraction_method
                     
@@ -605,6 +620,114 @@ class ContactExtractor:
         except Exception as e:
             logger.error(f"Error in contact extraction batch: {e}")
             return 0
+
+    async def extract_contacts_with_executives(self, company_id: str, company_name: str, website_url: str) -> Dict:
+        """
+        Enhanced contact extraction with executive discovery integration
+        
+        Args:
+            company_id: Unique company identifier
+            company_name: Company name for executive search
+            website_url: Company website URL
+            
+        Returns:
+            Dict with both traditional contacts and executive contacts
+        """
+        start_time = time.time()
+        result = {
+            'company_id': company_id,
+            'traditional_contacts': None,
+            'executive_contacts': [],
+            'primary_decision_maker': None,
+            'discovery_sources': [],
+            'processing_time': 0.0,
+            'success': False
+        }
+        
+        try:
+            logger.info(f"Starting enhanced contact extraction for {company_name}")
+            
+            # Step 1: Traditional contact extraction (existing functionality)
+            traditional_result = await self.extract_contacts(company_id, website_url)
+            if traditional_result:
+                result['traditional_contacts'] = traditional_result.contact_info
+                result['discovery_sources'].append('traditional_extraction')
+            
+            # Step 2: Executive discovery (new functionality)
+            if self.executive_discovery_enabled:
+                try:
+                    # Initialize executive discovery engine if needed
+                    if not self.executive_engine:
+                        self.executive_engine = ExecutiveDiscoveryEngine(self.executive_discovery_config)
+                        await self.executive_engine.initialize()
+                    
+                    # Discover executives
+                    executive_result = await self.executive_engine.discover_executives(
+                        company_id, company_name, website_url
+                    )
+                    
+                    if executive_result and executive_result.executives_found:
+                        # Enhance executives with email discovery
+                        domain = urlparse(website_url).netloc
+                        enriched_executives = await self.email_enricher.enrich_executive_emails(
+                            executive_result.executives_found, domain
+                        )
+                        
+                        result['executive_contacts'] = enriched_executives
+                        result['primary_decision_maker'] = executive_result.primary_decision_maker
+                        result['discovery_sources'].extend(executive_result.discovery_sources)
+                        
+                        logger.info(f"Executive discovery found {len(enriched_executives)} executives for {company_name}")
+                    
+                except Exception as e:
+                    logger.warning(f"Executive discovery failed for {company_name}: {e}")
+            
+            # Step 3: Calculate overall success and processing time
+            result['processing_time'] = time.time() - start_time
+            result['success'] = (
+                result['traditional_contacts'] is not None or 
+                len(result['executive_contacts']) > 0
+            )
+            
+            # Step 4: Update database with enhanced contact data
+            self._update_enhanced_contact_data(company_id, result)
+            
+            logger.info(f"Enhanced contact extraction complete for {company_name}: "
+                      f"{len(result['executive_contacts'])} executives, "
+                      f"traditional: {'Yes' if result['traditional_contacts'] else 'No'}, "
+                      f"time: {result['processing_time']:.2f}s")
+            
+            return result
+            
+        except Exception as e:
+            logger.error(f"Error in enhanced contact extraction for {company_name}: {e}")
+            result['processing_time'] = time.time() - start_time
+            return result
+    
+    def _update_enhanced_contact_data(self, company_id: str, result: Dict):
+        """Update database with enhanced contact extraction results"""
+        try:
+            with get_db_session() as session:
+                company = session.query(UKCompany).filter(UKCompany.id == company_id).first()
+                if company:
+                    # Update processing metadata
+                    if not hasattr(company, 'processing_metadata'):
+                        company.processing_metadata = {}
+                    
+                    company.processing_metadata.update({
+                        'executive_discovery_enabled': True,
+                        'executives_found': len(result['executive_contacts']),
+                        'primary_decision_maker_found': result['primary_decision_maker'] is not None,
+                        'discovery_sources': result['discovery_sources'],
+                        'enhanced_processing_time': result['processing_time'],
+                        'enhanced_extraction_timestamp': time.time()
+                    })
+                    
+                    session.commit()
+                    logger.debug(f"Updated enhanced contact data for company {company_id}")
+                
+        except Exception as e:
+            logger.error(f"Error updating enhanced contact data: {e}")
 
 # Convenience function
 def extract_contacts_batch(batch_size: int = 20) -> int:

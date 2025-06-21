@@ -1,0 +1,46 @@
+{
+  "test_timestamp": "2025-06-17T10:10:01.112249",
+  "test_company": "Hancox Gas and Plumbing",
+  "component_tests": {
+    "credential_manager": {
+      "status": "FAILED",
+      "error": "No module named 'src.seo_leads.config.credential_manager'; 'src.seo_leads.config' is not a package"
+    },
+    "companies_house_production": {
+      "status": "FAILED",
+      "error": "cannot import name 'CompaniesHouseProductionAPI' from 'src.seo_leads.integrations.companies_house_production' (/Users/slavaidler/project/SEO/src/seo_leads/integrations/companies_house_production.py)"
+    },
+    "twitter_api": {
+      "status": "FAILED",
+      "error": "No module named 'src.seo_leads.config.credential_manager'; 'src.seo_leads.config' is not a package"
+    },
+    "api_gateway": {
+      "status": "FAILED",
+      "error": "No module named 'src.seo_leads.config.credential_manager'; 'src.seo_leads.config' is not a package"
+    },
+    "intelligent_cache": {
+      "status": "FAILED",
+      "error": "No module named 'aioredis'"
+    },
+    "integrated_discovery": {
+      "status": "FAILED",
+      "total_processing_time": 0.0,
+      "sources_tested": 0,
+      "sources_successful": 0,
+      "source_results": {},
+      "total_executives_found": 0,
+      "unique_executives_found": 0,
+      "best_executives": [],
+      "error": null
+    }
+  },
+  "performance_metrics": {
+    "total_test_time": 0.37,
+    "total_tests": 6,
+    "successful_tests": 0,
+    "degraded_tests": 0,
+    "failed_tests": 6,
+    "success_rate": 0.0
+  },
+  "overall_status": "FAILED"
+}

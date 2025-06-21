@@ -1,0 +1,149 @@
+{
+  "test_summary": {
+    "urls_tested": 8,
+    "test_timestamp": "2025-06-19T23:32:01.728147",
+    "total_executives_found": 3,
+    "total_emails_found": 1,
+    "total_phones_found": 1,
+    "quality_issues_detected": []
+  },
+  "detailed_results": [
+    {
+      "url": "http://www.mjmplumbingservices.uk/",
+      "processing_time": 0.31792402267456055,
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "http://rnplumbingandheating.co.uk/",
+      "processing_time": 3.246124029159546,
+      "extraction_results": {
+        "executives_found": 1,
+        "emails_attributed": 0,
+        "phones_attributed": 0
+      },
+      "executives_data": [
+        {
+          "name": "Michael Torbert",
+          "email": null,
+          "phone": null,
+          "confidence": 0.6
+        }
+      ],
+      "semantic_validation": [
+        {
+          "name": "Michael Torbert",
+          "confidence": 0.6,
+          "validation_reasons": [
+            "'Michael' found in UK first names database",
+            "Has proper name characteristics"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "http://www.andrewrileyheating.co.uk/",
+      "processing_time": 2.140883207321167,
+      "extraction_results": {
+        "executives_found": 1,
+        "emails_attributed": 1,
+        "phones_attributed": 1
+      },
+      "executives_data": [
+        {
+          "name": "Andrew Riley",
+          "email": "admin@andrewrileyheating.co.uk",
+          "phone": "01214397129",
+          "confidence": 0.9500000000000001
+        }
+      ],
+      "semantic_validation": [
+        {
+          "name": "Andrew Riley",
+          "confidence": 0.9500000000000001,
+          "validation_reasons": [
+            "'Andrew' found in UK first names database",
+            "'Riley' found in UK surnames database",
+            "Has proper name characteristics"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "http://www.boldmereplumbingservices.co.uk/",
+      "processing_time": 1.2824947834014893,
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "http://jmplumbingheating.co.uk/",
+      "processing_time": 1.6378257274627686,
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "https://www.nunnplumbingandgas.co.uk/contact",
+      "processing_time": 0.9078481197357178,
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "https://konigashomeservices.co.uk/",
+      "processing_time": 2.139472007751465,
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "http://www.ttsafegas.com/",
+      "processing_time": 0.5254108905792236,
+      "extraction_results": {
+        "executives_found": 1,
+        "emails_attributed": 0,
+        "phones_attributed": 0
+      },
+      "executives_data": [
+        {
+          "name": "Tyler Maroon",
+          "email": null,
+          "phone": null,
+          "confidence": 0.6
+        }
+      ],
+      "semantic_validation": [
+        {
+          "name": "Tyler Maroon",
+          "confidence": 0.6,
+          "validation_reasons": [
+            "'Tyler' found in UK first names database",
+            "Has proper name characteristics"
+          ]
+        }
+      ]
+    }
+  ]
+}

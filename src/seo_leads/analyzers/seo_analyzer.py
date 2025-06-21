@@ -123,6 +123,41 @@ class SEOAnalyzer:
         
         return f"https://{domain}"
     
+    async def analyze_company_seo(self, company: Dict) -> Optional[SEOAnalysis]:
+        """
+        Analyze company SEO - wrapper method for backward compatibility
+        
+        Args:
+            company: Dictionary containing company data with 'website' and 'name' keys
+            
+        Returns:
+            SEOAnalysis object with scores and recommendations
+        """
+        try:
+            website_url = company.get('website', '')
+            company_name = company.get('name', '')
+            company_id = company.get('id', company_name)
+            
+            if not website_url:
+                logger.warning(f"No website URL provided for {company_name}")
+                return None
+            
+            # Extract additional context if available
+            company_sector = company.get('sector')
+            company_size = company.get('size')
+            
+            # Call the main analysis method
+            return await self.analyze_website_seo(
+                company_id=company_id,
+                website_url=website_url,
+                company_sector=company_sector,
+                company_size=company_size
+            )
+            
+        except Exception as e:
+            logger.error(f"Error in analyze_company_seo: {e}")
+            return None
+
     async def analyze_website_seo(self, company_id: str, website_url: str, 
                                  company_sector: Optional[str] = None,
                                  company_size: Optional[str] = None) -> Optional[SEOAnalysis]:

@@ -1,0 +1,139 @@
+{
+  "test_summary": {
+    "urls_tested": 6,
+    "test_timestamp": "2025-06-19T23:25:18.096536",
+    "total_executives_found": 0,
+    "total_emails_found": 0,
+    "total_phones_found": 0,
+    "total_titles_extracted": 0,
+    "system_performance": {
+      "average_processing_time": 2.105214476585388,
+      "executive_discovery_rate": 0.0,
+      "contact_attribution_rate": 0.0,
+      "title_extraction_rate": 0.0,
+      "overall_quality_score": 0.0
+    }
+  },
+  "detailed_results": [
+    {
+      "url": "http://www.mjmplumbingservices.uk/",
+      "content_length": 160078,
+      "processing_times": {
+        "fetch_time": 1.3760650157928467,
+        "name_extraction_time": 0.0029277801513671875,
+        "contact_attribution_time": 0,
+        "title_extraction_time": 0,
+        "total_time": 1.3790059089660645
+      },
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0,
+        "titles_extracted": 0,
+        "linkedin_profiles": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "http://rnplumbingandheating.co.uk/",
+      "content_length": 46141,
+      "processing_times": {
+        "fetch_time": 3.507565975189209,
+        "name_extraction_time": 0.0010907649993896484,
+        "contact_attribution_time": 0,
+        "title_extraction_time": 0,
+        "total_time": 3.5086708068847656
+      },
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0,
+        "titles_extracted": 0,
+        "linkedin_profiles": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "http://www.andrewrileyheating.co.uk/",
+      "content_length": 101337,
+      "processing_times": {
+        "fetch_time": 1.6330549716949463,
+        "name_extraction_time": 0.0018761157989501953,
+        "contact_attribution_time": 0,
+        "title_extraction_time": 0,
+        "total_time": 1.6349420547485352
+      },
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0,
+        "titles_extracted": 0,
+        "linkedin_profiles": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "http://www.boldmereplumbingservices.co.uk/",
+      "content_length": 7985,
+      "processing_times": {
+        "fetch_time": 2.1735289096832275,
+        "name_extraction_time": 0.0001709461212158203,
+        "contact_attribution_time": 0,
+        "title_extraction_time": 0,
+        "total_time": 2.173711061477661
+      },
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0,
+        "titles_extracted": 0,
+        "linkedin_profiles": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "http://jmplumbingheating.co.uk/",
+      "content_length": 79615,
+      "processing_times": {
+        "fetch_time": 2.447299003601074,
+        "name_extraction_time": 0.0017330646514892578,
+        "contact_attribution_time": 0,
+        "title_extraction_time": 0,
+        "total_time": 2.4490439891815186
+      },
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0,
+        "titles_extracted": 0,
+        "linkedin_profiles": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    },
+    {
+      "url": "https://www.nunnplumbingandgas.co.uk/contact",
+      "content_length": 397305,
+      "processing_times": {
+        "fetch_time": 1.4797649383544922,
+        "name_extraction_time": 0.006132841110229492,
+        "contact_attribution_time": 0,
+        "title_extraction_time": 0,
+        "total_time": 1.4859130382537842
+      },
+      "extraction_results": {
+        "executives_found": 0,
+        "emails_attributed": 0,
+        "phones_attributed": 0,
+        "titles_extracted": 0,
+        "linkedin_profiles": 0
+      },
+      "executives_data": [],
+      "semantic_validation": []
+    }
+  ]
+}

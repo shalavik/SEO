@@ -13,6 +13,8 @@ Based on creative design decisions:
 import logging
 from typing import Dict, List, Optional, Tuple
 from datetime import datetime
+import time
+import json
 
 from ..config import get_processing_config
 from ..database import get_db_session
@@ -41,333 +43,495 @@ class LeadQualifier:
         self.processing_config = get_processing_config()
         self.scoring_weights = SCORING_WEIGHTS
     
-    def qualify_lead(self, company_id: str) -> Optional[LeadQualification]:
+    async def qualify_lead(self, company_data: Dict) -> Optional[LeadQualification]:
         """
-        Qualify a single lead using multi-factor scoring
+        Qualify a lead using multi-factor analysis
         
         Args:
-            company_id: Unique company identifier
+            company_data: Dictionary containing company information and analysis results
             
         Returns:
-            LeadQualification with scores and tier classification
+            LeadQualification object with scores and recommendations
         """
         try:
-            with get_db_session() as session:
-                company = session.query(UKCompany).filter_by(id=company_id).first()
+            start_time = time.time()
+            
+            # Generate unique company ID for database operations
+            company_id = str(hash(f"{company_data.get('company_name', '')}{company_data.get('website', '')}"))
+            
+            # Extract SEO analysis
+            seo_analysis = company_data.get('seo_analysis')
+            if not seo_analysis:
+                logger.warning(f"No SEO analysis found for {company_data.get('company_name', 'Unknown')}")
+                return None
+            
+            # Extract contact information
+            contact_info = company_data.get('contact_info', {})
+            
+            # Create a serializable company dict for database storage
+            db_company_data = {
+                'id': company_id,
+                'company_name': company_data.get('company_name', ''),
+                'website': company_data.get('website', ''),
+                'city': company_data.get('city', ''),
+                'region': company_data.get('region', ''),
+                'sector': company_data.get('sector', ''),
+                'source': 'enhanced_pipeline',
+                'status': 'processing',
                 
-                if not company:
-                    logger.error(f"Company {company_id} not found")
-                    return None
+                # Contact information
+                'contact_person': contact_info.get('person'),
+                'contact_role': contact_info.get('role'),
+                'contact_seniority_tier': contact_info.get('seniority_tier'),
+                'email': contact_info.get('email'),
+                'phone': contact_info.get('phone'),
+                'contact_confidence': float(contact_info.get('confidence', 0.0)),
                 
-                logger.info(f"Qualifying lead for {company.company_name}")
-                
-                # Calculate individual factor scores
-                factors = {
-                    'seo_opportunity': self._score_seo_opportunity(company),
-                    'business_size': self._score_business_size(company), 
-                    'sector_fit': self._score_sector_fit(company),
-                    'growth_indicators': self._score_growth_indicators(company),
-                    'contact_quality': self._score_contact_quality(company)
-                }
-                
-                # Calculate weighted final score
-                final_score = 0.0
-                factor_breakdown = {}
-                
-                for factor, score_data in factors.items():
-                    weight = self.scoring_weights[factor]
-                    contribution = score_data['score'] * weight
-                    final_score += contribution
-                    
-                    factor_breakdown[factor] = FactorBreakdown(
-                        score=score_data['score'],
-                        weight=weight,
-                        contribution=contribution
-                    )
-                
-                # Determine priority tier
-                priority_tier, tier_label = self._determine_tier(final_score)
-                
-                # Create qualification result
-                qualification = LeadQualification(
-                    final_score=final_score,
-                    priority_tier=priority_tier,
-                    tier_label=tier_label,
-                    factor_breakdown=factor_breakdown,
-                    confidence=self._calculate_qualification_confidence(factors)
-                )
-                
-                # Generate outreach intelligence
-                outreach_intel = self._generate_outreach_intelligence(company, qualification)
-                
-                # Update database
-                self._update_company_qualification_data(company, qualification, outreach_intel)
-                
-                logger.info(f"Lead qualification complete for {company.company_name}: "
-                          f"Score {final_score:.1f}, Tier {tier_label}")
-                
-                return qualification
-                
-        except Exception as e:
-            logger.error(f"Error qualifying lead {company_id}: {e}")
-            return None
-    
-    def _score_seo_opportunity(self, company: UKCompany) -> Dict:
-        """Score SEO improvement opportunity (35% weight)"""
-        if not company.seo_overall_score:
-            return {'score': 0.0, 'reason': 'No SEO analysis available'}
-        
-        seo_score = company.seo_overall_score
-        
-        # Invert score - lower SEO = higher opportunity
-        if seo_score <= 30:
-            opportunity_score = 100  # Terrible SEO = Great opportunity
-        elif seo_score <= 50:
-            opportunity_score = 80   # Poor SEO = Good opportunity  
-        elif seo_score <= 70:
-            opportunity_score = 60   # Mediocre SEO = Moderate opportunity
-        else:
-            opportunity_score = 20   # Good SEO = Low opportunity
-        
-        # Boost score if critical issues present
-        if company.critical_issues and len(company.critical_issues) > 3:
-            opportunity_score = min(100, opportunity_score + 20)
-        
-        reason = f"SEO score {seo_score:.1f} indicates {'high' if opportunity_score >= 80 else 'moderate' if opportunity_score >= 60 else 'low'} opportunity"
-        
-        return {'score': opportunity_score, 'reason': reason}
-    
-    def _score_business_size(self, company: UKCompany) -> Dict:
-        """Score business size and revenue potential (25% weight)"""
-        size_scores = {
-            'large': 90,    # High budget, big impact
-            'medium': 70,   # Good budget, solid opportunity
-            'small': 50,    # Limited budget, quick wins
-            'micro': 30     # Very limited budget
-        }
-        
-        if company.employees:
-            if company.employees >= 100:
-                size = 'large'
-            elif company.employees >= 20:
-                size = 'medium'
-            elif company.employees >= 5:
-                size = 'small'
-            else:
-                size = 'micro'
-        else:
-            # Estimate based on company size category if available
-            size = company.size_category or 'small'  # Default to small
-        
-        score = size_scores.get(size, 50)
-        reason = f"Company size '{size}' ({company.employees or 'unknown'} employees)"
-        
-        return {'score': score, 'reason': reason}
-    
-    def _score_sector_fit(self, company: UKCompany) -> Dict:
-        """Score sector SEO dependency and fit (20% weight)"""
-        if not company.sector:
-            return {'score': 50, 'reason': 'Unknown sector'}
-        
-        # Get sector SEO dependency
-        dependency = SECTOR_SEO_DEPENDENCY.get(company.sector, 75)  # Default 75
-        
-        # Convert dependency to score (higher dependency = higher score)
-        if dependency >= 90:
-            score = 95      # Critical SEO dependency
-        elif dependency >= 80:
-            score = 80      # High SEO dependency
-        elif dependency >= 70:
-            score = 65      # Moderate SEO dependency
-        else:
-            score = 45      # Lower SEO dependency
-        
-        reason = f"Sector '{company.sector}' has {dependency}% SEO dependency"
-        
-        return {'score': score, 'reason': reason}
-    
-    def _score_growth_indicators(self, company: UKCompany) -> Dict:
-        """Score business growth indicators (10% weight)"""
-        score = 50  # Default neutral score
-        indicators = []
-        
-        # Website quality indicates investment
-        if company.website and not company.meta_description_missing:
-            score += 15
-            indicators.append("professional website")
-        
-        # Social media presence
-        if company.linkedin_url:
-            score += 10
-            indicators.append("LinkedIn presence")
-        
-        # Modern tech adoption
-        if company.ssl_certificate:
-            score += 10
-            indicators.append("SSL certificate")
-        
-        # Mobile optimization
-        if company.mobile_friendly:
-            score += 15
-            indicators.append("mobile-friendly site")
-        
-        score = min(100, score)
-        reason = f"Growth indicators: {', '.join(indicators) if indicators else 'limited indicators'}"
-        
-        return {'score': score, 'reason': reason}
-    
-    def _score_contact_quality(self, company: UKCompany) -> Dict:
-        """Score contact information quality (10% weight)"""
-        score = 0
-        contact_elements = []
-        
-        # Contact confidence from extraction
-        if company.contact_confidence:
-            score += company.contact_confidence * 50  # Scale to 0-50
-        
-        # Email availability
-        if company.email:
-            score += 25
-            contact_elements.append("email")
-        
-        # Phone availability  
-        if company.phone:
-            score += 15
-            contact_elements.append("phone")
-        
-        # LinkedIn profile
-        if company.linkedin_url:
-            score += 10
-            contact_elements.append("LinkedIn")
-        
-        # Decision maker identification
-        if company.contact_person and company.contact_role:
-            score += 20
-            contact_elements.append("decision maker identified")
-        
-        score = min(100, score)
-        reason = f"Contact quality: {', '.join(contact_elements) if contact_elements else 'limited contact info'}"
-        
-        return {'score': score, 'reason': reason}
-    
-    def _determine_tier(self, final_score: float) -> Tuple[PriorityTier, str]:
-        """Determine priority tier based on final score"""
-        if final_score >= 80:
-            return PriorityTier.A, "Hot Lead - Immediate Action"
-        elif final_score >= 65:
-            return PriorityTier.B, "Warm Lead - High Priority"
-        elif final_score >= 50:
-            return PriorityTier.C, "Qualified Lead - Standard Priority"
-        else:
-            return PriorityTier.D, "Low Priority - Long Term"
-    
-    def _calculate_qualification_confidence(self, factors: Dict) -> float:
-        """Calculate confidence in qualification based on data quality"""
-        confidence = 0.8  # Base confidence
-        
-        # Reduce confidence if key data missing
-        if not factors['seo_opportunity']['score']:
-            confidence -= 0.2
-        
-        if not factors['contact_quality']['score']:
-            confidence -= 0.1
-        
-        return max(0.5, confidence)
-    
-    def _generate_outreach_intelligence(self, company: UKCompany, 
-                                      qualification: LeadQualification) -> OutreachIntelligence:
-        """Generate outreach automation intelligence"""
-        
-        # Determine urgency
-        if qualification.priority_tier == PriorityTier.A:
-            urgency = "high"
-        elif qualification.priority_tier == PriorityTier.B:
-            urgency = "medium"
-        else:
-            urgency = "low"
-        
-        # Estimate value
-        if qualification.final_score >= 80:
-            estimated_value = "£2,000-5,000/month"
-        elif qualification.final_score >= 65:
-            estimated_value = "£1,000-3,000/month"
-        elif qualification.final_score >= 50:
-            estimated_value = "£500-1,500/month"
-        else:
-            estimated_value = "£300-800/month"
-        
-        # Generate recommended actions
-        actions = []
-        if company.seo_overall_score and company.seo_overall_score < 50:
-            actions.append("Offer free SEO audit")
-        if company.meta_description_missing:
-            actions.append("Highlight missing meta descriptions")
-        if not company.mobile_friendly:
-            actions.append("Emphasize mobile optimization")
-        if company.load_time and company.load_time > 3:
-            actions.append("Focus on page speed improvements")
-        
-        # Generate talking points
-        talking_points = []
-        if company.sector:
-            talking_points.append(f"Industry expertise in {company.sector}")
-        if company.city:
-            talking_points.append(f"Local SEO for {company.city} market")
-        if company.seo_overall_score:
-            talking_points.append(f"Current SEO score {company.seo_overall_score:.0f}/100 - significant room for improvement")
-        
-        return OutreachIntelligence(
-            urgency=urgency,
-            estimated_value=estimated_value,
-            recommended_actions=actions,
-            talking_points=talking_points,
-            follow_up_schedule={
-                "initial_contact": "within 24 hours" if urgency == "high" else "within 72 hours",
-                "follow_up_1": "3 days after initial",
-                "follow_up_2": "1 week after follow_up_1"
+                # SEO Analysis - extract primitive values
+                'seo_overall_score': float(seo_analysis.overall_score) if seo_analysis else 0.0,
+                'pagespeed_score': float(seo_analysis.performance.pagespeed_score) if seo_analysis and seo_analysis.performance else 0.0,
+                'mobile_friendly': bool(seo_analysis.performance.mobile_friendly) if seo_analysis and seo_analysis.performance else False,
+                'meta_description_missing': bool(seo_analysis.content.meta_description_missing) if seo_analysis and seo_analysis.content else True,
+                'h1_tags_present': bool(seo_analysis.content.h1_tags_present) if seo_analysis and seo_analysis.content else False,
+                'ssl_certificate': bool(seo_analysis.content.ssl_certificate) if seo_analysis and seo_analysis.content else False,
+                'load_time': float(seo_analysis.performance.load_time) if seo_analysis and seo_analysis.performance else 0.0,
+                'critical_issues': ','.join(seo_analysis.critical_issues) if seo_analysis and seo_analysis.critical_issues else '',
             }
-        )
-    
-    def _update_company_qualification_data(self, company: UKCompany, 
-                                         qualification: LeadQualification,
-                                         outreach_intel: OutreachIntelligence):
-        """Update company record with qualification results"""
+            
+            # Check if company already exists in database
+            existing_company = await self._get_company_by_id(company_id)
+            
+            if existing_company:
+                logger.debug(f"Company {company_data.get('company_name')} already exists in database")
+                # Update existing company with new data
+                await self._update_company_data(company_id, db_company_data)
+            else:
+                # Create new company record
+                await self._create_company_record(db_company_data)
+            
+            # Calculate qualification scores
+            seo_score = self._calculate_seo_score(seo_analysis)
+            business_score = self._calculate_business_score(company_data)
+            sector_score = self._calculate_sector_score(company_data.get('sector', ''))
+            growth_score = self._calculate_growth_score(company_data)
+            contact_score = self._calculate_contact_score(contact_info)
+            
+            # Calculate weighted final score
+            final_score = (
+                seo_score * self.scoring_weights['seo'] +
+                business_score * self.scoring_weights['business'] +
+                sector_score * self.scoring_weights['sector'] +
+                growth_score * self.scoring_weights['growth'] +
+                contact_score * self.scoring_weights['contact']
+            )
+            
+            # Determine priority tier
+            priority_tier = self._determine_priority_tier(final_score)
+            
+            # Generate outreach intelligence
+            talking_points = self._generate_talking_points(company_data, seo_analysis, priority_tier)
+            recommended_actions = self._generate_recommended_actions(priority_tier, seo_analysis, contact_info)
+            
+            # Create proper FactorBreakdown objects
+            from ..models import FactorBreakdown
+            factor_breakdown = {
+                'seo': FactorBreakdown(
+                    score=seo_score,
+                    weight=self.scoring_weights['seo'],
+                    contribution=seo_score * self.scoring_weights['seo']
+                ),
+                'business': FactorBreakdown(
+                    score=business_score,
+                    weight=self.scoring_weights['business'],
+                    contribution=business_score * self.scoring_weights['business']
+                ),
+                'sector': FactorBreakdown(
+                    score=sector_score,
+                    weight=self.scoring_weights['sector'],
+                    contribution=sector_score * self.scoring_weights['sector']
+                ),
+                'growth': FactorBreakdown(
+                    score=growth_score,
+                    weight=self.scoring_weights['growth'],
+                    contribution=growth_score * self.scoring_weights['growth']
+                ),
+                'contact': FactorBreakdown(
+                    score=contact_score,
+                    weight=self.scoring_weights['contact'],
+                    contribution=contact_score * self.scoring_weights['contact']
+                )
+            }
+            
+            # Create qualification result
+            qualification = LeadQualification(
+                final_score=final_score,
+                priority_tier=priority_tier,
+                tier_label=priority_tier.name,
+                factor_breakdown=factor_breakdown,
+                estimated_value=self._estimate_lead_value(priority_tier),
+                urgency=self._calculate_urgency(priority_tier, seo_analysis),
+                talking_points=talking_points,
+                recommended_actions=recommended_actions
+            )
+            
+            # Update database with qualification results
+            qualification_data = {
+                'lead_score': float(final_score),
+                'priority_tier': priority_tier.value,
+                'tier_label': priority_tier.name,
+                'factor_breakdown': json.dumps({
+                    'seo_score': seo_score,
+                    'business_score': business_score,
+                    'sector_score': sector_score,
+                    'growth_score': growth_score,
+                    'contact_score': contact_score
+                }),
+                'estimated_value': float(self._estimate_lead_value(priority_tier)),
+                'urgency': self._calculate_urgency(priority_tier, seo_analysis),
+                'recommended_actions': json.dumps(recommended_actions),
+                'talking_points': json.dumps(talking_points),
+                'status': 'qualified'
+            }
+            
+            await self._update_company_qualification(company_id, qualification_data)
+            
+            processing_time = time.time() - start_time
+            logger.info(f"Lead qualification complete for {company_data.get('company_name')}: {final_score:.1f} (Tier {priority_tier.value}) in {processing_time:.2f}s")
+            
+            return qualification
+            
+        except Exception as e:
+            logger.error(f"Error qualifying lead {company_data.get('company_name', 'Unknown')}: {e}")
+            
+            # Update database with error status if we have a company_id
+            if 'company_id' in locals():
+                try:
+                    await self._update_company_error(company_id, str(e))
+                except Exception as db_error:
+                    logger.error(f"Failed to update error status in database: {db_error}")
+            
+            return None
+
+    async def _get_company_by_id(self, company_id: str) -> Optional[UKCompany]:
+        """Get company by ID from database"""
         try:
             with get_db_session() as session:
-                # Refresh company object in current session
-                company = session.merge(company)
+                company = session.query(UKCompany).filter(UKCompany.id == company_id).first()
+                return company
+        except Exception as e:
+            logger.error(f"Database error getting company {company_id}: {e}")
+            return None
+
+    async def _create_company_record(self, company_data: Dict) -> bool:
+        """Create new company record in database"""
+        try:
+            with get_db_session() as session:
+                # Create new company with proper datetime handling
+                company_data['created_at'] = datetime.utcnow()
+                company_data['updated_at'] = datetime.utcnow()
                 
-                # Update qualification fields
-                company.lead_score = qualification.final_score
-                company.priority_tier = qualification.priority_tier.value
-                company.tier_label = qualification.tier_label
-                
-                # Store factor breakdown as JSON
-                factor_data = {}
-                for factor, breakdown in qualification.factor_breakdown.items():
-                    factor_data[factor] = {
-                        'score': breakdown.score,
-                        'weight': breakdown.weight,
-                        'contribution': breakdown.contribution
-                    }
-                company.factor_breakdown = factor_data
-                
-                # Store outreach intelligence
-                company.estimated_value = outreach_intel.estimated_value
-                company.urgency = outreach_intel.urgency
-                company.recommended_actions = outreach_intel.recommended_actions
-                company.talking_points = outreach_intel.talking_points
-                
-                # Update status
-                if company.status in ['seo_analyzed', 'contacts_extracted']:
-                    company.status = 'qualified'
-                
+                company = UKCompany(**company_data)
+                session.add(company)
                 session.commit()
-                logger.debug(f"Updated qualification data for company {company.id}")
+                
+                logger.debug(f"Created company record: {company_data.get('company_name')}")
+                return True
                 
         except Exception as e:
-            logger.error(f"Error updating company qualification data: {e}")
+            logger.error(f"Database error creating company: {e}")
+            return False
+
+    async def _update_company_data(self, company_id: str, company_data: Dict) -> bool:
+        """Update existing company record with new data"""
+        try:
+            with get_db_session() as session:
+                # Update existing company
+                company_data['updated_at'] = datetime.utcnow()
+                
+                session.query(UKCompany).filter(UKCompany.id == company_id).update(company_data)
+                session.commit()
+                
+                logger.debug(f"Updated company record: {company_id}")
+                return True
+                
+        except Exception as e:
+            logger.error(f"Database error updating company {company_id}: {e}")
+            return False
+
+    async def _update_company_qualification(self, company_id: str, qualification_data: Dict) -> bool:
+        """Update company with qualification results"""
+        try:
+            with get_db_session() as session:
+                # Update with qualification data
+                qualification_data['updated_at'] = datetime.utcnow()
+                
+                session.query(UKCompany).filter(UKCompany.id == company_id).update(qualification_data)
+                session.commit()
+                
+                logger.debug(f"Updated qualification for company: {company_id}")
+                return True
+                
+        except Exception as e:
+            logger.error(f"Database error updating qualification for {company_id}: {e}")
+            return False
+
+    async def _update_company_error(self, company_id: str, error_message: str) -> bool:
+        """Update company with error status"""
+        try:
+            with get_db_session() as session:
+                session.query(UKCompany).filter(UKCompany.id == company_id).update({
+                    'status': 'error',
+                    'error_message': error_message,
+                    'updated_at': datetime.utcnow()
+                })
+                session.commit()
+                
+                logger.debug(f"Updated error status for company: {company_id}")
+                return True
+                
+        except Exception as e:
+            logger.error(f"Database error updating error for {company_id}: {e}")
+            return False
     
+    def _calculate_seo_score(self, seo_analysis) -> float:
+        """Calculate SEO opportunity score based on analysis results"""
+        if not seo_analysis:
+            return 0.0
+        
+        score = 0.0
+        max_score = 100.0
+        
+        # Overall SEO score (40% weight)
+        if hasattr(seo_analysis, 'overall_score'):
+            # Convert to opportunity score (lower SEO = higher opportunity)
+            seo_opportunity = max(0, 100 - float(seo_analysis.overall_score))
+            score += (seo_opportunity / 100) * 40
+        
+        # Performance issues (30% weight)
+        if hasattr(seo_analysis, 'performance') and seo_analysis.performance:
+            perf = seo_analysis.performance
+            if hasattr(perf, 'pagespeed_score') and perf.pagespeed_score < 70:
+                score += 30
+            if hasattr(perf, 'load_time') and perf.load_time > 3:
+                score += 10
+            if hasattr(perf, 'mobile_friendly') and not perf.mobile_friendly:
+                score += 20
+        
+        # Content issues (30% weight) 
+        if hasattr(seo_analysis, 'content') and seo_analysis.content:
+            content = seo_analysis.content
+            if hasattr(content, 'meta_description_missing') and content.meta_description_missing:
+                score += 10
+            if hasattr(content, 'h1_tags_present') and not content.h1_tags_present:
+                score += 10
+            if hasattr(content, 'ssl_certificate') and not content.ssl_certificate:
+                score += 10
+        
+        return min(score, max_score)
+
+    def _calculate_business_score(self, company_data: Dict) -> float:
+        """Calculate business attractiveness score"""
+        score = 50.0  # Base score
+        
+        # Company name quality (indicates professionalism)
+        company_name = company_data.get('company_name', '')
+        if len(company_name) > 5 and not any(char.isdigit() for char in company_name):
+            score += 20
+        
+        # Website presence
+        website = company_data.get('website', '')
+        if website and website.startswith('http'):
+            score += 20
+            # Professional domain
+            if any(domain in website for domain in ['.co.uk', '.com', '.org']):
+                score += 10
+        
+        return min(score, 100.0)
+
+    def _calculate_sector_score(self, sector: str) -> float:
+        """Calculate sector fit score based on SEO service demand"""
+        # High-demand sectors for SEO services
+        high_value_sectors = {
+            'construction': 85,
+            'legal': 90,
+            'medical': 85,
+            'dental': 80,
+            'automotive': 75,
+            'real_estate': 80,
+            'retail': 70,
+            'restaurant': 65,
+            'fitness': 70,
+            'beauty': 65
+        }
+        
+        if not sector:
+            return 50.0
+        
+        sector_lower = sector.lower()
+        for sector_type, score in high_value_sectors.items():
+            if sector_type in sector_lower:
+                return float(score)
+        
+        return 50.0  # Default for unknown sectors
+
+    def _calculate_growth_score(self, company_data: Dict) -> float:
+        """Calculate growth potential score"""
+        score = 50.0  # Base score
+        
+        # Assume established businesses have growth potential
+        website = company_data.get('website', '')
+        if website:
+            score += 20
+        
+        # Location factor (major cities have more competition/opportunity)
+        city = company_data.get('city', '').lower()
+        major_cities = ['london', 'birmingham', 'manchester', 'leeds', 'liverpool', 'bristol']
+        if any(city_name in city for city_name in major_cities):
+            score += 20
+        
+        return min(score, 100.0)
+
+    def _calculate_contact_score(self, contact_info: Dict) -> float:
+        """Calculate contact quality score"""
+        if not contact_info:
+            return 0.0
+        
+        score = 0.0
+        
+        # Executive contact found
+        if contact_info.get('person'):
+            score += 40
+        
+        # Seniority level
+        seniority = contact_info.get('seniority_tier', '')
+        if 'tier_1' in str(seniority):  # Top executives
+            score += 30
+        elif 'tier_2' in str(seniority):  # Mid-level
+            score += 20
+        elif 'tier_3' in str(seniority):  # Entry-level
+            score += 10
+        
+        # Contact confidence
+        confidence = float(contact_info.get('confidence', 0))
+        score += confidence * 0.3  # Up to 30 points based on confidence
+        
+        return min(score, 100.0)
+
+    def _determine_priority_tier(self, final_score: float):
+        """Determine priority tier based on final score"""
+        from ..models import PriorityTier
+        
+        if final_score >= 85:
+            return PriorityTier.A  # Hot Lead (80+)
+        elif final_score >= 70:
+            return PriorityTier.B  # Warm Lead (65-79)
+        elif final_score >= 55:
+            return PriorityTier.C  # Qualified Lead (50-64)
+        else:
+            return PriorityTier.D  # Low Priority (<50)
+
+    def _generate_talking_points(self, company_data: Dict, seo_analysis, priority_tier) -> List[str]:
+        """Generate personalized talking points for outreach"""
+        talking_points = []
+        company_name = company_data.get('company_name', 'your company')
+        
+        # SEO-specific talking points
+        if seo_analysis:
+            if hasattr(seo_analysis, 'overall_score') and seo_analysis.overall_score < 60:
+                talking_points.append(f"I noticed {company_name} has significant SEO improvement opportunities that could drive more local customers")
+            
+            if hasattr(seo_analysis, 'performance') and seo_analysis.performance:
+                if hasattr(seo_analysis.performance, 'pagespeed_score') and seo_analysis.performance.pagespeed_score < 70:
+                    talking_points.append(f"Your website's loading speed could be costing you potential customers - we can help improve this significantly")
+                
+                if hasattr(seo_analysis.performance, 'mobile_friendly') and not seo_analysis.performance.mobile_friendly:
+                    talking_points.append(f"With most customers searching on mobile, optimizing {company_name}'s mobile experience could boost your visibility")
+        
+        # Sector-specific talking points
+        sector = company_data.get('sector', '').lower()
+        if 'construction' in sector or 'plumbing' in sector:
+            talking_points.append("Local tradespeople who rank well on Google often see 40-60% more service calls")
+        elif 'legal' in sector:
+            talking_points.append("Law firms with strong SEO typically generate 3x more qualified leads than competitors")
+        elif 'medical' in sector or 'dental' in sector:
+            talking_points.append("Healthcare practices ranking on page 1 of Google see significantly more new patient inquiries")
+        
+        # Priority-based talking points
+        from ..models import PriorityTier
+        if priority_tier == PriorityTier.A:  # Hot Lead
+            talking_points.append("Given your strong business foundation, SEO improvements could deliver substantial ROI within 90 days")
+        elif priority_tier == PriorityTier.B:  # Warm Lead
+            talking_points.append("Your business has great potential - strategic SEO could help you dominate local search results")
+        
+        return talking_points[:3]  # Limit to top 3 talking points
+
+    def _generate_recommended_actions(self, priority_tier, seo_analysis, contact_info: Dict) -> List[str]:
+        """Generate recommended actions based on lead quality"""
+        actions = []
+        
+        from ..models import PriorityTier
+        
+        # Priority-based actions
+        if priority_tier == PriorityTier.A:  # Hot Lead
+            actions.extend([
+                "Schedule immediate discovery call",
+                "Prepare comprehensive SEO audit proposal",
+                "Research competitor landscape for presentation"
+            ])
+        elif priority_tier == PriorityTier.B:  # Warm Lead
+            actions.extend([
+                "Send personalized email with specific recommendations",
+                "Follow up within 48 hours",
+                "Prepare quick wins SEO strategy"
+            ])
+        elif priority_tier == PriorityTier.C:  # Qualified Lead
+            actions.extend([
+                "Add to nurture sequence",
+                "Send educational content about SEO benefits",
+                "Schedule follow-up in 2 weeks"
+            ])
+        else:  # Low Priority
+            actions.extend([
+                "Add to long-term nurture campaign",
+                "Monitor for business growth indicators"
+            ])
+        
+        # Contact-specific actions
+        if contact_info.get('person'):
+            actions.append(f"Personalize outreach to {contact_info.get('person')}")
+        
+        # SEO-specific actions
+        if seo_analysis and hasattr(seo_analysis, 'critical_issues') and seo_analysis.critical_issues:
+            actions.append("Highlight critical SEO issues in initial outreach")
+        
+        return actions[:4]  # Limit to top 4 actions
+
+    def _estimate_lead_value(self, priority_tier) -> float:
+        """Estimate potential lead value based on tier"""
+        from ..models import PriorityTier
+        
+        value_estimates = {
+            PriorityTier.A: 5000.0,      # £5,000 potential value (Hot Lead)
+            PriorityTier.B: 3000.0,      # £3,000 potential value (Warm Lead)
+            PriorityTier.C: 1500.0,      # £1,500 potential value (Qualified Lead)
+            PriorityTier.D: 500.0        # £500 potential value (Low Priority)
+        }
+        
+        return value_estimates.get(priority_tier, 1000.0)
+
+    def _calculate_urgency(self, priority_tier, seo_analysis) -> str:
+        """Calculate urgency level for follow-up"""
+        from ..models import PriorityTier
+        
+        if priority_tier == PriorityTier.A:  # Hot Lead
+            return "immediate"
+        elif priority_tier == PriorityTier.B:  # Warm Lead
+            return "high"
+        elif priority_tier == PriorityTier.C:  # Qualified Lead
+            return "medium"
+        else:  # Low Priority
+            return "low"
+
     def qualify_batch(self, batch_size: int = 50) -> int:
         """Qualify a batch of leads"""
         try:

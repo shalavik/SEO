@@ -1,0 +1,161 @@
+{
+  "test_summary": {
+    "test_name": "Executive Extraction Overhaul Test",
+    "test_timestamp": "2025-06-20T11:28:02.166427",
+    "pipeline_used": "robust_pipeline",
+    "total_urls_tested": 8,
+    "successful_extractions": 8,
+    "failed_extractions": 0,
+    "success_rate": "100.0%",
+    "total_processing_time": "21.51 seconds"
+  },
+  "metrics": {
+    "total_executives_found": 1,
+    "average_per_url": "0.1",
+    "email_discovery_rate": "100.0%",
+    "phone_discovery_rate": "0.0%",
+    "linkedin_discovery_rate": "0.0%",
+    "meaningful_title_rate": "100.0%",
+    "high_quality_rate": "0.0%"
+  },
+  "detailed_results": [
+    {
+      "url": "http://www.mjmplumbingservices.uk/",
+      "company_name": "MJM PLUMBING SERVICES",
+      "extraction_timestamp": "2025-06-20T11:27:41.013907",
+      "executives_found": 0,
+      "executives": [],
+      "quality_metrics": {
+        "total_executives": 0,
+        "executives_with_emails": 0,
+        "executives_with_phones": 0,
+        "executives_with_linkedin": 0,
+        "executives_with_meaningful_titles": 0,
+        "high_quality_executives": 0,
+        "average_confidence": 0.0
+      }
+    },
+    {
+      "url": "http://rnplumbingandheating.co.uk/",
+      "company_name": "Plumber in Northfield",
+      "extraction_timestamp": "2025-06-20T11:27:43.464441",
+      "executives_found": 0,
+      "executives": [],
+      "quality_metrics": {
+        "total_executives": 0,
+        "executives_with_emails": 0,
+        "executives_with_phones": 0,
+        "executives_with_linkedin": 0,
+        "executives_with_meaningful_titles": 0,
+        "high_quality_executives": 0,
+        "average_confidence": 0.0
+      }
+    },
+    {
+      "url": "http://www.andrewrileyheating.co.uk/",
+      "company_name": "Andrew Riley heating plumbing & gas",
+      "extraction_timestamp": "2025-06-20T11:27:50.010283",
+      "executives_found": 1,
+      "executives": [
+        {
+          "name": "Andrew Riley",
+          "title": "Director",
+          "email": "admin@andrewrileyheating.co.uk",
+          "phone": "",
+          "linkedin_url": "",
+          "overall_confidence": 0.6550000000000001,
+          "extraction_method": "robust_pipeline"
+        }
+      ],
+      "quality_metrics": {
+        "total_executives": 1,
+        "executives_with_emails": 1,
+        "executives_with_phones": 0,
+        "executives_with_linkedin": 0,
+        "executives_with_meaningful_titles": 1,
+        "high_quality_executives": 0,
+        "average_confidence": 0.6550000000000001
+      }
+    },
+    {
+      "url": "http://www.boldmereplumbingservices.co.uk/",
+      "company_name": "Home",
+      "extraction_timestamp": "2025-06-20T11:27:52.009236",
+      "executives_found": 0,
+      "executives": [],
+      "quality_metrics": {
+        "total_executives": 0,
+        "executives_with_emails": 0,
+        "executives_with_phones": 0,
+        "executives_with_linkedin": 0,
+        "executives_with_meaningful_titles": 0,
+        "high_quality_executives": 0,
+        "average_confidence": 0.0
+      }
+    },
+    {
+      "url": "http://jmplumbingheating.co.uk/",
+      "company_name": "J M Plumbing & Heating",
+      "extraction_timestamp": "2025-06-20T11:27:58.734040",
+      "executives_found": 0,
+      "executives": [],
+      "quality_metrics": {
+        "total_executives": 0,
+        "executives_with_emails": 0,
+        "executives_with_phones": 0,
+        "executives_with_linkedin": 0,
+        "executives_with_meaningful_titles": 0,
+        "high_quality_executives": 0,
+        "average_confidence": 0.0
+      }
+    },
+    {
+      "url": "https://www.nunnplumbingandgas.co.uk/contact",
+      "company_name": "Registered Gas Safe Engineers",
+      "extraction_timestamp": "2025-06-20T11:28:00.454003",
+      "executives_found": 0,
+      "executives": [],
+      "quality_metrics": {
+        "total_executives": 0,
+        "executives_with_emails": 0,
+        "executives_with_phones": 0,
+        "executives_with_linkedin": 0,
+        "executives_with_meaningful_titles": 0,
+        "high_quality_executives": 0,
+        "average_confidence": 0.0
+      }
+    },
+    {
+      "url": "https://konigashomeservices.co.uk/",
+      "company_name": "Gas Engineer / Birmingham / Boiler Replacement / Boiler Installation / Gas Safe Engineer / Gas Boiler Repair",
+      "extraction_timestamp": "2025-06-20T11:28:01.717408",
+      "executives_found": 0,
+      "executives": [],
+      "quality_metrics": {
+        "total_executives": 0,
+        "executives_with_emails": 0,
+        "executives_with_phones": 0,
+        "executives_with_linkedin": 0,
+        "executives_with_meaningful_titles": 0,
+        "high_quality_executives": 0,
+        "average_confidence": 0.0
+      }
+    },
+    {
+      "url": "http://www.ttsafegas.com/",
+      "company_name": "boiler-installation-birmingham",
+      "extraction_timestamp": "2025-06-20T11:28:02.166388",
+      "executives_found": 0,
+      "executives": [],
+      "quality_metrics": {
+        "total_executives": 0,
+        "executives_with_emails": 0,
+        "executives_with_phones": 0,
+        "executives_with_linkedin": 0,
+        "executives_with_meaningful_titles": 0,
+        "high_quality_executives": 0,
+        "average_confidence": 0.0
+      }
+    }
+  ]
+}

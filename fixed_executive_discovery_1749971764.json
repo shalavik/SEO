@@ -1,0 +1,69 @@
+{
+  "test_info": {
+    "name": "Fixed Executive Discovery Test",
+    "timestamp": "2025-06-15T14:16:04.454571",
+    "total_companies": 5,
+    "total_processing_time_seconds": 11.98173213005066,
+    "average_time_per_company": 2.396346426010132
+  },
+  "summary": {
+    "successful_processes": 0,
+    "failed_processes": 5,
+    "total_executives_found": 0,
+    "total_contacts_found": 0,
+    "average_seo_score": 0.0,
+    "average_lead_score": 0.0
+  },
+  "results": [
+    {
+      "company_id": "95adbf59-7f0e-41be-8f60-d46a45a62109",
+      "company_name": "GPJ Plumbing",
+      "website": "http://gpj-plumbing.co.uk/",
+      "sector": "plumbing",
+      "processing_time_seconds": 2.2492499351501465,
+      "timestamp": "2025-06-15T14:15:52.472864",
+      "status": "failed",
+      "error": "'SEOAnalysis' object has no attribute 'mobile_friendly'"
+    },
+    {
+      "company_id": "8e4540b3-5d75-4df9-a78a-e0cef62854ed",
+      "company_name": "Emergency Plumber Services",
+      "website": "https://www.emergencyplumber.services/",
+      "sector": "plumbing",
+      "processing_time_seconds": 2.9550671577453613,
+      "timestamp": "2025-06-15T14:15:54.722118",
+      "status": "failed",
+      "error": "'SEOAnalysis' object has no attribute 'mobile_friendly'"
+    },
+    {
+      "company_id": "a62d045a-ab98-4eb0-90d4-8d5ff1333531",
+      "company_name": "247 Plumbing and Gas",
+      "website": "https://247plumbingandgas.co.uk/",
+      "sector": "plumbing",
+      "processing_time_seconds": 1.4782929420471191,
+      "timestamp": "2025-06-15T14:15:57.677203",
+      "status": "failed",
+      "error": "'SEOAnalysis' object has no attribute 'mobile_friendly'"
+    },
+    {
+      "company_id": "b86f8152-35e1-41b9-a7ee-24baf40a857d",
+      "company_name": "Hancox Gas and Plumbing",
+      "website": "http://www.hancoxgasandplumbing.co.uk/",
+      "sector": "plumbing",
+      "processing_time_seconds": 3.649947166442871,
+      "timestamp": "2025-06-15T14:15:59.155523",
+      "status": "failed",
+      "error": "'SEOAnalysis' object has no attribute 'mobile_friendly'"
+    },
+    {
+      "company_id": "9d8430d3-bc4c-4d7e-8296-b3871d99baf6",
+      "company_name": "Metro Plumb Birmingham",
+      "website": "https://metroplumb.co.uk/locations/metro-plumb-birmingham/",
+      "sector": "plumbing",
+      "processing_time_seconds": 1.6491141319274902,
+      "timestamp": "2025-06-15T14:16:02.805476",
+      "status": "failed",
+      "error": "'SEOAnalysis' object has no attribute 'mobile_friendly'"
+    }
+  ]
+}

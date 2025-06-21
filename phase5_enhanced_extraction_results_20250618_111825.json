@@ -1,0 +1,265 @@
+{
+  "test_metadata": {
+    "test_date": "2025-06-18T11:18:25.198577",
+    "test_name": "Phase 5 Enhanced Extraction Test",
+    "companies_tested": 4
+  },
+  "results": [
+    {
+      "url": "http://www.msheatingandplumbing.co.uk/",
+      "company_name": "MS Heating & Plumbing",
+      "success": true,
+      "processing_time": 0.0133209228515625,
+      "content_length": 469,
+      "potential_executives": [
+        {
+          "name": "M. Zubair",
+          "title": "Business Owner",
+          "extraction_method": "owner_pattern",
+          "confidence": 0.9,
+          "phase5_validation": {
+            "is_valid": true,
+            "confidence": 0.7000000000000001,
+            "factors": {
+              "format": 1.0,
+              "database_match": 0.0,
+              "business_exclusion": 1.0,
+              "location_exclusion": 1.0,
+              "service_exclusion": 1.0,
+              "context": 0.7,
+              "pattern": 0.3
+            }
+          }
+        },
+        {
+          "name": "Us",
+          "title": "Contact Person",
+          "extraction_method": "contact_pattern",
+          "confidence": 0.7,
+          "phase5_validation": {
+            "is_valid": true,
+            "confidence": 0.735,
+            "factors": {
+              "format": 0.5,
+              "database_match": 0.4,
+              "business_exclusion": 1.0,
+              "location_exclusion": 1.0,
+              "service_exclusion": 1.0,
+              "context": 0.7,
+              "pattern": 0.5
+            }
+          }
+        }
+      ],
+      "validated_executives": [
+        {
+          "name": "M. Zubair",
+          "title": "Business Owner",
+          "extraction_method": "owner_pattern",
+          "confidence": 0.9,
+          "phase5_validation": {
+            "is_valid": true,
+            "confidence": 0.7000000000000001,
+            "factors": {
+              "format": 1.0,
+              "database_match": 0.0,
+              "business_exclusion": 1.0,
+              "location_exclusion": 1.0,
+              "service_exclusion": 1.0,
+              "context": 0.7,
+              "pattern": 0.3
+            }
+          }
+        },
+        {
+          "name": "Us",
+          "title": "Contact Person",
+          "extraction_method": "contact_pattern",
+          "confidence": 0.7,
+          "phase5_validation": {
+            "is_valid": true,
+            "confidence": 0.735,
+            "factors": {
+              "format": 0.5,
+              "database_match": 0.4,
+              "business_exclusion": 1.0,
+              "location_exclusion": 1.0,
+              "service_exclusion": 1.0,
+              "context": 0.7,
+              "pattern": 0.5
+            }
+          }
+        }
+      ],
+      "enhanced_executives": [
+        {
+          "name": "M. Zubair",
+          "title": "Business Owner",
+          "extraction_method": "owner_pattern",
+          "confidence": 0.9,
+          "phase5_validation": {
+            "is_valid": true,
+            "confidence": 0.7000000000000001,
+            "factors": {
+              "format": 1.0,
+              "database_match": 0.0,
+              "business_exclusion": 1.0,
+              "location_exclusion": 1.0,
+              "service_exclusion": 1.0,
+              "context": 0.7,
+              "pattern": 0.3
+            }
+          },
+          "contact_details": {
+            "phones": [],
+            "emails": [],
+            "attribution_method": "general_company"
+          }
+        },
+        {
+          "name": "Us",
+          "title": "Contact Person",
+          "extraction_method": "contact_pattern",
+          "confidence": 0.7,
+          "phase5_validation": {
+            "is_valid": true,
+            "confidence": 0.735,
+            "factors": {
+              "format": 0.5,
+              "database_match": 0.4,
+              "business_exclusion": 1.0,
+              "location_exclusion": 1.0,
+              "service_exclusion": 1.0,
+              "context": 0.7,
+              "pattern": 0.5
+            }
+          },
+          "contact_details": {
+            "phones": [],
+            "emails": [],
+            "attribution_method": "general_company"
+          }
+        }
+      ],
+      "contact_info": [],
+      "analysis": {
+        "quality_score": 0.44999999999999996,
+        "quality_grade": "D - Poor",
+        "executives_found": 2,
+        "high_confidence_count": 1,
+        "with_contacts_count": 0,
+        "validated_count": 2,
+        "contact_items_found": 0,
+        "issues": [
+          "Low confidence in name extraction",
+          "Limited contact information attribution",
+          "No contact information found"
+        ],
+        "recommendations": [
+          "Improve name validation patterns",
+          "Enhance contact attribution methods",
+          "Improve contact extraction patterns"
+        ]
+      }
+    },
+    {
+      "url": "http://www.absolute-plumbing-solutions.com/",
+      "company_name": "Absolute Plumbing & Heating Solutions",
+      "success": true,
+      "processing_time": 0.0010819435119628906,
+      "content_length": 586,
+      "potential_executives": [],
+      "validated_executives": [],
+      "enhanced_executives": [],
+      "contact_info": [
+        {
+          "type": "phone",
+          "value": "0800 772 0326",
+          "context": "lute Plumbing & Heating Solutions\n                0800 772 0326\n                07807 221 991\n                inf"
+        },
+        {
+          "type": "phone",
+          "value": "07807 221 991",
+          "context": "ons\n                0800 772 0326\n                07807 221 991\n                info@absoluteplumbing-heatingsolu"
+        },
+        {
+          "type": "phone",
+          "value": "0800 772 0326",
+          "context": "lute Plumbing & Heating Solutions\n                0800 772 0326\n                07807 221 991\n                inf"
+        },
+        {
+          "type": "email",
+          "value": "info@absoluteplumbing-heatingsolutions.co.uk",
+          "context": "326\n                07807 221 991\n                info@absoluteplumbing-heatingsolutions.co.uk\n                Family Run Business"
+        }
+      ],
+      "analysis": {
+        "quality_score": 0.0,
+        "quality_grade": "F - No executives found",
+        "issues": [
+          "No executives identified"
+        ],
+        "recommendations": [
+          "Improve name extraction patterns",
+          "Check content quality"
+        ]
+      }
+    },
+    {
+      "url": "http://www.meregreengasandplumbing.co.uk/",
+      "company_name": "Mere Green Gas and Plumbing",
+      "success": true,
+      "processing_time": 0.002897977828979492,
+      "content_length": 990,
+      "potential_executives": [],
+      "validated_executives": [],
+      "enhanced_executives": [],
+      "contact_info": [
+        {
+          "type": "phone",
+          "value": "07885 687 352",
+          "context": "Sutton Coldfield\n                Call us 24/7 on: 07885 687 352\n                We are a family run business situ"
+        }
+      ],
+      "analysis": {
+        "quality_score": 0.0,
+        "quality_grade": "F - No executives found",
+        "issues": [
+          "No executives identified"
+        ],
+        "recommendations": [
+          "Improve name extraction patterns",
+          "Check content quality"
+        ]
+      }
+    },
+    {
+      "url": "https://www.starcitiesheatingandplumbing.co.uk/",
+      "company_name": "Star Cities Heating & Plumbing",
+      "success": true,
+      "processing_time": 0.0007469654083251953,
+      "content_length": 456,
+      "potential_executives": [],
+      "validated_executives": [],
+      "enhanced_executives": [],
+      "contact_info": [
+        {
+          "type": "email",
+          "value": "fixit@starcitiesheatingandplumbing.co.uk",
+          "context": "eating & Plumbing\n                078 3323 1442 - fixit@starcitiesheatingandplumbing.co.uk\n                135 Moor End Lane, Erdington, Bir"
+        }
+      ],
+      "analysis": {
+        "quality_score": 0.0,
+        "quality_grade": "F - No executives found",
+        "issues": [
+          "No executives identified"
+        ],
+        "recommendations": [
+          "Improve name extraction patterns",
+          "Check content quality"
+        ]
+      }
+    }
+  ]
+}

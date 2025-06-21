@@ -1,0 +1,168 @@
+{
+  "test_metadata": {
+    "test_name": "Enhanced Pipeline Test - 5 Plumbing Companies",
+    "test_date": "2025-06-13T05:17:06.819985",
+    "companies_tested": 5,
+    "pipeline_components": [
+      "Enhanced Executive Discovery",
+      "SEO Analysis",
+      "Lead Qualification"
+    ]
+  },
+  "companies": [
+    {
+      "company_info": {
+        "name": "MK Plumbing Birmingham",
+        "website": "https://mkplumbingbirmingham.co.uk/",
+        "sector": "plumbing",
+        "city": "Birmingham",
+        "region": "West Midlands"
+      },
+      "processing_time": 50.681164026260376,
+      "executives": [],
+      "seo_analysis": {},
+      "lead_qualification": {},
+      "status": "failed",
+      "errors": [
+        "Error processing MK Plumbing Birmingham: 'SEOAnalyzer' object has no attribute 'analyze_company_seo'"
+      ],
+      "executive_discovery": {
+        "executives_found": 0,
+        "processing_time": 50.680490016937256,
+        "primary_decision_maker": null,
+        "discovery_sources": [
+          "companies_house",
+          "google_search",
+          "website"
+        ],
+        "success_rate": 0.0
+      }
+    },
+    {
+      "company_info": {
+        "name": "Rescue Plumbing & Gas Ltd",
+        "website": "http://www.rescueplumbing.co.uk/",
+        "sector": "plumbing",
+        "city": "Birmingham",
+        "region": "West Midlands"
+      },
+      "processing_time": 222.09359288215637,
+      "executives": [],
+      "seo_analysis": {},
+      "lead_qualification": {},
+      "status": "failed",
+      "errors": [
+        "Error processing Rescue Plumbing & Gas Ltd: 'SEOAnalyzer' object has no attribute 'analyze_company_seo'"
+      ],
+      "executive_discovery": {
+        "executives_found": 0,
+        "processing_time": 222.0928509235382,
+        "primary_decision_maker": null,
+        "discovery_sources": [
+          "companies_house",
+          "google_search",
+          "website"
+        ],
+        "success_rate": 0.0
+      }
+    },
+    {
+      "company_info": {
+        "name": "GD Plumbing & Heating Services Ltd",
+        "website": "https://www.gdplumbingandheatingservices.co.uk/",
+        "sector": "plumbing",
+        "city": "Birmingham",
+        "region": "West Midlands"
+      },
+      "processing_time": 17.584182024002075,
+      "executives": [],
+      "seo_analysis": {},
+      "lead_qualification": {},
+      "status": "failed",
+      "errors": [
+        "Error processing GD Plumbing & Heating Services Ltd: 'SEOAnalyzer' object has no attribute 'analyze_company_seo'"
+      ],
+      "executive_discovery": {
+        "executives_found": 0,
+        "processing_time": 17.58402109146118,
+        "primary_decision_maker": null,
+        "discovery_sources": [
+          "companies_house",
+          "google_search",
+          "website"
+        ],
+        "success_rate": 0.0
+      }
+    },
+    {
+      "company_info": {
+        "name": "Matt Plumbing and Heating",
+        "website": "http://www.mattplumbingandheating.com/",
+        "sector": "plumbing",
+        "city": "Birmingham",
+        "region": "West Midlands"
+      },
+      "processing_time": 22.75849199295044,
+      "executives": [],
+      "seo_analysis": {},
+      "lead_qualification": {},
+      "status": "failed",
+      "errors": [
+        "Error processing Matt Plumbing and Heating: 'SEOAnalyzer' object has no attribute 'analyze_company_seo'"
+      ],
+      "executive_discovery": {
+        "executives_found": 0,
+        "processing_time": 22.758132934570312,
+        "primary_decision_maker": null,
+        "discovery_sources": [
+          "companies_house",
+          "google_search",
+          "website"
+        ],
+        "success_rate": 0.0
+      }
+    },
+    {
+      "company_info": {
+        "name": "Summit Plumbing and Heating",
+        "website": "http://summitplumbingandheating.co.uk/",
+        "sector": "plumbing",
+        "city": "Birmingham",
+        "region": "West Midlands"
+      },
+      "processing_time": 56.01501274108887,
+      "executives": [],
+      "seo_analysis": {},
+      "lead_qualification": {},
+      "status": "failed",
+      "errors": [
+        "Error processing Summit Plumbing and Heating: 'SEOAnalyzer' object has no attribute 'analyze_company_seo'"
+      ],
+      "executive_discovery": {
+        "executives_found": 0,
+        "processing_time": 56.014631271362305,
+        "primary_decision_maker": null,
+        "discovery_sources": [
+          "companies_house",
+          "google_search",
+          "website"
+        ],
+        "success_rate": 0.0
+      }
+    }
+  ],
+  "summary": {
+    "total_companies": 5,
+    "executives_found": 0,
+    "average_seo_score": 0.0,
+    "lead_distribution": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "total_processing_time": 369.13263297080994,
+    "success_rate": 0.0,
+    "average_processing_time_per_company": 73.82652659416199
+  }
+}

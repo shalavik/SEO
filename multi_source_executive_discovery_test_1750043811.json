@@ -1,0 +1,656 @@
+{
+  "test_info": {
+    "name": "Multi-Source Executive Discovery Test",
+    "timestamp": "2025-06-16T10:11:27.228680",
+    "engine_type": "multi_source",
+    "total_companies": 5,
+    "target_success_rate": 0.8,
+    "target_executives_per_company": 2
+  },
+  "results": [
+    {
+      "company_id": "test-gpj-plumbing",
+      "company_name": "GPJ Plumbing",
+      "company_domain": "gpj-plumbing.co.uk",
+      "website_url": "http://gpj-plumbing.co.uk/",
+      "executives_found": 2,
+      "executives": [
+        {
+          "full_name": "Call Now",
+          "first_name": "Call",
+          "last_name": "Now",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Gallery GPJ",
+          "first_name": "Gallery",
+          "last_name": "GPJ",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        }
+      ],
+      "primary_decision_maker": null,
+      "discovery_sources": [
+        "website"
+      ],
+      "total_processing_time": 134.41512298583984,
+      "success_rate": 1.0,
+      "discovery_timestamp": "2025-06-16T10:13:41.643879",
+      "status": "success"
+    },
+    {
+      "company_id": "test-emergency-plumber-services",
+      "company_name": "Emergency Plumber Services",
+      "company_domain": "emergencyplumber.services",
+      "website_url": "https://www.emergencyplumber.services/",
+      "executives_found": 10,
+      "executives": [
+        {
+          "full_name": "Emergency Plumber",
+          "first_name": "Emergency",
+          "last_name": "Plumber",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Hour Call",
+          "first_name": "Hour",
+          "last_name": "Call",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Out Service",
+          "first_name": "Out",
+          "last_name": "Service",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Hour Emergency",
+          "first_name": "Hour",
+          "last_name": "Emergency",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Plumber Birmingham",
+          "first_name": "Plumber",
+          "last_name": "Birmingham",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Solihull Emergency",
+          "first_name": "Solihull",
+          "last_name": "Emergency",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Hour West",
+          "first_name": "Hour",
+          "last_name": "West",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Bromwich Emergency",
+          "first_name": "Bromwich",
+          "last_name": "Emergency",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Plumber Walsall",
+          "first_name": "Plumber",
+          "last_name": "Walsall",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Hour Sutton",
+          "first_name": "Hour",
+          "last_name": "Sutton",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        }
+      ],
+      "primary_decision_maker": null,
+      "discovery_sources": [
+        "website"
+      ],
+      "total_processing_time": 42.8132860660553,
+      "success_rate": 1.0,
+      "discovery_timestamp": "2025-06-16T10:14:24.457262",
+      "status": "success"
+    },
+    {
+      "company_id": "test-247-plumbing-and-gas",
+      "company_name": "247 Plumbing and Gas",
+      "company_domain": "247plumbingandgas.co.uk",
+      "website_url": "https://247plumbingandgas.co.uk/",
+      "executives_found": 4,
+      "executives": [
+        {
+          "full_name": "Home Reliable",
+          "first_name": "Home",
+          "last_name": "Reliable",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Site Under",
+          "first_name": "Site",
+          "last_name": "Under",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Menu Home",
+          "first_name": "Menu",
+          "last_name": "Home",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Socials Facebook",
+          "first_name": "Socials",
+          "last_name": "Facebook",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        }
+      ],
+      "primary_decision_maker": null,
+      "discovery_sources": [
+        "website"
+      ],
+      "total_processing_time": 23.02799105644226,
+      "success_rate": 1.0,
+      "discovery_timestamp": "2025-06-16T10:14:47.485346",
+      "status": "success"
+    },
+    {
+      "company_id": "test-hancox-gas-and-plumbing",
+      "company_name": "Hancox Gas and Plumbing",
+      "company_domain": "hancoxgasandplumbing.co.uk",
+      "website_url": "http://www.hancoxgasandplumbing.co.uk/",
+      "executives_found": 10,
+      "executives": [
+        {
+          "full_name": "CallbackGas Safe",
+          "first_name": "CallbackGas",
+          "last_name": "Safe",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Fully Qualified",
+          "first_name": "Fully",
+          "last_name": "Qualified",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Professionals Call",
+          "first_name": "Professionals",
+          "last_name": "Call",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Residential Air",
+          "first_name": "Residential",
+          "last_name": "Air",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "TestingBathroom Design",
+          "first_name": "TestingBathroom",
+          "last_name": "Design",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "HomesAir Source",
+          "first_name": "HomesAir",
+          "last_name": "Source",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Heat PumpsGround",
+          "first_name": "Heat",
+          "last_name": "PumpsGround",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Source Heat",
+          "first_name": "Source",
+          "last_name": "Heat",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Air Heaters",
+          "first_name": "Air",
+          "last_name": "Heaters",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "PumpsGround Source",
+          "first_name": "PumpsGround",
+          "last_name": "Source",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        }
+      ],
+      "primary_decision_maker": null,
+      "discovery_sources": [
+        "website"
+      ],
+      "total_processing_time": 60.19478917121887,
+      "success_rate": 1.0,
+      "discovery_timestamp": "2025-06-16T10:15:47.680238",
+      "status": "success"
+    },
+    {
+      "company_id": "test-metro-plumb-birmingham",
+      "company_name": "Metro Plumb Birmingham",
+      "company_domain": "metroplumb.co.uk",
+      "website_url": "https://metroplumb.co.uk/locations/metro-plumb-birmingham/",
+      "executives_found": 10,
+      "executives": [
+        {
+          "full_name": "Metro Plumb",
+          "first_name": "Metro",
+          "last_name": "Plumb",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Home Emergency",
+          "first_name": "Home",
+          "last_name": "Emergency",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Source Heat",
+          "first_name": "Source",
+          "last_name": "Heat",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Pumps Bath",
+          "first_name": "Pumps",
+          "last_name": "Bath",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Boiler Service",
+          "first_name": "Boiler",
+          "last_name": "Service",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Repair Central",
+          "first_name": "Repair",
+          "last_name": "Central",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Pipework Repair",
+          "first_name": "Pipework",
+          "last_name": "Repair",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Hot Water",
+          "first_name": "Hot",
+          "last_name": "Water",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Powerflushing Radiator",
+          "first_name": "Powerflushing",
+          "last_name": "Radiator",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        },
+        {
+          "full_name": "Replacement Tap",
+          "first_name": "Replacement",
+          "last_name": "Tap",
+          "title": "Master Plumber",
+          "email": "",
+          "phone": "",
+          "linkedin_url": "",
+          "seniority_tier": "unknown",
+          "confidence": 0.6,
+          "discovery_sources": [
+            "website"
+          ],
+          "discovery_method": "multi_source"
+        }
+      ],
+      "primary_decision_maker": null,
+      "discovery_sources": [
+        "website"
+      ],
+      "total_processing_time": 64.17509007453918,
+      "success_rate": 1.0,
+      "discovery_timestamp": "2025-06-16T10:16:51.855439",
+      "status": "success"
+    }
+  ],
+  "summary": {
+    "total_companies_processed": 5,
+    "successful_companies": 5,
+    "failed_companies": 0,
+    "total_executives_found": 36,
+    "companies_with_executives": 5,
+    "success_rate": 1.0,
+    "average_executives_per_company": 7.2,
+    "total_processing_time_seconds": 324.6267800331116,
+    "average_processing_time_seconds": 64.92535600662231,
+    "target_achievement": {
+      "success_rate_target": 0.8,
+      "success_rate_actual": 1.0,
+      "success_rate_achievement": 125.0,
+      "executives_target": 2.0,
+      "executives_actual": 7.2,
+      "executives_achievement": 360.0
+    }
+  }
+}

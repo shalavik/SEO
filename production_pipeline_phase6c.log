@@ -1,0 +1,76 @@
+2025-06-18 13:58:43,647 - INFO - Starting Production Phase 6C Pipeline
+2025-06-18 13:58:43,648 - INFO - Processing company 1/10: http://www.chparker-plumbing.co.uk/
+2025-06-18 13:58:43,648 - INFO - Processing CH Parker Plumbing with 804 characters of content
+2025-06-18 13:58:43,658 - INFO - Extracted 1 executives for CH Parker Plumbing
+2025-06-18 13:58:43,658 - INFO - Extracted 1 phones and 2 emails for CH Parker Plumbing
+2025-06-18 13:58:43,658 - INFO - Created profile for Chris Parker: Business Owner, DM: True, Ready: True
+2025-06-18 13:58:43,658 - INFO - Completed processing CH Parker Plumbing in 0.01s
+2025-06-18 13:58:43,659 - INFO - Successfully processed CH Parker Plumbing
+2025-06-18 13:58:43,659 - INFO - Processing company 2/10: http://www.msheatingandplumbing.co.uk/
+2025-06-18 13:58:43,659 - INFO - Processing MS Heating & Plumbing with 919 characters of content
+2025-06-18 13:58:43,660 - INFO - Extracted 0 executives for MS Heating & Plumbing
+2025-06-18 13:58:43,660 - INFO - Extracted 0 phones and 2 emails for MS Heating & Plumbing
+2025-06-18 13:58:43,660 - INFO - Completed processing MS Heating & Plumbing in 0.00s
+2025-06-18 13:58:43,660 - ERROR - Error processing http://www.msheatingandplumbing.co.uk/: 'dm_with_contacts'
+2025-06-18 13:58:43,661 - INFO - Processing company 3/10: http://www.absolute-plumbing-solutions.com/
+2025-06-18 13:58:43,661 - INFO - Processing Absolute Plumbing & Heating Solutions with 1133 characters of content
+2025-06-18 13:58:43,663 - INFO - Extracted 1 executives for Absolute Plumbing & Heating Solutions
+2025-06-18 13:58:43,663 - INFO - Extracted 1 phones and 2 emails for Absolute Plumbing & Heating Solutions
+2025-06-18 13:58:43,663 - INFO - Created profile for Mike Johnson: Director, DM: True, Ready: True
+2025-06-18 13:58:43,663 - INFO - Completed processing Absolute Plumbing & Heating Solutions in 0.00s
+2025-06-18 13:58:43,663 - INFO - Successfully processed Absolute Plumbing & Heating Solutions
+2025-06-18 13:58:43,663 - INFO - Processing company 4/10: https://coldspringplumbers.co.uk/
+2025-06-18 13:58:43,663 - INFO - Processing Cold Spring Plumbers with 763 characters of content
+2025-06-18 13:58:43,665 - INFO - Extracted 2 executives for Cold Spring Plumbers
+2025-06-18 13:58:43,665 - INFO - Extracted 1 phones and 1 emails for Cold Spring Plumbers
+2025-06-18 13:58:43,665 - INFO - Created profile for As the: Lead Professional, DM: False, Ready: True
+2025-06-18 13:58:43,665 - INFO - Created profile for Tom Wilson: Contact Person, DM: False, Ready: True
+2025-06-18 13:58:43,665 - INFO - Completed processing Cold Spring Plumbers in 0.00s
+2025-06-18 13:58:43,665 - INFO - Successfully processed Cold Spring Plumbers
+2025-06-18 13:58:43,665 - INFO - Processing company 5/10: http://www.meregreengasandplumbing.co.uk/
+2025-06-18 13:58:43,665 - INFO - Processing Mere Green Gas and Plumbing with 879 characters of content
+2025-06-18 13:58:43,667 - INFO - Extracted 1 executives for Mere Green Gas and Plumbing
+2025-06-18 13:58:43,667 - INFO - Extracted 0 phones and 2 emails for Mere Green Gas and Plumbing
+2025-06-18 13:58:43,667 - INFO - Created profile for Gary Thompson: Founder, DM: True, Ready: True
+2025-06-18 13:58:43,667 - INFO - Completed processing Mere Green Gas and Plumbing in 0.00s
+2025-06-18 13:58:43,667 - INFO - Successfully processed Mere Green Gas and Plumbing
+2025-06-18 13:58:43,667 - INFO - Processing company 6/10: https://manorvale.co.uk/
+2025-06-18 13:58:43,667 - INFO - Processing Manor Vale with 782 characters of content
+2025-06-18 13:58:43,669 - INFO - Extracted 2 executives for Manor Vale
+2025-06-18 13:58:43,669 - INFO - Extracted 1 phones and 1 emails for Manor Vale
+2025-06-18 13:58:43,669 - INFO - Created profile for James Manor: Contact Person, DM: False, Ready: True
+2025-06-18 13:58:43,669 - INFO - Created profile for James: Professional, DM: False, Ready: True
+2025-06-18 13:58:43,669 - INFO - Completed processing Manor Vale in 0.00s
+2025-06-18 13:58:43,669 - INFO - Successfully processed Manor Vale
+2025-06-18 13:58:43,669 - INFO - Processing company 7/10: https://www.starcitiesheatingandplumbing.co.uk/
+2025-06-18 13:58:43,670 - INFO - Processing Star Cities Heating & Plumbing with 910 characters of content
+2025-06-18 13:58:43,671 - INFO - Extracted 3 executives for Star Cities Heating & Plumbing
+2025-06-18 13:58:43,672 - INFO - Extracted 0 phones and 2 emails for Star Cities Heating & Plumbing
+2025-06-18 13:58:43,672 - INFO - Created profile for John Williams Senior Plumber: Lead Professional, DM: False, Ready: True
+2025-06-18 13:58:43,672 - INFO - Created profile for Dave Smith: Lead Professional, DM: False, Ready: True
+2025-06-18 13:58:43,672 - INFO - Created profile for John Williams: Lead Professional, DM: False, Ready: True
+2025-06-18 13:58:43,672 - INFO - Completed processing Star Cities Heating & Plumbing in 0.00s
+2025-06-18 13:58:43,672 - INFO - Successfully processed Star Cities Heating & Plumbing
+2025-06-18 13:58:43,672 - INFO - Processing company 8/10: http://www.yourplumbingservices.co.uk/
+2025-06-18 13:58:43,672 - INFO - Processing Your Plumbing Services with 740 characters of content
+2025-06-18 13:58:43,673 - INFO - Extracted 2 executives for Your Plumbing Services
+2025-06-18 13:58:43,673 - INFO - Extracted 1 phones and 1 emails for Your Plumbing Services
+2025-06-18 13:58:43,673 - INFO - Created profile for Steve Johnson: Business Owner, DM: True, Ready: True
+2025-06-18 13:58:43,674 - INFO - Created profile for Steve: Professional, DM: False, Ready: True
+2025-06-18 13:58:43,674 - INFO - Completed processing Your Plumbing Services in 0.00s
+2025-06-18 13:58:43,674 - INFO - Successfully processed Your Plumbing Services
+2025-06-18 13:58:43,674 - INFO - Processing company 9/10: http://complete-heating.co.uk/
+2025-06-18 13:58:43,674 - INFO - Processing Complete Heating with 747 characters of content
+2025-06-18 13:58:43,676 - INFO - Extracted 2 executives for Complete Heating
+2025-06-18 13:58:43,676 - INFO - Extracted 1 phones and 1 emails for Complete Heating
+2025-06-18 13:58:43,676 - INFO - Created profile for Paul Richards: Professional, DM: False, Ready: True
+2025-06-18 13:58:43,676 - INFO - Created profile for Paul: Professional, DM: False, Ready: True
+2025-06-18 13:58:43,676 - INFO - Completed processing Complete Heating in 0.00s
+2025-06-18 13:58:43,676 - INFO - Successfully processed Complete Heating
+2025-06-18 13:58:43,676 - INFO - Processing company 10/10: https://www.celmeng.co.uk/
+2025-06-18 13:58:43,676 - INFO - Processing Cel Meng with 744 characters of content
+2025-06-18 13:58:43,677 - INFO - Extracted 1 executives for Cel Meng
+2025-06-18 13:58:43,678 - INFO - Extracted 1 phones and 1 emails for Cel Meng
+2025-06-18 13:58:43,678 - INFO - Created profile for Michael Chen: Professional, DM: False, Ready: True
+2025-06-18 13:58:43,678 - INFO - Completed processing Cel Meng in 0.00s
+2025-06-18 13:58:43,678 - INFO - Successfully processed Cel Meng

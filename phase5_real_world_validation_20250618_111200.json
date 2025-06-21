@@ -1,0 +1,241 @@
+{
+  "test_metadata": {
+    "test_date": "2025-06-18T11:12:00.712369",
+    "test_name": "Phase 5 Real-World Validation",
+    "urls_tested": [
+      "http://www.chparker-plumbing.co.uk/",
+      "http://www.msheatingandplumbing.co.uk/",
+      "http://www.absolute-plumbing-solutions.com/",
+      "https://coldspringplumbers.co.uk/",
+      "http://www.meregreengasandplumbing.co.uk/",
+      "https://manorvale.co.uk/",
+      "https://www.starcitiesheatingandplumbing.co.uk/",
+      "http://www.yourplumbingservices.co.uk/",
+      "http://complete-heating.co.uk/",
+      "https://www.celmeng.co.uk/"
+    ],
+    "total_companies": 10
+  },
+  "results": [
+    {
+      "url": "http://www.chparker-plumbing.co.uk/",
+      "company_name": "Chparker Plumbing",
+      "success": true,
+      "processing_time": 0.0071871280670166016,
+      "enhanced_result": {
+        "executives_found": 0,
+        "validated_executives": [],
+        "decision_makers": [],
+        "contact_extraction_accuracy": 0.0,
+        "overall_confidence": 0,
+        "data_quality_assessment": "No executives found"
+      },
+      "validation_summary": {
+        "total_executives": 0,
+        "decision_makers": 0,
+        "high_confidence_executives": 0,
+        "executives_with_contact": 0,
+        "data_quality": "No executives found",
+        "overall_confidence": 0
+      }
+    },
+    {
+      "url": "http://www.msheatingandplumbing.co.uk/",
+      "company_name": "Msheatingandplumbing",
+      "success": true,
+      "processing_time": 0.001046895980834961,
+      "enhanced_result": {
+        "executives_found": 0,
+        "validated_executives": [],
+        "decision_makers": [],
+        "contact_extraction_accuracy": 0.0,
+        "overall_confidence": 0,
+        "data_quality_assessment": "No executives found"
+      },
+      "validation_summary": {
+        "total_executives": 0,
+        "decision_makers": 0,
+        "high_confidence_executives": 0,
+        "executives_with_contact": 0,
+        "data_quality": "No executives found",
+        "overall_confidence": 0
+      }
+    },
+    {
+      "url": "http://www.absolute-plumbing-solutions.com/",
+      "company_name": "Absolute Plumbing Solutions",
+      "success": true,
+      "processing_time": 0.00022602081298828125,
+      "enhanced_result": {
+        "executives_found": 0,
+        "validated_executives": [],
+        "decision_makers": [],
+        "contact_extraction_accuracy": 0.0,
+        "overall_confidence": 0,
+        "data_quality_assessment": "No executives found"
+      },
+      "validation_summary": {
+        "total_executives": 0,
+        "decision_makers": 0,
+        "high_confidence_executives": 0,
+        "executives_with_contact": 0,
+        "data_quality": "No executives found",
+        "overall_confidence": 0
+      }
+    },
+    {
+      "url": "https://coldspringplumbers.co.uk/",
+      "company_name": "Coldspringplumbers",
+      "success": true,
+      "processing_time": 0.00013709068298339844,
+      "enhanced_result": {
+        "executives_found": 0,
+        "validated_executives": [],
+        "decision_makers": [],
+        "contact_extraction_accuracy": 0.0,
+        "overall_confidence": 0,
+        "data_quality_assessment": "No executives found"
+      },
+      "validation_summary": {
+        "total_executives": 0,
+        "decision_makers": 0,
+        "high_confidence_executives": 0,
+        "executives_with_contact": 0,
+        "data_quality": "No executives found",
+        "overall_confidence": 0
+      }
+    },
+    {
+      "url": "http://www.meregreengasandplumbing.co.uk/",
+      "company_name": "Meregreengasandplumbing",
+      "success": true,
+      "processing_time": 0.00022792816162109375,
+      "enhanced_result": {
+        "executives_found": 0,
+        "validated_executives": [],
+        "decision_makers": [],
+        "contact_extraction_accuracy": 0.0,
+        "overall_confidence": 0,
+        "data_quality_assessment": "No executives found"
+      },
+      "validation_summary": {
+        "total_executives": 0,
+        "decision_makers": 0,
+        "high_confidence_executives": 0,
+        "executives_with_contact": 0,
+        "data_quality": "No executives found",
+        "overall_confidence": 0
+      }
+    },
+    {
+      "url": "https://manorvale.co.uk/",
+      "company_name": "Manorvale",
+      "success": true,
+      "processing_time": 0.00012493133544921875,
+      "enhanced_result": {
+        "executives_found": 0,
+        "validated_executives": [],
+        "decision_makers": [],
+        "contact_extraction_accuracy": 0.0,
+        "overall_confidence": 0,
+        "data_quality_assessment": "No executives found"
+      },
+      "validation_summary": {
+        "total_executives": 0,
+        "decision_makers": 0,
+        "high_confidence_executives": 0,
+        "executives_with_contact": 0,
+        "data_quality": "No executives found",
+        "overall_confidence": 0
+      }
+    },
+    {
+      "url": "https://www.starcitiesheatingandplumbing.co.uk/",
+      "company_name": "Starcitiesheatingandplumbing",
+      "success": true,
+      "processing_time": 0.0001628398895263672,
+      "enhanced_result": {
+        "executives_found": 0,
+        "validated_executives": [],
+        "decision_makers": [],
+        "contact_extraction_accuracy": 0.0,
+        "overall_confidence": 0,
+        "data_quality_assessment": "No executives found"
+      },
+      "validation_summary": {
+        "total_executives": 0,
+        "decision_makers": 0,
+        "high_confidence_executives": 0,
+        "executives_with_contact": 0,
+        "data_quality": "No executives found",
+        "overall_confidence": 0
+      }
+    },
+    {
+      "url": "http://www.yourplumbingservices.co.uk/",
+      "company_name": "Yourplumbingservices",
+      "success": true,
+      "processing_time": 0.0001239776611328125,
+      "enhanced_result": {
+        "executives_found": 0,
+        "validated_executives": [],
+        "decision_makers": [],
+        "contact_extraction_accuracy": 0.0,
+        "overall_confidence": 0,
+        "data_quality_assessment": "No executives found"
+      },
+      "validation_summary": {
+        "total_executives": 0,
+        "decision_makers": 0,
+        "high_confidence_executives": 0,
+        "executives_with_contact": 0,
+        "data_quality": "No executives found",
+        "overall_confidence": 0
+      }
+    },
+    {
+      "url": "http://complete-heating.co.uk/",
+      "company_name": "Complete Heating",
+      "success": true,
+      "processing_time": 0.0001201629638671875,
+      "enhanced_result": {
+        "executives_found": 0,
+        "validated_executives": [],
+        "decision_makers": [],
+        "contact_extraction_accuracy": 0.0,
+        "overall_confidence": 0,
+        "data_quality_assessment": "No executives found"
+      },
+      "validation_summary": {
+        "total_executives": 0,
+        "decision_makers": 0,
+        "high_confidence_executives": 0,
+        "executives_with_contact": 0,
+        "data_quality": "No executives found",
+        "overall_confidence": 0
+      }
+    },
+    {
+      "url": "https://www.celmeng.co.uk/",
+      "company_name": "Celmeng",
+      "success": true,
+      "processing_time": 0.00011801719665527344,
+      "enhanced_result": {
+        "executives_found": 0,
+        "validated_executives": [],
+        "decision_makers": [],
+        "contact_extraction_accuracy": 0.0,
+        "overall_confidence": 0,
+        "data_quality_assessment": "No executives found"
+      },
+      "validation_summary": {
+        "total_executives": 0,
+        "decision_makers": 0,
+        "high_confidence_executives": 0,
+        "executives_with_contact": 0,
+        "data_quality": "No executives found",
+        "overall_confidence": 0
+      }
+    }
+  ]
+}

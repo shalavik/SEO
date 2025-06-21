@@ -1,0 +1,200 @@
+{
+  "test_metadata": {
+    "timestamp": "2025-06-12T16:57:34.052590",
+    "test_type": "optimized_executive_discovery",
+    "companies_tested": 5,
+    "optimizations": [
+      "LinkedIn disabled for speed",
+      "Improved title extraction",
+      "Enhanced email enrichment",
+      "Lower confidence threshold",
+      "Better text cleaning"
+    ],
+    "config": {
+      "linkedin_enabled": false,
+      "website_enabled": true,
+      "email_enrichment": true,
+      "max_executives": 5,
+      "timeout": 120.0,
+      "confidence_threshold": 0.3
+    }
+  },
+  "company_results": [
+    {
+      "company_info": {
+        "id": "supreme-plumbers",
+        "name": "Supreme Plumbers",
+        "website": "https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com",
+        "sector": "plumbing",
+        "location": "UK",
+        "expected_executives": [
+          "owner",
+          "manager"
+        ],
+        "priority": "high"
+      },
+      "discovery_result": {
+        "processing_time": 22.529682874679565,
+        "success_rate": 0.0,
+        "discovery_sources": [],
+        "executives_found": 0,
+        "emails_discovered": 0,
+        "primary_decision_maker_found": false
+      },
+      "executives": []
+    },
+    {
+      "company_info": {
+        "id": "ideal-plumbing",
+        "name": "Ideal Plumbing Services",
+        "website": "https://idealplumbingservices.co.uk",
+        "sector": "plumbing",
+        "location": "UK",
+        "expected_executives": [
+          "director",
+          "manager"
+        ],
+        "priority": "high"
+      },
+      "discovery_result": {
+        "processing_time": 27.41077709197998,
+        "success_rate": 0.0,
+        "discovery_sources": [],
+        "executives_found": 0,
+        "emails_discovered": 0,
+        "primary_decision_maker_found": false
+      },
+      "executives": []
+    },
+    {
+      "company_info": {
+        "id": "2nd-city-gas",
+        "name": "2nd City Gas, Plumbing and Heating",
+        "website": "https://2ndcitygasplumbingandheating.co.uk",
+        "sector": "plumbing",
+        "location": "UK",
+        "expected_executives": [
+          "owner",
+          "director"
+        ],
+        "priority": "medium"
+      },
+      "discovery_result": {
+        "processing_time": 26.075027227401733,
+        "success_rate": 0.0,
+        "discovery_sources": [],
+        "executives_found": 0,
+        "emails_discovered": 0,
+        "primary_decision_maker_found": false
+      },
+      "executives": []
+    },
+    {
+      "company_info": {
+        "id": "jack-plumber",
+        "name": "Jack The Plumber",
+        "website": "https://jacktheplumber.co.uk",
+        "sector": "plumbing",
+        "location": "UK",
+        "expected_executives": [
+          "owner",
+          "founder"
+        ],
+        "priority": "high"
+      },
+      "discovery_result": {
+        "processing_time": 47.35013794898987,
+        "success_rate": 0.25,
+        "discovery_sources": [
+          "website"
+        ],
+        "executives_found": 1,
+        "emails_discovered": 0,
+        "primary_decision_maker_found": true
+      },
+      "executives": [
+        {
+          "full_name": "Jack [Business Owner]",
+          "title": "Master Plumber",
+          "seniority_tier": "tier_3",
+          "email": null,
+          "email_confidence": 0.0,
+          "discovery_sources": [
+            "website"
+          ],
+          "overall_confidence": 0.6,
+          "data_completeness_score": 0.6
+        }
+      ]
+    },
+    {
+      "company_info": {
+        "id": "swift-emergency",
+        "name": "Swift Emergency Plumber",
+        "website": "https://swiftemergencyplumber.com",
+        "sector": "plumbing",
+        "location": "UK",
+        "expected_executives": [
+          "director",
+          "manager"
+        ],
+        "priority": "medium"
+      },
+      "discovery_result": {
+        "processing_time": 60.00171089172363,
+        "success_rate": 0.0,
+        "discovery_sources": [],
+        "executives_found": 0,
+        "emails_discovered": 0,
+        "primary_decision_maker_found": false
+      },
+      "executives": []
+    }
+  ],
+  "executive_discoveries": [
+    {
+      "company_name": "Jack The Plumber",
+      "full_name": "Jack [Business Owner]",
+      "title": "Master Plumber",
+      "seniority_tier": "tier_3",
+      "email": null,
+      "email_confidence": 0.0,
+      "discovery_sources": [
+        "website"
+      ],
+      "overall_confidence": 0.6,
+      "data_completeness_score": 0.6
+    }
+  ],
+  "performance_metrics": {
+    "total_processing_time": 185.41566705703735,
+    "avg_processing_time_per_company": 36.68209986686706,
+    "total_executives_found": 1,
+    "companies_with_executives": 1,
+    "executive_discovery_rate_percent": 20.0,
+    "decision_maker_discovery_rate_percent": 20.0,
+    "email_discovery_rate_percent": 0.0,
+    "processing_times": [
+      22.55053424835205,
+      27.413362979888916,
+      26.077811002731323,
+      47.362176179885864,
+      60.00661492347717
+    ],
+    "engine_statistics": {
+      "companies_processed": 5,
+      "executives_found": 1,
+      "linkedin_success_rate": 0.0,
+      "website_success_rate": 0.2,
+      "overall_success_rate": 0.05,
+      "avg_processing_time": 36.67346720695495
+    }
+  },
+  "quality_assessment": {
+    "tier_1_executives_found": 0,
+    "tier_2_executives_found": 0,
+    "tier_3_executives_found": 1,
+    "average_confidence_score": 0.6,
+    "high_confidence_executives": 0
+  }
+}

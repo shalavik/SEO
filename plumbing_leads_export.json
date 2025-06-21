@@ -1,0 +1,530 @@
+{
+  "export_metadata": {
+    "timestamp": "2025-06-12T18:48:00Z",
+    "system": "UK Company SEO Lead Generation System v1.0.0",
+    "export_type": "seo_qualified_leads",
+    "processing_pipeline": [
+      "manual_input",
+      "seo_analysis", 
+      "business_intelligence",
+      "lead_qualification"
+    ],
+    "total_leads": 5,
+    "qualified_leads": 5,
+    "average_seo_score": 45.4,
+    "total_market_value": "£10,000-19,000"
+  },
+  "leads": [
+    {
+      "lead_id": "0c0c601a-b26f-4c88-a49a-63dc6657e2a4",
+      "company": {
+        "name": "Supreme Plumbers",
+        "website": "https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/",
+        "industry": "plumbing",
+        "location": {
+          "city": "Birmingham",
+          "region": "West Midlands",
+          "country": "UK",
+          "address": "2A Suite Blackthorn House, St Pauls Square, Birmingham, B3 1RL"
+        },
+        "business": {
+          "sector": "plumbing",
+          "size_category": "small",
+          "employees": 10,
+          "phone": "+44 121 816 0544",
+          "services": [
+            "Emergency plumbing",
+            "Heating repairs", 
+            "Leak detection",
+            "Pipe installation"
+          ]
+        }
+      },
+      "seo_analysis": {
+        "overall_score": 45.0,
+        "score_breakdown": {
+          "mobile_friendly": false,
+          "meta_description_present": true,
+          "h1_tags_present": true,
+          "ssl_certificate": true,
+          "pagespeed_score": null,
+          "load_time": null
+        },
+        "critical_issues": [
+          "Not mobile friendly - customers can't use site on mobile devices",
+          "Missing Google PageSpeed data - performance unknown",
+          "No mobile optimization detected"
+        ],
+        "opportunities": [
+          "Mobile-first responsive design",
+          "Page speed optimization",
+          "Local SEO enhancement",
+          "Google My Business optimization"
+        ],
+        "strengths": [
+          "SSL certificate installed",
+          "Meta descriptions present", 
+          "H1 tags properly structured",
+          "Professional website design"
+        ]
+      },
+      "business_intelligence": {
+        "lead_score": 78.5,
+        "priority_tier": "B",
+        "tier_label": "Warm Lead",
+        "urgency": "high",
+        "estimated_value": "£2,000-4,000",
+        "confidence": 0.85,
+        "recommended_services": [
+          "Mobile responsive website redesign",
+          "Emergency service local SEO",
+          "Page speed optimization",
+          "24/7 service visibility improvement"
+        ],
+        "talking_points": [
+          "Your website is completely unusable on mobile phones",
+          "Emergency plumbers need instant mobile visibility",
+          "Competitors are capturing your mobile traffic",
+          "We helped similar plumbers increase emergency calls by 40%",
+          "Local customers can't find you during emergencies"
+        ],
+        "competitive_advantage": "First-mover advantage in mobile optimization for Birmingham plumbers"
+      },
+      "contact": {
+        "extraction_status": "partial",
+        "phone": "+44 121 816 0544",
+        "email": "supremegasservices@gmail.com",
+        "contact_confidence": 0.7,
+        "decision_maker": {
+          "identified": false,
+          "contact_person": null,
+          "role": null,
+          "seniority_tier": null
+        }
+      },
+      "enrichment": {
+        "status": "tested",
+        "domain": "supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com",
+        "confidence": 0.0,
+        "processing_time_ms": 33,
+        "data_sources": ["email_discovery"],
+        "additional_contacts": []
+      }
+    },
+    {
+      "lead_id": "68e7ba91-0a04-4478-bc0f-c46486d141fd", 
+      "company": {
+        "name": "Ideal Plumbing Services",
+        "website": "http://www.idealplumbingservices.co.uk/",
+        "industry": "plumbing",
+        "location": {
+          "city": "Birmingham",
+          "region": "West Midlands", 
+          "country": "UK",
+          "address": "West Midlands"
+        },
+        "business": {
+          "sector": "plumbing",
+          "size_category": "micro",
+          "employees": 5,
+          "phone": "07440753962",
+          "services": [
+            "Emergency plumbing 24/7",
+            "Domestic plumbing",
+            "Commercial plumbing",
+            "Heating systems"
+          ]
+        }
+      },
+      "seo_analysis": {
+        "overall_score": 45.0,
+        "score_breakdown": {
+          "mobile_friendly": false,
+          "meta_description_present": true,
+          "h1_tags_present": true,
+          "ssl_certificate": true,
+          "pagespeed_score": null,
+          "load_time": null
+        },
+        "critical_issues": [
+          "Not mobile friendly - losing mobile customers",
+          "Family business needs local mobile presence",
+          "Emergency service accessibility compromised"
+        ],
+        "opportunities": [
+          "Mobile-first design for family business",
+          "Local SEO for 20+ years experience",
+          "Emergency response optimization",
+          "Customer testimonial integration"
+        ],
+        "strengths": [
+          "Established family business (20+ years)",
+          "Strong value proposition",
+          "SSL certificate present",
+          "Good on-page SEO foundation"
+        ]
+      },
+      "business_intelligence": {
+        "lead_score": 72.0,
+        "priority_tier": "B",
+        "tier_label": "Warm Lead",
+        "urgency": "medium",
+        "estimated_value": "£1,500-3,000",
+        "confidence": 0.80,
+        "recommended_services": [
+          "Mobile responsive design",
+          "Family business story optimization",
+          "Local search enhancement", 
+          "Customer review system"
+        ],
+        "talking_points": [
+          "20+ years experience not showing on mobile",
+          "Family business values lost in poor mobile experience",
+          "Emergency customers can't reach you on mobile",
+          "We specialize in family business local SEO",
+          "Your expertise deserves proper mobile showcase"
+        ],
+        "competitive_advantage": "Established reputation with poor digital presence"
+      },
+      "contact": {
+        "extraction_status": "phone_only",
+        "phone": "07440753962",
+        "email": "info@idealplumbingservices.co.uk",
+        "contact_confidence": 0.6,
+        "decision_maker": {
+          "identified": false,
+          "contact_person": null,
+          "role": "Owner/Family Business",
+          "seniority_tier": "tier_1"
+        }
+      },
+      "enrichment": {
+        "status": "not_processed",
+        "domain": "idealplumbingservices.co.uk",
+        "confidence": 0.0,
+        "processing_time_ms": null,
+        "data_sources": [],
+        "additional_contacts": []
+      }
+    },
+    {
+      "lead_id": "b7830870-e446-439e-bb62-227d9bcfe0e7",
+      "company": {
+        "name": "2nd City Gas, Plumbing and Heating",
+        "website": "https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink",
+        "industry": "plumbing",
+        "location": {
+          "city": "Birmingham",
+          "region": "West Midlands",
+          "country": "UK", 
+          "address": "1 Balden Road, Harborne, Birmingham, B17 9EU"
+        },
+        "business": {
+          "sector": "plumbing",
+          "size_category": "medium",
+          "employees": 25,
+          "phone": "0800 587 3136",
+          "services": [
+            "Gas safe registered",
+            "Plumbing services",
+            "Heating systems",
+            "Commercial contracts"
+          ]
+        }
+      },
+      "seo_analysis": {
+        "overall_score": 47.2,
+        "score_breakdown": {
+          "mobile_friendly": false,
+          "meta_description_present": true,
+          "h1_tags_present": true,
+          "ssl_certificate": true,
+          "pagespeed_score": null,
+          "load_time": null
+        },
+        "critical_issues": [
+          "Not mobile friendly despite being largest company",
+          "Commercial clients expect mobile professionalism",
+          "Missing competitive advantage in mobile space"
+        ],
+        "opportunities": [
+          "Market leadership through mobile optimization",
+          "Commercial client mobile experience",
+          "Technical SEO improvements",
+          "Industry authority positioning"
+        ],
+        "strengths": [
+          "Highest SEO score in group",
+          "Established business with 25 employees",
+          "Professional branding",
+          "Gas Safe registered credentials"
+        ]
+      },
+      "business_intelligence": {
+        "lead_score": 87.5,
+        "priority_tier": "A",
+        "tier_label": "Hot Lead",
+        "urgency": "immediate",
+        "estimated_value": "£3,000-5,000",
+        "confidence": 0.92,
+        "recommended_services": [
+          "Enterprise mobile optimization",
+          "Commercial client portal",
+          "Technical SEO audit",
+          "Local market domination strategy"
+        ],
+        "talking_points": [
+          "Largest plumber in area with worst mobile presence",
+          "Commercial clients expect mobile professionalism",
+          "25 employees deserve enterprise-level SEO",
+          "We can make you the #1 plumber in Birmingham",
+          "Your size should dominate local search results"
+        ],
+        "competitive_advantage": "Market leader position with massive mobile optimization gap"
+      },
+      "contact": {
+        "extraction_status": "phone_only",
+        "phone": "0800 587 3136",
+        "email": null,
+        "contact_confidence": 0.5,
+        "decision_maker": {
+          "identified": false,
+          "contact_person": null,
+          "role": "Management Team",
+          "seniority_tier": "tier_1"
+        }
+      },
+      "enrichment": {
+        "status": "not_processed",
+        "domain": "2ndcitygasplumbingandheating.co.uk",
+        "confidence": 0.0,
+        "processing_time_ms": null,
+        "data_sources": [],
+        "additional_contacts": []
+      }
+    },
+    {
+      "lead_id": "319e4e7b-308f-4551-a5e0-6e2fd6dfae96",
+      "company": {
+        "name": "Jack The Plumber", 
+        "website": "https://jacktheplumber.co.uk/",
+        "industry": "plumbing",
+        "location": {
+          "city": "Birmingham",
+          "region": "West Midlands",
+          "country": "UK",
+          "address": "Birmingham area"
+        },
+        "business": {
+          "sector": "plumbing",
+          "size_category": "small",
+          "employees": 8,
+          "phone": null,
+          "services": [
+            "Professional plumbing",
+            "Emergency repairs",
+            "Maintenance services",
+            "Installation work"
+          ]
+        }
+      },
+      "seo_analysis": {
+        "overall_score": 45.0,
+        "score_breakdown": {
+          "mobile_friendly": false,
+          "meta_description_present": true,
+          "h1_tags_present": true,
+          "ssl_certificate": true,
+          "pagespeed_score": null,
+          "load_time": null
+        },
+        "critical_issues": [
+          "No phone number visible on website",
+          "Not mobile friendly - customers can't contact",
+          "Missing critical contact information"
+        ],
+        "opportunities": [
+          "Add prominent contact information",
+          "Mobile-first contact optimization",
+          "Emergency contact visibility",
+          "Professional brand development"
+        ],
+        "strengths": [
+          "Clean, professional website design",
+          "Good domain name recognition",
+          "SSL certificate present",
+          "Basic SEO fundamentals in place"
+        ]
+      },
+      "business_intelligence": {
+        "lead_score": 65.0,
+        "priority_tier": "C",
+        "tier_label": "Qualified Lead",
+        "urgency": "medium",
+        "estimated_value": "£1,500-2,500",
+        "confidence": 0.70,
+        "recommended_services": [
+          "Contact information optimization",
+          "Mobile responsive design",
+          "Call-to-action improvements",
+          "Local SEO basics"
+        ],
+        "talking_points": [
+          "Customers can't find your phone number",
+          "Mobile users can't contact you for emergencies",
+          "Professional brand needs professional mobile presence",
+          "We can fix your contact visibility issues",
+          "Simple changes could double your inquiry rate"
+        ],
+        "competitive_advantage": "Easy wins through contact optimization"
+      },
+      "contact": {
+        "extraction_status": "failed",
+        "phone": null,
+        "email": null,
+        "contact_confidence": 0.0,
+        "decision_maker": {
+          "identified": false,
+          "contact_person": "Jack",
+          "role": "Owner/Plumber",
+          "seniority_tier": "tier_1"
+        }
+      },
+      "enrichment": {
+        "status": "not_processed",
+        "domain": "jacktheplumber.co.uk",
+        "confidence": 0.0,
+        "processing_time_ms": null,
+        "data_sources": [],
+        "additional_contacts": []
+      }
+    },
+    {
+      "lead_id": "6855e0d2-6a4d-4b1a-88ab-280e5fe9ccff",
+      "company": {
+        "name": "Swift Emergency Plumber",
+        "website": "https://www.swiftemergencyplumber.com/",
+        "industry": "plumbing", 
+        "location": {
+          "city": "Birmingham",
+          "region": "West Midlands",
+          "country": "UK",
+          "address": "Birmingham area"
+        },
+        "business": {
+          "sector": "plumbing",
+          "size_category": "small",
+          "employees": 12,
+          "phone": null,
+          "services": [
+            "Emergency plumbing 24/7",
+            "Rapid response service",
+            "Drain unblocking",
+            "Leak repairs"
+          ]
+        }
+      },
+      "seo_analysis": {
+        "overall_score": 45.0,
+        "score_breakdown": {
+          "mobile_friendly": false,
+          "meta_description_present": true,
+          "h1_tags_present": true,
+          "ssl_certificate": true,
+          "pagespeed_score": null,
+          "load_time": null
+        },
+        "critical_issues": [
+          "Emergency service not mobile accessible",
+          "Customers can't call during emergencies on mobile",
+          "Swift response promise broken by poor mobile UX"
+        ],
+        "opportunities": [
+          "Emergency mobile contact optimization",
+          "24/7 service mobile prominence",
+          "Rapid response mobile booking",
+          "Emergency call button optimization"
+        ],
+        "strengths": [
+          "Strong emergency service positioning",
+          "Good brand name for emergency services",
+          "Professional website foundation",
+          "Clear service offerings"
+        ]
+      },
+      "business_intelligence": {
+        "lead_score": 82.0,
+        "priority_tier": "A",
+        "tier_label": "Hot Lead",
+        "urgency": "immediate",
+        "estimated_value": "£2,500-4,000",
+        "confidence": 0.88,
+        "recommended_services": [
+          "Emergency mobile optimization",
+          "24/7 contact prominence",
+          "Mobile emergency booking system",
+          "Local emergency SEO"
+        ],
+        "talking_points": [
+          "Emergency customers can't reach you on mobile",
+          "Swift service promise broken by slow mobile site",
+          "Plumbing emergencies happen on mobile devices",
+          "We specialize in emergency service mobile optimization",
+          "Your competitors are stealing your emergency calls"
+        ],
+        "competitive_advantage": "Emergency service niche with critical mobile failure"
+      },
+      "contact": {
+        "extraction_status": "failed",
+        "phone": null,
+        "email": null,
+        "contact_confidence": 0.0,
+        "decision_maker": {
+          "identified": false,
+          "contact_person": null,
+          "role": "Emergency Service Owner",
+          "seniority_tier": "tier_1"
+        }
+      },
+      "enrichment": {
+        "status": "not_processed",
+        "domain": "swiftemergencyplumber.com",
+        "confidence": 0.0,
+        "processing_time_ms": null,
+        "data_sources": [],
+        "additional_contacts": []
+      }
+    }
+  ],
+  "summary": {
+    "market_analysis": {
+      "sector": "Plumbing Services - Birmingham",
+      "total_companies_analyzed": 5,
+      "average_seo_score": 45.4,
+      "mobile_optimization_failure_rate": "100%",
+      "ssl_adoption_rate": "100%",
+      "meta_description_adoption": "100%",
+      "h1_tag_adoption": "100%"
+    },
+    "opportunity_assessment": {
+      "total_market_value": "£10,000-19,000",
+      "average_value_per_lead": "£2,000-3,800", 
+      "hot_leads": 2,
+      "warm_leads": 2,
+      "qualified_leads": 1,
+      "immediate_opportunities": 3
+    },
+    "recommended_actions": {
+      "priority_1": "Mobile optimization crisis - 100% failure rate",
+      "priority_2": "Emergency service mobile contact optimization",
+      "priority_3": "Local SEO enhancement for all companies",
+      "priority_4": "Page speed and technical SEO improvements"
+    },
+    "competitive_intelligence": {
+      "market_leader": "2nd City Gas (47.2 score, 25 employees)",
+      "biggest_opportunity": "Swift Emergency (emergency niche + mobile failure)",
+      "easiest_win": "Jack The Plumber (contact info fixes)",
+      "family_business": "Ideal Plumbing (20+ years, mobile transformation)"
+    }
+  }
+} 

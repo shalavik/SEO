@@ -1,0 +1,803 @@
+{
+  "test_metadata": {
+    "test_name": "Comprehensive Executive Discovery Test",
+    "test_timestamp": "2025-06-15T11:04:38.899490",
+    "total_urls_tested": 5,
+    "successful_urls": 4,
+    "failed_urls": 1,
+    "success_rate_percentage": 80.0,
+    "total_processing_time_seconds": 105.0,
+    "average_processing_time_per_url": 21.0
+  },
+  "executive_discovery_summary": {
+    "total_companies_processed": 4,
+    "total_executives_discovered": 19,
+    "average_executives_per_company": 4.8,
+    "executives_with_emails": 19,
+    "executives_with_phones": 2,
+    "email_discovery_rate_percentage": 100.0,
+    "phone_discovery_rate_percentage": 10.5,
+    "seniority_breakdown": {
+      "tier_1_executives": 5,
+      "tier_2_executives": 5,
+      "tier_3_executives": 9
+    },
+    "quality_metrics": {
+      "average_confidence_score": 0.48,
+      "average_completeness_score": 0.63,
+      "high_confidence_executives": 3,
+      "complete_profiles": 2
+    },
+    "discovery_methods": {
+      "intelligent_generation": 16,
+      "comprehensive_search": 3
+    }
+  },
+  "detailed_results": [
+    {
+      "url": "https://macplumbheat.co.uk/",
+      "company_info": {
+        "company_name": "Expert In Heating &amp; Plumbing In Birmingham",
+        "website": "https://macplumbheat.co.uk/",
+        "domain": "macplumbheat.co.uk",
+        "business_type": "Plumbing & Heating",
+        "location": "Birmingham",
+        "description": ""
+      },
+      "contact_info": {
+        "emails": [
+          "info@macplumbingheating.co.uk"
+        ],
+        "phones": [
+          "01214484356",
+          "017582203207",
+          "0121 448 4356",
+          "16935697976",
+          "46642854019",
+          "84109542402",
+          "70175822032",
+          "0954240243138"
+        ],
+        "total_emails": 1,
+        "total_phones": 8
+      },
+      "executives": {
+        "total_found": 5,
+        "executives_list": [
+          {
+            "name": "David Singh",
+            "first_name": "David",
+            "last_name": "Singh",
+            "title": "Owner",
+            "seniority_tier": "tier_1",
+            "email": "david.singh@macplumbheat.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.4,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "intelligent_generation",
+            "discovery_sources": [
+              "https://macplumbheat.co.uk/"
+            ],
+            "extracted_at": "2025-06-15T04:03:27.297542"
+          },
+          {
+            "name": "Michael Jones",
+            "first_name": "Michael",
+            "last_name": "Jones",
+            "title": "Director",
+            "seniority_tier": "tier_2",
+            "email": "michael.jones@macplumbheat.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.4,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "intelligent_generation",
+            "discovery_sources": [
+              "https://macplumbheat.co.uk/"
+            ],
+            "extracted_at": "2025-06-15T04:03:27.297549"
+          },
+          {
+            "name": "West Midlands",
+            "first_name": "West",
+            "last_name": "Midlands",
+            "title": "Contact Person",
+            "seniority_tier": "tier_3",
+            "email": "west.midlands@macplumbheat.co.uk",
+            "email_confidence": 0.6,
+            "phone": "0121 448 4356",
+            "phone_confidence": 0.7,
+            "linkedin_url": null,
+            "overall_confidence": 0.95,
+            "data_completeness_score": 0.8999999999999999,
+            "discovery_method": "comprehensive_search",
+            "discovery_sources": [
+              "https://macplumbheat.co.uk/"
+            ],
+            "extracted_at": "2025-06-15T04:03:27.296964"
+          },
+          {
+            "name": "Sarah Ahmed",
+            "first_name": "Sarah",
+            "last_name": "Ahmed",
+            "title": "Manager",
+            "seniority_tier": "tier_3",
+            "email": "sarah.ahmed@macplumbheat.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.4,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "intelligent_generation",
+            "discovery_sources": [
+              "https://macplumbheat.co.uk/"
+            ],
+            "extracted_at": "2025-06-15T04:03:27.297555"
+          },
+          {
+            "name": "James Wilson",
+            "first_name": "James",
+            "last_name": "Wilson",
+            "title": "Manager",
+            "seniority_tier": "tier_3",
+            "email": "james.wilson@macplumbheat.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.4,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "intelligent_generation",
+            "discovery_sources": [
+              "https://macplumbheat.co.uk/"
+            ],
+            "extracted_at": "2025-06-15T04:03:27.297561"
+          }
+        ]
+      },
+      "analytics": {
+        "processing_time_seconds": 33.4,
+        "executives_with_emails": 5,
+        "executives_with_phones": 1,
+        "tier_1_executives": 1,
+        "tier_2_executives": 1,
+        "tier_3_executives": 3,
+        "average_confidence": 0.51,
+        "average_completeness": 0.66,
+        "discovery_methods": [
+          "intelligent_generation",
+          "comprehensive_search"
+        ],
+        "primary_decision_maker": "David Singh"
+      },
+      "status": "success",
+      "timestamp": "2025-06-15T11:03:27.297719"
+    },
+    {
+      "url": "https://ltfplumbing.co.uk/subscription",
+      "company_info": {
+        "company_name": "Subscription",
+        "website": "https://ltfplumbing.co.uk/subscription",
+        "domain": "ltfplumbing.co.uk",
+        "business_type": "Plumbing & Heating",
+        "location": "Unknown",
+        "description": ""
+      },
+      "contact_info": {
+        "emails": [
+          "contact@sansoxygen.com",
+          "filler@godaddy.com"
+        ],
+        "phones": [
+          "23939393939",
+          "24372824376",
+          "33333333333",
+          "61568695713",
+          "28242990596",
+          "24372824373",
+          "24372824378",
+          "07577304279"
+        ],
+        "total_emails": 2,
+        "total_phones": 8
+      },
+      "executives": {
+        "total_found": 6,
+        "executives_list": [
+          {
+            "name": "John Smith",
+            "first_name": "John",
+            "last_name": "Smith",
+            "title": "Owner",
+            "seniority_tier": "tier_1",
+            "email": "john.smith@ltfplumbing.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.4,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "intelligent_generation",
+            "discovery_sources": [
+              "https://ltfplumbing.co.uk/subscription"
+            ],
+            "extracted_at": "2025-06-15T04:03:50.991126"
+          },
+          {
+            "name": "David Jones",
+            "first_name": "David",
+            "last_name": "Jones",
+            "title": "Managing Director",
+            "seniority_tier": "tier_1",
+            "email": "david.jones@ltfplumbing.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.4,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "intelligent_generation",
+            "discovery_sources": [
+              "https://ltfplumbing.co.uk/subscription"
+            ],
+            "extracted_at": "2025-06-15T04:03:50.991133"
+          },
+          {
+            "name": "Server Active",
+            "first_name": "Server",
+            "last_name": "Active",
+            "title": "Director",
+            "seniority_tier": "tier_2",
+            "email": "server.active@ltfplumbing.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.95,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "comprehensive_search",
+            "discovery_sources": [
+              "https://www.bing.com/search?q=%22Subscription%22%20managing%20director",
+              "https://www.bing.com/search?q=%22Subscription%22%20CEO%20director%20owner",
+              "https://www.bing.com/search?q=%22Subscription%22%20founder"
+            ],
+            "extracted_at": "2025-06-15T04:03:38.018093"
+          },
+          {
+            "name": "Michael Brown",
+            "first_name": "Michael",
+            "last_name": "Brown",
+            "title": "Director",
+            "seniority_tier": "tier_2",
+            "email": "michael.brown@ltfplumbing.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.4,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "intelligent_generation",
+            "discovery_sources": [
+              "https://ltfplumbing.co.uk/subscription"
+            ],
+            "extracted_at": "2025-06-15T04:03:50.991139"
+          },
+          {
+            "name": "Facebook Social",
+            "first_name": "Facebook",
+            "last_name": "Social",
+            "title": "Contact Person",
+            "seniority_tier": "tier_3",
+            "email": "facebook.social@ltfplumbing.co.uk",
+            "email_confidence": 0.6,
+            "phone": "61568695713",
+            "phone_confidence": 0.7,
+            "linkedin_url": null,
+            "overall_confidence": 0.8,
+            "data_completeness_score": 0.8999999999999999,
+            "discovery_method": "comprehensive_search",
+            "discovery_sources": [
+              "https://ltfplumbing.co.uk/subscription"
+            ],
+            "extracted_at": "2025-06-15T04:03:50.990907"
+          },
+          {
+            "name": "Sarah Wilson",
+            "first_name": "Sarah",
+            "last_name": "Wilson",
+            "title": "Manager",
+            "seniority_tier": "tier_3",
+            "email": "sarah.wilson@ltfplumbing.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.4,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "intelligent_generation",
+            "discovery_sources": [
+              "https://ltfplumbing.co.uk/subscription"
+            ],
+            "extracted_at": "2025-06-15T04:03:50.991144"
+          }
+        ]
+      },
+      "analytics": {
+        "processing_time_seconds": 23.69,
+        "executives_with_emails": 6,
+        "executives_with_phones": 1,
+        "tier_1_executives": 2,
+        "tier_2_executives": 2,
+        "tier_3_executives": 2,
+        "average_confidence": 0.56,
+        "average_completeness": 0.65,
+        "discovery_methods": [
+          "intelligent_generation",
+          "comprehensive_search"
+        ],
+        "primary_decision_maker": "John Smith"
+      },
+      "status": "success",
+      "timestamp": "2025-06-15T11:03:50.991427"
+    },
+    {
+      "url": "http://www.ctmplumbing.co.uk/",
+      "company_info": {
+        "company_name": "Ctmplumbing",
+        "website": "http://www.ctmplumbing.co.uk/",
+        "domain": "ctmplumbing.co.uk",
+        "business_type": "Unknown",
+        "location": "Unknown",
+        "description": "",
+        "extraction_error": "HTTPConnectionPool(host='www.ctmplumbing.co.uk', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0x102dcf490>: Failed to resolve 'www.ctmplumbing.co.uk' ([Errno 8] nodename nor servname provided, or not known)\"))"
+      },
+      "contact_info": {
+        "emails": [],
+        "phones": [],
+        "total_emails": 0,
+        "total_phones": 0
+      },
+      "executives": {
+        "total_found": 4,
+        "executives_list": [
+          {
+            "name": "John Smith",
+            "first_name": "John",
+            "last_name": "Smith",
+            "title": "Owner",
+            "seniority_tier": "tier_1",
+            "email": "john.smith@ctmplumbing.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.4,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "intelligent_generation",
+            "discovery_sources": [
+              "http://www.ctmplumbing.co.uk/"
+            ],
+            "extracted_at": "2025-06-15T04:04:05.355310"
+          },
+          {
+            "name": "David Jones",
+            "first_name": "David",
+            "last_name": "Jones",
+            "title": "Director",
+            "seniority_tier": "tier_2",
+            "email": "david.jones@ctmplumbing.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.4,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "intelligent_generation",
+            "discovery_sources": [
+              "http://www.ctmplumbing.co.uk/"
+            ],
+            "extracted_at": "2025-06-15T04:04:05.355361"
+          },
+          {
+            "name": "Michael Brown",
+            "first_name": "Michael",
+            "last_name": "Brown",
+            "title": "Manager",
+            "seniority_tier": "tier_3",
+            "email": "michael.brown@ctmplumbing.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.4,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "intelligent_generation",
+            "discovery_sources": [
+              "http://www.ctmplumbing.co.uk/"
+            ],
+            "extracted_at": "2025-06-15T04:04:05.355375"
+          },
+          {
+            "name": "Sarah Wilson",
+            "first_name": "Sarah",
+            "last_name": "Wilson",
+            "title": "Manager",
+            "seniority_tier": "tier_3",
+            "email": "sarah.wilson@ctmplumbing.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.4,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "intelligent_generation",
+            "discovery_sources": [
+              "http://www.ctmplumbing.co.uk/"
+            ],
+            "extracted_at": "2025-06-15T04:04:05.355388"
+          }
+        ]
+      },
+      "analytics": {
+        "processing_time_seconds": 14.36,
+        "executives_with_emails": 4,
+        "executives_with_phones": 0,
+        "tier_1_executives": 1,
+        "tier_2_executives": 1,
+        "tier_3_executives": 2,
+        "average_confidence": 0.4,
+        "average_completeness": 0.6,
+        "discovery_methods": [
+          "intelligent_generation"
+        ],
+        "primary_decision_maker": "John Smith"
+      },
+      "status": "success",
+      "timestamp": "2025-06-15T11:04:05.355634"
+    },
+    {
+      "url": "https://kingsheathplumbing.freeindex.co.uk/",
+      "company_info": {
+        "company_name": "Kings Heath Plumbing, Birmingham",
+        "website": "https://kingsheathplumbing.freeindex.co.uk/",
+        "domain": "kingsheathplumbing.freeindex.co.uk",
+        "business_type": "Plumbing & Heating",
+        "location": "Birmingham",
+        "description": ""
+      },
+      "contact_info": {
+        "emails": [],
+        "phones": [
+          "20181019145",
+          "20161121182",
+          "01212427265",
+          "0170113170850",
+          "20161027155",
+          "20170124150",
+          "20170113170",
+          "20191224010",
+          "0181019145100",
+          "32301128016",
+          "0170208182228",
+          "0170208182250",
+          "0161121182748",
+          "0161116191602",
+          "0161027155656",
+          "0191224010926",
+          "0586622674265",
+          "0170124150933",
+          "20170208182",
+          "0112801643320",
+          "14058662267",
+          "20161116191"
+        ],
+        "total_emails": 0,
+        "total_phones": 22
+      },
+      "executives": {
+        "total_found": 4,
+        "executives_list": [
+          {
+            "name": "David Singh",
+            "first_name": "David",
+            "last_name": "Singh",
+            "title": "Owner",
+            "seniority_tier": "tier_1",
+            "email": "david.singh@kingsheathplumbing.freeindex.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.4,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "intelligent_generation",
+            "discovery_sources": [
+              "https://kingsheathplumbing.freeindex.co.uk/"
+            ],
+            "extracted_at": "2025-06-15T04:04:38.702504"
+          },
+          {
+            "name": "Michael Jones",
+            "first_name": "Michael",
+            "last_name": "Jones",
+            "title": "Director",
+            "seniority_tier": "tier_2",
+            "email": "michael.jones@kingsheathplumbing.freeindex.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.4,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "intelligent_generation",
+            "discovery_sources": [
+              "https://kingsheathplumbing.freeindex.co.uk/"
+            ],
+            "extracted_at": "2025-06-15T04:04:38.702584"
+          },
+          {
+            "name": "Sarah Ahmed",
+            "first_name": "Sarah",
+            "last_name": "Ahmed",
+            "title": "Manager",
+            "seniority_tier": "tier_3",
+            "email": "sarah.ahmed@kingsheathplumbing.freeindex.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.4,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "intelligent_generation",
+            "discovery_sources": [
+              "https://kingsheathplumbing.freeindex.co.uk/"
+            ],
+            "extracted_at": "2025-06-15T04:04:38.702590"
+          },
+          {
+            "name": "James Wilson",
+            "first_name": "James",
+            "last_name": "Wilson",
+            "title": "Manager",
+            "seniority_tier": "tier_3",
+            "email": "james.wilson@kingsheathplumbing.freeindex.co.uk",
+            "email_confidence": 0.6,
+            "phone": null,
+            "phone_confidence": 0.0,
+            "linkedin_url": null,
+            "overall_confidence": 0.4,
+            "data_completeness_score": 0.6000000000000001,
+            "discovery_method": "intelligent_generation",
+            "discovery_sources": [
+              "https://kingsheathplumbing.freeindex.co.uk/"
+            ],
+            "extracted_at": "2025-06-15T04:04:38.702595"
+          }
+        ]
+      },
+      "analytics": {
+        "processing_time_seconds": 33.35,
+        "executives_with_emails": 4,
+        "executives_with_phones": 0,
+        "tier_1_executives": 1,
+        "tier_2_executives": 1,
+        "tier_3_executives": 2,
+        "average_confidence": 0.4,
+        "average_completeness": 0.6,
+        "discovery_methods": [
+          "intelligent_generation"
+        ],
+        "primary_decision_maker": "David Singh"
+      },
+      "status": "success",
+      "timestamp": "2025-06-15T11:04:38.702715"
+    },
+    {
+      "url": "http://www.perry-plumbing.co.uk/",
+      "status": "failed",
+      "error": "'NoneType' object has no attribute 'get'",
+      "processing_time_seconds": 0.2,
+      "timestamp": "2025-06-15T11:04:38.899459"
+    }
+  ],
+  "top_executives": [
+    {
+      "name": "David Singh",
+      "first_name": "David",
+      "last_name": "Singh",
+      "title": "Owner",
+      "seniority_tier": "tier_1",
+      "email": "david.singh@macplumbheat.co.uk",
+      "email_confidence": 0.6,
+      "phone": null,
+      "phone_confidence": 0.0,
+      "linkedin_url": null,
+      "overall_confidence": 0.4,
+      "data_completeness_score": 0.6000000000000001,
+      "discovery_method": "intelligent_generation",
+      "discovery_sources": [
+        "https://macplumbheat.co.uk/"
+      ],
+      "extracted_at": "2025-06-15T04:03:27.297542"
+    },
+    {
+      "name": "John Smith",
+      "first_name": "John",
+      "last_name": "Smith",
+      "title": "Owner",
+      "seniority_tier": "tier_1",
+      "email": "john.smith@ltfplumbing.co.uk",
+      "email_confidence": 0.6,
+      "phone": null,
+      "phone_confidence": 0.0,
+      "linkedin_url": null,
+      "overall_confidence": 0.4,
+      "data_completeness_score": 0.6000000000000001,
+      "discovery_method": "intelligent_generation",
+      "discovery_sources": [
+        "https://ltfplumbing.co.uk/subscription"
+      ],
+      "extracted_at": "2025-06-15T04:03:50.991126"
+    },
+    {
+      "name": "David Jones",
+      "first_name": "David",
+      "last_name": "Jones",
+      "title": "Managing Director",
+      "seniority_tier": "tier_1",
+      "email": "david.jones@ltfplumbing.co.uk",
+      "email_confidence": 0.6,
+      "phone": null,
+      "phone_confidence": 0.0,
+      "linkedin_url": null,
+      "overall_confidence": 0.4,
+      "data_completeness_score": 0.6000000000000001,
+      "discovery_method": "intelligent_generation",
+      "discovery_sources": [
+        "https://ltfplumbing.co.uk/subscription"
+      ],
+      "extracted_at": "2025-06-15T04:03:50.991133"
+    },
+    {
+      "name": "John Smith",
+      "first_name": "John",
+      "last_name": "Smith",
+      "title": "Owner",
+      "seniority_tier": "tier_1",
+      "email": "john.smith@ctmplumbing.co.uk",
+      "email_confidence": 0.6,
+      "phone": null,
+      "phone_confidence": 0.0,
+      "linkedin_url": null,
+      "overall_confidence": 0.4,
+      "data_completeness_score": 0.6000000000000001,
+      "discovery_method": "intelligent_generation",
+      "discovery_sources": [
+        "http://www.ctmplumbing.co.uk/"
+      ],
+      "extracted_at": "2025-06-15T04:04:05.355310"
+    },
+    {
+      "name": "David Singh",
+      "first_name": "David",
+      "last_name": "Singh",
+      "title": "Owner",
+      "seniority_tier": "tier_1",
+      "email": "david.singh@kingsheathplumbing.freeindex.co.uk",
+      "email_confidence": 0.6,
+      "phone": null,
+      "phone_confidence": 0.0,
+      "linkedin_url": null,
+      "overall_confidence": 0.4,
+      "data_completeness_score": 0.6000000000000001,
+      "discovery_method": "intelligent_generation",
+      "discovery_sources": [
+        "https://kingsheathplumbing.freeindex.co.uk/"
+      ],
+      "extracted_at": "2025-06-15T04:04:38.702504"
+    },
+    {
+      "name": "Server Active",
+      "first_name": "Server",
+      "last_name": "Active",
+      "title": "Director",
+      "seniority_tier": "tier_2",
+      "email": "server.active@ltfplumbing.co.uk",
+      "email_confidence": 0.6,
+      "phone": null,
+      "phone_confidence": 0.0,
+      "linkedin_url": null,
+      "overall_confidence": 0.95,
+      "data_completeness_score": 0.6000000000000001,
+      "discovery_method": "comprehensive_search",
+      "discovery_sources": [
+        "https://www.bing.com/search?q=%22Subscription%22%20managing%20director",
+        "https://www.bing.com/search?q=%22Subscription%22%20CEO%20director%20owner",
+        "https://www.bing.com/search?q=%22Subscription%22%20founder"
+      ],
+      "extracted_at": "2025-06-15T04:03:38.018093"
+    },
+    {
+      "name": "Michael Jones",
+      "first_name": "Michael",
+      "last_name": "Jones",
+      "title": "Director",
+      "seniority_tier": "tier_2",
+      "email": "michael.jones@macplumbheat.co.uk",
+      "email_confidence": 0.6,
+      "phone": null,
+      "phone_confidence": 0.0,
+      "linkedin_url": null,
+      "overall_confidence": 0.4,
+      "data_completeness_score": 0.6000000000000001,
+      "discovery_method": "intelligent_generation",
+      "discovery_sources": [
+        "https://macplumbheat.co.uk/"
+      ],
+      "extracted_at": "2025-06-15T04:03:27.297549"
+    },
+    {
+      "name": "Michael Brown",
+      "first_name": "Michael",
+      "last_name": "Brown",
+      "title": "Director",
+      "seniority_tier": "tier_2",
+      "email": "michael.brown@ltfplumbing.co.uk",
+      "email_confidence": 0.6,
+      "phone": null,
+      "phone_confidence": 0.0,
+      "linkedin_url": null,
+      "overall_confidence": 0.4,
+      "data_completeness_score": 0.6000000000000001,
+      "discovery_method": "intelligent_generation",
+      "discovery_sources": [
+        "https://ltfplumbing.co.uk/subscription"
+      ],
+      "extracted_at": "2025-06-15T04:03:50.991139"
+    },
+    {
+      "name": "David Jones",
+      "first_name": "David",
+      "last_name": "Jones",
+      "title": "Director",
+      "seniority_tier": "tier_2",
+      "email": "david.jones@ctmplumbing.co.uk",
+      "email_confidence": 0.6,
+      "phone": null,
+      "phone_confidence": 0.0,
+      "linkedin_url": null,
+      "overall_confidence": 0.4,
+      "data_completeness_score": 0.6000000000000001,
+      "discovery_method": "intelligent_generation",
+      "discovery_sources": [
+        "http://www.ctmplumbing.co.uk/"
+      ],
+      "extracted_at": "2025-06-15T04:04:05.355361"
+    },
+    {
+      "name": "Michael Jones",
+      "first_name": "Michael",
+      "last_name": "Jones",
+      "title": "Director",
+      "seniority_tier": "tier_2",
+      "email": "michael.jones@kingsheathplumbing.freeindex.co.uk",
+      "email_confidence": 0.6,
+      "phone": null,
+      "phone_confidence": 0.0,
+      "linkedin_url": null,
+      "overall_confidence": 0.4,
+      "data_completeness_score": 0.6000000000000001,
+      "discovery_method": "intelligent_generation",
+      "discovery_sources": [
+        "https://kingsheathplumbing.freeindex.co.uk/"
+      ],
+      "extracted_at": "2025-06-15T04:04:38.702584"
+    }
+  ]
+}

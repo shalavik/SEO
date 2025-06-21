@@ -1,0 +1,133 @@
+{
+  "test_summary": {
+    "urls_tested": 5,
+    "test_timestamp": "2025-06-19T22:00:24.002318",
+    "old_regex_total_matches": 539,
+    "new_semantic_total_matches": 1,
+    "false_positives_eliminated": 538,
+    "accuracy_improvement": 99.81447124304268
+  },
+  "detailed_results": [
+    {
+      "url": "https://sitelift.site/richardhopeplumbingservices/",
+      "content_length": 18018,
+      "old_regex_matches": 70,
+      "old_regex_examples": [
+        "Global Marketing",
+        "Richard Hope",
+        "Plumbing Services",
+        "Doe Bank",
+        "Richard Hope",
+        "Plumbing Services",
+        "Emergency Plumbing",
+        "Doe Bank",
+        "Richard Hope",
+        "Plumbing Services"
+      ],
+      "new_semantic_matches": 1,
+      "new_semantic_names": [
+        {
+          "name": "Richard Hope",
+          "confidence": 0.85,
+          "reasons": [
+            "'Richard' found in UK first names database",
+            "'Hope' found in UK surnames database",
+            "Found in executive context: 'head'",
+            "Has proper name characteristics"
+          ]
+        }
+      ],
+      "false_positives_eliminated": 69,
+      "accuracy_improvement_percent": 98.57142857142858,
+      "processing_time": 0.0007131099700927734
+    },
+    {
+      "url": "https://www.am-electrical.co.uk/waterheater/",
+      "content_length": 238447,
+      "old_regex_matches": 165,
+      "old_regex_examples": [
+        "Water Heater",
+        "Repair Birmingham",
+        "Hot Water",
+        "Electrical Installations",
+        "Commercial Electricians",
+        "Water Heater",
+        "Repair Birmingham",
+        "Hot Water",
+        "Water Heater",
+        "Repair Birmingham"
+      ],
+      "new_semantic_matches": 0,
+      "new_semantic_names": [],
+      "false_positives_eliminated": 165,
+      "accuracy_improvement_percent": 100.0,
+      "processing_time": 0.004445075988769531
+    },
+    {
+      "url": "https://www.trustatrader.com/traders/hgs-plumbing-heating-plumbers-selly-oak",
+      "content_length": 177998,
+      "old_regex_matches": 33,
+      "old_regex_examples": [
+        "Approved Plumbers",
+        "Approved Plumbers",
+        "Trusted Traders",
+        "Covering Birmingham",
+        "Sutton Coldfield",
+        "Register Guarantee",
+        "Sutton Coldfield",
+        "General Plumbing",
+        "Tap Repair",
+        "Toilet Repair"
+      ],
+      "new_semantic_matches": 0,
+      "new_semantic_names": [],
+      "false_positives_eliminated": 33,
+      "accuracy_improvement_percent": 100.0,
+      "processing_time": 0.0028810501098632812
+    },
+    {
+      "url": "https://davisplumbing1.wixsite.com/davisplumbing",
+      "content_length": 692094,
+      "old_regex_matches": 242,
+      "old_regex_examples": [
+        "Website Builder",
+        "Safari Pinned",
+        "Tab Icon",
+        "Legacy Polyfills",
+        "Globals Definitions",
+        "Essential Viewer",
+        "Overriding Globals",
+        "String Argument",
+        "Helvetica Neue",
+        "Helvetica Neue"
+      ],
+      "new_semantic_matches": 0,
+      "new_semantic_names": [],
+      "false_positives_eliminated": 242,
+      "accuracy_improvement_percent": 100.0,
+      "processing_time": 0.010846853256225586
+    },
+    {
+      "url": "http://mccannsheatingandplumbing.co.uk/",
+      "content_length": 15217,
+      "old_regex_matches": 29,
+      "old_regex_examples": [
+        "Mccanns Heating",
+        "Plumbing Services",
+        "Show Menu",
+        "Contact Info",
+        "Special Offers",
+        "Call Now",
+        "Bathroom Planning",
+        "Designer Bathrooms",
+        "Walk In",
+        "Full Bathroom"
+      ],
+      "new_semantic_matches": 0,
+      "new_semantic_names": [],
+      "false_positives_eliminated": 29,
+      "accuracy_improvement_percent": 100.0,
+      "processing_time": 0.00041604042053222656
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "test_info": {
+    "name": "Multi-Source Executive Discovery Test",
+    "timestamp": "2025-06-15T23:47:02.981673",
+    "engine_type": "existing",
+    "total_companies": 5,
+    "target_success_rate": 0.8,
+    "target_executives_per_company": 2
+  },
+  "results": [
+    {
+      "company_id": "test-gpj-plumbing",
+      "company_name": "GPJ Plumbing",
+      "company_domain": "gpj-plumbing.co.uk",
+      "website_url": "http://gpj-plumbing.co.uk/",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "discovery_sources": [],
+      "total_processing_time": 71.22602987289429,
+      "success_rate": 0.0,
+      "discovery_timestamp": "2025-06-15T23:48:14.207788",
+      "status": "success"
+    },
+    {
+      "company_id": "test-emergency-plumber-services",
+      "company_name": "Emergency Plumber Services",
+      "company_domain": "emergencyplumber.services",
+      "website_url": "https://www.emergencyplumber.services/",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "discovery_sources": [],
+      "total_processing_time": 27.897306203842163,
+      "success_rate": 0.0,
+      "discovery_timestamp": "2025-06-15T23:48:42.105214",
+      "status": "success"
+    },
+    {
+      "company_id": "test-247-plumbing-and-gas",
+      "company_name": "247 Plumbing and Gas",
+      "company_domain": "247plumbingandgas.co.uk",
+      "website_url": "https://247plumbingandgas.co.uk/",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "discovery_sources": [],
+      "total_processing_time": 24.08199405670166,
+      "success_rate": 0.0,
+      "discovery_timestamp": "2025-06-15T23:49:06.187320",
+      "status": "success"
+    },
+    {
+      "company_id": "test-hancox-gas-and-plumbing",
+      "company_name": "Hancox Gas and Plumbing",
+      "company_domain": "hancoxgasandplumbing.co.uk",
+      "website_url": "http://www.hancoxgasandplumbing.co.uk/",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "discovery_sources": [],
+      "total_processing_time": 40.561660051345825,
+      "success_rate": 0.0,
+      "discovery_timestamp": "2025-06-15T23:49:46.749020",
+      "status": "success"
+    },
+    {
+      "company_id": "test-metro-plumb-birmingham",
+      "company_name": "Metro Plumb Birmingham",
+      "company_domain": "metroplumb.co.uk",
+      "website_url": "https://metroplumb.co.uk/locations/metro-plumb-birmingham/",
+      "executives_found": 0,
+      "executives": [],
+      "primary_decision_maker": null,
+      "discovery_sources": [],
+      "total_processing_time": 42.0945999622345,
+      "success_rate": 0.0,
+      "discovery_timestamp": "2025-06-15T23:50:28.843668",
+      "status": "success"
+    }
+  ],
+  "summary": {
+    "total_companies_processed": 5,
+    "successful_companies": 0,
+    "failed_companies": 5,
+    "total_executives_found": 0,
+    "companies_with_executives": 0,
+    "success_rate": 0.0,
+    "average_executives_per_company": 0.0,
+    "total_processing_time_seconds": 205.86195993423462,
+    "average_processing_time_seconds": 41.172391986846925,
+    "target_achievement": {
+      "success_rate_target": 0.8,
+      "success_rate_actual": 0.0,
+      "success_rate_achievement": 0.0,
+      "executives_target": 2.0,
+      "executives_actual": 0.0,
+      "executives_achievement": 0.0
+    }
+  }
+}
