@@ -1,0 +1,1927 @@
+{
+  "metadata": {
+    "timestamp": "20250623_172034",
+    "execution_time_seconds": 0.11085200309753418,
+    "excel_file": "1Testfinal.xlsx",
+    "system_pipeline": "RobustExecutivePipeline_Simulation",
+    "validation_framework_version": "1.0.0",
+    "urls_tested": 15,
+    "note": "Results based on actual robust pipeline test outputs"
+  },
+  "overall_metrics": {
+    "totals": {
+      "manual_executives": 20,
+      "system_executives": 9,
+      "discovered_executives": 4,
+      "executives_with_email": 4,
+      "executives_with_linkedin": 2,
+      "executives_with_phone": 4,
+      "false_positives": 5,
+      "unique_urls": 15
+    },
+    "match_quality": {
+      "exact_matches": 0,
+      "strong_matches": 1,
+      "partial_matches": 3,
+      "weak_matches": 0,
+      "no_matches": 5,
+      "average_confidence": 0.3841276605339105
+    },
+    "discovery_metrics": {
+      "overall_discovery_rate": 20.0,
+      "average_discovery_rate": 23.333333333333332,
+      "url_coverage": 60.0,
+      "successful_urls": 9
+    },
+    "contact_attribution": {
+      "email_attribution_rate": 100.0,
+      "linkedin_attribution_rate": 50.0,
+      "phone_attribution_rate": 100.0,
+      "false_positive_rate": 55.55555555555556
+    },
+    "manual_data_baseline": {
+      "email_coverage": 80.0,
+      "linkedin_coverage": 90.0,
+      "phone_coverage": 100.0
+    },
+    "performance_assessment": {
+      "discovery_excellent": false,
+      "discovery_good": false,
+      "email_attribution_excellent": true,
+      "email_attribution_good": true,
+      "false_positive_acceptable": false,
+      "url_coverage_complete": false
+    }
+  },
+  "url_results": {
+    "http://anhplumbing.com": {
+      "manual_executives_count": 2,
+      "system_executives_count": 1,
+      "discovery_rate": 0.0,
+      "attribution_rate": 0.0,
+      "matches_count": 1,
+      "missing_count": 2,
+      "false_positives_count": 1,
+      "match_types": {
+        "exact_match": 0,
+        "strong_match": 0,
+        "partial_match": 0,
+        "weak_match": 0,
+        "no_match": 1
+      }
+    },
+    "https://air-techsystems.com": {
+      "manual_executives_count": 2,
+      "system_executives_count": 1,
+      "discovery_rate": 0.0,
+      "attribution_rate": 0.0,
+      "matches_count": 1,
+      "missing_count": 2,
+      "false_positives_count": 1,
+      "match_types": {
+        "exact_match": 0,
+        "strong_match": 0,
+        "partial_match": 0,
+        "weak_match": 0,
+        "no_match": 1
+      }
+    },
+    "http://www.cfsservice.net": {
+      "manual_executives_count": 1,
+      "system_executives_count": 1,
+      "discovery_rate": 0.0,
+      "attribution_rate": 0.0,
+      "matches_count": 1,
+      "missing_count": 1,
+      "false_positives_count": 1,
+      "match_types": {
+        "exact_match": 0,
+        "strong_match": 0,
+        "partial_match": 0,
+        "weak_match": 0,
+        "no_match": 1
+      }
+    },
+    "http://getgreenair.com": {
+      "manual_executives_count": 2,
+      "system_executives_count": 1,
+      "discovery_rate": 0.0,
+      "attribution_rate": 0.0,
+      "matches_count": 1,
+      "missing_count": 2,
+      "false_positives_count": 1,
+      "match_types": {
+        "exact_match": 0,
+        "strong_match": 0,
+        "partial_match": 0,
+        "weak_match": 0,
+        "no_match": 1
+      }
+    },
+    "http://www.vernonheating.com": {
+      "manual_executives_count": 1,
+      "system_executives_count": 1,
+      "discovery_rate": 100.0,
+      "attribution_rate": 100.0,
+      "matches_count": 1,
+      "missing_count": 0,
+      "false_positives_count": 0,
+      "match_types": {
+        "exact_match": 0,
+        "strong_match": 0,
+        "partial_match": 1,
+        "weak_match": 0,
+        "no_match": 0
+      }
+    },
+    "http://elliottelec.com": {
+      "manual_executives_count": 2,
+      "system_executives_count": 0,
+      "discovery_rate": 0.0,
+      "attribution_rate": 0.0,
+      "matches_count": 0,
+      "missing_count": 2,
+      "false_positives_count": 0,
+      "match_types": {
+        "exact_match": 0,
+        "strong_match": 0,
+        "partial_match": 0,
+        "weak_match": 0,
+        "no_match": 0
+      }
+    },
+    "http://www.capitolcontractorsinc.com": {
+      "manual_executives_count": 1,
+      "system_executives_count": 0,
+      "discovery_rate": 0.0,
+      "attribution_rate": 0.0,
+      "matches_count": 0,
+      "missing_count": 1,
+      "false_positives_count": 0,
+      "match_types": {
+        "exact_match": 0,
+        "strong_match": 0,
+        "partial_match": 0,
+        "weak_match": 0,
+        "no_match": 0
+      }
+    },
+    "http://www.kwsmith.com": {
+      "manual_executives_count": 1,
+      "system_executives_count": 1,
+      "discovery_rate": 100.0,
+      "attribution_rate": 100.0,
+      "matches_count": 1,
+      "missing_count": 0,
+      "false_positives_count": 0,
+      "match_types": {
+        "exact_match": 0,
+        "strong_match": 1,
+        "partial_match": 0,
+        "weak_match": 0,
+        "no_match": 0
+      }
+    },
+    "http://pressmechanical.com": {
+      "manual_executives_count": 1,
+      "system_executives_count": 0,
+      "discovery_rate": 0.0,
+      "attribution_rate": 0.0,
+      "matches_count": 0,
+      "missing_count": 1,
+      "false_positives_count": 0,
+      "match_types": {
+        "exact_match": 0,
+        "strong_match": 0,
+        "partial_match": 0,
+        "weak_match": 0,
+        "no_match": 0
+      }
+    },
+    "http://titanmech.net": {
+      "manual_executives_count": 1,
+      "system_executives_count": 1,
+      "discovery_rate": 0.0,
+      "attribution_rate": 0.0,
+      "matches_count": 1,
+      "missing_count": 1,
+      "false_positives_count": 1,
+      "match_types": {
+        "exact_match": 0,
+        "strong_match": 0,
+        "partial_match": 0,
+        "weak_match": 0,
+        "no_match": 1
+      }
+    },
+    "http://www.associatesplumbing.com": {
+      "manual_executives_count": 1,
+      "system_executives_count": 0,
+      "discovery_rate": 0.0,
+      "attribution_rate": 0.0,
+      "matches_count": 0,
+      "missing_count": 1,
+      "false_positives_count": 0,
+      "match_types": {
+        "exact_match": 0,
+        "strong_match": 0,
+        "partial_match": 0,
+        "weak_match": 0,
+        "no_match": 0
+      }
+    },
+    "http://www.dullesplumbinggroup.com": {
+      "manual_executives_count": 1,
+      "system_executives_count": 0,
+      "discovery_rate": 0.0,
+      "attribution_rate": 0.0,
+      "matches_count": 0,
+      "missing_count": 1,
+      "false_positives_count": 0,
+      "match_types": {
+        "exact_match": 0,
+        "strong_match": 0,
+        "partial_match": 0,
+        "weak_match": 0,
+        "no_match": 0
+      }
+    },
+    "http://sagewater.com": {
+      "manual_executives_count": 1,
+      "system_executives_count": 1,
+      "discovery_rate": 100.0,
+      "attribution_rate": 100.0,
+      "matches_count": 1,
+      "missing_count": 0,
+      "false_positives_count": 0,
+      "match_types": {
+        "exact_match": 0,
+        "strong_match": 0,
+        "partial_match": 1,
+        "weak_match": 0,
+        "no_match": 0
+      }
+    },
+    "http://thejoyceagency.com": {
+      "manual_executives_count": 2,
+      "system_executives_count": 1,
+      "discovery_rate": 50.0,
+      "attribution_rate": 100.0,
+      "matches_count": 1,
+      "missing_count": 1,
+      "false_positives_count": 0,
+      "match_types": {
+        "exact_match": 0,
+        "strong_match": 0,
+        "partial_match": 1,
+        "weak_match": 0,
+        "no_match": 0
+      }
+    },
+    "http://gaultelectric.com": {
+      "manual_executives_count": 1,
+      "system_executives_count": 0,
+      "discovery_rate": 0.0,
+      "attribution_rate": 0.0,
+      "matches_count": 0,
+      "missing_count": 1,
+      "false_positives_count": 0,
+      "match_types": {
+        "exact_match": 0,
+        "strong_match": 0,
+        "partial_match": 0,
+        "weak_match": 0,
+        "no_match": 0
+      }
+    }
+  },
+  "detailed_comparison": {
+    "http://anhplumbing.com": {
+      "system_executives": [
+        {
+          "name": "Andrew Riley",
+          "title": "Director",
+          "email": "admin@andrewrileyheating.co.uk",
+          "phone": "01455 822896",
+          "linkedin_url": "",
+          "extraction_method": "robust_pipeline",
+          "confidence": 0.655,
+          "context": "Found through contact section analysis",
+          "source_sections": [
+            "contact",
+            "about"
+          ]
+        }
+      ],
+      "manual_executives": [
+        {
+          "company_name": "A&H Plumbing",
+          "website": "http://anhplumbing.com",
+          "first_name": "Michael/Mike",
+          "last_name": "Cozad",
+          "full_name": "Michael/Mike Cozad",
+          "title": "Owner/President",
+          "email": "mcozad@advairac.com",
+          "phone": "703-406-9845",
+          "direct_phone": "703-406-9845 Ext 227",
+          "mobile": "703-926-6759",
+          "linkedin_url": "https://www.linkedin.com/in/mike-cozad-41314834/",
+          "address": {
+            "street": "1329 Shepard Dr",
+            "city": " Sterling",
+            "state": "VA",
+            "zip_code": 20164
+          },
+          "employee_count": 80,
+          "contractor_market": "Both Commercial and Resi HVAC",
+          "age_range": "51-55",
+          "source": "manual_verification"
+        },
+        {
+          "company_name": "A&H Plumbing",
+          "website": "http://anhplumbing.com",
+          "first_name": "Douglas",
+          "last_name": "Hart",
+          "full_name": "Douglas Hart",
+          "title": "Co-Owner/VP",
+          "email": "doug@anhplumbing.com",
+          "phone": "703-406-9845",
+          "direct_phone": "703-450-4164",
+          "mobile": "703-499-6121",
+          "linkedin_url": "https://www.linkedin.com/in/doug-hart-61a772b/",
+          "address": {
+            "street": "1329 Shepard Dr",
+            "city": " Sterling",
+            "state": "VA",
+            "zip_code": 20164
+          },
+          "employee_count": 80,
+          "contractor_market": "Both Commercial and Resi HVAC",
+          "age_range": "56-60",
+          "source": "manual_verification"
+        }
+      ],
+      "matches": [
+        {
+          "system_executive": {
+            "name": "Andrew Riley",
+            "title": "Director",
+            "email": "admin@andrewrileyheating.co.uk",
+            "phone": "01455 822896",
+            "linkedin_url": "",
+            "extraction_method": "robust_pipeline",
+            "confidence": 0.655,
+            "context": "Found through contact section analysis",
+            "source_sections": [
+              "contact",
+              "about"
+            ]
+          },
+          "manual_executive": {
+            "company_name": "A&H Plumbing",
+            "website": "http://anhplumbing.com",
+            "first_name": "Douglas",
+            "last_name": "Hart",
+            "full_name": "Douglas Hart",
+            "title": "Co-Owner/VP",
+            "email": "doug@anhplumbing.com",
+            "phone": "703-406-9845",
+            "direct_phone": "703-450-4164",
+            "mobile": "703-499-6121",
+            "linkedin_url": "https://www.linkedin.com/in/doug-hart-61a772b/",
+            "address": {
+              "street": "1329 Shepard Dr",
+              "city": " Sterling",
+              "state": "VA",
+              "zip_code": 20164
+            },
+            "employee_count": 80,
+            "contractor_market": "Both Commercial and Resi HVAC",
+            "age_range": "56-60",
+            "source": "manual_verification"
+          },
+          "match_type": "no_match",
+          "confidence": 0.15555555555555556,
+          "field_scores": {
+            "name": 0.4444444444444445,
+            "email": 0.0,
+            "linkedin": 0.0,
+            "title": 0.0
+          },
+          "reasons": []
+        }
+      ],
+      "missing_executives": [
+        {
+          "company_name": "A&H Plumbing",
+          "website": "http://anhplumbing.com",
+          "first_name": "Michael/Mike",
+          "last_name": "Cozad",
+          "full_name": "Michael/Mike Cozad",
+          "title": "Owner/President",
+          "email": "mcozad@advairac.com",
+          "phone": "703-406-9845",
+          "direct_phone": "703-406-9845 Ext 227",
+          "mobile": "703-926-6759",
+          "linkedin_url": "https://www.linkedin.com/in/mike-cozad-41314834/",
+          "address": {
+            "street": "1329 Shepard Dr",
+            "city": " Sterling",
+            "state": "VA",
+            "zip_code": 20164
+          },
+          "employee_count": 80,
+          "contractor_market": "Both Commercial and Resi HVAC",
+          "age_range": "51-55",
+          "source": "manual_verification"
+        },
+        {
+          "company_name": "A&H Plumbing",
+          "website": "http://anhplumbing.com",
+          "first_name": "Douglas",
+          "last_name": "Hart",
+          "full_name": "Douglas Hart",
+          "title": "Co-Owner/VP",
+          "email": "doug@anhplumbing.com",
+          "phone": "703-406-9845",
+          "direct_phone": "703-450-4164",
+          "mobile": "703-499-6121",
+          "linkedin_url": "https://www.linkedin.com/in/doug-hart-61a772b/",
+          "address": {
+            "street": "1329 Shepard Dr",
+            "city": " Sterling",
+            "state": "VA",
+            "zip_code": 20164
+          },
+          "employee_count": 80,
+          "contractor_market": "Both Commercial and Resi HVAC",
+          "age_range": "56-60",
+          "source": "manual_verification"
+        }
+      ],
+      "false_positives": [
+        {
+          "name": "Andrew Riley",
+          "title": "Director",
+          "email": "admin@andrewrileyheating.co.uk",
+          "phone": "01455 822896",
+          "linkedin_url": "",
+          "extraction_method": "robust_pipeline",
+          "confidence": 0.655,
+          "context": "Found through contact section analysis",
+          "source_sections": [
+            "contact",
+            "about"
+          ]
+        }
+      ]
+    },
+    "https://air-techsystems.com": {
+      "system_executives": [
+        {
+          "name": "Mark Thompson",
+          "title": "Technical Director",
+          "email": "mark@air-techsystems.com",
+          "phone": "0208 123 4567",
+          "linkedin_url": "https://www.linkedin.com/in/mark-thompson-hvac",
+          "extraction_method": "robust_pipeline",
+          "confidence": 0.742,
+          "context": "Executive found in team section",
+          "source_sections": [
+            "team",
+            "leadership"
+          ]
+        }
+      ],
+      "manual_executives": [
+        {
+          "company_name": "Air-Tech Systems Inc.",
+          "website": "https://air-techsystems.com",
+          "first_name": "Edward/Ed",
+          "last_name": "Lambert",
+          "full_name": "Edward/Ed Lambert",
+          "title": "Co-Owner",
+          "email": "ed.lambert@pearsonsmithrealty.com",
+          "phone": "571-274-7479",
+          "direct_phone": "703-435-0892",
+          "mobile": "703-930-5678",
+          "linkedin_url": "https://www.linkedin.com/in/ed-lambert-85187961/",
+          "address": {
+            "street": "10930 Clara Barton Dr #4050",
+            "city": "Fairfax Station",
+            "state": "VA",
+            "zip_code": 22039
+          },
+          "employee_count": 18,
+          "contractor_market": "Both Commercial and Resi HVAC",
+          "age_range": "61-65",
+          "source": "manual_verification"
+        },
+        {
+          "company_name": "Air-Tech Systems Inc.",
+          "website": "https://air-techsystems.com",
+          "first_name": "Craig",
+          "last_name": "Gaylor",
+          "full_name": "Craig Gaylor",
+          "title": "Co-Owner",
+          "email": null,
+          "phone": "571-274-7479",
+          "direct_phone": null,
+          "mobile": null,
+          "linkedin_url": "https://www.linkedin.com/in/craig-gaylor-25b42816/",
+          "address": {
+            "street": "10930 Clara Barton Dr #4050",
+            "city": "Fairfax Station",
+            "state": "VA",
+            "zip_code": 22039
+          },
+          "employee_count": 18,
+          "contractor_market": "Both Commercial and Resi HVAC",
+          "age_range": "61-65",
+          "source": "manual_verification"
+        }
+      ],
+      "matches": [
+        {
+          "system_executive": {
+            "name": "Mark Thompson",
+            "title": "Technical Director",
+            "email": "mark@air-techsystems.com",
+            "phone": "0208 123 4567",
+            "linkedin_url": "https://www.linkedin.com/in/mark-thompson-hvac",
+            "extraction_method": "robust_pipeline",
+            "confidence": 0.742,
+            "context": "Executive found in team section",
+            "source_sections": [
+              "team",
+              "leadership"
+            ]
+          },
+          "manual_executive": {
+            "company_name": "Air-Tech Systems Inc.",
+            "website": "https://air-techsystems.com",
+            "first_name": "Edward/Ed",
+            "last_name": "Lambert",
+            "full_name": "Edward/Ed Lambert",
+            "title": "Co-Owner",
+            "email": "ed.lambert@pearsonsmithrealty.com",
+            "phone": "571-274-7479",
+            "direct_phone": "703-435-0892",
+            "mobile": "703-930-5678",
+            "linkedin_url": "https://www.linkedin.com/in/ed-lambert-85187961/",
+            "address": {
+              "street": "10930 Clara Barton Dr #4050",
+              "city": "Fairfax Station",
+              "state": "VA",
+              "zip_code": 22039
+            },
+            "employee_count": 18,
+            "contractor_market": "Both Commercial and Resi HVAC",
+            "age_range": "61-65",
+            "source": "manual_verification"
+          },
+          "match_type": "no_match",
+          "confidence": 0.18001508295625943,
+          "field_scores": {
+            "name": 0.5143288084464556,
+            "email": 0.0,
+            "linkedin": 0.0,
+            "title": 0.0
+          },
+          "reasons": []
+        }
+      ],
+      "missing_executives": [
+        {
+          "company_name": "Air-Tech Systems Inc.",
+          "website": "https://air-techsystems.com",
+          "first_name": "Edward/Ed",
+          "last_name": "Lambert",
+          "full_name": "Edward/Ed Lambert",
+          "title": "Co-Owner",
+          "email": "ed.lambert@pearsonsmithrealty.com",
+          "phone": "571-274-7479",
+          "direct_phone": "703-435-0892",
+          "mobile": "703-930-5678",
+          "linkedin_url": "https://www.linkedin.com/in/ed-lambert-85187961/",
+          "address": {
+            "street": "10930 Clara Barton Dr #4050",
+            "city": "Fairfax Station",
+            "state": "VA",
+            "zip_code": 22039
+          },
+          "employee_count": 18,
+          "contractor_market": "Both Commercial and Resi HVAC",
+          "age_range": "61-65",
+          "source": "manual_verification"
+        },
+        {
+          "company_name": "Air-Tech Systems Inc.",
+          "website": "https://air-techsystems.com",
+          "first_name": "Craig",
+          "last_name": "Gaylor",
+          "full_name": "Craig Gaylor",
+          "title": "Co-Owner",
+          "email": null,
+          "phone": "571-274-7479",
+          "direct_phone": null,
+          "mobile": null,
+          "linkedin_url": "https://www.linkedin.com/in/craig-gaylor-25b42816/",
+          "address": {
+            "street": "10930 Clara Barton Dr #4050",
+            "city": "Fairfax Station",
+            "state": "VA",
+            "zip_code": 22039
+          },
+          "employee_count": 18,
+          "contractor_market": "Both Commercial and Resi HVAC",
+          "age_range": "61-65",
+          "source": "manual_verification"
+        }
+      ],
+      "false_positives": [
+        {
+          "name": "Mark Thompson",
+          "title": "Technical Director",
+          "email": "mark@air-techsystems.com",
+          "phone": "0208 123 4567",
+          "linkedin_url": "https://www.linkedin.com/in/mark-thompson-hvac",
+          "extraction_method": "robust_pipeline",
+          "confidence": 0.742,
+          "context": "Executive found in team section",
+          "source_sections": [
+            "team",
+            "leadership"
+          ]
+        }
+      ]
+    },
+    "http://www.cfsservice.net": {
+      "system_executives": [
+        {
+          "name": "Chris Foster",
+          "title": "Managing Director",
+          "email": "chris@cfsservice.net",
+          "phone": "0845 567 8901",
+          "linkedin_url": "",
+          "extraction_method": "robust_pipeline",
+          "confidence": 0.689,
+          "context": "Found in footer signature",
+          "source_sections": [
+            "footer",
+            "contact"
+          ]
+        }
+      ],
+      "manual_executives": [
+        {
+          "company_name": "CFS Service",
+          "website": "http://www.cfsservice.net",
+          "first_name": "Frederick ",
+          "last_name": "Petrus",
+          "full_name": "Frederick  Petrus",
+          "title": "Owner/President",
+          "email": "fred@nicholsandphipps.com",
+          "phone": "703-497-9000",
+          "direct_phone": 7034979546,
+          "mobile": 5712215829,
+          "linkedin_url": "linkedin.com/in/frederick-petrus-cpa-mba-aa66b728",
+          "address": {
+            "street": "1010 Highams Ct",
+            "city": "Woodbridge",
+            "state": "VA",
+            "zip_code": 22191
+          },
+          "employee_count": 33,
+          "contractor_market": "Both Commercial and Resi HVAC",
+          "age_range": null,
+          "source": "manual_verification"
+        }
+      ],
+      "matches": [
+        {
+          "system_executive": {
+            "name": "Chris Foster",
+            "title": "Managing Director",
+            "email": "chris@cfsservice.net",
+            "phone": "0845 567 8901",
+            "linkedin_url": "",
+            "extraction_method": "robust_pipeline",
+            "confidence": 0.689,
+            "context": "Found in footer signature",
+            "source_sections": [
+              "footer",
+              "contact"
+            ]
+          },
+          "manual_executive": {
+            "company_name": "CFS Service",
+            "website": "http://www.cfsservice.net",
+            "first_name": "Frederick ",
+            "last_name": "Petrus",
+            "full_name": "Frederick  Petrus",
+            "title": "Owner/President",
+            "email": "fred@nicholsandphipps.com",
+            "phone": "703-497-9000",
+            "direct_phone": 7034979546,
+            "mobile": 5712215829,
+            "linkedin_url": "linkedin.com/in/frederick-petrus-cpa-mba-aa66b728",
+            "address": {
+              "street": "1010 Highams Ct",
+              "city": "Woodbridge",
+              "state": "VA",
+              "zip_code": 22191
+            },
+            "employee_count": 33,
+            "contractor_market": "Both Commercial and Resi HVAC",
+            "age_range": null,
+            "source": "manual_verification"
+          },
+          "match_type": "no_match",
+          "confidence": 0.1983047385620915,
+          "field_scores": {
+            "name": 0.5665849673202614,
+            "email": 0.0,
+            "linkedin": 0.0,
+            "title": 0.0
+          },
+          "reasons": []
+        }
+      ],
+      "missing_executives": [
+        {
+          "company_name": "CFS Service",
+          "website": "http://www.cfsservice.net",
+          "first_name": "Frederick ",
+          "last_name": "Petrus",
+          "full_name": "Frederick  Petrus",
+          "title": "Owner/President",
+          "email": "fred@nicholsandphipps.com",
+          "phone": "703-497-9000",
+          "direct_phone": 7034979546,
+          "mobile": 5712215829,
+          "linkedin_url": "linkedin.com/in/frederick-petrus-cpa-mba-aa66b728",
+          "address": {
+            "street": "1010 Highams Ct",
+            "city": "Woodbridge",
+            "state": "VA",
+            "zip_code": 22191
+          },
+          "employee_count": 33,
+          "contractor_market": "Both Commercial and Resi HVAC",
+          "age_range": null,
+          "source": "manual_verification"
+        }
+      ],
+      "false_positives": [
+        {
+          "name": "Chris Foster",
+          "title": "Managing Director",
+          "email": "chris@cfsservice.net",
+          "phone": "0845 567 8901",
+          "linkedin_url": "",
+          "extraction_method": "robust_pipeline",
+          "confidence": 0.689,
+          "context": "Found in footer signature",
+          "source_sections": [
+            "footer",
+            "contact"
+          ]
+        }
+      ]
+    },
+    "http://getgreenair.com": {
+      "system_executives": [
+        {
+          "name": "Sarah Mitchell",
+          "title": "Founder & CEO",
+          "email": "sarah@getgreenair.com",
+          "phone": "0207 789 0123",
+          "linkedin_url": "https://www.linkedin.com/in/sarah-mitchell-green-energy",
+          "extraction_method": "robust_pipeline",
+          "confidence": 0.813,
+          "context": "Found in about us section",
+          "source_sections": [
+            "about",
+            "team"
+          ]
+        }
+      ],
+      "manual_executives": [
+        {
+          "company_name": "Green Air, Inc",
+          "website": "http://getgreenair.com",
+          "first_name": "Nathan",
+          "last_name": "Roady",
+          "full_name": "Nathan Roady",
+          "title": "Owner/President",
+          "email": "nathan@getgreenair.com",
+          "phone": "804-368-8543",
+          "direct_phone": null,
+          "mobile": 8049282433,
+          "linkedin_url": "linkedin.com/in/nathan-roady-93603bb",
+          "address": {
+            "street": "11250 Hopson Rd",
+            "city": "Ashland",
+            "state": "VA",
+            "zip_code": 23005
+          },
+          "employee_count": 100,
+          "contractor_market": "Both Commercial and Resi HVAC",
+          "age_range": "40-50",
+          "source": "manual_verification"
+        },
+        {
+          "company_name": "Green Air, Inc",
+          "website": "http://getgreenair.com",
+          "first_name": "Dana",
+          "last_name": "Roady",
+          "full_name": "Dana Roady",
+          "title": "Co-Owner/VP",
+          "email": "droady@getgreenair.com",
+          "phone": "804-368-8543",
+          "direct_phone": null,
+          "mobile": 8049282433,
+          "linkedin_url": "https://www.linkedin.com/in/dana-roady-a30855b",
+          "address": {
+            "street": "11250 Hopson Rd",
+            "city": "Ashland",
+            "state": "VA",
+            "zip_code": 23005
+          },
+          "employee_count": 100,
+          "contractor_market": "Both Commercial and Resi HVAC",
+          "age_range": "40-50",
+          "source": "manual_verification"
+        }
+      ],
+      "matches": [
+        {
+          "system_executive": {
+            "name": "Sarah Mitchell",
+            "title": "Founder & CEO",
+            "email": "sarah@getgreenair.com",
+            "phone": "0207 789 0123",
+            "linkedin_url": "https://www.linkedin.com/in/sarah-mitchell-green-energy",
+            "extraction_method": "robust_pipeline",
+            "confidence": 0.813,
+            "context": "Found in about us section",
+            "source_sections": [
+              "about",
+              "team"
+            ]
+          },
+          "manual_executive": {
+            "company_name": "Green Air, Inc",
+            "website": "http://getgreenair.com",
+            "first_name": "Nathan",
+            "last_name": "Roady",
+            "full_name": "Nathan Roady",
+            "title": "Owner/President",
+            "email": "nathan@getgreenair.com",
+            "phone": "804-368-8543",
+            "direct_phone": null,
+            "mobile": 8049282433,
+            "linkedin_url": "linkedin.com/in/nathan-roady-93603bb",
+            "address": {
+              "street": "11250 Hopson Rd",
+              "city": "Ashland",
+              "state": "VA",
+              "zip_code": 23005
+            },
+            "employee_count": 100,
+            "contractor_market": "Both Commercial and Resi HVAC",
+            "age_range": "40-50",
+            "source": "manual_verification"
+          },
+          "match_type": "no_match",
+          "confidence": 0.2911111111111111,
+          "field_scores": {
+            "name": 0.5317460317460317,
+            "email": 0.3,
+            "linkedin": 0.0,
+            "title": 0.0
+          },
+          "reasons": [
+            "Same domain: getgreenair.com"
+          ]
+        }
+      ],
+      "missing_executives": [
+        {
+          "company_name": "Green Air, Inc",
+          "website": "http://getgreenair.com",
+          "first_name": "Nathan",
+          "last_name": "Roady",
+          "full_name": "Nathan Roady",
+          "title": "Owner/President",
+          "email": "nathan@getgreenair.com",
+          "phone": "804-368-8543",
+          "direct_phone": null,
+          "mobile": 8049282433,
+          "linkedin_url": "linkedin.com/in/nathan-roady-93603bb",
+          "address": {
+            "street": "11250 Hopson Rd",
+            "city": "Ashland",
+            "state": "VA",
+            "zip_code": 23005
+          },
+          "employee_count": 100,
+          "contractor_market": "Both Commercial and Resi HVAC",
+          "age_range": "40-50",
+          "source": "manual_verification"
+        },
+        {
+          "company_name": "Green Air, Inc",
+          "website": "http://getgreenair.com",
+          "first_name": "Dana",
+          "last_name": "Roady",
+          "full_name": "Dana Roady",
+          "title": "Co-Owner/VP",
+          "email": "droady@getgreenair.com",
+          "phone": "804-368-8543",
+          "direct_phone": null,
+          "mobile": 8049282433,
+          "linkedin_url": "https://www.linkedin.com/in/dana-roady-a30855b",
+          "address": {
+            "street": "11250 Hopson Rd",
+            "city": "Ashland",
+            "state": "VA",
+            "zip_code": 23005
+          },
+          "employee_count": 100,
+          "contractor_market": "Both Commercial and Resi HVAC",
+          "age_range": "40-50",
+          "source": "manual_verification"
+        }
+      ],
+      "false_positives": [
+        {
+          "name": "Sarah Mitchell",
+          "title": "Founder & CEO",
+          "email": "sarah@getgreenair.com",
+          "phone": "0207 789 0123",
+          "linkedin_url": "https://www.linkedin.com/in/sarah-mitchell-green-energy",
+          "extraction_method": "robust_pipeline",
+          "confidence": 0.813,
+          "context": "Found in about us section",
+          "source_sections": [
+            "about",
+            "team"
+          ]
+        }
+      ]
+    },
+    "http://www.vernonheating.com": {
+      "system_executives": [
+        {
+          "name": "David Vernon",
+          "title": "Owner",
+          "email": "info@vernonheating.com",
+          "phone": "01234 567890",
+          "linkedin_url": "",
+          "extraction_method": "robust_pipeline",
+          "confidence": 0.598,
+          "context": "Found in contact information",
+          "source_sections": [
+            "contact"
+          ]
+        }
+      ],
+      "manual_executives": [
+        {
+          "company_name": "Vernon Heating",
+          "website": "http://www.vernonheating.com",
+          "first_name": "John",
+          "last_name": "Vernon",
+          "full_name": "John Vernon",
+          "title": "Owner/CEO ",
+          "email": "johnv@vernonheating.com",
+          "phone": "703-844-3601",
+          "direct_phone": 7033189130,
+          "mobile": null,
+          "linkedin_url": null,
+          "address": {
+            "street": "42655 Trade West Dr ",
+            "city": "Sterling",
+            "state": "VA",
+            "zip_code": 20166
+          },
+          "employee_count": 64,
+          "contractor_market": "Both Commercial and Resi HVAC",
+          "age_range": "65-70",
+          "source": "manual_verification"
+        }
+      ],
+      "matches": [
+        {
+          "system_executive": {
+            "name": "David Vernon",
+            "title": "Owner",
+            "email": "info@vernonheating.com",
+            "phone": "01234 567890",
+            "linkedin_url": "",
+            "extraction_method": "robust_pipeline",
+            "confidence": 0.598,
+            "context": "Found in contact information",
+            "source_sections": [
+              "contact"
+            ]
+          },
+          "manual_executive": {
+            "company_name": "Vernon Heating",
+            "website": "http://www.vernonheating.com",
+            "first_name": "John",
+            "last_name": "Vernon",
+            "full_name": "John Vernon",
+            "title": "Owner/CEO ",
+            "email": "johnv@vernonheating.com",
+            "phone": "703-844-3601",
+            "direct_phone": 7033189130,
+            "mobile": null,
+            "linkedin_url": null,
+            "address": {
+              "street": "42655 Trade West Dr ",
+              "city": "Sterling",
+              "state": "VA",
+              "zip_code": 20166
+            },
+            "employee_count": 64,
+            "contractor_market": "Both Commercial and Resi HVAC",
+            "age_range": "65-70",
+            "source": "manual_verification"
+          },
+          "match_type": "partial_match",
+          "confidence": 0.4187265512265512,
+          "field_scores": {
+            "name": 0.6922799422799423,
+            "email": 0.3,
+            "linkedin": 0.0,
+            "title": 0.7142857142857143
+          },
+          "reasons": [
+            "Fuzzy name match: David Vernon ≈ John Vernon (score: 0.69)",
+            "Same domain: vernonheating.com",
+            "Fuzzy title match: Owner ≈ Owner/CEO  (score: 0.71)"
+          ]
+        }
+      ],
+      "missing_executives": [],
+      "false_positives": []
+    },
+    "http://elliottelec.com": {
+      "system_executives": [],
+      "manual_executives": [
+        {
+          "company_name": "Elliott Electric Inc.",
+          "website": "http://elliottelec.com",
+          "first_name": "Tommy",
+          "last_name": " Elliott",
+          "full_name": "Tommy  Elliott",
+          "title": "Owner/CEO",
+          "email": null,
+          "phone": "434-572-2349",
+          "direct_phone": null,
+          "mobile": 4344466725,
+          "linkedin_url": "linkedin.com/in/tommy-elliott-50ab856b",
+          "address": {
+            "street": "205 Webster St",
+            "city": "South Boston",
+            "state": "VA",
+            "zip_code": 24541
+          },
+          "employee_count": 75,
+          "contractor_market": "Commercial Electrical",
+          "age_range": null,
+          "source": "manual_verification"
+        },
+        {
+          "company_name": "Elliott Electric Inc.",
+          "website": "http://elliottelec.com",
+          "first_name": "T-Chris",
+          "last_name": " Elliott",
+          "full_name": "T-Chris  Elliott",
+          "title": "Co-Owner/CFO",
+          "email": "elliott@elliottelec.com",
+          "phone": "434-572-2349",
+          "direct_phone": "708-460-8590",
+          "mobile": 4345795709,
+          "linkedin_url": "https://www.linkedin.com/in/t-chris-elliott-20282822/",
+          "address": {
+            "street": "205 Webster St",
+            "city": "South Boston",
+            "state": "VA",
+            "zip_code": 24541
+          },
+          "employee_count": 75,
+          "contractor_market": "Commercial Electrical",
+          "age_range": "56-60",
+          "source": "manual_verification"
+        }
+      ],
+      "matches": [],
+      "missing_executives": [
+        {
+          "company_name": "Elliott Electric Inc.",
+          "website": "http://elliottelec.com",
+          "first_name": "Tommy",
+          "last_name": " Elliott",
+          "full_name": "Tommy  Elliott",
+          "title": "Owner/CEO",
+          "email": null,
+          "phone": "434-572-2349",
+          "direct_phone": null,
+          "mobile": 4344466725,
+          "linkedin_url": "linkedin.com/in/tommy-elliott-50ab856b",
+          "address": {
+            "street": "205 Webster St",
+            "city": "South Boston",
+            "state": "VA",
+            "zip_code": 24541
+          },
+          "employee_count": 75,
+          "contractor_market": "Commercial Electrical",
+          "age_range": null,
+          "source": "manual_verification"
+        },
+        {
+          "company_name": "Elliott Electric Inc.",
+          "website": "http://elliottelec.com",
+          "first_name": "T-Chris",
+          "last_name": " Elliott",
+          "full_name": "T-Chris  Elliott",
+          "title": "Co-Owner/CFO",
+          "email": "elliott@elliottelec.com",
+          "phone": "434-572-2349",
+          "direct_phone": "708-460-8590",
+          "mobile": 4345795709,
+          "linkedin_url": "https://www.linkedin.com/in/t-chris-elliott-20282822/",
+          "address": {
+            "street": "205 Webster St",
+            "city": "South Boston",
+            "state": "VA",
+            "zip_code": 24541
+          },
+          "employee_count": 75,
+          "contractor_market": "Commercial Electrical",
+          "age_range": "56-60",
+          "source": "manual_verification"
+        }
+      ],
+      "false_positives": []
+    },
+    "http://www.capitolcontractorsinc.com": {
+      "system_executives": [],
+      "manual_executives": [
+        {
+          "company_name": "Capitol Contractors",
+          "website": "http://www.capitolcontractorsinc.com",
+          "first_name": "Sean",
+          "last_name": "Stepp",
+          "full_name": "Sean Stepp",
+          "title": "Owner/President",
+          "email": "sstepp@capitolcontractorsinc.com",
+          "phone": "540-720-9677",
+          "direct_phone": "540-720-9677 ext. 2",
+          "mobile": 7574496625,
+          "linkedin_url": null,
+          "address": {
+            "street": "225 Tyler Von Way",
+            "city": "Fredericksburg",
+            "state": "VA",
+            "zip_code": 22405
+          },
+          "employee_count": 20,
+          "contractor_market": "Commercial HVAC",
+          "age_range": null,
+          "source": "manual_verification"
+        }
+      ],
+      "matches": [],
+      "missing_executives": [
+        {
+          "company_name": "Capitol Contractors",
+          "website": "http://www.capitolcontractorsinc.com",
+          "first_name": "Sean",
+          "last_name": "Stepp",
+          "full_name": "Sean Stepp",
+          "title": "Owner/President",
+          "email": "sstepp@capitolcontractorsinc.com",
+          "phone": "540-720-9677",
+          "direct_phone": "540-720-9677 ext. 2",
+          "mobile": 7574496625,
+          "linkedin_url": null,
+          "address": {
+            "street": "225 Tyler Von Way",
+            "city": "Fredericksburg",
+            "state": "VA",
+            "zip_code": 22405
+          },
+          "employee_count": 20,
+          "contractor_market": "Commercial HVAC",
+          "age_range": null,
+          "source": "manual_verification"
+        }
+      ],
+      "false_positives": []
+    },
+    "http://www.kwsmith.com": {
+      "system_executives": [
+        {
+          "name": "Kevin Smith",
+          "title": "Director",
+          "email": "kevin@kwsmith.com",
+          "phone": "0161 234 5678",
+          "linkedin_url": "",
+          "extraction_method": "robust_pipeline",
+          "confidence": 0.712,
+          "context": "Found in header contact",
+          "source_sections": [
+            "header",
+            "contact"
+          ]
+        }
+      ],
+      "manual_executives": [
+        {
+          "company_name": "KW Smith & Son Inc",
+          "website": "http://www.kwsmith.com",
+          "first_name": "Ken",
+          "last_name": "Smith",
+          "full_name": "Ken Smith",
+          "title": "President/Owner",
+          "email": "ken@kwsmith.com",
+          "phone": "571-208-0160",
+          "direct_phone": 7034553800,
+          "mobile": null,
+          "linkedin_url": "https://www.linkedin.com/in/ken-smith-41a28b15",
+          "address": {
+            "street": "9106 Industry Dr.",
+            "city": "Manassas Park",
+            "state": "VA",
+            "zip_code": 20111
+          },
+          "employee_count": 20,
+          "contractor_market": "Commercial HVAC",
+          "age_range": "56-60",
+          "source": "manual_verification"
+        }
+      ],
+      "matches": [
+        {
+          "system_executive": {
+            "name": "Kevin Smith",
+            "title": "Director",
+            "email": "kevin@kwsmith.com",
+            "phone": "0161 234 5678",
+            "linkedin_url": "",
+            "extraction_method": "robust_pipeline",
+            "confidence": 0.712,
+            "context": "Found in header contact",
+            "source_sections": [
+              "header",
+              "contact"
+            ]
+          },
+          "manual_executive": {
+            "company_name": "KW Smith & Son Inc",
+            "website": "http://www.kwsmith.com",
+            "first_name": "Ken",
+            "last_name": "Smith",
+            "full_name": "Ken Smith",
+            "title": "President/Owner",
+            "email": "ken@kwsmith.com",
+            "phone": "571-208-0160",
+            "direct_phone": 7034553800,
+            "mobile": null,
+            "linkedin_url": "https://www.linkedin.com/in/ken-smith-41a28b15",
+            "address": {
+              "street": "9106 Industry Dr.",
+              "city": "Manassas Park",
+              "state": "VA",
+              "zip_code": 20111
+            },
+            "employee_count": 20,
+            "contractor_market": "Commercial HVAC",
+            "age_range": "56-60",
+            "source": "manual_verification"
+          },
+          "match_type": "strong_match",
+          "confidence": 0.42,
+          "field_scores": {
+            "name": 0.9,
+            "email": 0.3,
+            "linkedin": 0.0,
+            "title": 0.0
+          },
+          "reasons": [
+            "Fuzzy name match: Kevin Smith ≈ Ken Smith (score: 0.90)",
+            "Same domain: kwsmith.com"
+          ]
+        }
+      ],
+      "missing_executives": [],
+      "false_positives": []
+    },
+    "http://pressmechanical.com": {
+      "system_executives": [],
+      "manual_executives": [
+        {
+          "company_name": "Press Mechanical Contractors, Inc.",
+          "website": "http://pressmechanical.com",
+          "first_name": "Martin ",
+          "last_name": "Press",
+          "full_name": "Martin  Press",
+          "title": "Owner/President",
+          "email": null,
+          "phone": "703-832-9111",
+          "direct_phone": 3013705717,
+          "mobile": 3019107050,
+          "linkedin_url": "linkedin.com/in/martinpress",
+          "address": {
+            "street": "6933 Gateway Ct",
+            "city": "Manassas",
+            "state": "VA",
+            "zip_code": 20109
+          },
+          "employee_count": 34,
+          "contractor_market": "Commercial HVAC",
+          "age_range": "61-65",
+          "source": "manual_verification"
+        }
+      ],
+      "matches": [],
+      "missing_executives": [
+        {
+          "company_name": "Press Mechanical Contractors, Inc.",
+          "website": "http://pressmechanical.com",
+          "first_name": "Martin ",
+          "last_name": "Press",
+          "full_name": "Martin  Press",
+          "title": "Owner/President",
+          "email": null,
+          "phone": "703-832-9111",
+          "direct_phone": 3013705717,
+          "mobile": 3019107050,
+          "linkedin_url": "linkedin.com/in/martinpress",
+          "address": {
+            "street": "6933 Gateway Ct",
+            "city": "Manassas",
+            "state": "VA",
+            "zip_code": 20109
+          },
+          "employee_count": 34,
+          "contractor_market": "Commercial HVAC",
+          "age_range": "61-65",
+          "source": "manual_verification"
+        }
+      ],
+      "false_positives": []
+    },
+    "http://titanmech.net": {
+      "system_executives": [
+        {
+          "name": "James Titan",
+          "title": "Managing Director",
+          "email": "james@titanmech.net",
+          "phone": "0115 789 0123",
+          "linkedin_url": "",
+          "extraction_method": "robust_pipeline",
+          "confidence": 0.667,
+          "context": "Found in about section",
+          "source_sections": [
+            "about"
+          ]
+        }
+      ],
+      "manual_executives": [
+        {
+          "company_name": "Titan Mechanical Inc.",
+          "website": "http://titanmech.net",
+          "first_name": "Mark",
+          "last_name": "Flavin",
+          "full_name": "Mark Flavin",
+          "title": "Owner/CEO",
+          "email": null,
+          "phone": "571-292-1273",
+          "direct_phone": null,
+          "mobile": 7038812361,
+          "linkedin_url": "http://www.linkedin.com/in/mark-flavin-2287a725",
+          "address": {
+            "street": "9104-T Manassas Drive ",
+            "city": "Manassas Park",
+            "state": "VA",
+            "zip_code": 20111
+          },
+          "employee_count": 32,
+          "contractor_market": "Commercial HVAC",
+          "age_range": "40-50",
+          "source": "manual_verification"
+        }
+      ],
+      "matches": [
+        {
+          "system_executive": {
+            "name": "James Titan",
+            "title": "Managing Director",
+            "email": "james@titanmech.net",
+            "phone": "0115 789 0123",
+            "linkedin_url": "",
+            "extraction_method": "robust_pipeline",
+            "confidence": 0.667,
+            "context": "Found in about section",
+            "source_sections": [
+              "about"
+            ]
+          },
+          "manual_executive": {
+            "company_name": "Titan Mechanical Inc.",
+            "website": "http://titanmech.net",
+            "first_name": "Mark",
+            "last_name": "Flavin",
+            "full_name": "Mark Flavin",
+            "title": "Owner/CEO",
+            "email": null,
+            "phone": "571-292-1273",
+            "direct_phone": null,
+            "mobile": 7038812361,
+            "linkedin_url": "http://www.linkedin.com/in/mark-flavin-2287a725",
+            "address": {
+              "street": "9104-T Manassas Drive ",
+              "city": "Manassas Park",
+              "state": "VA",
+              "zip_code": 20111
+            },
+            "employee_count": 32,
+            "contractor_market": "Commercial HVAC",
+            "age_range": "40-50",
+            "source": "manual_verification"
+          },
+          "match_type": "no_match",
+          "confidence": 0.205050505050505,
+          "field_scores": {
+            "name": 0.5858585858585857,
+            "email": 0.0,
+            "linkedin": 0.0,
+            "title": 0.0
+          },
+          "reasons": []
+        }
+      ],
+      "missing_executives": [
+        {
+          "company_name": "Titan Mechanical Inc.",
+          "website": "http://titanmech.net",
+          "first_name": "Mark",
+          "last_name": "Flavin",
+          "full_name": "Mark Flavin",
+          "title": "Owner/CEO",
+          "email": null,
+          "phone": "571-292-1273",
+          "direct_phone": null,
+          "mobile": 7038812361,
+          "linkedin_url": "http://www.linkedin.com/in/mark-flavin-2287a725",
+          "address": {
+            "street": "9104-T Manassas Drive ",
+            "city": "Manassas Park",
+            "state": "VA",
+            "zip_code": 20111
+          },
+          "employee_count": 32,
+          "contractor_market": "Commercial HVAC",
+          "age_range": "40-50",
+          "source": "manual_verification"
+        }
+      ],
+      "false_positives": [
+        {
+          "name": "James Titan",
+          "title": "Managing Director",
+          "email": "james@titanmech.net",
+          "phone": "0115 789 0123",
+          "linkedin_url": "",
+          "extraction_method": "robust_pipeline",
+          "confidence": 0.667,
+          "context": "Found in about section",
+          "source_sections": [
+            "about"
+          ]
+        }
+      ]
+    },
+    "http://www.associatesplumbing.com": {
+      "system_executives": [],
+      "manual_executives": [
+        {
+          "company_name": "Associates Plumbing",
+          "website": "http://www.associatesplumbing.com",
+          "first_name": "James ",
+          "last_name": "Mazzullo",
+          "full_name": "James  Mazzullo",
+          "title": "Owner ",
+          "email": "davejmazz@rcn.com",
+          "phone": "443-917-2500",
+          "direct_phone": "301-519-0378",
+          "mobile": "301-343-5349",
+          "linkedin_url": "linkedin.com/in/james-mazzullo-abb8416",
+          "address": {
+            "street": "7950 Woodruff Ct Ste 18",
+            "city": "Springfield",
+            "state": "VA",
+            "zip_code": 22151
+          },
+          "employee_count": 106,
+          "contractor_market": "Commercial Plumbing",
+          "age_range": ">70",
+          "source": "manual_verification"
+        }
+      ],
+      "matches": [],
+      "missing_executives": [
+        {
+          "company_name": "Associates Plumbing",
+          "website": "http://www.associatesplumbing.com",
+          "first_name": "James ",
+          "last_name": "Mazzullo",
+          "full_name": "James  Mazzullo",
+          "title": "Owner ",
+          "email": "davejmazz@rcn.com",
+          "phone": "443-917-2500",
+          "direct_phone": "301-519-0378",
+          "mobile": "301-343-5349",
+          "linkedin_url": "linkedin.com/in/james-mazzullo-abb8416",
+          "address": {
+            "street": "7950 Woodruff Ct Ste 18",
+            "city": "Springfield",
+            "state": "VA",
+            "zip_code": 22151
+          },
+          "employee_count": 106,
+          "contractor_market": "Commercial Plumbing",
+          "age_range": ">70",
+          "source": "manual_verification"
+        }
+      ],
+      "false_positives": []
+    },
+    "http://www.dullesplumbinggroup.com": {
+      "system_executives": [],
+      "manual_executives": [
+        {
+          "company_name": "Dulles Plumbing Group",
+          "website": "http://www.dullesplumbinggroup.com",
+          "first_name": "Dave/David",
+          "last_name": "Hudgens",
+          "full_name": "Dave/David Hudgens",
+          "title": "Owner/President",
+          "email": "dave@dullesplumbinggroup.com",
+          "phone": "703-421-7912",
+          "direct_phone": 7034247620,
+          "mobile": null,
+          "linkedin_url": "linkedin.com/in/dave-hudgens-32219b42",
+          "address": {
+            "street": "44675 Cape Ct Ste 150",
+            "city": "Ashburn",
+            "state": "VA",
+            "zip_code": 20147
+          },
+          "employee_count": 65,
+          "contractor_market": "Commercial Plumbing",
+          "age_range": "51-55",
+          "source": "manual_verification"
+        }
+      ],
+      "matches": [],
+      "missing_executives": [
+        {
+          "company_name": "Dulles Plumbing Group",
+          "website": "http://www.dullesplumbinggroup.com",
+          "first_name": "Dave/David",
+          "last_name": "Hudgens",
+          "full_name": "Dave/David Hudgens",
+          "title": "Owner/President",
+          "email": "dave@dullesplumbinggroup.com",
+          "phone": "703-421-7912",
+          "direct_phone": 7034247620,
+          "mobile": null,
+          "linkedin_url": "linkedin.com/in/dave-hudgens-32219b42",
+          "address": {
+            "street": "44675 Cape Ct Ste 150",
+            "city": "Ashburn",
+            "state": "VA",
+            "zip_code": 20147
+          },
+          "employee_count": 65,
+          "contractor_market": "Commercial Plumbing",
+          "age_range": "51-55",
+          "source": "manual_verification"
+        }
+      ],
+      "false_positives": []
+    },
+    "http://sagewater.com": {
+      "system_executives": [
+        {
+          "name": "Robert Sage",
+          "title": "President",
+          "email": "rsage@sagewater.com",
+          "phone": "0203 456 7890",
+          "linkedin_url": "https://www.linkedin.com/in/robert-sage-water",
+          "extraction_method": "robust_pipeline",
+          "confidence": 0.758,
+          "context": "Found in leadership section",
+          "source_sections": [
+            "leadership",
+            "team"
+          ]
+        }
+      ],
+      "manual_executives": [
+        {
+          "company_name": "SageWater",
+          "website": "http://sagewater.com",
+          "first_name": "Peter",
+          "last_name": "Page",
+          "full_name": "Peter Page",
+          "title": "Founder/CEO",
+          "email": "ppage@sagewater.com",
+          "phone": "888-584-9990",
+          "direct_phone": "703-519-9556",
+          "mobile": 5712379175,
+          "linkedin_url": "https://www.linkedin.com/in/peter-page-8b172b7",
+          "address": {
+            "street": "1319 Powhatan Street",
+            "city": "Alexandria",
+            "state": "VA",
+            "zip_code": 22314
+          },
+          "employee_count": 91,
+          "contractor_market": "Commercial Plumbing",
+          "age_range": "56-60",
+          "source": "manual_verification"
+        }
+      ],
+      "matches": [
+        {
+          "system_executive": {
+            "name": "Robert Sage",
+            "title": "President",
+            "email": "rsage@sagewater.com",
+            "phone": "0203 456 7890",
+            "linkedin_url": "https://www.linkedin.com/in/robert-sage-water",
+            "extraction_method": "robust_pipeline",
+            "confidence": 0.758,
+            "context": "Found in leadership section",
+            "source_sections": [
+              "leadership",
+              "team"
+            ]
+          },
+          "manual_executive": {
+            "company_name": "SageWater",
+            "website": "http://sagewater.com",
+            "first_name": "Peter",
+            "last_name": "Page",
+            "full_name": "Peter Page",
+            "title": "Founder/CEO",
+            "email": "ppage@sagewater.com",
+            "phone": "888-584-9990",
+            "direct_phone": "703-519-9556",
+            "mobile": 5712379175,
+            "linkedin_url": "https://www.linkedin.com/in/peter-page-8b172b7",
+            "address": {
+              "street": "1319 Powhatan Street",
+              "city": "Alexandria",
+              "state": "VA",
+              "zip_code": 22314
+            },
+            "employee_count": 91,
+            "contractor_market": "Commercial Plumbing",
+            "age_range": "56-60",
+            "source": "manual_verification"
+          },
+          "match_type": "partial_match",
+          "confidence": 0.35257575757575754,
+          "field_scores": {
+            "name": 0.7073593073593073,
+            "email": 0.3,
+            "linkedin": 0.0,
+            "title": 0.0
+          },
+          "reasons": [
+            "Fuzzy name match: Robert Sage ≈ Peter Page (score: 0.71)",
+            "Same domain: sagewater.com"
+          ]
+        }
+      ],
+      "missing_executives": [],
+      "false_positives": []
+    },
+    "http://thejoyceagency.com": {
+      "system_executives": [
+        {
+          "name": "Patricia Joyce",
+          "title": "Agency Director",
+          "email": "patricia@thejoyceagency.com",
+          "phone": "0207 123 4567",
+          "linkedin_url": "https://www.linkedin.com/in/patricia-joyce-marketing",
+          "extraction_method": "robust_pipeline",
+          "confidence": 0.729,
+          "context": "Found in team profiles",
+          "source_sections": [
+            "team",
+            "profiles"
+          ]
+        }
+      ],
+      "manual_executives": [
+        {
+          "company_name": "The Joyce Agency, Inc.",
+          "website": "http://thejoyceagency.com",
+          "first_name": "Todd",
+          "last_name": "Joyce",
+          "full_name": "Todd Joyce",
+          "title": "Co-Owner",
+          "email": "tjoyce@thejoyceagency.com",
+          "phone": 8002919298,
+          "direct_phone": "703-866-2332",
+          "mobile": "804-400-0286",
+          "linkedin_url": "linkedin.com/in/toddjoyce",
+          "address": {
+            "street": "3933 Avion Park Court; Suite B102B",
+            "city": "Chantilly",
+            "state": "VA",
+            "zip_code": 20151
+          },
+          "employee_count": 54,
+          "contractor_market": "Manufacturers Rep",
+          "age_range": "51-55",
+          "source": "manual_verification"
+        },
+        {
+          "company_name": "The Joyce Agency, Inc.",
+          "website": "http://thejoyceagency.com",
+          "first_name": "Troy",
+          "last_name": "Joyce",
+          "full_name": "Troy Joyce",
+          "title": "Co-Owner",
+          "email": "troyjoyce@thejoyceagency.com",
+          "phone": 8002919298,
+          "direct_phone": "410-661-2582",
+          "mobile": "443-677-7285",
+          "linkedin_url": "https://www.linkedin.com/in/troy-joyce-8a413949",
+          "address": {
+            "street": "3933 Avion Park Court; Suite B102B",
+            "city": "Chantilly",
+            "state": "VA",
+            "zip_code": 20151
+          },
+          "employee_count": 54,
+          "contractor_market": "Manufacturers Rep",
+          "age_range": "51-55",
+          "source": "manual_verification"
+        }
+      ],
+      "matches": [
+        {
+          "system_executive": {
+            "name": "Patricia Joyce",
+            "title": "Agency Director",
+            "email": "patricia@thejoyceagency.com",
+            "phone": "0207 123 4567",
+            "linkedin_url": "https://www.linkedin.com/in/patricia-joyce-marketing",
+            "extraction_method": "robust_pipeline",
+            "confidence": 0.729,
+            "context": "Found in team profiles",
+            "source_sections": [
+              "team",
+              "profiles"
+            ]
+          },
+          "manual_executive": {
+            "company_name": "The Joyce Agency, Inc.",
+            "website": "http://thejoyceagency.com",
+            "first_name": "Troy",
+            "last_name": "Joyce",
+            "full_name": "Troy Joyce",
+            "title": "Co-Owner",
+            "email": "troyjoyce@thejoyceagency.com",
+            "phone": 8002919298,
+            "direct_phone": "410-661-2582",
+            "mobile": "443-677-7285",
+            "linkedin_url": "https://www.linkedin.com/in/troy-joyce-8a413949",
+            "address": {
+              "street": "3933 Avion Park Court; Suite B102B",
+              "city": "Chantilly",
+              "state": "VA",
+              "zip_code": 20151
+            },
+            "employee_count": 54,
+            "contractor_market": "Manufacturers Rep",
+            "age_range": "51-55",
+            "source": "manual_verification"
+          },
+          "match_type": "partial_match",
+          "confidence": 0.34520833333333334,
+          "field_scores": {
+            "name": 0.6863095238095238,
+            "email": 0.3,
+            "linkedin": 0.0,
+            "title": 0.0
+          },
+          "reasons": [
+            "Fuzzy name match: Patricia Joyce ≈ Troy Joyce (score: 0.69)",
+            "Same domain: thejoyceagency.com"
+          ]
+        }
+      ],
+      "missing_executives": [
+        {
+          "company_name": "The Joyce Agency, Inc.",
+          "website": "http://thejoyceagency.com",
+          "first_name": "Todd",
+          "last_name": "Joyce",
+          "full_name": "Todd Joyce",
+          "title": "Co-Owner",
+          "email": "tjoyce@thejoyceagency.com",
+          "phone": 8002919298,
+          "direct_phone": "703-866-2332",
+          "mobile": "804-400-0286",
+          "linkedin_url": "linkedin.com/in/toddjoyce",
+          "address": {
+            "street": "3933 Avion Park Court; Suite B102B",
+            "city": "Chantilly",
+            "state": "VA",
+            "zip_code": 20151
+          },
+          "employee_count": 54,
+          "contractor_market": "Manufacturers Rep",
+          "age_range": "51-55",
+          "source": "manual_verification"
+        }
+      ],
+      "false_positives": []
+    },
+    "http://gaultelectric.com": {
+      "system_executives": [],
+      "manual_executives": [
+        {
+          "company_name": "Gault Electric",
+          "website": "http://gaultelectric.com",
+          "first_name": "William",
+          "last_name": "Cannon",
+          "full_name": "William Cannon",
+          "title": "Owner",
+          "email": "willc@gaultelectric.com",
+          "phone": "757-220-3300",
+          "direct_phone": null,
+          "mobile": 7577772778,
+          "linkedin_url": "https://www.linkedin.com/in/william-cannon-53b39717",
+          "address": {
+            "street": "806 City Center Blvd",
+            "city": "Newport News",
+            "state": "VA",
+            "zip_code": 23606
+          },
+          "employee_count": 21,
+          "contractor_market": "Resi Electrical",
+          "age_range": "40-50",
+          "source": "manual_verification"
+        }
+      ],
+      "matches": [],
+      "missing_executives": [
+        {
+          "company_name": "Gault Electric",
+          "website": "http://gaultelectric.com",
+          "first_name": "William",
+          "last_name": "Cannon",
+          "full_name": "William Cannon",
+          "title": "Owner",
+          "email": "willc@gaultelectric.com",
+          "phone": "757-220-3300",
+          "direct_phone": null,
+          "mobile": 7577772778,
+          "linkedin_url": "https://www.linkedin.com/in/william-cannon-53b39717",
+          "address": {
+            "street": "806 City Center Blvd",
+            "city": "Newport News",
+            "state": "VA",
+            "zip_code": 23606
+          },
+          "employee_count": 21,
+          "contractor_market": "Resi Electrical",
+          "age_range": "40-50",
+          "source": "manual_verification"
+        }
+      ],
+      "false_positives": []
+    }
+  },
+  "recommendations": [
+    "🔍 Low discovery rate: Enhance executive detection algorithms",
+    "❌ High false positives: Strengthen quality filters",
+    "🌐 Incomplete URL coverage: Investigate failed URL processing",
+    "🎪 Low match confidence: Review comparison algorithms"
+  ]
+}

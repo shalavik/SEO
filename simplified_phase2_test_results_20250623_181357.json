@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "timestamp": "20250623_181357",
+    "test_type": "phase2_simplified",
+    "execution_time": 0.049474239349365234,
+    "companies_tested": 3,
+    "phase": "Phase 2 Enhanced Pipeline"
+  },
+  "performance_metrics": {
+    "discovery_rate": 0.6,
+    "confidence_score": 0.32222222222222224,
+    "false_positive_rate": 0.0,
+    "avg_processing_time": 0.016405741373697918,
+    "total_executives_found": 3,
+    "total_expected_executives": 5
+  },
+  "baseline_comparison": {
+    "phase1_discovery_rate": 0.25,
+    "phase1_confidence_score": 0.496,
+    "discovery_improvement": 0.35,
+    "confidence_improvement": -0.17377777777777775,
+    "discovery_improvement_pct": 140.0,
+    "confidence_improvement_pct": -35.0358422939068
+  },
+  "target_achievement": {
+    "discovery_target": 0.45,
+    "confidence_target": 0.6,
+    "discovery_achieved": true,
+    "confidence_achieved": "False",
+    "overall_success": "False"
+  },
+  "detailed_results": [
+    {
+      "company_name": "Vernon Heating",
+      "url": "http://www.vernonheating.com",
+      "executives_found": 0,
+      "expected_executives": 1,
+      "executives": [],
+      "discovery_rate": 0.0,
+      "avg_confidence": 0.0,
+      "phase2_enhancements_applied": [
+        "semantic_relationship_analysis",
+        "enhanced_content_analysis",
+        "multi_source_validation",
+        "advanced_confidence_scoring"
+      ]
+    },
+    {
+      "company_name": "K W Smith Plumbing",
+      "url": "http://www.kwsmith.com",
+      "executives_found": 0,
+      "expected_executives": 2,
+      "executives": [],
+      "discovery_rate": 0.0,
+      "avg_confidence": 0.0,
+      "phase2_enhancements_applied": [
+        "semantic_relationship_analysis",
+        "enhanced_content_analysis",
+        "multi_source_validation",
+        "advanced_confidence_scoring"
+      ]
+    },
+    {
+      "company_name": "Sage Water Solutions",
+      "url": "http://sagewater.com",
+      "executives_found": 3,
+      "expected_executives": 2,
+      "executives": [
+        {
+          "name": "Managing Director",
+          "title": "h3>Sarah Johnson -",
+          "email": null,
+          "phone": null,
+          "confidence": 0.8999999999999999,
+          "semantic_relationships": [
+            "founder",
+            "director"
+          ],
+          "authority_indicators": [],
+          "extraction_context": "h2>\n                        <div class=\"executive\">\n                            <h3>Sarah Johnson - Managing Director</h3>\n                            <p>Sarah founded Sage Water Solutions in 2010 wit",
+          "phase2_analysis": true
+        },
+        {
+          "name": "David Brown",
+          "title": "Operations Manager",
+          "email": "david.brown@sagewater.com",
+          "phone": null,
+          "confidence": 1.0,
+          "semantic_relationships": [
+            "manager"
+          ],
+          "authority_indicators": [],
+          "extraction_context": "</div>\n                        <div class=\"executive\">\n                            <h3>David Brown - Operations Manager</h3>\n                            <p>David oversees all field operations and pr",
+          "phase2_analysis": true
+        },
+        {
+          "name": "Sarah Johnson",
+          "title": "Managing Director",
+          "email": "sarah.johnson@sagewater.com",
+          "phone": null,
+          "confidence": 1.0,
+          "semantic_relationships": [
+            "founder",
+            "director"
+          ],
+          "authority_indicators": [],
+          "extraction_context": "eadership Team</h2>\n                        <div class=\"executive\">\n                            <h3>Sarah Johnson - Managing Director</h3>\n                            <p>Sarah founded Sage Water Solut",
+          "phase2_analysis": true
+        }
+      ],
+      "discovery_rate": 1.5,
+      "avg_confidence": 0.9666666666666667,
+      "phase2_enhancements_applied": [
+        "semantic_relationship_analysis",
+        "enhanced_content_analysis",
+        "multi_source_validation",
+        "advanced_confidence_scoring"
+      ]
+    }
+  ],
+  "phase2_enhancements": [
+    "Enhanced content section analysis",
+    "Semantic relationship extraction",
+    "Multi-source validation",
+    "Advanced confidence scoring",
+    "Quality control integration"
+  ]
+}

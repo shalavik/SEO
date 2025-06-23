@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "timestamp": "20250623_175315",
+    "execution_time": 25.818506002426147,
+    "test_type": "simplified_phase1_test",
+    "pipeline_version": "robust_executive_pipeline",
+    "urls_tested": 5
+  },
+  "performance_metrics": {
+    "baseline": {
+      "discovery_rate": 20.0,
+      "false_positive_rate": 55.6,
+      "average_confidence": 0.384,
+      "url_coverage": 60.0,
+      "executives_found": 4
+    },
+    "current": {
+      "discovery_rate": 25.0,
+      "false_positive_rate": 0.0,
+      "average_confidence": 0.496327380952381,
+      "url_coverage": 33.33333333333333,
+      "executives_found": 5,
+      "total_system_executives": 5
+    },
+    "improvements": {
+      "discovery_rate": 5.0,
+      "false_positive_rate": 55.6,
+      "average_confidence": 0.11232738095238098,
+      "url_coverage": -26.66666666666667
+    },
+    "targets_met": {
+      "discovery_improved": true,
+      "false_positives_reduced": true,
+      "confidence_improved": true,
+      "coverage_maintained": false
+    },
+    "overall_score": 0.75,
+    "performance_rating": "Excellent"
+  },
+  "detailed_results": {
+    "url_comparisons": {
+      "http://anhplumbing.com": {
+        "discovery_rate": 50.0,
+        "false_positives": 0,
+        "matches": 1,
+        "system_executives": 1,
+        "manual_executives": 2
+      },
+      "http://www.vernonheating.com": {
+        "discovery_rate": 100.0,
+        "false_positives": 0,
+        "matches": 1,
+        "system_executives": 1,
+        "manual_executives": 1
+      },
+      "http://www.kwsmith.com": {
+        "discovery_rate": 100.0,
+        "false_positives": 0,
+        "matches": 1,
+        "system_executives": 1,
+        "manual_executives": 1
+      },
+      "http://sagewater.com": {
+        "discovery_rate": 100.0,
+        "false_positives": 0,
+        "matches": 1,
+        "system_executives": 1,
+        "manual_executives": 1
+      },
+      "http://thejoyceagency.com": {
+        "discovery_rate": 50.0,
+        "false_positives": 0,
+        "matches": 1,
+        "system_executives": 1,
+        "manual_executives": 2
+      }
+    }
+  },
+  "recommendations": [
+    "✅ Discovery rate improved over baseline",
+    "✅ False positive rate reduced successfully",
+    "✅ Confidence scores improved",
+    "⏭️ Good foundation - proceed with Phase 1 enhancements"
+  ],
+  "phase1_status": "success"
+}
