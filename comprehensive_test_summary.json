@@ -1,0 +1,243 @@
+{
+  "test_summary": {
+    "timestamp": "2025-06-27T18:50:44.016925",
+    "total_urls_tested": 15,
+    "processing_time_seconds": 238.3,
+    "overall_success_rate": "100.0%",
+    "seo_analysis_success_rate": "100.0%",
+    "executive_discovery_success_rate": "66.7%",
+    "companies_house_coverage": "0.0%"
+  },
+  "key_metrics": {
+    "total_executives_found": 54,
+    "average_contact_completeness": "10.33%",
+    "contact_discovery_rate": "33.33%",
+    "business_value_score": 44.44,
+    "average_seo_score": 0.591,
+    "average_data_quality_score": 0.611
+  },
+  "company_results": [
+    {
+      "url": "https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/",
+      "company_name": "Emergency Plumbing Services in Birmingham",
+      "success": true,
+      "seo_score": 0.72,
+      "health_score": 1.0,
+      "executives_found": 8,
+      "companies_house_verified": false,
+      "contact_completeness": 0.0,
+      "unique_emails": [],
+      "unique_phones": [],
+      "data_quality_score": 0.744,
+      "errors": []
+    },
+    {
+      "url": "http://www.idealplumbingservices.co.uk/",
+      "company_name": "Ideal Plumbing Services",
+      "success": true,
+      "seo_score": 0.72,
+      "health_score": 1.0,
+      "executives_found": 2,
+      "companies_house_verified": false,
+      "contact_completeness": 0.0,
+      "unique_emails": [],
+      "unique_phones": [],
+      "data_quality_score": 0.611,
+      "errors": []
+    },
+    {
+      "url": "https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink",
+      "company_name": "Plumbers in Birmingham",
+      "success": true,
+      "seo_score": 0.8,
+      "health_score": 1.0,
+      "executives_found": 8,
+      "companies_house_verified": false,
+      "contact_completeness": 33.33333333333333,
+      "unique_emails": [],
+      "unique_phones": [
+        "0800 587 3136"
+      ],
+      "data_quality_score": 0.827,
+      "errors": []
+    },
+    {
+      "url": "https://jacktheplumber.co.uk/",
+      "company_name": "Jack The Plumber: Reliable Plumber in Birmingham",
+      "success": true,
+      "seo_score": 0.79,
+      "health_score": 1.0,
+      "executives_found": 8,
+      "companies_house_verified": false,
+      "contact_completeness": 66.66666666666666,
+      "unique_emails": [
+        "info@jacktheplumber.com"
+      ],
+      "unique_phones": [
+        "07933 138914"
+      ],
+      "data_quality_score": 0.891,
+      "errors": []
+    },
+    {
+      "url": "https://www.swiftemergencyplumber.com/",
+      "company_name": "Home",
+      "success": true,
+      "seo_score": 0.83,
+      "health_score": 1.0,
+      "executives_found": 4,
+      "companies_house_verified": false,
+      "contact_completeness": 25.0,
+      "unique_emails": [],
+      "unique_phones": [
+        "07866745190"
+      ],
+      "data_quality_score": 0.816,
+      "errors": []
+    },
+    {
+      "url": "https://mkplumbingbirmingham.co.uk/",
+      "company_name": "MK Plumbing Birmingham",
+      "success": true,
+      "seo_score": 0.78,
+      "health_score": 1.0,
+      "executives_found": 5,
+      "companies_house_verified": false,
+      "contact_completeness": 13.333333333333334,
+      "unique_emails": [],
+      "unique_phones": [
+        "+44 7355 565264"
+      ],
+      "data_quality_score": 0.783,
+      "errors": []
+    },
+    {
+      "url": "http://www.rescueplumbing.co.uk/",
+      "company_name": "www.rescueplumbing.co.uk",
+      "success": true,
+      "seo_score": 0.16,
+      "health_score": 1.0,
+      "executives_found": 1,
+      "companies_house_verified": false,
+      "contact_completeness": 0.0,
+      "unique_emails": [],
+      "unique_phones": [],
+      "data_quality_score": 0.365,
+      "errors": []
+    },
+    {
+      "url": "https://www.gdplumbingandheatingservices.co.uk/",
+      "company_name": "GD Plumbing & Heating Services Ltd",
+      "success": true,
+      "seo_score": 0.68,
+      "health_score": 1.0,
+      "executives_found": 8,
+      "companies_house_verified": false,
+      "contact_completeness": 0.0,
+      "unique_emails": [],
+      "unique_phones": [],
+      "data_quality_score": 0.736,
+      "errors": []
+    },
+    {
+      "url": "http://www.mattplumbingandheating.com/",
+      "company_name": "MATT Plumbing and Heating",
+      "success": true,
+      "seo_score": 0.24,
+      "health_score": 0.0,
+      "executives_found": 0,
+      "companies_house_verified": false,
+      "contact_completeness": 0.0,
+      "unique_emails": [],
+      "unique_phones": [],
+      "data_quality_score": 0.048,
+      "errors": []
+    },
+    {
+      "url": "http://summitplumbingandheating.co.uk/",
+      "company_name": "Summit Plumbing & Heating Ltd",
+      "success": true,
+      "seo_score": 0.85,
+      "health_score": 1.0,
+      "executives_found": 2,
+      "companies_house_verified": false,
+      "contact_completeness": 16.666666666666664,
+      "unique_emails": [
+        "info@summitplumbingandheating.co.uk"
+      ],
+      "unique_phones": [],
+      "data_quality_score": 0.67,
+      "errors": []
+    },
+    {
+      "url": "https://macplumbheat.co.uk/",
+      "company_name": "Expert In Heating & Plumbing In Birmingham",
+      "success": true,
+      "seo_score": 0.88,
+      "health_score": 1.0,
+      "executives_found": 0,
+      "companies_house_verified": false,
+      "contact_completeness": 0.0,
+      "unique_emails": [],
+      "unique_phones": [],
+      "data_quality_score": 0.376,
+      "errors": []
+    },
+    {
+      "url": "https://ltfplumbing.co.uk/subscription",
+      "company_name": "Subscription",
+      "success": true,
+      "seo_score": 0.53,
+      "health_score": 1.0,
+      "executives_found": 0,
+      "companies_house_verified": false,
+      "contact_completeness": 0.0,
+      "unique_emails": [],
+      "unique_phones": [],
+      "data_quality_score": 0.306,
+      "errors": []
+    },
+    {
+      "url": "http://www.ctmplumbing.co.uk/",
+      "company_name": "ctmplumbing",
+      "success": true,
+      "seo_score": 0.0,
+      "health_score": 0.0,
+      "executives_found": 0,
+      "companies_house_verified": false,
+      "contact_completeness": 0.0,
+      "unique_emails": [],
+      "unique_phones": [],
+      "data_quality_score": 0.0,
+      "errors": []
+    },
+    {
+      "url": "https://kingsheathplumbing.freeindex.co.uk/",
+      "company_name": "Kings Heath Plumbing, Birmingham",
+      "success": true,
+      "seo_score": 0.88,
+      "health_score": 1.0,
+      "executives_found": 8,
+      "companies_house_verified": false,
+      "contact_completeness": 0.0,
+      "unique_emails": [],
+      "unique_phones": [],
+      "data_quality_score": 0.776,
+      "errors": []
+    },
+    {
+      "url": "http://www.perry-plumbing.co.uk/",
+      "company_name": "perry-plumbing",
+      "success": true,
+      "seo_score": 0.0,
+      "health_score": 0.0,
+      "executives_found": 0,
+      "companies_house_verified": false,
+      "contact_completeness": 0.0,
+      "unique_emails": [],
+      "unique_phones": [],
+      "data_quality_score": 0.0,
+      "errors": []
+    }
+  ]
+}

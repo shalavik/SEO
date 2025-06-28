@@ -1,0 +1,680 @@
+2025-06-27 18:50:44,016 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Initializing 8-Step Executive Discovery Orchestrator with REAL executive data extraction
+2025-06-27 18:50:44,016 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Phase9a Contact Extraction Engine initialized for real executive discovery
+2025-06-27 18:50:44,016 - src.seo_leads.enrichers.companies_house_enricher - INFO - Companies House enricher initialized (FREE API)
+2025-06-27 18:50:44,016 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Companies House enricher initialized for official UK company data
+2025-06-27 18:50:44,016 - __main__ - INFO - All components initialized successfully
+2025-06-27 18:50:44,016 - __main__ - INFO - 🚀 Starting Comprehensive Production Test
+2025-06-27 18:50:44,016 - __main__ - INFO - Testing 15 URLs with complete SEO + Executive Discovery workflow
+2025-06-27 18:50:44,016 - __main__ - INFO - 🔍 Testing 1/15: https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/
+2025-06-27 18:50:44,349 - __main__ - INFO - ✅ SEO analysis completed for https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/
+2025-06-27 18:50:44,349 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/
+2025-06-27 18:50:44,349 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/
+2025-06-27 18:50:44,584 - __main__ - INFO - ✅ Health check completed for https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/
+2025-06-27 18:50:44,584 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Starting 8-step REAL executive discovery for https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/
+2025-06-27 18:50:44,584 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/
+2025-06-27 18:50:46,464 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Successfully loaded: https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/ (Status: 200)
+2025-06-27 18:50:46,557 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Looking up official directors for Emergency Plumbing Services in Birmingham in Companies House
+2025-06-27 18:50:47,635 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Companies House search failed: 404
+2025-06-27 18:50:48,276 - src.seo_leads.enrichers.companies_house_enricher - INFO - Fallback search found 0 companies
+2025-06-27 18:50:48,276 - src.seo_leads.enrichers.companies_house_enricher - WARNING - No companies found for 'Emergency Plumbing Services in Birmingham' in Companies House
+2025-06-27 18:50:48,276 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - No official directors found in Companies House for Emergency Plumbing Services in Birmingham
+2025-06-27 18:50:48,276 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Extracting REAL executive data for Emergency Plumbing Services in Birmingham
+2025-06-27 18:50:48,276 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using Phase9a Contact Extraction Engine for real executive discovery
+2025-06-27 18:50:48,276 - phase9a_contact_extraction_engine - INFO - Starting contact extraction for Emergency Plumbing Services in Birmingham
+2025-06-27 18:50:53,523 - phase9a_contact_extraction_engine - INFO - Contact extraction completed for Emergency Plumbing Services in Birmingham: 20 executives, 0 contacts
+2025-06-27 18:50:53,527 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Phase9a engine found 11 executives
+2025-06-27 18:50:53,527 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Total REAL executives found: 8
+2025-06-27 18:50:53,527 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Supreme Plumbers (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:50:53,527 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Supreme Plumbers (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:50:53,527 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Chomparani Ali (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:50:53,527 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Same Day (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:50:53,527 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Suite Blackthorn (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:50:53,527 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Pauls Square (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:50:53,527 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Supreme Plumbers (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:50:53,527 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Supreme Plumbers (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:50:53,528 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Supreme Plumbers (Managing Director) - Website discovery
+2025-06-27 18:50:53,528 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Supreme Plumbers (Managing Director) - Website discovery
+2025-06-27 18:50:53,528 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Chomparani Ali (Managing Director) - Website discovery
+2025-06-27 18:50:53,528 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Same Day (Managing Director) - Website discovery
+2025-06-27 18:50:53,528 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Suite Blackthorn (Managing Director) - Website discovery
+2025-06-27 18:50:53,528 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Pauls Square (Managing Director) - Website discovery
+2025-06-27 18:50:53,528 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Supreme Plumbers (Managing Director) - Website discovery
+2025-06-27 18:50:53,528 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Supreme Plumbers (Managing Director) - Website discovery
+2025-06-27 18:50:53,528 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Final executive list: 8 total executives (0 official directors + 8 website-discovered)
+2025-06-27 18:50:53,528 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - 8-step REAL executive discovery complete for Emergency Plumbing Services in Birmingham (URL: https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/)
+2025-06-27 18:50:53,528 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Found 8 real executives with contact information
+2025-06-27 18:50:53,528 - __main__ - INFO - ✅ Executive discovery completed for https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/ - Found 8 executives
+2025-06-27 18:50:53,528 - __main__ - INFO - ✅ Completed 1/15 - Emergency Plumbing Services in Birmingham - SEO: 0.72, Executives: 8, Companies House: False
+2025-06-27 18:50:53,528 - __main__ - INFO - 🔍 Testing 2/15: http://www.idealplumbingservices.co.uk/
+2025-06-27 18:50:54,327 - __main__ - INFO - ✅ SEO analysis completed for http://www.idealplumbingservices.co.uk/
+2025-06-27 18:50:54,327 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: http://www.idealplumbingservices.co.uk/
+2025-06-27 18:50:54,327 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: http://www.idealplumbingservices.co.uk/
+2025-06-27 18:50:54,922 - __main__ - INFO - ✅ Health check completed for http://www.idealplumbingservices.co.uk/
+2025-06-27 18:50:54,922 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Starting 8-step REAL executive discovery for http://www.idealplumbingservices.co.uk/
+2025-06-27 18:50:54,922 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: http://www.idealplumbingservices.co.uk/
+2025-06-27 18:50:55,934 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Successfully loaded: http://www.idealplumbingservices.co.uk/ (Status: 200)
+2025-06-27 18:50:56,023 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Looking up official directors for Ideal Plumbing Services in Companies House
+2025-06-27 18:50:56,245 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Companies House search failed: 404
+2025-06-27 18:51:11,253 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Fallback web search failed: HTTPSConnectionPool(host='find-and-update.company-information.service.gov.uk', port=443): Read timed out. (read timeout=15)
+2025-06-27 18:51:11,255 - src.seo_leads.enrichers.companies_house_enricher - WARNING - No companies found for 'Ideal Plumbing Services' in Companies House
+2025-06-27 18:51:11,256 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - No official directors found in Companies House for Ideal Plumbing Services
+2025-06-27 18:51:11,256 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Extracting REAL executive data for Ideal Plumbing Services
+2025-06-27 18:51:11,256 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using Phase9a Contact Extraction Engine for real executive discovery
+2025-06-27 18:51:11,256 - phase9a_contact_extraction_engine - INFO - Starting contact extraction for Ideal Plumbing Services
+2025-06-27 18:51:19,496 - phase9a_contact_extraction_engine - INFO - Contact extraction completed for Ideal Plumbing Services: 13 executives, 0 contacts
+2025-06-27 18:51:19,498 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Phase9a engine found 2 executives
+2025-06-27 18:51:19,498 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Total REAL executives found: 2
+2025-06-27 18:51:19,498 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Same Day (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:51:19,498 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Testimonials
+
+
+
+
+
+Very (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:51:19,498 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Same Day (Managing Director) - Website discovery
+2025-06-27 18:51:19,498 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Testimonials
+
+
+
+
+
+Very (Managing Director) - Website discovery
+2025-06-27 18:51:19,498 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Final executive list: 2 total executives (0 official directors + 2 website-discovered)
+2025-06-27 18:51:19,498 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - 8-step REAL executive discovery complete for Ideal Plumbing Services (URL: http://www.idealplumbingservices.co.uk/)
+2025-06-27 18:51:19,498 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Found 2 real executives with contact information
+2025-06-27 18:51:19,498 - __main__ - INFO - ✅ Executive discovery completed for http://www.idealplumbingservices.co.uk/ - Found 2 executives
+2025-06-27 18:51:19,498 - __main__ - INFO - ✅ Completed 2/15 - Ideal Plumbing Services - SEO: 0.72, Executives: 2, Companies House: False
+2025-06-27 18:51:19,498 - __main__ - INFO - 🔍 Testing 3/15: https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink
+2025-06-27 18:51:21,298 - __main__ - INFO - ✅ SEO analysis completed for https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink
+2025-06-27 18:51:21,298 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink
+2025-06-27 18:51:21,298 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink
+2025-06-27 18:51:22,820 - __main__ - INFO - ✅ Health check completed for https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink
+2025-06-27 18:51:22,821 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Starting 8-step REAL executive discovery for https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink
+2025-06-27 18:51:22,821 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink
+2025-06-27 18:51:25,543 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Successfully loaded: https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink (Status: 200)
+2025-06-27 18:51:25,798 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Looking up official directors for Plumbers in Birmingham in Companies House
+2025-06-27 18:51:26,808 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Companies House search failed: 404
+2025-06-27 18:51:27,283 - src.seo_leads.enrichers.companies_house_enricher - INFO - Fallback search found 0 companies
+2025-06-27 18:51:27,283 - src.seo_leads.enrichers.companies_house_enricher - WARNING - No companies found for 'Plumbers in Birmingham' in Companies House
+2025-06-27 18:51:27,283 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - No official directors found in Companies House for Plumbers in Birmingham
+2025-06-27 18:51:27,284 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Extracting REAL executive data for Plumbers in Birmingham
+2025-06-27 18:51:27,284 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using Phase9a Contact Extraction Engine for real executive discovery
+2025-06-27 18:51:27,284 - phase9a_contact_extraction_engine - INFO - Starting contact extraction for Plumbers in Birmingham
+2025-06-27 18:51:36,841 - phase9a_contact_extraction_engine - INFO - Contact extraction completed for Plumbers in Birmingham: 20 executives, 35 contacts
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Phase9a engine found 11 executives
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Total REAL executives found: 8
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Fireplaces
+Wood (Managing Director) - Email: None, Phone: 0800 587 3136, LinkedIn: None
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Worcester Bosch (Managing Director) - Email: None, Phone: 0800 587 3136, LinkedIn: None
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Accredited Installer (Managing Director) - Email: None, Phone: 0800 587 3136, LinkedIn: None
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Ferrolli
+Potterton (Managing Director) - Email: None, Phone: 0800 587 3136, LinkedIn: None
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Vaillant
+Ideal (Managing Director) - Email: None, Phone: 0800 587 3136, LinkedIn: None
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Boilers
+
+
+Boilers (Managing Director) - Email: None, Phone: 0800 587 3136, LinkedIn: None
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Worcester Bosch (Managing Director) - Email: None, Phone: 0800 587 3136, LinkedIn: None
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Accredited Installer (Managing Director) - Email: None, Phone: 0800 587 3136, LinkedIn: None
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Fireplaces
+Wood (Managing Director) - Website discovery
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Worcester Bosch (Managing Director) - Website discovery
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Accredited Installer (Managing Director) - Website discovery
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Ferrolli
+Potterton (Managing Director) - Website discovery
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Vaillant
+Ideal (Managing Director) - Website discovery
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Boilers
+
+
+Boilers (Managing Director) - Website discovery
+2025-06-27 18:51:36,842 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Worcester Bosch (Managing Director) - Website discovery
+2025-06-27 18:51:36,843 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Accredited Installer (Managing Director) - Website discovery
+2025-06-27 18:51:36,843 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Final executive list: 8 total executives (0 official directors + 8 website-discovered)
+2025-06-27 18:51:36,843 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - 8-step REAL executive discovery complete for Plumbers in Birmingham (URL: https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink)
+2025-06-27 18:51:36,843 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Found 8 real executives with contact information
+2025-06-27 18:51:36,843 - __main__ - INFO - ✅ Executive discovery completed for https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink - Found 8 executives
+2025-06-27 18:51:36,843 - __main__ - INFO - ✅ Completed 3/15 - Plumbers in Birmingham - SEO: 0.8, Executives: 8, Companies House: False
+2025-06-27 18:51:36,843 - __main__ - INFO - 🔍 Testing 4/15: https://jacktheplumber.co.uk/
+2025-06-27 18:51:38,320 - __main__ - INFO - ✅ SEO analysis completed for https://jacktheplumber.co.uk/
+2025-06-27 18:51:38,320 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://jacktheplumber.co.uk/
+2025-06-27 18:51:38,320 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://jacktheplumber.co.uk/
+2025-06-27 18:51:39,380 - __main__ - INFO - ✅ Health check completed for https://jacktheplumber.co.uk/
+2025-06-27 18:51:39,380 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Starting 8-step REAL executive discovery for https://jacktheplumber.co.uk/
+2025-06-27 18:51:39,380 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: https://jacktheplumber.co.uk/
+2025-06-27 18:51:43,598 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Successfully loaded: https://jacktheplumber.co.uk/ (Status: 200)
+2025-06-27 18:51:43,719 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Looking up official directors for Jack The Plumber: Reliable Plumber in Birmingham in Companies House
+2025-06-27 18:51:43,931 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Companies House search failed: 404
+2025-06-27 18:51:58,936 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Fallback web search failed: HTTPSConnectionPool(host='find-and-update.company-information.service.gov.uk', port=443): Read timed out. (read timeout=15)
+2025-06-27 18:51:58,937 - src.seo_leads.enrichers.companies_house_enricher - WARNING - No companies found for 'Jack The Plumber: Reliable Plumber in Birmingham' in Companies House
+2025-06-27 18:51:58,937 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - No official directors found in Companies House for Jack The Plumber: Reliable Plumber in Birmingham
+2025-06-27 18:51:58,937 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Extracting REAL executive data for Jack The Plumber: Reliable Plumber in Birmingham
+2025-06-27 18:51:58,937 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using Phase9a Contact Extraction Engine for real executive discovery
+2025-06-27 18:51:58,937 - phase9a_contact_extraction_engine - INFO - Starting contact extraction for Jack The Plumber: Reliable Plumber in Birmingham
+2025-06-27 18:52:16,446 - phase9a_contact_extraction_engine - INFO - Contact extraction completed for Jack The Plumber: Reliable Plumber in Birmingham: 20 executives, 26 contacts
+2025-06-27 18:52:16,447 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Phase9a engine found 17 executives
+2025-06-27 18:52:16,447 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Total REAL executives found: 8
+2025-06-27 18:52:16,447 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Jack The (Managing Director) - Email: info@jacktheplumber.com, Phone: 07933 138914, LinkedIn: None
+2025-06-27 18:52:16,447 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - The Plumber (Managing Director) - Email: info@jacktheplumber.com, Phone: 07933 138914, LinkedIn: None
+2025-06-27 18:52:16,447 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Jack The (Managing Director) - Email: info@jacktheplumber.com, Phone: 07933 138914, LinkedIn: None
+2025-06-27 18:52:16,447 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Jack The (Managing Director) - Email: info@jacktheplumber.com, Phone: 07933 138914, LinkedIn: None
+2025-06-27 18:52:16,448 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Jack The (Managing Director) - Email: info@jacktheplumber.com, Phone: 07933 138914, LinkedIn: None
+2025-06-27 18:52:16,448 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - The Plumber (Managing Director) - Email: info@jacktheplumber.com, Phone: 07933 138914, LinkedIn: None
+2025-06-27 18:52:16,448 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - The Plumber (Managing Director) - Email: info@jacktheplumber.com, Phone: 07933 138914, LinkedIn: None
+2025-06-27 18:52:16,448 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Jack The (Managing Director) - Email: info@jacktheplumber.com, Phone: 07933 138914, LinkedIn: None
+2025-06-27 18:52:16,449 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Jack The (Managing Director) - Website discovery
+2025-06-27 18:52:16,449 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: The Plumber (Managing Director) - Website discovery
+2025-06-27 18:52:16,449 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Jack The (Managing Director) - Website discovery
+2025-06-27 18:52:16,449 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Jack The (Managing Director) - Website discovery
+2025-06-27 18:52:16,449 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Jack The (Managing Director) - Website discovery
+2025-06-27 18:52:16,449 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: The Plumber (Managing Director) - Website discovery
+2025-06-27 18:52:16,449 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: The Plumber (Managing Director) - Website discovery
+2025-06-27 18:52:16,449 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Jack The (Managing Director) - Website discovery
+2025-06-27 18:52:16,449 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Final executive list: 8 total executives (0 official directors + 8 website-discovered)
+2025-06-27 18:52:16,449 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - 8-step REAL executive discovery complete for Jack The Plumber: Reliable Plumber in Birmingham (URL: https://jacktheplumber.co.uk/)
+2025-06-27 18:52:16,449 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Found 8 real executives with contact information
+2025-06-27 18:52:16,449 - __main__ - INFO - ✅ Executive discovery completed for https://jacktheplumber.co.uk/ - Found 8 executives
+2025-06-27 18:52:16,449 - __main__ - INFO - ✅ Completed 4/15 - Jack The Plumber: Reliable Plumber in Birmingham - SEO: 0.79, Executives: 8, Companies House: False
+2025-06-27 18:52:16,450 - __main__ - INFO - 🔍 Testing 5/15: https://www.swiftemergencyplumber.com/
+2025-06-27 18:52:18,272 - __main__ - INFO - ✅ SEO analysis completed for https://www.swiftemergencyplumber.com/
+2025-06-27 18:52:18,273 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://www.swiftemergencyplumber.com/
+2025-06-27 18:52:18,273 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://www.swiftemergencyplumber.com/
+2025-06-27 18:52:19,457 - __main__ - INFO - ✅ Health check completed for https://www.swiftemergencyplumber.com/
+2025-06-27 18:52:19,457 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Starting 8-step REAL executive discovery for https://www.swiftemergencyplumber.com/
+2025-06-27 18:52:19,458 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: https://www.swiftemergencyplumber.com/
+2025-06-27 18:52:22,802 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Successfully loaded: https://www.swiftemergencyplumber.com/ (Status: 200)
+2025-06-27 18:52:22,864 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Looking up official directors for Home in Companies House
+2025-06-27 18:52:23,766 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Companies House search failed: 404
+2025-06-27 18:52:24,083 - src.seo_leads.enrichers.companies_house_enricher - INFO - Fallback search found 0 companies
+2025-06-27 18:52:24,084 - src.seo_leads.enrichers.companies_house_enricher - WARNING - No companies found for 'Home' in Companies House
+2025-06-27 18:52:24,084 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - No official directors found in Companies House for Home
+2025-06-27 18:52:24,084 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Extracting REAL executive data for Home
+2025-06-27 18:52:24,084 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using Phase9a Contact Extraction Engine for real executive discovery
+2025-06-27 18:52:24,085 - phase9a_contact_extraction_engine - INFO - Starting contact extraction for Home
+2025-06-27 18:52:40,015 - phase9a_contact_extraction_engine - INFO - Contact extraction completed for Home: 20 executives, 13 contacts
+2025-06-27 18:52:40,016 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Phase9a engine found 4 executives
+2025-06-27 18:52:40,016 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Total REAL executives found: 4
+2025-06-27 18:52:40,016 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Facebook
+
+
+
+
+Twitter (Managing Director) - Email: None, Phone: 07866745190, LinkedIn: None
+2025-06-27 18:52:40,016 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Facebook
+
+
+
+
+Twitter (Managing Director) - Email: None, Phone: 07866745190, LinkedIn: None
+2025-06-27 18:52:40,016 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Select Page (Managing Director) - Email: None, Phone: 07866745190, LinkedIn: None
+2025-06-27 18:52:40,016 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Trading Standards (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:52:40,016 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Facebook
+
+
+
+
+Twitter (Managing Director) - Website discovery
+2025-06-27 18:52:40,016 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Facebook
+
+
+
+
+Twitter (Managing Director) - Website discovery
+2025-06-27 18:52:40,017 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Select Page (Managing Director) - Website discovery
+2025-06-27 18:52:40,017 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Trading Standards (Managing Director) - Website discovery
+2025-06-27 18:52:40,017 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Final executive list: 4 total executives (0 official directors + 4 website-discovered)
+2025-06-27 18:52:40,017 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - 8-step REAL executive discovery complete for Home (URL: https://www.swiftemergencyplumber.com/)
+2025-06-27 18:52:40,017 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Found 4 real executives with contact information
+2025-06-27 18:52:40,017 - __main__ - INFO - ✅ Executive discovery completed for https://www.swiftemergencyplumber.com/ - Found 4 executives
+2025-06-27 18:52:40,017 - __main__ - INFO - ✅ Completed 5/15 - Home - SEO: 0.83, Executives: 4, Companies House: False
+2025-06-27 18:52:40,017 - __main__ - INFO - 🔍 Testing 6/15: https://mkplumbingbirmingham.co.uk/
+2025-06-27 18:52:41,467 - __main__ - INFO - ✅ SEO analysis completed for https://mkplumbingbirmingham.co.uk/
+2025-06-27 18:52:41,467 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://mkplumbingbirmingham.co.uk/
+2025-06-27 18:52:41,467 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://mkplumbingbirmingham.co.uk/
+2025-06-27 18:52:42,820 - __main__ - INFO - ✅ Health check completed for https://mkplumbingbirmingham.co.uk/
+2025-06-27 18:52:42,820 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Starting 8-step REAL executive discovery for https://mkplumbingbirmingham.co.uk/
+2025-06-27 18:52:42,820 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: https://mkplumbingbirmingham.co.uk/
+2025-06-27 18:52:46,077 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Successfully loaded: https://mkplumbingbirmingham.co.uk/ (Status: 200)
+2025-06-27 18:52:46,147 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Looking up official directors for MK Plumbing Birmingham in Companies House
+2025-06-27 18:52:46,345 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Companies House search failed: 404
+2025-06-27 18:52:46,632 - src.seo_leads.enrichers.companies_house_enricher - INFO - Fallback search found 0 companies
+2025-06-27 18:52:46,633 - src.seo_leads.enrichers.companies_house_enricher - WARNING - No companies found for 'MK Plumbing Birmingham' in Companies House
+2025-06-27 18:52:46,633 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - No official directors found in Companies House for MK Plumbing Birmingham
+2025-06-27 18:52:46,633 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Extracting REAL executive data for MK Plumbing Birmingham
+2025-06-27 18:52:46,633 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using Phase9a Contact Extraction Engine for real executive discovery
+2025-06-27 18:52:46,633 - phase9a_contact_extraction_engine - INFO - Starting contact extraction for MK Plumbing Birmingham
+2025-06-27 18:53:04,560 - phase9a_contact_extraction_engine - INFO - Contact extraction completed for MK Plumbing Birmingham: 20 executives, 15 contacts
+2025-06-27 18:53:04,561 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Phase9a engine found 5 executives
+2025-06-27 18:53:04,561 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Total REAL executives found: 5
+2025-06-27 18:53:04,561 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Drainage Systems (Managing Director) - Email: None, Phone: +44 7355 565264, LinkedIn: None
+2025-06-27 18:53:04,561 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Water Heater (Managing Director) - Email: None, Phone: +44 7355 565264, LinkedIn: None
+2025-06-27 18:53:04,561 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Facebook      Instagram (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:53:04,561 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Why Choose (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:53:04,561 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Happy Customers (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:53:04,561 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Drainage Systems (Managing Director) - Website discovery
+2025-06-27 18:53:04,561 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Water Heater (Managing Director) - Website discovery
+2025-06-27 18:53:04,561 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Facebook      Instagram (Managing Director) - Website discovery
+2025-06-27 18:53:04,561 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Why Choose (Managing Director) - Website discovery
+2025-06-27 18:53:04,561 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Happy Customers (Managing Director) - Website discovery
+2025-06-27 18:53:04,561 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Final executive list: 5 total executives (0 official directors + 5 website-discovered)
+2025-06-27 18:53:04,561 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - 8-step REAL executive discovery complete for MK Plumbing Birmingham (URL: https://mkplumbingbirmingham.co.uk/)
+2025-06-27 18:53:04,561 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Found 5 real executives with contact information
+2025-06-27 18:53:04,561 - __main__ - INFO - ✅ Executive discovery completed for https://mkplumbingbirmingham.co.uk/ - Found 5 executives
+2025-06-27 18:53:04,561 - __main__ - INFO - ✅ Completed 6/15 - MK Plumbing Birmingham - SEO: 0.78, Executives: 5, Companies House: False
+2025-06-27 18:53:04,561 - __main__ - INFO - 🔍 Testing 7/15: http://www.rescueplumbing.co.uk/
+2025-06-27 18:53:05,320 - __main__ - INFO - ✅ SEO analysis completed for http://www.rescueplumbing.co.uk/
+2025-06-27 18:53:05,320 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: http://www.rescueplumbing.co.uk/
+2025-06-27 18:53:05,320 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: http://www.rescueplumbing.co.uk/
+2025-06-27 18:53:05,504 - __main__ - INFO - ✅ Health check completed for http://www.rescueplumbing.co.uk/
+2025-06-27 18:53:05,504 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Starting 8-step REAL executive discovery for http://www.rescueplumbing.co.uk/
+2025-06-27 18:53:05,504 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: http://www.rescueplumbing.co.uk/
+2025-06-27 18:53:07,020 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Successfully loaded: http://www.rescueplumbing.co.uk/ (Status: 200)
+2025-06-27 18:53:07,078 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Looking up official directors for www.rescueplumbing.co.uk in Companies House
+2025-06-27 18:53:07,265 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Companies House search failed: 404
+2025-06-27 18:53:07,525 - src.seo_leads.enrichers.companies_house_enricher - INFO - Fallback search found 0 companies
+2025-06-27 18:53:07,526 - src.seo_leads.enrichers.companies_house_enricher - WARNING - No companies found for 'www.rescueplumbing.co.uk' in Companies House
+2025-06-27 18:53:07,526 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - No official directors found in Companies House for www.rescueplumbing.co.uk
+2025-06-27 18:53:07,526 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Extracting REAL executive data for www.rescueplumbing.co.uk
+2025-06-27 18:53:07,526 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using Phase9a Contact Extraction Engine for real executive discovery
+2025-06-27 18:53:07,526 - phase9a_contact_extraction_engine - INFO - Starting contact extraction for www.rescueplumbing.co.uk
+2025-06-27 18:53:12,268 - phase9a_contact_extraction_engine - INFO - Contact extraction completed for www.rescueplumbing.co.uk: 9 executives, 0 contacts
+2025-06-27 18:53:12,268 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Phase9a engine found 1 executives
+2025-06-27 18:53:12,268 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using enhanced fallback extraction to find more executives
+2025-06-27 18:53:12,268 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Running enhanced fallback extraction for www.rescueplumbing.co.uk
+2025-06-27 18:53:17,917 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Fetched content from 1 pages
+2025-06-27 18:53:17,925 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Enhanced fallback found 0 additional executives
+2025-06-27 18:53:17,925 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Total REAL executives found: 1
+2025-06-27 18:53:17,925 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - First
+
+
+
+Last (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:53:17,925 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: First
+
+
+
+Last (Managing Director) - Website discovery
+2025-06-27 18:53:17,925 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Final executive list: 1 total executives (0 official directors + 1 website-discovered)
+2025-06-27 18:53:17,925 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - 8-step REAL executive discovery complete for www.rescueplumbing.co.uk (URL: http://www.rescueplumbing.co.uk/)
+2025-06-27 18:53:17,925 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Found 1 real executives with contact information
+2025-06-27 18:53:17,925 - __main__ - INFO - ✅ Executive discovery completed for http://www.rescueplumbing.co.uk/ - Found 1 executives
+2025-06-27 18:53:17,925 - __main__ - INFO - ✅ Completed 7/15 - www.rescueplumbing.co.uk - SEO: 0.16, Executives: 1, Companies House: False
+2025-06-27 18:53:17,925 - __main__ - INFO - 🔍 Testing 8/15: https://www.gdplumbingandheatingservices.co.uk/
+2025-06-27 18:53:19,493 - __main__ - INFO - ✅ SEO analysis completed for https://www.gdplumbingandheatingservices.co.uk/
+2025-06-27 18:53:19,493 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://www.gdplumbingandheatingservices.co.uk/
+2025-06-27 18:53:19,493 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://www.gdplumbingandheatingservices.co.uk/
+2025-06-27 18:53:19,603 - __main__ - INFO - ✅ Health check completed for https://www.gdplumbingandheatingservices.co.uk/
+2025-06-27 18:53:19,603 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Starting 8-step REAL executive discovery for https://www.gdplumbingandheatingservices.co.uk/
+2025-06-27 18:53:19,603 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: https://www.gdplumbingandheatingservices.co.uk/
+2025-06-27 18:53:20,459 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Successfully loaded: https://www.gdplumbingandheatingservices.co.uk/ (Status: 200)
+2025-06-27 18:53:20,509 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Looking up official directors for GD Plumbing & Heating Services Ltd in Companies House
+2025-06-27 18:53:20,697 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Companies House search failed: 404
+2025-06-27 18:53:21,236 - src.seo_leads.enrichers.companies_house_enricher - INFO - Fallback search found 0 companies
+2025-06-27 18:53:21,236 - src.seo_leads.enrichers.companies_house_enricher - WARNING - No companies found for 'GD Plumbing & Heating Services Ltd' in Companies House
+2025-06-27 18:53:21,236 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - No official directors found in Companies House for GD Plumbing & Heating Services Ltd
+2025-06-27 18:53:21,236 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Extracting REAL executive data for GD Plumbing & Heating Services Ltd
+2025-06-27 18:53:21,236 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using Phase9a Contact Extraction Engine for real executive discovery
+2025-06-27 18:53:21,236 - phase9a_contact_extraction_engine - INFO - Starting contact extraction for GD Plumbing & Heating Services Ltd
+2025-06-27 18:53:21,623 - phase9a_contact_extraction_engine - INFO - Contact extraction completed for GD Plumbing & Heating Services Ltd: 20 executives, 0 contacts
+2025-06-27 18:53:21,623 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Phase9a engine found 12 executives
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Total REAL executives found: 8
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Blockages
+
+
+
+
+
+Renovations (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Boilers
+
+
+
+
+
+Other (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - General Leak (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Burst Pipe (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Pipe Blockages (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Kitchen
+
+
+
+
+Other (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Heaters
+
+
+
+
+Underfloor (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Radiators
+
+
+
+
+Other (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Blockages
+
+
+
+
+
+Renovations (Managing Director) - Website discovery
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Boilers
+
+
+
+
+
+Other (Managing Director) - Website discovery
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: General Leak (Managing Director) - Website discovery
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Burst Pipe (Managing Director) - Website discovery
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Pipe Blockages (Managing Director) - Website discovery
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Kitchen
+
+
+
+
+Other (Managing Director) - Website discovery
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Heaters
+
+
+
+
+Underfloor (Managing Director) - Website discovery
+2025-06-27 18:53:21,624 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Radiators
+
+
+
+
+Other (Managing Director) - Website discovery
+2025-06-27 18:53:21,625 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Final executive list: 8 total executives (0 official directors + 8 website-discovered)
+2025-06-27 18:53:21,625 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - 8-step REAL executive discovery complete for GD Plumbing & Heating Services Ltd (URL: https://www.gdplumbingandheatingservices.co.uk/)
+2025-06-27 18:53:21,625 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Found 8 real executives with contact information
+2025-06-27 18:53:21,625 - __main__ - INFO - ✅ Executive discovery completed for https://www.gdplumbingandheatingservices.co.uk/ - Found 8 executives
+2025-06-27 18:53:21,625 - __main__ - INFO - ✅ Completed 8/15 - GD Plumbing & Heating Services Ltd - SEO: 0.68, Executives: 8, Companies House: False
+2025-06-27 18:53:21,625 - __main__ - INFO - 🔍 Testing 9/15: http://www.mattplumbingandheating.com/
+2025-06-27 18:53:22,252 - __main__ - INFO - ✅ SEO analysis completed for http://www.mattplumbingandheating.com/
+2025-06-27 18:53:22,252 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: http://www.mattplumbingandheating.com/
+2025-06-27 18:53:22,252 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: http://www.mattplumbingandheating.com/
+2025-06-27 18:53:22,337 - __main__ - INFO - ✅ Health check completed for http://www.mattplumbingandheating.com/
+2025-06-27 18:53:22,337 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Starting 8-step REAL executive discovery for http://www.mattplumbingandheating.com/
+2025-06-27 18:53:22,337 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: http://www.mattplumbingandheating.com/
+2025-06-27 18:53:23,364 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Successfully loaded: http://www.mattplumbingandheating.com/ (Status: 200)
+2025-06-27 18:53:23,416 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Looking up official directors for MATT Plumbing and Heating in Companies House
+2025-06-27 18:53:23,606 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Companies House search failed: 404
+2025-06-27 18:53:24,001 - src.seo_leads.enrichers.companies_house_enricher - INFO - Fallback search found 0 companies
+2025-06-27 18:53:24,001 - src.seo_leads.enrichers.companies_house_enricher - WARNING - No companies found for 'MATT Plumbing and Heating' in Companies House
+2025-06-27 18:53:24,001 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - No official directors found in Companies House for MATT Plumbing and Heating
+2025-06-27 18:53:24,001 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Extracting REAL executive data for MATT Plumbing and Heating
+2025-06-27 18:53:24,001 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using Phase9a Contact Extraction Engine for real executive discovery
+2025-06-27 18:53:24,001 - phase9a_contact_extraction_engine - INFO - Starting contact extraction for MATT Plumbing and Heating
+2025-06-27 18:53:25,327 - phase9a_contact_extraction_engine - INFO - Contact extraction completed for MATT Plumbing and Heating: 0 executives, 0 contacts
+2025-06-27 18:53:25,328 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Phase9a engine found 0 executives
+2025-06-27 18:53:25,328 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using enhanced fallback extraction to find more executives
+2025-06-27 18:53:25,328 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Running enhanced fallback extraction for MATT Plumbing and Heating
+2025-06-27 18:53:26,418 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Fetched content from 1 pages
+2025-06-27 18:53:26,428 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Enhanced fallback found 0 additional executives
+2025-06-27 18:53:26,429 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Total REAL executives found: 0
+2025-06-27 18:53:26,429 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Final executive list: 0 total executives (0 official directors + 0 website-discovered)
+2025-06-27 18:53:26,429 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - 8-step REAL executive discovery complete for MATT Plumbing and Heating (URL: http://www.mattplumbingandheating.com/)
+2025-06-27 18:53:26,429 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Found 0 real executives with contact information
+2025-06-27 18:53:26,429 - __main__ - INFO - ✅ Executive discovery completed for http://www.mattplumbingandheating.com/ - Found 0 executives
+2025-06-27 18:53:26,429 - __main__ - INFO - ✅ Completed 9/15 - MATT Plumbing and Heating - SEO: 0.24, Executives: 0, Companies House: False
+2025-06-27 18:53:26,429 - __main__ - INFO - 🔍 Testing 10/15: http://summitplumbingandheating.co.uk/
+2025-06-27 18:53:28,453 - __main__ - INFO - ✅ SEO analysis completed for http://summitplumbingandheating.co.uk/
+2025-06-27 18:53:28,453 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: http://summitplumbingandheating.co.uk/
+2025-06-27 18:53:28,453 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: http://summitplumbingandheating.co.uk/
+2025-06-27 18:53:30,047 - __main__ - INFO - ✅ Health check completed for http://summitplumbingandheating.co.uk/
+2025-06-27 18:53:30,048 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Starting 8-step REAL executive discovery for http://summitplumbingandheating.co.uk/
+2025-06-27 18:53:30,048 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: http://summitplumbingandheating.co.uk/
+2025-06-27 18:53:33,133 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Successfully loaded: http://summitplumbingandheating.co.uk/ (Status: 200)
+2025-06-27 18:53:33,363 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Looking up official directors for Summit Plumbing & Heating Ltd in Companies House
+2025-06-27 18:53:33,582 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Companies House search failed: 404
+2025-06-27 18:53:34,031 - src.seo_leads.enrichers.companies_house_enricher - INFO - Fallback search found 0 companies
+2025-06-27 18:53:34,031 - src.seo_leads.enrichers.companies_house_enricher - WARNING - No companies found for 'Summit Plumbing & Heating Ltd' in Companies House
+2025-06-27 18:53:34,031 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - No official directors found in Companies House for Summit Plumbing & Heating Ltd
+2025-06-27 18:53:34,032 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Extracting REAL executive data for Summit Plumbing & Heating Ltd
+2025-06-27 18:53:34,032 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using Phase9a Contact Extraction Engine for real executive discovery
+2025-06-27 18:53:34,032 - phase9a_contact_extraction_engine - INFO - Starting contact extraction for Summit Plumbing & Heating Ltd
+2025-06-27 18:53:53,121 - phase9a_contact_extraction_engine - INFO - Contact extraction completed for Summit Plumbing & Heating Ltd: 20 executives, 31 contacts
+2025-06-27 18:53:53,122 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Phase9a engine found 2 executives
+2025-06-27 18:53:53,122 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Total REAL executives found: 2
+2025-06-27 18:53:53,122 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Gallery
+
+
+Verified (Managing Director) - Email: info@summitplumbingandheating.co.uk, Phone: None, LinkedIn: None
+2025-06-27 18:53:53,122 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Ideal
+
+
+
+
+Reviews (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:53:53,123 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Gallery
+
+
+Verified (Managing Director) - Website discovery
+2025-06-27 18:53:53,123 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Ideal
+
+
+
+
+Reviews (Managing Director) - Website discovery
+2025-06-27 18:53:53,123 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Final executive list: 2 total executives (0 official directors + 2 website-discovered)
+2025-06-27 18:53:53,123 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - 8-step REAL executive discovery complete for Summit Plumbing & Heating Ltd (URL: http://summitplumbingandheating.co.uk/)
+2025-06-27 18:53:53,123 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Found 2 real executives with contact information
+2025-06-27 18:53:53,123 - __main__ - INFO - ✅ Executive discovery completed for http://summitplumbingandheating.co.uk/ - Found 2 executives
+2025-06-27 18:53:53,123 - __main__ - INFO - ✅ Completed 10/15 - Summit Plumbing & Heating Ltd - SEO: 0.85, Executives: 2, Companies House: False
+2025-06-27 18:53:53,123 - __main__ - INFO - 🔍 Testing 11/15: https://macplumbheat.co.uk/
+2025-06-27 18:53:54,315 - __main__ - INFO - ✅ SEO analysis completed for https://macplumbheat.co.uk/
+2025-06-27 18:53:54,315 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://macplumbheat.co.uk/
+2025-06-27 18:53:54,315 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://macplumbheat.co.uk/
+2025-06-27 18:53:55,446 - __main__ - INFO - ✅ Health check completed for https://macplumbheat.co.uk/
+2025-06-27 18:53:55,447 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Starting 8-step REAL executive discovery for https://macplumbheat.co.uk/
+2025-06-27 18:53:55,447 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: https://macplumbheat.co.uk/
+2025-06-27 18:53:58,657 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Successfully loaded: https://macplumbheat.co.uk/ (Status: 200)
+2025-06-27 18:53:58,734 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Looking up official directors for Expert In Heating & Plumbing In Birmingham in Companies House
+2025-06-27 18:53:58,975 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Companies House search failed: 404
+2025-06-27 18:53:59,518 - src.seo_leads.enrichers.companies_house_enricher - INFO - Fallback search found 0 companies
+2025-06-27 18:53:59,518 - src.seo_leads.enrichers.companies_house_enricher - WARNING - No companies found for 'Expert In Heating & Plumbing In Birmingham' in Companies House
+2025-06-27 18:53:59,518 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - No official directors found in Companies House for Expert In Heating & Plumbing In Birmingham
+2025-06-27 18:53:59,518 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Extracting REAL executive data for Expert In Heating & Plumbing In Birmingham
+2025-06-27 18:53:59,518 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using Phase9a Contact Extraction Engine for real executive discovery
+2025-06-27 18:53:59,518 - phase9a_contact_extraction_engine - INFO - Starting contact extraction for Expert In Heating & Plumbing In Birmingham
+2025-06-27 18:54:11,036 - phase9a_contact_extraction_engine - INFO - Contact extraction completed for Expert In Heating & Plumbing In Birmingham: 20 executives, 14 contacts
+2025-06-27 18:54:11,037 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Phase9a engine found 0 executives
+2025-06-27 18:54:11,037 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using enhanced fallback extraction to find more executives
+2025-06-27 18:54:11,037 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Running enhanced fallback extraction for Expert In Heating & Plumbing In Birmingham
+2025-06-27 18:54:14,593 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Fetched content from 1 pages
+2025-06-27 18:54:14,617 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Enhanced fallback found 0 additional executives
+2025-06-27 18:54:14,618 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Total REAL executives found: 0
+2025-06-27 18:54:14,618 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Final executive list: 0 total executives (0 official directors + 0 website-discovered)
+2025-06-27 18:54:14,618 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - 8-step REAL executive discovery complete for Expert In Heating & Plumbing In Birmingham (URL: https://macplumbheat.co.uk/)
+2025-06-27 18:54:14,618 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Found 0 real executives with contact information
+2025-06-27 18:54:14,618 - __main__ - INFO - ✅ Executive discovery completed for https://macplumbheat.co.uk/ - Found 0 executives
+2025-06-27 18:54:14,618 - __main__ - INFO - ✅ Completed 11/15 - Expert In Heating & Plumbing In Birmingham - SEO: 0.88, Executives: 0, Companies House: False
+2025-06-27 18:54:14,618 - __main__ - INFO - 🔍 Testing 12/15: https://ltfplumbing.co.uk/subscription
+2025-06-27 18:54:14,961 - __main__ - INFO - ✅ SEO analysis completed for https://ltfplumbing.co.uk/subscription
+2025-06-27 18:54:14,961 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://ltfplumbing.co.uk/subscription
+2025-06-27 18:54:14,961 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://ltfplumbing.co.uk/subscription
+2025-06-27 18:54:15,188 - __main__ - INFO - ✅ Health check completed for https://ltfplumbing.co.uk/subscription
+2025-06-27 18:54:15,188 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Starting 8-step REAL executive discovery for https://ltfplumbing.co.uk/subscription
+2025-06-27 18:54:15,188 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: https://ltfplumbing.co.uk/subscription
+2025-06-27 18:54:15,904 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Successfully loaded: https://ltfplumbing.co.uk/subscription (Status: 200)
+2025-06-27 18:54:15,959 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Looking up official directors for Subscription in Companies House
+2025-06-27 18:54:16,152 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Companies House search failed: 404
+2025-06-27 18:54:16,424 - src.seo_leads.enrichers.companies_house_enricher - INFO - Fallback search found 0 companies
+2025-06-27 18:54:16,425 - src.seo_leads.enrichers.companies_house_enricher - WARNING - No companies found for 'Subscription' in Companies House
+2025-06-27 18:54:16,425 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - No official directors found in Companies House for Subscription
+2025-06-27 18:54:16,425 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Extracting REAL executive data for Subscription
+2025-06-27 18:54:16,425 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using Phase9a Contact Extraction Engine for real executive discovery
+2025-06-27 18:54:16,426 - phase9a_contact_extraction_engine - INFO - Starting contact extraction for Subscription
+2025-06-27 18:54:19,542 - phase9a_contact_extraction_engine - INFO - Contact extraction completed for Subscription: 6 executives, 0 contacts
+2025-06-27 18:54:19,543 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Phase9a engine found 0 executives
+2025-06-27 18:54:19,543 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using enhanced fallback extraction to find more executives
+2025-06-27 18:54:19,543 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Running enhanced fallback extraction for Subscription
+2025-06-27 18:54:20,570 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Fetched content from 1 pages
+2025-06-27 18:54:20,586 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Enhanced fallback found 0 additional executives
+2025-06-27 18:54:20,586 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Total REAL executives found: 0
+2025-06-27 18:54:20,586 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Final executive list: 0 total executives (0 official directors + 0 website-discovered)
+2025-06-27 18:54:20,586 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - 8-step REAL executive discovery complete for Subscription (URL: https://ltfplumbing.co.uk/subscription)
+2025-06-27 18:54:20,586 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Found 0 real executives with contact information
+2025-06-27 18:54:20,586 - __main__ - INFO - ✅ Executive discovery completed for https://ltfplumbing.co.uk/subscription - Found 0 executives
+2025-06-27 18:54:20,586 - __main__ - INFO - ✅ Completed 12/15 - Subscription - SEO: 0.53, Executives: 0, Companies House: False
+2025-06-27 18:54:20,586 - __main__ - INFO - 🔍 Testing 13/15: http://www.ctmplumbing.co.uk/
+2025-06-27 18:54:20,590 - src.seo_leads.analyzers.seo_analyzer - ERROR - SEO analysis failed for http://www.ctmplumbing.co.uk/: HTTPConnectionPool(host='www.ctmplumbing.co.uk', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x127a41bb0>: Failed to resolve 'www.ctmplumbing.co.uk' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-06-27 18:54:20,590 - __main__ - INFO - ✅ SEO analysis completed for http://www.ctmplumbing.co.uk/
+2025-06-27 18:54:20,590 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: http://www.ctmplumbing.co.uk/
+2025-06-27 18:54:20,590 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: http://www.ctmplumbing.co.uk/
+2025-06-27 18:54:20,592 - __main__ - INFO - ✅ Health check completed for http://www.ctmplumbing.co.uk/
+2025-06-27 18:54:20,592 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Starting 8-step REAL executive discovery for http://www.ctmplumbing.co.uk/
+2025-06-27 18:54:20,592 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: http://www.ctmplumbing.co.uk/
+2025-06-27 18:54:20,918 - src.seo_leads.orchestrators.executive_discovery_orchestrator - WARNING - Navigation failed for http://www.ctmplumbing.co.uk/: Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.ctmplumbing.co.uk/
+Call log:
+  - navigating to "http://www.ctmplumbing.co.uk/", waiting until "domcontentloaded"
+
+2025-06-27 18:54:20,931 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: https://www.ctmplumbing.co.uk
+2025-06-27 18:54:21,283 - src.seo_leads.orchestrators.executive_discovery_orchestrator - WARNING - Navigation failed for https://www.ctmplumbing.co.uk: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ctmplumbing.co.uk/
+Call log:
+  - navigating to "https://www.ctmplumbing.co.uk/", waiting until "domcontentloaded"
+
+2025-06-27 18:54:21,297 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: http://www.ctmplumbing.co.uk
+2025-06-27 18:54:21,637 - src.seo_leads.orchestrators.executive_discovery_orchestrator - WARNING - Navigation failed for http://www.ctmplumbing.co.uk: Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.ctmplumbing.co.uk/
+Call log:
+  - navigating to "http://www.ctmplumbing.co.uk/", waiting until "domcontentloaded"
+
+2025-06-27 18:54:21,651 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: https://www.www.ctmplumbing.co.uk
+2025-06-27 18:54:22,034 - src.seo_leads.orchestrators.executive_discovery_orchestrator - WARNING - Navigation failed for https://www.www.ctmplumbing.co.uk: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.www.ctmplumbing.co.uk/
+Call log:
+  - navigating to "https://www.www.ctmplumbing.co.uk/", waiting until "domcontentloaded"
+
+2025-06-27 18:54:22,050 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: http://www.www.ctmplumbing.co.uk
+2025-06-27 18:54:22,371 - src.seo_leads.orchestrators.executive_discovery_orchestrator - WARNING - Navigation failed for http://www.www.ctmplumbing.co.uk: Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.www.ctmplumbing.co.uk/
+Call log:
+  - navigating to "http://www.www.ctmplumbing.co.uk/", waiting until "domcontentloaded"
+
+2025-06-27 18:54:22,385 - src.seo_leads.orchestrators.executive_discovery_orchestrator - WARNING - All URL variations failed, using domain fallback for http://www.ctmplumbing.co.uk/
+2025-06-27 18:54:22,385 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Looking up official directors for ctmplumbing in Companies House
+2025-06-27 18:54:22,583 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Companies House search failed: 404
+2025-06-27 18:54:22,842 - src.seo_leads.enrichers.companies_house_enricher - INFO - Fallback search found 0 companies
+2025-06-27 18:54:22,843 - src.seo_leads.enrichers.companies_house_enricher - WARNING - No companies found for 'ctmplumbing' in Companies House
+2025-06-27 18:54:22,843 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - No official directors found in Companies House for ctmplumbing
+2025-06-27 18:54:22,843 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Extracting REAL executive data for ctmplumbing
+2025-06-27 18:54:22,843 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using Phase9a Contact Extraction Engine for real executive discovery
+2025-06-27 18:54:22,843 - phase9a_contact_extraction_engine - INFO - Starting contact extraction for ctmplumbing
+2025-06-27 18:54:22,846 - phase9a_contact_extraction_engine - WARNING - Failed to fetch http://www.ctmplumbing.co.uk/: Cannot connect to host www.ctmplumbing.co.uk:80 ssl:default [nodename nor servname provided, or not known]
+2025-06-27 18:54:22,848 - phase9a_contact_extraction_engine - WARNING - Failed to fetch http://www.ctmplumbing.co.uk/about: Cannot connect to host www.ctmplumbing.co.uk:80 ssl:default [nodename nor servname provided, or not known]
+2025-06-27 18:54:22,850 - phase9a_contact_extraction_engine - WARNING - Failed to fetch http://www.ctmplumbing.co.uk/about-us: Cannot connect to host www.ctmplumbing.co.uk:80 ssl:default [nodename nor servname provided, or not known]
+2025-06-27 18:54:22,852 - phase9a_contact_extraction_engine - WARNING - Failed to fetch http://www.ctmplumbing.co.uk/team: Cannot connect to host www.ctmplumbing.co.uk:80 ssl:default [nodename nor servname provided, or not known]
+2025-06-27 18:54:22,853 - phase9a_contact_extraction_engine - WARNING - Failed to fetch http://www.ctmplumbing.co.uk/staff: Cannot connect to host www.ctmplumbing.co.uk:80 ssl:default [nodename nor servname provided, or not known]
+2025-06-27 18:54:22,854 - phase9a_contact_extraction_engine - WARNING - Failed to fetch http://www.ctmplumbing.co.uk/management: Cannot connect to host www.ctmplumbing.co.uk:80 ssl:default [nodename nor servname provided, or not known]
+2025-06-27 18:54:22,856 - phase9a_contact_extraction_engine - WARNING - Failed to fetch http://www.ctmplumbing.co.uk/contact: Cannot connect to host www.ctmplumbing.co.uk:80 ssl:default [nodename nor servname provided, or not known]
+2025-06-27 18:54:22,857 - phase9a_contact_extraction_engine - WARNING - Failed to fetch http://www.ctmplumbing.co.uk/contact-us: Cannot connect to host www.ctmplumbing.co.uk:80 ssl:default [nodename nor servname provided, or not known]
+2025-06-27 18:54:22,858 - phase9a_contact_extraction_engine - WARNING - Failed to fetch http://www.ctmplumbing.co.uk/contacts: Cannot connect to host www.ctmplumbing.co.uk:80 ssl:default [nodename nor servname provided, or not known]
+2025-06-27 18:54:22,860 - phase9a_contact_extraction_engine - WARNING - Failed to fetch http://www.ctmplumbing.co.uk/leadership: Cannot connect to host www.ctmplumbing.co.uk:80 ssl:default [nodename nor servname provided, or not known]
+2025-06-27 18:54:22,861 - phase9a_contact_extraction_engine - WARNING - Failed to fetch http://www.ctmplumbing.co.uk/executives: Cannot connect to host www.ctmplumbing.co.uk:80 ssl:default [nodename nor servname provided, or not known]
+2025-06-27 18:54:22,862 - phase9a_contact_extraction_engine - WARNING - Failed to fetch http://www.ctmplumbing.co.uk/directors: Cannot connect to host www.ctmplumbing.co.uk:80 ssl:default [nodename nor servname provided, or not known]
+2025-06-27 18:54:22,863 - phase9a_contact_extraction_engine - WARNING - Failed to fetch http://www.ctmplumbing.co.uk/people: Cannot connect to host www.ctmplumbing.co.uk:80 ssl:default [nodename nor servname provided, or not known]
+2025-06-27 18:54:22,864 - phase9a_contact_extraction_engine - WARNING - Failed to fetch http://www.ctmplumbing.co.uk/our-team: Cannot connect to host www.ctmplumbing.co.uk:80 ssl:default [nodename nor servname provided, or not known]
+2025-06-27 18:54:22,865 - phase9a_contact_extraction_engine - WARNING - Failed to fetch http://www.ctmplumbing.co.uk/meet-the-team: Cannot connect to host www.ctmplumbing.co.uk:80 ssl:default [nodename nor servname provided, or not known]
+2025-06-27 18:54:22,865 - phase9a_contact_extraction_engine - INFO - Contact extraction completed for ctmplumbing: 0 executives, 0 contacts
+2025-06-27 18:54:22,865 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Phase9a engine found 0 executives
+2025-06-27 18:54:22,865 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using enhanced fallback extraction to find more executives
+2025-06-27 18:54:22,865 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Running enhanced fallback extraction for ctmplumbing
+2025-06-27 18:54:23,281 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Fetched content from 0 pages
+2025-06-27 18:54:23,282 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Enhanced fallback found 0 additional executives
+2025-06-27 18:54:23,282 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Total REAL executives found: 0
+2025-06-27 18:54:23,282 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Final executive list: 0 total executives (0 official directors + 0 website-discovered)
+2025-06-27 18:54:23,282 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - 8-step REAL executive discovery complete for ctmplumbing (URL: http://www.ctmplumbing.co.uk/)
+2025-06-27 18:54:23,282 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Found 0 real executives with contact information
+2025-06-27 18:54:23,282 - __main__ - INFO - ✅ Executive discovery completed for http://www.ctmplumbing.co.uk/ - Found 0 executives
+2025-06-27 18:54:23,282 - __main__ - INFO - ✅ Completed 13/15 - ctmplumbing - SEO: 0.0, Executives: 0, Companies House: False
+2025-06-27 18:54:23,282 - __main__ - INFO - 🔍 Testing 14/15: https://kingsheathplumbing.freeindex.co.uk/
+2025-06-27 18:54:26,766 - __main__ - INFO - ✅ SEO analysis completed for https://kingsheathplumbing.freeindex.co.uk/
+2025-06-27 18:54:26,767 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://kingsheathplumbing.freeindex.co.uk/
+2025-06-27 18:54:26,767 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: https://kingsheathplumbing.freeindex.co.uk/
+2025-06-27 18:54:28,522 - __main__ - INFO - ✅ Health check completed for https://kingsheathplumbing.freeindex.co.uk/
+2025-06-27 18:54:28,522 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Starting 8-step REAL executive discovery for https://kingsheathplumbing.freeindex.co.uk/
+2025-06-27 18:54:28,522 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: https://kingsheathplumbing.freeindex.co.uk/
+2025-06-27 18:54:31,475 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Successfully loaded: https://kingsheathplumbing.freeindex.co.uk/ (Status: 200)
+2025-06-27 18:54:31,533 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Looking up official directors for Kings Heath Plumbing, Birmingham in Companies House
+2025-06-27 18:54:31,721 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Companies House search failed: 404
+2025-06-27 18:54:32,019 - src.seo_leads.enrichers.companies_house_enricher - INFO - Fallback search found 0 companies
+2025-06-27 18:54:32,020 - src.seo_leads.enrichers.companies_house_enricher - WARNING - No companies found for 'Kings Heath Plumbing, Birmingham' in Companies House
+2025-06-27 18:54:32,020 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - No official directors found in Companies House for Kings Heath Plumbing, Birmingham
+2025-06-27 18:54:32,020 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Extracting REAL executive data for Kings Heath Plumbing, Birmingham
+2025-06-27 18:54:32,020 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using Phase9a Contact Extraction Engine for real executive discovery
+2025-06-27 18:54:32,020 - phase9a_contact_extraction_engine - INFO - Starting contact extraction for Kings Heath Plumbing, Birmingham
+2025-06-27 18:54:36,696 - phase9a_contact_extraction_engine - INFO - Contact extraction completed for Kings Heath Plumbing, Birmingham: 20 executives, 0 contacts
+2025-06-27 18:54:36,698 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Phase9a engine found 10 executives
+2025-06-27 18:54:36,698 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Total REAL executives found: 8
+2025-06-27 18:54:36,698 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Solar Hot (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:54:36,698 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Unvented Cylinders (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:54:36,698 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Energy Efficiency (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:54:36,698 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Review Sort (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:54:36,698 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Share  Facebook (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:54:36,698 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Useful Posted (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:54:36,698 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Share  Facebook (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:54:36,698 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO -   - Useful Posted (Managing Director) - Email: None, Phone: None, LinkedIn: None
+2025-06-27 18:54:36,698 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Solar Hot (Managing Director) - Website discovery
+2025-06-27 18:54:36,698 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Unvented Cylinders (Managing Director) - Website discovery
+2025-06-27 18:54:36,699 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Energy Efficiency (Managing Director) - Website discovery
+2025-06-27 18:54:36,699 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Review Sort (Managing Director) - Website discovery
+2025-06-27 18:54:36,699 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Share  Facebook (Managing Director) - Website discovery
+2025-06-27 18:54:36,699 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Useful Posted (Managing Director) - Website discovery
+2025-06-27 18:54:36,699 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Share  Facebook (Managing Director) - Website discovery
+2025-06-27 18:54:36,699 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Added website executive: Useful Posted (Managing Director) - Website discovery
+2025-06-27 18:54:36,699 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Final executive list: 8 total executives (0 official directors + 8 website-discovered)
+2025-06-27 18:54:36,699 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - 8-step REAL executive discovery complete for Kings Heath Plumbing, Birmingham (URL: https://kingsheathplumbing.freeindex.co.uk/)
+2025-06-27 18:54:36,699 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Found 8 real executives with contact information
+2025-06-27 18:54:36,699 - __main__ - INFO - ✅ Executive discovery completed for https://kingsheathplumbing.freeindex.co.uk/ - Found 8 executives
+2025-06-27 18:54:36,699 - __main__ - INFO - ✅ Completed 14/15 - Kings Heath Plumbing, Birmingham - SEO: 0.88, Executives: 8, Companies House: False
+2025-06-27 18:54:36,699 - __main__ - INFO - 🔍 Testing 15/15: http://www.perry-plumbing.co.uk/
+2025-06-27 18:54:36,913 - __main__ - INFO - ✅ SEO analysis completed for http://www.perry-plumbing.co.uk/
+2025-06-27 18:54:36,913 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: http://www.perry-plumbing.co.uk/
+2025-06-27 18:54:36,913 - src.seo_leads.analyzers.website_health_checker - INFO - 🔍 Health check for: http://www.perry-plumbing.co.uk/
+2025-06-27 18:54:36,990 - __main__ - INFO - ✅ Health check completed for http://www.perry-plumbing.co.uk/
+2025-06-27 18:54:36,990 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Starting 8-step REAL executive discovery for http://www.perry-plumbing.co.uk/
+2025-06-27 18:54:36,990 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: http://www.perry-plumbing.co.uk/
+2025-06-27 18:54:37,435 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Successfully loaded: http://www.perry-plumbing.co.uk/ (Status: 202)
+2025-06-27 18:54:37,482 - src.seo_leads.orchestrators.executive_discovery_orchestrator - WARNING - Navigation failed for http://www.perry-plumbing.co.uk/: Page.title: Execution context was destroyed, most likely because of a navigation
+2025-06-27 18:54:37,503 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: https://www.perry-plumbing.co.uk
+2025-06-27 18:54:38,005 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Successfully loaded: https://www.perry-plumbing.co.uk (Status: 202)
+2025-06-27 18:54:38,051 - src.seo_leads.orchestrators.executive_discovery_orchestrator - WARNING - Navigation failed for https://www.perry-plumbing.co.uk: Page.title: Execution context was destroyed, most likely because of a navigation
+2025-06-27 18:54:38,068 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: http://www.perry-plumbing.co.uk
+2025-06-27 18:54:38,467 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Successfully loaded: http://www.perry-plumbing.co.uk (Status: 202)
+2025-06-27 18:54:38,515 - src.seo_leads.orchestrators.executive_discovery_orchestrator - WARNING - Navigation failed for http://www.perry-plumbing.co.uk: Page.title: Execution context was destroyed, most likely because of a navigation
+2025-06-27 18:54:38,533 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: https://www.www.perry-plumbing.co.uk
+2025-06-27 18:54:39,083 - src.seo_leads.orchestrators.executive_discovery_orchestrator - WARNING - Navigation failed for https://www.www.perry-plumbing.co.uk: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.www.perry-plumbing.co.uk/
+Call log:
+  - navigating to "https://www.www.perry-plumbing.co.uk/", waiting until "domcontentloaded"
+
+2025-06-27 18:54:39,102 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Attempting to extract from: http://www.www.perry-plumbing.co.uk
+2025-06-27 18:54:39,430 - src.seo_leads.orchestrators.executive_discovery_orchestrator - WARNING - Navigation failed for http://www.www.perry-plumbing.co.uk: Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.www.perry-plumbing.co.uk/
+Call log:
+  - navigating to "http://www.www.perry-plumbing.co.uk/", waiting until "domcontentloaded"
+
+2025-06-27 18:54:39,445 - src.seo_leads.orchestrators.executive_discovery_orchestrator - WARNING - All URL variations failed, using domain fallback for http://www.perry-plumbing.co.uk/
+2025-06-27 18:54:39,445 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Looking up official directors for perry-plumbing in Companies House
+2025-06-27 18:54:39,639 - src.seo_leads.enrichers.companies_house_enricher - WARNING - Companies House search failed: 404
+2025-06-27 18:54:39,892 - src.seo_leads.enrichers.companies_house_enricher - INFO - Fallback search found 0 companies
+2025-06-27 18:54:39,892 - src.seo_leads.enrichers.companies_house_enricher - WARNING - No companies found for 'perry-plumbing' in Companies House
+2025-06-27 18:54:39,892 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - No official directors found in Companies House for perry-plumbing
+2025-06-27 18:54:39,892 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Extracting REAL executive data for perry-plumbing
+2025-06-27 18:54:39,892 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using Phase9a Contact Extraction Engine for real executive discovery
+2025-06-27 18:54:39,893 - phase9a_contact_extraction_engine - INFO - Starting contact extraction for perry-plumbing
+2025-06-27 18:54:40,538 - phase9a_contact_extraction_engine - INFO - Contact extraction completed for perry-plumbing: 0 executives, 0 contacts
+2025-06-27 18:54:40,539 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Phase9a engine found 0 executives
+2025-06-27 18:54:40,539 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Using enhanced fallback extraction to find more executives
+2025-06-27 18:54:40,539 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Running enhanced fallback extraction for perry-plumbing
+2025-06-27 18:54:42,293 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Fetched content from 0 pages
+2025-06-27 18:54:42,293 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Enhanced fallback found 0 additional executives
+2025-06-27 18:54:42,293 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Total REAL executives found: 0
+2025-06-27 18:54:42,293 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Final executive list: 0 total executives (0 official directors + 0 website-discovered)
+2025-06-27 18:54:42,293 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - 8-step REAL executive discovery complete for perry-plumbing (URL: http://www.perry-plumbing.co.uk/)
+2025-06-27 18:54:42,293 - src.seo_leads.orchestrators.executive_discovery_orchestrator - INFO - Found 0 real executives with contact information
+2025-06-27 18:54:42,293 - __main__ - INFO - ✅ Executive discovery completed for http://www.perry-plumbing.co.uk/ - Found 0 executives
+2025-06-27 18:54:42,293 - __main__ - INFO - ✅ Completed 15/15 - perry-plumbing - SEO: 0.0, Executives: 0, Companies House: False
+2025-06-27 18:54:42,293 - __main__ - INFO - 🎯 Comprehensive test completed in 238.3s

@@ -1,0 +1,828 @@
+{
+  "test_metadata": {
+    "timestamp": "2025-06-27T19:48:14.891949",
+    "total_urls": 15,
+    "test_type": "comprehensive_seo_executive_discovery",
+    "total_time": 780.4412579536438
+  },
+  "results": [
+    {
+      "url": "https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/",
+      "success": true,
+      "company_name": "Emergency Plumbing Services in Birmingham",
+      "seo": {
+        "url": "https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/",
+        "overall_score": 0.72,
+        "title": "Emergency Plumbing Services in Birmingham - Supreme Plumbers | Supreme Plumbers",
+        "title_score": 1.0,
+        "meta_description": "Supreme Plumbers offers expert plumbing and heating services in Birmingham. With 10 years of experience, we specialize in emergency repairs and provide same-day service at affordable prices. Trust us for all your plumbing needs, ensuring customer satisfaction every time.",
+        "description_score": 1.0,
+        "word_count": 302,
+        "content_score": 0.6,
+        "has_contact_info": false,
+        "has_email": true,
+        "contact_score": 0.4,
+        "analysis_timestamp": 1234567890,
+        "seo_recommendations": [
+          "Add clear contact information for better local SEO"
+        ]
+      },
+      "health": {
+        "url": "https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/",
+        "is_accessible": true,
+        "status_code": 200,
+        "response_time": 0.19478917121887207,
+        "content_length": 180770,
+        "content_quality_score": 1.0,
+        "has_meaningful_content": false,
+        "is_under_construction": false,
+        "error_type": "",
+        "error_message": "",
+        "health_score": 1.0,
+        "recommendations": [
+          "Add essential business information (about, services, contact)"
+        ],
+        "last_checked": "2025-06-27T19:48:15.239046"
+      },
+      "executives": [],
+      "companies_house_verified": false,
+      "contact_information": {
+        "total_executives": 0,
+        "executives_with_email": 0,
+        "executives_with_phone": 0,
+        "executives_with_linkedin": 0,
+        "unique_emails": [],
+        "unique_phones": [],
+        "contact_completeness": 0.0
+      },
+      "data_quality_score": 0.344,
+      "errors": [],
+      "processing_time": 9.605971813201904
+    },
+    {
+      "url": "http://www.idealplumbingservices.co.uk/",
+      "success": true,
+      "company_name": "Ideal Plumbing Services",
+      "seo": {
+        "url": "http://www.idealplumbingservices.co.uk/",
+        "overall_score": 0.72,
+        "title": "Ideal Plumbing Services | Plumbers Birmingham",
+        "title_score": 0.75,
+        "meta_description": "Ideal Plumbing Services 24/7  Emergency Plumbers Birmingham is focused on providing a very high quality services Customer satisfaction is our highest priority and we will do everything we can to meet your expectations.\nWe are specialise in specialised in emergency plumbing & heating 24/7.\nOur services we provide cover all aspects of plumbing and heating.",
+        "description_score": 1.0,
+        "word_count": 265,
+        "content_score": 0.53,
+        "has_contact_info": true,
+        "has_email": true,
+        "contact_score": 0.8,
+        "analysis_timestamp": 1234567890,
+        "seo_recommendations": [
+          "Increase content length (minimum 300 words recommended)"
+        ]
+      },
+      "health": {
+        "url": "http://www.idealplumbingservices.co.uk/",
+        "is_accessible": true,
+        "status_code": 200,
+        "response_time": 0.46621274948120117,
+        "content_length": 517424,
+        "content_quality_score": 1.0,
+        "has_meaningful_content": true,
+        "is_under_construction": false,
+        "error_type": "",
+        "error_message": "",
+        "health_score": 1.0,
+        "recommendations": [],
+        "last_checked": "2025-06-27T19:48:25.108790"
+      },
+      "executives": [],
+      "companies_house_verified": false,
+      "contact_information": {
+        "total_executives": 0,
+        "executives_with_email": 0,
+        "executives_with_phone": 0,
+        "executives_with_linkedin": 0,
+        "unique_emails": [],
+        "unique_phones": [],
+        "contact_completeness": 0.0
+      },
+      "data_quality_score": 0.344,
+      "errors": [],
+      "processing_time": 9.350250959396362
+    },
+    {
+      "url": "https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink",
+      "success": true,
+      "company_name": "Plumbers in Birmingham",
+      "seo": {
+        "url": "https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink",
+        "overall_score": 0.8,
+        "title": "Plumbers in Birmingham | 2nd City Gas",
+        "title_score": 0.62,
+        "meta_description": "Looking for reliable plumbers in Birmingham? Our experienced team offers top-quality plumbing services, from emergency repairs to installations. Contact us today for fast, affordable service!",
+        "description_score": 1.0,
+        "word_count": 1752,
+        "content_score": 1.0,
+        "has_contact_info": true,
+        "has_email": false,
+        "contact_score": 0.4,
+        "analysis_timestamp": 1234567890,
+        "seo_recommendations": []
+      },
+      "health": {
+        "url": "https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink",
+        "is_accessible": true,
+        "status_code": 200,
+        "response_time": 1.32216215133667,
+        "content_length": 210328,
+        "content_quality_score": 1.0,
+        "has_meaningful_content": true,
+        "is_under_construction": false,
+        "error_type": "",
+        "error_message": "",
+        "health_score": 1.0,
+        "recommendations": [],
+        "last_checked": "2025-06-27T19:48:35.533370"
+      },
+      "executives": [],
+      "companies_house_verified": false,
+      "contact_information": {
+        "total_executives": 0,
+        "executives_with_email": 0,
+        "executives_with_phone": 0,
+        "executives_with_linkedin": 0,
+        "unique_emails": [],
+        "unique_phones": [],
+        "contact_completeness": 0.0
+      },
+      "data_quality_score": 0.36,
+      "errors": [],
+      "processing_time": 16.856192111968994
+    },
+    {
+      "url": "https://jacktheplumber.co.uk/",
+      "success": true,
+      "company_name": "Jack The Plumber: Reliable Plumber in Birmingham",
+      "seo": {
+        "url": "https://jacktheplumber.co.uk/",
+        "overall_score": 0.79,
+        "title": "Jack The Plumber: Reliable Plumber in Birmingham",
+        "title_score": 0.8,
+        "meta_description": "Jack The Plumber: Birmingham plumbers you can trust. Fast, reliable plumbing services for all your needs. Contact us now!",
+        "description_score": 0.76,
+        "word_count": 2706,
+        "content_score": 1.0,
+        "has_contact_info": false,
+        "has_email": true,
+        "contact_score": 0.4,
+        "analysis_timestamp": 1234567890,
+        "seo_recommendations": [
+          "Add clear contact information for better local SEO"
+        ]
+      },
+      "health": {
+        "url": "https://jacktheplumber.co.uk/",
+        "is_accessible": true,
+        "status_code": 200,
+        "response_time": 0.7083520889282227,
+        "content_length": 250858,
+        "content_quality_score": 1.0,
+        "has_meaningful_content": true,
+        "is_under_construction": false,
+        "error_type": "",
+        "error_message": "",
+        "health_score": 1.0,
+        "recommendations": [],
+        "last_checked": "2025-06-27T19:48:51.962183"
+      },
+      "executives": [],
+      "companies_house_verified": false,
+      "contact_information": {
+        "total_executives": 0,
+        "executives_with_email": 0,
+        "executives_with_phone": 0,
+        "executives_with_linkedin": 0,
+        "unique_emails": [],
+        "unique_phones": [],
+        "contact_completeness": 0.0
+      },
+      "data_quality_score": 0.358,
+      "errors": [],
+      "processing_time": 19.541553735733032
+    },
+    {
+      "url": "https://www.swiftemergencyplumber.com/",
+      "success": true,
+      "company_name": "Home",
+      "seo": {
+        "url": "https://www.swiftemergencyplumber.com/",
+        "overall_score": 0.83,
+        "title": "Home - Swift Emergency Plumber Birmingham",
+        "title_score": 0.68,
+        "meta_description": "Swift Emergency Plumber 24hr Birmingham. 30-60min response time, \u00a385-\u00a3120, no call out fee. Domestic,commercial and industrial. Gas Safe fully insured.",
+        "description_score": 0.94,
+        "word_count": 431,
+        "content_score": 0.86,
+        "has_contact_info": true,
+        "has_email": true,
+        "contact_score": 0.8,
+        "analysis_timestamp": 1234567890,
+        "seo_recommendations": []
+      },
+      "health": {
+        "url": "https://www.swiftemergencyplumber.com/",
+        "is_accessible": true,
+        "status_code": 200,
+        "response_time": 1.189143180847168,
+        "content_length": 54054,
+        "content_quality_score": 1.0,
+        "has_meaningful_content": false,
+        "is_under_construction": false,
+        "error_type": "",
+        "error_message": "",
+        "health_score": 1.0,
+        "recommendations": [
+          "Add essential business information (about, services, contact)"
+        ],
+        "last_checked": "2025-06-27T19:49:12.820171"
+      },
+      "executives": [],
+      "companies_house_verified": false,
+      "contact_information": {
+        "total_executives": 0,
+        "executives_with_email": 0,
+        "executives_with_phone": 0,
+        "executives_with_linkedin": 0,
+        "unique_emails": [],
+        "unique_phones": [],
+        "contact_completeness": 0.0
+      },
+      "data_quality_score": 0.366,
+      "errors": [],
+      "processing_time": 33.58036684989929
+    },
+    {
+      "url": "https://mkplumbingbirmingham.co.uk/",
+      "success": true,
+      "company_name": "MK Plumbing Birmingham",
+      "seo": {
+        "url": "https://mkplumbingbirmingham.co.uk/",
+        "overall_score": 0.78,
+        "title": "MK Plumbing Birmingham - 24/7 Emergency Service Hotline",
+        "title_score": 0.92,
+        "meta_description": "When it comes to plumbing issues, choosing a plumbing expert with 25 years of experience can make all the difference. A plumber with such extensive expertise",
+        "description_score": 0.98,
+        "word_count": 1040,
+        "content_score": 1.0,
+        "has_contact_info": false,
+        "has_email": false,
+        "contact_score": 0.0,
+        "analysis_timestamp": 1234567890,
+        "seo_recommendations": [
+          "Add clear contact information for better local SEO"
+        ]
+      },
+      "health": {
+        "url": "https://mkplumbingbirmingham.co.uk/",
+        "is_accessible": true,
+        "status_code": 200,
+        "response_time": 1.0695068836212158,
+        "content_length": 187700,
+        "content_quality_score": 1.0,
+        "has_meaningful_content": true,
+        "is_under_construction": false,
+        "error_type": "",
+        "error_message": "",
+        "health_score": 1.0,
+        "recommendations": [],
+        "last_checked": "2025-06-27T19:49:45.240028"
+      },
+      "executives": [],
+      "companies_house_verified": false,
+      "contact_information": {
+        "total_executives": 0,
+        "executives_with_email": 0,
+        "executives_with_phone": 0,
+        "executives_with_linkedin": 0,
+        "unique_emails": [],
+        "unique_phones": [],
+        "contact_completeness": 0.0
+      },
+      "data_quality_score": 0.356,
+      "errors": [],
+      "processing_time": 34.870041847229004
+    },
+    {
+      "url": "http://www.rescueplumbing.co.uk/",
+      "success": true,
+      "company_name": "www.rescueplumbing.co.uk",
+      "seo": {
+        "url": "http://www.rescueplumbing.co.uk/",
+        "overall_score": 0.16,
+        "title": "www.rescueplumbing.co.uk - Home",
+        "title_score": 0.52,
+        "meta_description": "",
+        "description_score": 0.0,
+        "word_count": 72,
+        "content_score": 0.14,
+        "has_contact_info": false,
+        "has_email": false,
+        "contact_score": 0.0,
+        "analysis_timestamp": 1234567890,
+        "seo_recommendations": [
+          "Add or improve meta description (120-160 characters)",
+          "Increase content length (minimum 300 words recommended)",
+          "Add clear contact information for better local SEO"
+        ]
+      },
+      "health": {
+        "url": "http://www.rescueplumbing.co.uk/",
+        "is_accessible": true,
+        "status_code": 200,
+        "response_time": 0.14294910430908203,
+        "content_length": 23746,
+        "content_quality_score": 1.0,
+        "has_meaningful_content": false,
+        "is_under_construction": false,
+        "error_type": "",
+        "error_message": "",
+        "health_score": 1.0,
+        "recommendations": [
+          "Add essential business information (about, services, contact)"
+        ],
+        "last_checked": "2025-06-27T19:50:19.301655"
+      },
+      "executives": [],
+      "companies_house_verified": false,
+      "contact_information": {
+        "total_executives": 0,
+        "executives_with_email": 0,
+        "executives_with_phone": 0,
+        "executives_with_linkedin": 0,
+        "unique_emails": [],
+        "unique_phones": [],
+        "contact_completeness": 0.0
+      },
+      "data_quality_score": 0.232,
+      "errors": [],
+      "processing_time": 12.679311752319336
+    },
+    {
+      "url": "https://www.gdplumbingandheatingservices.co.uk/",
+      "success": true,
+      "company_name": "GD Plumbing & Heating Services Ltd",
+      "seo": {
+        "url": "https://www.gdplumbingandheatingservices.co.uk/",
+        "overall_score": 0.68,
+        "title": "GD Plumbing  & Heating Services Ltd",
+        "title_score": 0.58,
+        "meta_description": "Birmingham based plumbing and heating engineer boasting an outstanding reputation.",
+        "description_score": 0.51,
+        "word_count": 476,
+        "content_score": 0.95,
+        "has_contact_info": true,
+        "has_email": false,
+        "contact_score": 0.4,
+        "analysis_timestamp": 1234567890,
+        "seo_recommendations": [
+          "Add or improve meta description (120-160 characters)"
+        ]
+      },
+      "health": {
+        "url": "https://www.gdplumbingandheatingservices.co.uk/",
+        "is_accessible": true,
+        "status_code": 200,
+        "response_time": 0.2034289836883545,
+        "content_length": 73414,
+        "content_quality_score": 1.0,
+        "has_meaningful_content": false,
+        "is_under_construction": false,
+        "error_type": "",
+        "error_message": "",
+        "health_score": 1.0,
+        "recommendations": [
+          "Add essential business information (about, services, contact)"
+        ],
+        "last_checked": "2025-06-27T19:50:31.788338"
+      },
+      "executives": [],
+      "companies_house_verified": false,
+      "contact_information": {
+        "total_executives": 0,
+        "executives_with_email": 0,
+        "executives_with_phone": 0,
+        "executives_with_linkedin": 0,
+        "unique_emails": [],
+        "unique_phones": [],
+        "contact_completeness": 0.0
+      },
+      "data_quality_score": 0.336,
+      "errors": [],
+      "processing_time": 3.8368661403656006
+    },
+    {
+      "url": "http://www.mattplumbingandheating.com/",
+      "success": true,
+      "company_name": "MATT Plumbing and Heating",
+      "seo": {
+        "url": "http://www.mattplumbingandheating.com/",
+        "overall_score": 0.24,
+        "title": "MATT Plumbing and Heating",
+        "title_score": 0.42,
+        "meta_description": "",
+        "description_score": 0.0,
+        "word_count": 198,
+        "content_score": 0.4,
+        "has_contact_info": false,
+        "has_email": false,
+        "contact_score": 0.0,
+        "analysis_timestamp": 1234567890,
+        "seo_recommendations": [
+          "Add or improve page title (30-60 characters)",
+          "Add or improve meta description (120-160 characters)",
+          "Increase content length (minimum 300 words recommended)",
+          "Add clear contact information for better local SEO"
+        ]
+      },
+      "health": {
+        "url": "http://www.mattplumbingandheating.com/",
+        "is_accessible": false,
+        "status_code": 403,
+        "response_time": 0.09175395965576172,
+        "content_length": 0,
+        "content_quality_score": 0.0,
+        "has_meaningful_content": false,
+        "is_under_construction": false,
+        "error_type": "http_error_403",
+        "error_message": "HTTP 403",
+        "health_score": 0.0,
+        "recommendations": [
+          "Website is not accessible - check server configuration"
+        ],
+        "last_checked": "2025-06-27T19:50:36.009948"
+      },
+      "executives": [],
+      "companies_house_verified": false,
+      "contact_information": {
+        "total_executives": 0,
+        "executives_with_email": 0,
+        "executives_with_phone": 0,
+        "executives_with_linkedin": 0,
+        "unique_emails": [],
+        "unique_phones": [],
+        "contact_completeness": 0.0
+      },
+      "data_quality_score": 0.048,
+      "errors": [],
+      "processing_time": 5.018777847290039
+    },
+    {
+      "url": "http://summitplumbingandheating.co.uk/",
+      "success": true,
+      "company_name": "Summit Plumbing & Heating Ltd",
+      "seo": {
+        "url": "http://summitplumbingandheating.co.uk/",
+        "overall_score": 0.85,
+        "title": "Summit Plumbing & Heating Ltd | Birmingham & Solihull",
+        "title_score": 0.88,
+        "meta_description": "Family-run team of plumbers & heating engineers in Birmingham, Sutton Coldfield, Solihull & Bromsgrove. Get an emergency plumber or book a service today!",
+        "description_score": 0.96,
+        "word_count": 723,
+        "content_score": 1.0,
+        "has_contact_info": false,
+        "has_email": true,
+        "contact_score": 0.4,
+        "analysis_timestamp": 1234567890,
+        "seo_recommendations": [
+          "Add clear contact information for better local SEO"
+        ]
+      },
+      "health": {
+        "url": "http://summitplumbingandheating.co.uk/",
+        "is_accessible": true,
+        "status_code": 200,
+        "response_time": 1.6364507675170898,
+        "content_length": 45497,
+        "content_quality_score": 1.0,
+        "has_meaningful_content": true,
+        "is_under_construction": false,
+        "error_type": "",
+        "error_message": "",
+        "health_score": 1.0,
+        "recommendations": [],
+        "last_checked": "2025-06-27T19:50:42.166134"
+      },
+      "executives": [],
+      "companies_house_verified": false,
+      "contact_information": {
+        "total_executives": 0,
+        "executives_with_email": 0,
+        "executives_with_phone": 0,
+        "executives_with_linkedin": 0,
+        "unique_emails": [],
+        "unique_phones": [],
+        "contact_completeness": 0.0
+      },
+      "data_quality_score": 0.37,
+      "errors": [],
+      "processing_time": 579.0955278873444
+    },
+    {
+      "url": "https://macplumbheat.co.uk/",
+      "success": true,
+      "company_name": "Expert In Heating & Plumbing In Birmingham",
+      "seo": {
+        "url": "https://macplumbheat.co.uk/",
+        "overall_score": 0.88,
+        "title": "Expert In Heating & Plumbing In Birmingham | Local Heating & Plumbing Near Me",
+        "title_score": 1.0,
+        "meta_description": "MAC Plumbing & Heating provide heating and plumbing services in Birmingham and across the West Midlands. Contact us today on 0121 448 4356 for all commercial and residential needs!",
+        "description_score": 1.0,
+        "word_count": 874,
+        "content_score": 1.0,
+        "has_contact_info": false,
+        "has_email": true,
+        "contact_score": 0.4,
+        "analysis_timestamp": 1234567890,
+        "seo_recommendations": [
+          "Add clear contact information for better local SEO"
+        ]
+      },
+      "health": {
+        "url": "https://macplumbheat.co.uk/",
+        "is_accessible": true,
+        "status_code": 200,
+        "response_time": 0.958942174911499,
+        "content_length": 122150,
+        "content_quality_score": 1.0,
+        "has_meaningful_content": true,
+        "is_under_construction": false,
+        "error_type": "",
+        "error_message": "",
+        "health_score": 1.0,
+        "recommendations": [],
+        "last_checked": "2025-06-27T20:00:23.769422"
+      },
+      "executives": [],
+      "companies_house_verified": false,
+      "contact_information": {
+        "total_executives": 0,
+        "executives_with_email": 0,
+        "executives_with_phone": 0,
+        "executives_with_linkedin": 0,
+        "unique_emails": [],
+        "unique_phones": [],
+        "contact_completeness": 0.0
+      },
+      "data_quality_score": 0.376,
+      "errors": [],
+      "processing_time": 23.54067587852478
+    },
+    {
+      "url": "https://ltfplumbing.co.uk/subscription",
+      "success": true,
+      "company_name": "Subscription",
+      "seo": {
+        "url": "https://ltfplumbing.co.uk/subscription",
+        "overall_score": 0.53,
+        "title": "Subscription | LTF Plumbing",
+        "title_score": 0.45,
+        "meta_description": "",
+        "description_score": 0.0,
+        "word_count": 353,
+        "content_score": 0.71,
+        "has_contact_info": true,
+        "has_email": true,
+        "contact_score": 0.8,
+        "analysis_timestamp": 1234567890,
+        "seo_recommendations": [
+          "Add or improve page title (30-60 characters)",
+          "Add or improve meta description (120-160 characters)"
+        ]
+      },
+      "health": {
+        "url": "https://ltfplumbing.co.uk/subscription",
+        "is_accessible": true,
+        "status_code": 200,
+        "response_time": 0.18733811378479004,
+        "content_length": 98226,
+        "content_quality_score": 1.0,
+        "has_meaningful_content": false,
+        "is_under_construction": false,
+        "error_type": "",
+        "error_message": "",
+        "health_score": 1.0,
+        "recommendations": [
+          "Add essential business information (about, services, contact)"
+        ],
+        "last_checked": "2025-06-27T20:00:43.450374"
+      },
+      "executives": [],
+      "companies_house_verified": false,
+      "contact_information": {
+        "total_executives": 0,
+        "executives_with_email": 0,
+        "executives_with_phone": 0,
+        "executives_with_linkedin": 0,
+        "unique_emails": [],
+        "unique_phones": [],
+        "contact_completeness": 0.0
+      },
+      "data_quality_score": 0.306,
+      "errors": [],
+      "processing_time": 4.569870948791504
+    },
+    {
+      "url": "http://www.ctmplumbing.co.uk/",
+      "success": true,
+      "company_name": "ctmplumbing",
+      "seo": {
+        "url": "http://www.ctmplumbing.co.uk/",
+        "overall_score": 0.0,
+        "title": "",
+        "title_score": 0.0,
+        "meta_description": "",
+        "description_score": 0.0,
+        "word_count": 0,
+        "content_score": 0.0,
+        "has_contact_info": false,
+        "has_email": false,
+        "contact_score": 0.0,
+        "analysis_timestamp": 1234567890,
+        "error": "HTTPConnectionPool(host='www.ctmplumbing.co.uk', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0x1361d6c10>: Failed to resolve 'www.ctmplumbing.co.uk' ([Errno 8] nodename nor servname provided, or not known)\"))",
+        "seo_recommendations": []
+      },
+      "health": {
+        "url": "http://www.ctmplumbing.co.uk/",
+        "is_accessible": false,
+        "status_code": null,
+        "response_time": 0.001322031021118164,
+        "content_length": 0,
+        "content_quality_score": 0.0,
+        "has_meaningful_content": false,
+        "is_under_construction": false,
+        "error_type": "connection_error",
+        "error_message": "Cannot connect to host www.ctmplumbing.co.uk:80 ssl:default [nodename nor servname provided, or not known]",
+        "health_score": 0.0,
+        "recommendations": [
+          "Website is not accessible - check server configuration"
+        ],
+        "last_checked": "2025-06-27T20:00:47.512465"
+      },
+      "executives": [],
+      "companies_house_verified": false,
+      "contact_information": {
+        "total_executives": 0,
+        "executives_with_email": 0,
+        "executives_with_phone": 0,
+        "executives_with_linkedin": 0,
+        "unique_emails": [],
+        "unique_phones": [],
+        "contact_completeness": 0.0
+      },
+      "data_quality_score": 0.0,
+      "errors": [],
+      "processing_time": 2.6781930923461914
+    },
+    {
+      "url": "https://kingsheathplumbing.freeindex.co.uk/",
+      "success": true,
+      "company_name": "Kings Heath Plumbing, Birmingham",
+      "seo": {
+        "url": "https://kingsheathplumbing.freeindex.co.uk/",
+        "overall_score": 0.88,
+        "title": "Kings Heath Plumbing, Birmingham | 42 reviews | Plumber - FreeIndex",
+        "title_score": 1.0,
+        "meta_description": "Founded in August 2007, Kings Heath Plumbing (KHP) has 15+ years of experience in the Plumbing trade, and provides plumbing services to clients throughout South Birmingham and sometimes further",
+        "description_score": 1.0,
+        "word_count": 2277,
+        "content_score": 1.0,
+        "has_contact_info": true,
+        "has_email": false,
+        "contact_score": 0.4,
+        "analysis_timestamp": 1234567890,
+        "seo_recommendations": []
+      },
+      "health": {
+        "url": "https://kingsheathplumbing.freeindex.co.uk/",
+        "is_accessible": true,
+        "status_code": 200,
+        "response_time": 1.3765251636505127,
+        "content_length": 104304,
+        "content_quality_score": 1.0,
+        "has_meaningful_content": false,
+        "is_under_construction": false,
+        "error_type": "",
+        "error_message": "",
+        "health_score": 1.0,
+        "recommendations": [
+          "Add essential business information (about, services, contact)"
+        ],
+        "last_checked": "2025-06-27T20:00:54.117939"
+      },
+      "executives": [],
+      "companies_house_verified": false,
+      "contact_information": {
+        "total_executives": 0,
+        "executives_with_email": 0,
+        "executives_with_phone": 0,
+        "executives_with_linkedin": 0,
+        "unique_emails": [],
+        "unique_phones": [],
+        "contact_completeness": 0.0
+      },
+      "data_quality_score": 0.376,
+      "errors": [],
+      "processing_time": 18.732904195785522
+    },
+    {
+      "url": "http://www.perry-plumbing.co.uk/",
+      "success": true,
+      "company_name": "perry-plumbing",
+      "seo": {
+        "url": "http://www.perry-plumbing.co.uk/",
+        "overall_score": 0.0,
+        "title": "",
+        "title_score": 0.0,
+        "meta_description": "",
+        "description_score": 0.0,
+        "word_count": 0,
+        "content_score": 0.0,
+        "has_contact_info": false,
+        "has_email": false,
+        "contact_score": 0.0,
+        "analysis_timestamp": 1234567890,
+        "seo_recommendations": [
+          "Add or improve page title (30-60 characters)",
+          "Add or improve meta description (120-160 characters)",
+          "Increase content length (minimum 300 words recommended)",
+          "Add clear contact information for better local SEO"
+        ]
+      },
+      "health": {
+        "url": "http://www.perry-plumbing.co.uk/",
+        "is_accessible": false,
+        "status_code": 202,
+        "response_time": 0.08207201957702637,
+        "content_length": 0,
+        "content_quality_score": 0.0,
+        "has_meaningful_content": false,
+        "is_under_construction": false,
+        "error_type": "http_error_202",
+        "error_message": "HTTP 202",
+        "health_score": 0.0,
+        "recommendations": [
+          "Website is not accessible - check server configuration"
+        ],
+        "last_checked": "2025-06-27T20:01:09.065015"
+      },
+      "executives": [],
+      "companies_house_verified": false,
+      "contact_information": {
+        "total_executives": 0,
+        "executives_with_email": 0,
+        "executives_with_phone": 0,
+        "executives_with_linkedin": 0,
+        "unique_emails": [],
+        "unique_phones": [],
+        "contact_completeness": 0.0
+      },
+      "data_quality_score": 0.0,
+      "errors": [],
+      "processing_time": 6.483438014984131
+    }
+  ],
+  "summary": {
+    "overall_statistics": {
+      "total_urls_tested": 15,
+      "successful_tests": 15,
+      "seo_analysis_success": 15,
+      "health_check_success": 15,
+      "executive_discovery_success": 0,
+      "companies_house_verified": 0
+    },
+    "seo_statistics": {
+      "average_seo_score": 0.591,
+      "websites_with_good_seo": 9,
+      "average_word_count": 764,
+      "websites_with_contact_info": 6
+    },
+    "executive_discovery_statistics": {
+      "total_executives_found": 0,
+      "average_executives_per_company": 0.0,
+      "companies_with_real_contacts": 0,
+      "contact_discovery_rate": 0.0,
+      "average_contact_completeness": 0.0
+    },
+    "companies_house_statistics": {
+      "companies_searched": 15,
+      "official_directors_found": 0,
+      "companies_house_coverage": 0.0
+    },
+    "quality_metrics": {
+      "average_data_quality_score": 0.321,
+      "high_quality_results": 0,
+      "business_value_score": 12.84
+    }
+  }
+}

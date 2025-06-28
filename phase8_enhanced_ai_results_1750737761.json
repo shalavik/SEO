@@ -1,0 +1,76 @@
+{
+  "phase": "Phase 8 Enhanced AI Intelligence Platform",
+  "timestamp": 1750737761,
+  "config": {
+    "max_concurrent_companies": 3,
+    "max_pages_per_company": 15,
+    "session_timeout": 25,
+    "ml_confidence_threshold": 0.65,
+    "tfidf_max_features": 5000,
+    "tfidf_ngram_range": [
+      1,
+      2
+    ],
+    "train_test_split_ratio": 0.25,
+    "enable_tfidf_vectorization": true,
+    "enable_enhanced_name_extraction": true,
+    "enable_context_analysis": true,
+    "enable_multi_pattern_matching": true,
+    "executive_name_min_confidence": 0.4,
+    "context_window_size": 50
+  },
+  "companies_processed": 2,
+  "total_executives_found": 0,
+  "processing_time_seconds": 4.39,
+  "processing_speed_per_hour": 1639.0,
+  "results": [
+    {
+      "company_name": "Celm Engineering",
+      "website": "https://celmeng.co.uk",
+      "analysis_timestamp": 1750737757,
+      "enhanced_executives": [],
+      "extraction_metrics": {
+        "total_executives_found": 0,
+        "average_combined_confidence": 0.0,
+        "quality_distribution": {
+          "PREMIUM": 0,
+          "HIGH": 0,
+          "MEDIUM": 0,
+          "LOW": 0
+        },
+        "pages_with_names": 1,
+        "total_potential_names": 33,
+        "extraction_success_rate": 0.0
+      },
+      "ai_insights": {},
+      "processing_details": {},
+      "status": "SUCCESS",
+      "pages_processed": 1,
+      "total_names_extracted": 33
+    },
+    {
+      "company_name": "MS Heating & Plumbing",
+      "website": "https://msheatingandplumbing.co.uk",
+      "analysis_timestamp": 1750737760,
+      "enhanced_executives": [],
+      "extraction_metrics": {
+        "total_executives_found": 0,
+        "average_combined_confidence": 0.0,
+        "quality_distribution": {
+          "PREMIUM": 0,
+          "HIGH": 0,
+          "MEDIUM": 0,
+          "LOW": 0
+        },
+        "pages_with_names": 1,
+        "total_potential_names": 58,
+        "extraction_success_rate": 0.0
+      },
+      "ai_insights": {},
+      "processing_details": {},
+      "status": "SUCCESS",
+      "pages_processed": 1,
+      "total_names_extracted": 58
+    }
+  ]
+}

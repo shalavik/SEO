@@ -1,0 +1,45 @@
+{
+  "test_metadata": {
+    "timestamp": "2025-06-28 10:51:53",
+    "test_type": "companies_house_integration_test",
+    "urls_tested": 3
+  },
+  "results": [
+    {
+      "url": "https://jacktheplumber.co.uk/",
+      "success": true,
+      "company_name": "jacktheplumber.co.uk",
+      "companies_house_verified": false,
+      "executives_found": 0,
+      "executive_names": [],
+      "executive_details": [],
+      "processing_time": 26.580640077590942
+    },
+    {
+      "url": "https://2ndcitygasplumbingandheating.co.uk/",
+      "success": true,
+      "company_name": "2ndcitygasplumbingandheating.co.uk",
+      "companies_house_verified": false,
+      "executives_found": 0,
+      "executive_names": [],
+      "executive_details": [],
+      "processing_time": 13.766195058822632
+    },
+    {
+      "url": "http://www.idealplumbingservices.co.uk/",
+      "success": true,
+      "company_name": "www.idealplumbingservices.co.uk",
+      "companies_house_verified": false,
+      "executives_found": 0,
+      "executive_names": [],
+      "executive_details": [],
+      "processing_time": 10.454856872558594
+    }
+  ],
+  "summary": {
+    "total_companies": 3,
+    "companies_house_verified": 0,
+    "total_executives": 0,
+    "success_rate": 100.0
+  }
+}

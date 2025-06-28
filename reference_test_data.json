@@ -1,0 +1,306 @@
+{
+  "metadata": {
+    "total_companies": 13,
+    "total_executives": 18,
+    "companies_with_multiple_executives": 4,
+    "average_executives_per_company": 1.3846153846153846,
+    "contact_coverage": {
+      "email_coverage": 0.4444444444444444,
+      "phone_coverage": 1.0,
+      "linkedin_coverage": 0.7777777777777778
+    }
+  },
+  "companies": [
+    {
+      "company_name": "A Action Home Services",
+      "website": "https://www.aactionhomeservices.com/",
+      "executives": [
+        {
+          "first_name": "Chuck/Charles",
+          "last_name": "Teets",
+          "full_name": "Chuck/Charles Teets",
+          "title": "Owner",
+          "email": "ct@longandfoster.com",
+          "phone": "703-293-5253",
+          "direct": "571-386-1075",
+          "mobile": NaN,
+          "linkedin": "https://www.linkedin.com/in/chuck-teets-77471029/"
+        }
+      ]
+    },
+    {
+      "company_name": "A-Advantage Heating & Air Conditioning",
+      "website": "http://www.a-advantage.com/",
+      "executives": [
+        {
+          "first_name": "Sal",
+          "last_name": "Biberaj",
+          "full_name": "Sal Biberaj",
+          "title": "Owner/CEO",
+          "email": "sal.biberaj@a-advantage.com",
+          "phone": "703-461-6701",
+          "direct": NaN,
+          "mobile": "703-463-6701",
+          "linkedin": "https://www.linkedin.com/in/sal-biberaj-1400a07/"
+        },
+        {
+          "first_name": "Bob",
+          "last_name": "Biberaj ",
+          "full_name": "Bob Biberaj",
+          "title": "Owner/President",
+          "email": NaN,
+          "phone": "703-461-6701",
+          "direct": "703-368-7855",
+          "mobile": 7039305343,
+          "linkedin": "https://www.linkedin.com/in/bob-biberaj-843a6410/"
+        }
+      ]
+    },
+    {
+      "company_name": "AA Rapid Plumbing",
+      "website": "www.aarapid.com",
+      "executives": [
+        {
+          "first_name": "Paulo  ",
+          "last_name": "Castro",
+          "full_name": "Paulo   Castro",
+          "title": "Owner/CEO",
+          "email": NaN,
+          "phone": "703-978-3010",
+          "direct": NaN,
+          "mobile": NaN,
+          "linkedin": "https://www.linkedin.com/in/paulo-castro-01229127a/"
+        },
+        {
+          "first_name": "Carlos",
+          "last_name": "Castro",
+          "full_name": "Carlos Castro",
+          "title": "Owner/CEO",
+          "email": NaN,
+          "phone": "703-978-3010",
+          "direct": NaN,
+          "mobile": 7035986639,
+          "linkedin": " linkedin.com/in/carlos-castro-9093103a"
+        }
+      ]
+    },
+    {
+      "company_name": "Air Treatment Heating & Cooling",
+      "website": "https://www.air-treatment.com/",
+      "executives": [
+        {
+          "first_name": "Jim ",
+          "last_name": "Griffin",
+          "full_name": "Jim  Griffin",
+          "title": "Co-Owner",
+          "email": NaN,
+          "phone": "571-502-2914",
+          "direct": NaN,
+          "mobile": "703-593-6069",
+          "linkedin": "https://www.linkedin.com/in/jim-griffin-79523095/"
+        },
+        {
+          "first_name": "Daniel",
+          "last_name": "Simpson",
+          "full_name": "Daniel Simpson",
+          "title": "Co-Owner",
+          "email": "dsimpson@air-treatment.com",
+          "phone": "571-502-2914",
+          "direct": "703-489-2890",
+          "mobile": "703-414-9876",
+          "linkedin": "https://www.linkedin.com/in/daniel-simpson-6a47568/"
+        }
+      ]
+    },
+    {
+      "company_name": "AllTech Services, Inc.",
+      "website": "http://alltechservicesinc.com",
+      "executives": [
+        {
+          "first_name": "Abe/Ibrahim",
+          "last_name": "Zarou",
+          "full_name": "Abe/Ibrahim Zarou",
+          "title": "Owner ",
+          "email": NaN,
+          "phone": "571-977-5780",
+          "direct": "703-430-4331",
+          "mobile": "571-436-8696",
+          "linkedin": "https://www.linkedin.com/in/abe-zarou-8bb18b21b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BxtREer9bRbGwm%2BnEOgVErQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "company_name": "Atlantic Plumbing Heating & Air Conditioning",
+      "website": "www.atlanticphac.com",
+      "executives": [
+        {
+          "first_name": "Jordan",
+          "last_name": "Hartman",
+          "full_name": "Jordan Hartman",
+          "title": "Owner ",
+          "email": NaN,
+          "phone": "757-838-1036",
+          "direct": NaN,
+          "mobile": "757-846-0635",
+          "linkedin": "linkedin.com/in/jordan-hartman-748aa2143"
+        }
+      ]
+    },
+    {
+      "company_name": "B&B Air Conditioning & Heating",
+      "website": "https://www.bbairconditioning.com/fairfax-va/",
+      "executives": [
+        {
+          "first_name": "Jennifer",
+          "last_name": " Queen",
+          "full_name": "Jennifer  Queen",
+          "title": "Owner/VP",
+          "email": "jqueen@bbairconditioning.com",
+          "phone": "855-406-4470",
+          "direct": 2402431150,
+          "mobile": NaN,
+          "linkedin": NaN
+        }
+      ]
+    },
+    {
+      "company_name": "Blue Ridge Heating & Air",
+      "website": "www.blueridgeheatingandair.com",
+      "executives": [
+        {
+          "first_name": "Bobby ",
+          "last_name": "Martin ",
+          "full_name": "Bobby  Martin",
+          "title": "Co-Owner ",
+          "email": "bdmartin@blueridgeheatingandair.com",
+          "phone": "540-381-1137",
+          "direct": NaN,
+          "mobile": 5403201399,
+          "linkedin": "linkedin.com/in/bobby-martin-86642748"
+        }
+      ]
+    },
+    {
+      "company_name": "Boyers 72 Degrees",
+      "website": "www.boyers72degrees.com",
+      "executives": [
+        {
+          "first_name": "Bill ",
+          "last_name": "Ruggles",
+          "full_name": "Bill  Ruggles",
+          "title": "Owner",
+          "email": NaN,
+          "phone": "540-949-7639",
+          "direct": NaN,
+          "mobile": NaN,
+          "linkedin": NaN
+        }
+      ]
+    },
+    {
+      "company_name": "Bradley Mechanical",
+      "website": "http://bradleyhvac.com",
+      "executives": [
+        {
+          "first_name": "Brad",
+          "last_name": "Bradley",
+          "full_name": "Brad Bradley",
+          "title": "CEO/Owner",
+          "email": "brad@bradleyhvac.com",
+          "phone": "804-748-6728",
+          "direct": 8047680083,
+          "mobile": 8046416807,
+          "linkedin": "https://www.linkedin.com/in/brad-bradley-39310726"
+        }
+      ]
+    },
+    {
+      "company_name": "Caffi Contracting Services Inc",
+      "website": "https://www.caffiservices.com/?utm_source=google&utm_medium=organic&utm_campaign=GMB%20Listing",
+      "executives": [
+        {
+          "first_name": "Ronald/Ron",
+          "last_name": "Caffi",
+          "full_name": "Ronald/Ron Caffi",
+          "title": "Owner/President",
+          "email": "rcaffi@cafficontracting.com",
+          "phone": "703-962-6042",
+          "direct": "703-836-1496",
+          "mobile": NaN,
+          "linkedin": "linkedin.com/in/ron-caffi-67260627"
+        }
+      ]
+    },
+    {
+      "company_name": "Cyprus Air Heating & Cooling",
+      "website": "http://indoorcomfort.com",
+      "executives": [
+        {
+          "first_name": "Andrulla ",
+          "last_name": "Demetriou",
+          "full_name": "Andrulla  Demetriou",
+          "title": "Co-Owner/SEC",
+          "email": NaN,
+          "phone": "888-775-5640",
+          "direct": 7037680870,
+          "mobile": NaN,
+          "linkedin": NaN
+        },
+        {
+          "first_name": "Peter",
+          "last_name": "Demetri",
+          "full_name": "Peter Demetri",
+          "title": "Co-Owner/President ",
+          "email": NaN,
+          "phone": "888-775-5640",
+          "direct": NaN,
+          "mobile": NaN,
+          "linkedin": "linkedin.com/in/peter-demetri-aa2312168"
+        },
+        {
+          "first_name": "Elpida",
+          "last_name": "Demetriou",
+          "full_name": "Elpida Demetriou",
+          "title": "Co-Owner/VP",
+          "email": NaN,
+          "phone": "888-775-5640",
+          "direct": NaN,
+          "mobile": NaN,
+          "linkedin": NaN
+        }
+      ]
+    },
+    {
+      "company_name": "Falcon Heating & Air Conditioning",
+      "website": "http://falconhvac.com",
+      "executives": [
+        {
+          "first_name": "Bruce ",
+          "last_name": "Rahmani",
+          "full_name": "Bruce  Rahmani",
+          "title": "Owner/President ",
+          "email": "brucer@falconhvac.com",
+          "phone": "703-596-9998",
+          "direct": 7036745841,
+          "mobile": 7039267074,
+          "linkedin": "linkedin.com/in/bruce-rahmani-43ab3113"
+        }
+      ]
+    }
+  ],
+  "test_urls": [
+    "https://www.aactionhomeservices.com/",
+    "http://www.a-advantage.com/",
+    "www.aarapid.com",
+    "https://www.air-treatment.com/",
+    "http://alltechservicesinc.com",
+    "www.atlanticphac.com",
+    "https://www.bbairconditioning.com/fairfax-va/",
+    "www.blueridgeheatingandair.com",
+    "www.boyers72degrees.com",
+    "http://bradleyhvac.com",
+    "https://www.caffiservices.com/?utm_source=google&utm_medium=organic&utm_campaign=GMB%20Listing",
+    "http://indoorcomfort.com",
+    "http://falconhvac.com"
+  ]
+}

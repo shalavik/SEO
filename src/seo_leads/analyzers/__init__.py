@@ -9,4 +9,6 @@ Provides comprehensive SEO analysis capabilities including:
 
 from .seo_analyzer import SEOAnalyzer
 
-__all__ = ['SEOAnalyzer'] 
+__all__ = ['SEOAnalyzer']
+
+# SEO Leads Analyzers Package 

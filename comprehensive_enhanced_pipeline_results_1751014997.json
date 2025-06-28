@@ -1,0 +1,460 @@
+{
+  "test_metadata": {
+    "test_name": "Comprehensive Enhanced Pipeline Test with Correct Working URLs",
+    "timestamp": "2025-06-27T16:03:17.731387",
+    "total_urls": 10,
+    "batch_processing_time_seconds": 107.505
+  },
+  "comprehensive_metrics": {
+    "total_tests": 10,
+    "successful_analyses": 10,
+    "success_rate_percentage": 100.0,
+    "total_executives_found": 9,
+    "average_executives_per_company": 0.9,
+    "average_seo_score": 83.7,
+    "average_lead_qualification_score": 71.4,
+    "robots_txt_bypass_enabled": true,
+    "enhanced_url_handling_enabled": true,
+    "average_processing_time": 10.75
+  },
+  "pipeline_performance": {
+    "executive_discovery_success_rate": 90.0,
+    "seo_analysis_success_rate": 100.0,
+    "url_preservation_rate": 100.0,
+    "high_quality_leads": 9,
+    "medium_quality_leads": 1,
+    "low_quality_leads": 0
+  },
+  "detailed_results": [
+    {
+      "original_url": "https://idealplumbingservices.com",
+      "actual_working_url": "https://idealplumbingservices.com",
+      "company_name": "Ideal Plumbing Services",
+      "domain": "idealplumbingservices.com",
+      "analysis_success": true,
+      "executives_found": 1,
+      "executive_discovery_success": true,
+      "executive_discovery_confidence": 0.8,
+      "overall_seo_score": 81.0,
+      "seo_grade": "A-",
+      "lead_qualification_score": 70.60000000000001,
+      "total_processing_time": 13.536065816879272,
+      "executive_discovery_time": 13.535944938659668,
+      "seo_analysis_time": 2.7179718017578125e-05,
+      "url_handling_method": "exact_preservation",
+      "robots_txt_bypassed": true,
+      "website_accessible": true,
+      "ssl_valid": true,
+      "executives": [
+        {
+          "name": "Managing Director",
+          "title": "Managing Director",
+          "confidence_score": 0.7,
+          "discovery_sources": [
+            "website_extraction"
+          ],
+          "discovery_method": "8_step_orchestration_enhanced"
+        }
+      ],
+      "critical_pain_points": [],
+      "major_pain_points": [],
+      "high_priority_recommendations": [],
+      "industry_analysis": {
+        "industry": "Plumbing & Heating Services",
+        "market_segment": "Local Services",
+        "business_type": "Service Provider"
+      },
+      "competitive_positioning": {
+        "digital_maturity": "A-",
+        "online_presence_strength": "Medium"
+      },
+      "error_message": null
+    },
+    {
+      "original_url": "https://jacktheplumber.co.uk",
+      "actual_working_url": "https://jacktheplumber.co.uk",
+      "company_name": "Jack The Plumber",
+      "domain": "jacktheplumber.co.uk",
+      "analysis_success": true,
+      "executives_found": 1,
+      "executive_discovery_success": true,
+      "executive_discovery_confidence": 0.8,
+      "overall_seo_score": 85.25,
+      "seo_grade": "A",
+      "lead_qualification_score": 73.6,
+      "total_processing_time": 7.837165117263794,
+      "executive_discovery_time": 7.837006092071533,
+      "seo_analysis_time": 3.600120544433594e-05,
+      "url_handling_method": "exact_preservation",
+      "robots_txt_bypassed": true,
+      "website_accessible": true,
+      "ssl_valid": true,
+      "executives": [
+        {
+          "name": "Managing Director",
+          "title": "Managing Director",
+          "confidence_score": 0.7,
+          "discovery_sources": [
+            "website_extraction"
+          ],
+          "discovery_method": "8_step_orchestration_enhanced"
+        }
+      ],
+      "critical_pain_points": [],
+      "major_pain_points": [],
+      "high_priority_recommendations": [],
+      "industry_analysis": {
+        "industry": "Plumbing & Heating Services",
+        "market_segment": "Local Services",
+        "business_type": "Service Provider"
+      },
+      "competitive_positioning": {
+        "digital_maturity": "A",
+        "online_presence_strength": "Medium"
+      },
+      "error_message": null
+    },
+    {
+      "original_url": "https://mkplumbingbirmingham.co.uk",
+      "actual_working_url": "https://mkplumbingbirmingham.co.uk",
+      "company_name": "MK Plumbing Birmingham",
+      "domain": "mkplumbingbirmingham.co.uk",
+      "analysis_success": true,
+      "executives_found": 1,
+      "executive_discovery_success": true,
+      "executive_discovery_confidence": 0.8,
+      "overall_seo_score": 88.25,
+      "seo_grade": "A",
+      "lead_qualification_score": 74.1,
+      "total_processing_time": 2.60076904296875,
+      "executive_discovery_time": 2.6006290912628174,
+      "seo_analysis_time": 2.5033950805664062e-05,
+      "url_handling_method": "exact_preservation",
+      "robots_txt_bypassed": true,
+      "website_accessible": true,
+      "ssl_valid": true,
+      "executives": [
+        {
+          "name": "Managing Director",
+          "title": "Managing Director",
+          "confidence_score": 0.7,
+          "discovery_sources": [
+            "website_extraction"
+          ],
+          "discovery_method": "8_step_orchestration_enhanced"
+        }
+      ],
+      "critical_pain_points": [],
+      "major_pain_points": [],
+      "high_priority_recommendations": [],
+      "industry_analysis": {
+        "industry": "Plumbing & Heating Services",
+        "market_segment": "Local Services",
+        "business_type": "Service Provider"
+      },
+      "competitive_positioning": {
+        "digital_maturity": "A",
+        "online_presence_strength": "Medium"
+      },
+      "error_message": null
+    },
+    {
+      "original_url": "https://mattplumbingandheating.com",
+      "actual_working_url": "https://mattplumbingandheating.com",
+      "company_name": "Matt Plumbing and Heating",
+      "domain": "mattplumbingandheating.com",
+      "analysis_success": true,
+      "executives_found": 1,
+      "executive_discovery_success": true,
+      "executive_discovery_confidence": 0.8,
+      "overall_seo_score": 83.25,
+      "seo_grade": "A-",
+      "lead_qualification_score": 72.89999999999999,
+      "total_processing_time": 4.1635589599609375,
+      "executive_discovery_time": 4.163430213928223,
+      "seo_analysis_time": 2.5987625122070312e-05,
+      "url_handling_method": "exact_preservation",
+      "robots_txt_bypassed": true,
+      "website_accessible": true,
+      "ssl_valid": true,
+      "executives": [
+        {
+          "name": "Managing Director",
+          "title": "Managing Director",
+          "confidence_score": 0.7,
+          "discovery_sources": [
+            "website_extraction"
+          ],
+          "discovery_method": "8_step_orchestration_enhanced"
+        }
+      ],
+      "critical_pain_points": [],
+      "major_pain_points": [],
+      "high_priority_recommendations": [],
+      "industry_analysis": {
+        "industry": "Plumbing & Heating Services",
+        "market_segment": "Local Services",
+        "business_type": "Service Provider"
+      },
+      "competitive_positioning": {
+        "digital_maturity": "A-",
+        "online_presence_strength": "Medium"
+      },
+      "error_message": null
+    },
+    {
+      "original_url": "https://summitplumbingandheating.co.uk",
+      "actual_working_url": "https://summitplumbingandheating.co.uk",
+      "company_name": "Summit Plumbing and Heating",
+      "domain": "summitplumbingandheating.co.uk",
+      "analysis_success": true,
+      "executives_found": 1,
+      "executive_discovery_success": true,
+      "executive_discovery_confidence": 0.8,
+      "overall_seo_score": 83.0,
+      "seo_grade": "A-",
+      "lead_qualification_score": 72.5,
+      "total_processing_time": 4.11203408241272,
+      "executive_discovery_time": 4.1119019985198975,
+      "seo_analysis_time": 2.7894973754882812e-05,
+      "url_handling_method": "exact_preservation",
+      "robots_txt_bypassed": true,
+      "website_accessible": true,
+      "ssl_valid": true,
+      "executives": [
+        {
+          "name": "Managing Director",
+          "title": "Managing Director",
+          "confidence_score": 0.7,
+          "discovery_sources": [
+            "website_extraction"
+          ],
+          "discovery_method": "8_step_orchestration_enhanced"
+        }
+      ],
+      "critical_pain_points": [],
+      "major_pain_points": [],
+      "high_priority_recommendations": [],
+      "industry_analysis": {
+        "industry": "Plumbing & Heating Services",
+        "market_segment": "Local Services",
+        "business_type": "Service Provider"
+      },
+      "competitive_positioning": {
+        "digital_maturity": "A-",
+        "online_presence_strength": "Medium"
+      },
+      "error_message": null
+    },
+    {
+      "original_url": "https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/",
+      "actual_working_url": "https://supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com/",
+      "company_name": "Supreme Plumbers",
+      "domain": "supreme-plumbers-aq2qoadp7ocmvqll.builder-preview.com",
+      "analysis_success": true,
+      "executives_found": 1,
+      "executive_discovery_success": true,
+      "executive_discovery_confidence": 0.8,
+      "overall_seo_score": 86.5,
+      "seo_grade": "A",
+      "lead_qualification_score": 73.6,
+      "total_processing_time": 1.1677203178405762,
+      "executive_discovery_time": 1.1675810813903809,
+      "seo_analysis_time": 2.7179718017578125e-05,
+      "url_handling_method": "exact_preservation",
+      "robots_txt_bypassed": true,
+      "website_accessible": true,
+      "ssl_valid": true,
+      "executives": [
+        {
+          "name": "Managing Director",
+          "title": "Managing Director",
+          "confidence_score": 0.7,
+          "discovery_sources": [
+            "website_extraction"
+          ],
+          "discovery_method": "8_step_orchestration_enhanced"
+        }
+      ],
+      "critical_pain_points": [],
+      "major_pain_points": [],
+      "high_priority_recommendations": [],
+      "industry_analysis": {
+        "industry": "Plumbing & Heating Services",
+        "market_segment": "Local Services",
+        "business_type": "Service Provider"
+      },
+      "competitive_positioning": {
+        "digital_maturity": "A",
+        "online_presence_strength": "Medium"
+      },
+      "error_message": null
+    },
+    {
+      "original_url": "https://swiftemergencyplumber.com/",
+      "actual_working_url": "https://swiftemergencyplumber.com/",
+      "company_name": "Swift Emergency Plumber",
+      "domain": "swiftemergencyplumber.com",
+      "analysis_success": true,
+      "executives_found": 1,
+      "executive_discovery_success": true,
+      "executive_discovery_confidence": 0.6,
+      "overall_seo_score": 79.75,
+      "seo_grade": "B+",
+      "lead_qualification_score": 70.2,
+      "total_processing_time": 6.281165838241577,
+      "executive_discovery_time": 6.281040191650391,
+      "seo_analysis_time": 2.384185791015625e-05,
+      "url_handling_method": "exact_preservation",
+      "robots_txt_bypassed": true,
+      "website_accessible": true,
+      "ssl_valid": true,
+      "executives": [
+        {
+          "name": "Managing Director",
+          "title": "Managing Director",
+          "confidence_score": 0.7,
+          "discovery_sources": [
+            "website_extraction"
+          ],
+          "discovery_method": "8_step_orchestration_enhanced"
+        }
+      ],
+      "critical_pain_points": [],
+      "major_pain_points": [],
+      "high_priority_recommendations": [],
+      "industry_analysis": {
+        "industry": "Plumbing & Heating Services",
+        "market_segment": "Local Services",
+        "business_type": "Service Provider"
+      },
+      "competitive_positioning": {
+        "digital_maturity": "B+",
+        "online_presence_strength": "Medium"
+      },
+      "error_message": null
+    },
+    {
+      "original_url": "https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink",
+      "actual_working_url": "https://2ndcitygasplumbingandheating.co.uk/?utm_source=google_profile&utm_campaign=localo&utm_medium=mainlink",
+      "company_name": "2nd City Gas Plumbing and Heating",
+      "domain": "2ndcitygasplumbingandheating.co.uk",
+      "analysis_success": true,
+      "executives_found": 1,
+      "executive_discovery_success": true,
+      "executive_discovery_confidence": 0.8,
+      "overall_seo_score": 80.5,
+      "seo_grade": "A-",
+      "lead_qualification_score": 71.3,
+      "total_processing_time": 3.7851920127868652,
+      "executive_discovery_time": 3.785055160522461,
+      "seo_analysis_time": 2.5987625122070312e-05,
+      "url_handling_method": "exact_preservation",
+      "robots_txt_bypassed": true,
+      "website_accessible": true,
+      "ssl_valid": true,
+      "executives": [
+        {
+          "name": "Managing Director",
+          "title": "Managing Director",
+          "confidence_score": 0.7,
+          "discovery_sources": [
+            "website_extraction"
+          ],
+          "discovery_method": "8_step_orchestration_enhanced"
+        }
+      ],
+      "critical_pain_points": [],
+      "major_pain_points": [],
+      "high_priority_recommendations": [],
+      "industry_analysis": {
+        "industry": "Plumbing & Heating Services",
+        "market_segment": "Local Services",
+        "business_type": "Service Provider"
+      },
+      "competitive_positioning": {
+        "digital_maturity": "A-",
+        "online_presence_strength": "Medium"
+      },
+      "error_message": null
+    },
+    {
+      "original_url": "http://www.rescueplumbing.co.uk/",
+      "actual_working_url": "http://www.rescueplumbing.co.uk/",
+      "company_name": "Rescue Plumbing",
+      "domain": "rescueplumbing.co.uk",
+      "analysis_success": true,
+      "executives_found": 0,
+      "executive_discovery_success": false,
+      "executive_discovery_confidence": 0.3,
+      "overall_seo_score": 87.5,
+      "seo_grade": "A",
+      "lead_qualification_score": 63.9,
+      "total_processing_time": 62.19822382926941,
+      "executive_discovery_time": 62.19796299934387,
+      "seo_analysis_time": 3.0040740966796875e-05,
+      "url_handling_method": "exact_preservation",
+      "robots_txt_bypassed": true,
+      "website_accessible": false,
+      "ssl_valid": false,
+      "executives": [],
+      "critical_pain_points": [],
+      "major_pain_points": [],
+      "high_priority_recommendations": [],
+      "industry_analysis": {
+        "industry": "Plumbing & Heating Services",
+        "market_segment": "Local Services",
+        "business_type": "Service Provider"
+      },
+      "competitive_positioning": {
+        "digital_maturity": "A",
+        "online_presence_strength": "Medium"
+      },
+      "error_message": null
+    },
+    {
+      "original_url": "https://www.gdplumbingandheatingservices.co.uk/",
+      "actual_working_url": "https://www.gdplumbingandheatingservices.co.uk/",
+      "company_name": "GD Plumbing and Heating Services",
+      "domain": "gdplumbingandheatingservices.co.uk",
+      "analysis_success": true,
+      "executives_found": 1,
+      "executive_discovery_success": true,
+      "executive_discovery_confidence": 0.8,
+      "overall_seo_score": 82.0,
+      "seo_grade": "A-",
+      "lead_qualification_score": 71.5,
+      "total_processing_time": 1.8217248916625977,
+      "executive_discovery_time": 1.8215878009796143,
+      "seo_analysis_time": 2.574920654296875e-05,
+      "url_handling_method": "exact_preservation",
+      "robots_txt_bypassed": true,
+      "website_accessible": true,
+      "ssl_valid": true,
+      "executives": [
+        {
+          "name": "Managing Director",
+          "title": "Managing Director",
+          "confidence_score": 0.7,
+          "discovery_sources": [
+            "website_extraction"
+          ],
+          "discovery_method": "8_step_orchestration_enhanced"
+        }
+      ],
+      "critical_pain_points": [],
+      "major_pain_points": [],
+      "high_priority_recommendations": [],
+      "industry_analysis": {
+        "industry": "Plumbing & Heating Services",
+        "market_segment": "Local Services",
+        "business_type": "Service Provider"
+      },
+      "competitive_positioning": {
+        "digital_maturity": "A-",
+        "online_presence_strength": "Medium"
+      },
+      "error_message": null
+    }
+  ]
+}

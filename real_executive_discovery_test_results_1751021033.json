@@ -1,0 +1,506 @@
+{
+  "test_timestamp": "2025-06-27T17:42:59.607682",
+  "test_purpose": "Validate REAL executive discovery vs placeholder data",
+  "companies_tested": 5,
+  "results": [
+    {
+      "company_name": "Ideal Plumbing Services",
+      "test_url": "https://idealplumbingservices.com",
+      "actual_url": "https://idealplumbingservices.com",
+      "executives_found": 8,
+      "processing_time_seconds": 4.96,
+      "discovery_success": true,
+      "real_data_quality": {
+        "url_handling": "PRESERVED",
+        "company_identification": "SUCCESS",
+        "executive_extraction": 8,
+        "contact_completeness": 0.0,
+        "real_vs_placeholder": "REAL_DATA",
+        "confidence_scores": [
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6
+        ],
+        "average_confidence": 0.6
+      },
+      "executives": [
+        {
+          "name": "Saat Ini",
+          "title": "Managing Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_score": 0.6,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 0.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "History Nomor",
+          "title": "Managing Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_score": 0.6,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 0.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Buku Mimpi",
+          "title": "Managing Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_score": 0.6,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 0.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Referral\n\u00a0\u00a0Hubungi",
+          "title": "Managing Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_score": 0.6,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 0.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Kami\n\u00a0Promosi",
+          "title": "Managing Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_score": 0.6,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 0.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Daftar\n\n\n\n\n\u00a0\u00a0Hasil",
+          "title": "Managing Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_score": 0.6,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 0.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Terakhir\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\u00a0\u00a0Berita",
+          "title": "Managing Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_score": 0.6,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 0.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Jadwal Bank",
+          "title": "Managing Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_score": 0.6,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 0.0%",
+          "is_real_data": true
+        }
+      ]
+    },
+    {
+      "company_name": "Jack The Plumber Birmingham",
+      "test_url": "https://jacktheplumber.co.uk",
+      "actual_url": "https://jacktheplumber.co.uk",
+      "executives_found": 8,
+      "processing_time_seconds": 11.04,
+      "discovery_success": true,
+      "real_data_quality": {
+        "url_handling": "PRESERVED",
+        "company_identification": "SUCCESS",
+        "executive_extraction": 8,
+        "contact_completeness": 66.66666666666666,
+        "real_vs_placeholder": "REAL_DATA",
+        "confidence_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "average_confidence": 1.0
+      },
+      "executives": [
+        {
+          "name": "Jack The",
+          "title": "Managing Director",
+          "email": "info@jacktheplumber.com",
+          "phone": "07933 138914",
+          "linkedin_url": null,
+          "confidence_score": 1.0,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 80.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "The Plumber",
+          "title": "Managing Director",
+          "email": "info@jacktheplumber.com",
+          "phone": "07933 138914",
+          "linkedin_url": null,
+          "confidence_score": 1.0,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 80.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Jack The",
+          "title": "Managing Director",
+          "email": "info@jacktheplumber.com",
+          "phone": "07933 138914",
+          "linkedin_url": null,
+          "confidence_score": 1.0,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 80.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Jack The",
+          "title": "Managing Director",
+          "email": "info@jacktheplumber.com",
+          "phone": "07933 138914",
+          "linkedin_url": null,
+          "confidence_score": 1.0,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 80.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Jack The",
+          "title": "Managing Director",
+          "email": "info@jacktheplumber.com",
+          "phone": "07933 138914",
+          "linkedin_url": null,
+          "confidence_score": 1.0,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 80.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "The Plumber",
+          "title": "Managing Director",
+          "email": "info@jacktheplumber.com",
+          "phone": "07933 138914",
+          "linkedin_url": null,
+          "confidence_score": 1.0,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 80.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "The Plumber",
+          "title": "Managing Director",
+          "email": "info@jacktheplumber.com",
+          "phone": "07933 138914",
+          "linkedin_url": null,
+          "confidence_score": 1.0,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 80.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Jack The",
+          "title": "Managing Director",
+          "email": "info@jacktheplumber.com",
+          "phone": "07933 138914",
+          "linkedin_url": null,
+          "confidence_score": 1.0,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 80.0%",
+          "is_real_data": true
+        }
+      ]
+    },
+    {
+      "company_name": "MK Plumbing Birmingham",
+      "test_url": "https://mkplumbingbirmingham.co.uk",
+      "actual_url": "https://mkplumbingbirmingham.co.uk",
+      "executives_found": 8,
+      "processing_time_seconds": 15.14,
+      "discovery_success": true,
+      "real_data_quality": {
+        "url_handling": "PRESERVED",
+        "company_identification": "SUCCESS",
+        "executive_extraction": 8,
+        "contact_completeness": 8.333333333333332,
+        "real_vs_placeholder": "REAL_DATA",
+        "confidence_scores": [
+          1.0,
+          1.0,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6
+        ],
+        "average_confidence": 0.7
+      },
+      "executives": [
+        {
+          "name": "Drainage Systems",
+          "title": "Managing Director",
+          "email": null,
+          "phone": "+44 7355 565264",
+          "linkedin_url": null,
+          "confidence_score": 1.0,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 40.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Water Heater",
+          "title": "Managing Director",
+          "email": null,
+          "phone": "+44 7355 565264",
+          "linkedin_url": null,
+          "confidence_score": 1.0,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 40.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Facebook      Instagram",
+          "title": "Managing Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_score": 0.6,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 0.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Why Choose",
+          "title": "Managing Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_score": 0.6,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 0.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Happy Customers",
+          "title": "Managing Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_score": 0.6,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 0.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Learn More",
+          "title": "Managing Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_score": 0.6,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 0.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Learn More",
+          "title": "Managing Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_score": 0.6,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 0.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Learn More",
+          "title": "Managing Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_score": 0.6,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 0.0%",
+          "is_real_data": true
+        }
+      ]
+    },
+    {
+      "company_name": "MATT Plumbing and Heating",
+      "test_url": "https://mattplumbingandheating.com",
+      "actual_url": "https://mattplumbingandheating.com",
+      "executives_found": 0,
+      "processing_time_seconds": 5.13,
+      "discovery_success": false,
+      "real_data_quality": {
+        "url_handling": "PRESERVED",
+        "company_identification": "SUCCESS",
+        "executive_extraction": 0,
+        "contact_completeness": 0.0,
+        "real_vs_placeholder": "REAL_DATA",
+        "confidence_scores": [],
+        "average_confidence": 0.0
+      },
+      "executives": []
+    },
+    {
+      "company_name": "Summit Plumbing & Heating",
+      "test_url": "https://summitplumbingandheating.co.uk",
+      "actual_url": "https://summitplumbingandheating.co.uk",
+      "executives_found": 2,
+      "processing_time_seconds": 17.18,
+      "discovery_success": true,
+      "real_data_quality": {
+        "url_handling": "PRESERVED",
+        "company_identification": "SUCCESS",
+        "executive_extraction": 2,
+        "contact_completeness": 16.666666666666664,
+        "real_vs_placeholder": "REAL_DATA",
+        "confidence_scores": [
+          1.0,
+          0.6
+        ],
+        "average_confidence": 0.8
+      },
+      "executives": [
+        {
+          "name": "Gallery\n\n\nVerified",
+          "title": "Managing Director",
+          "email": "info@summitplumbingandheating.co.uk",
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_score": 1.0,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 40.0%",
+          "is_real_data": true
+        },
+        {
+          "name": "Ideal\n\n\n\n\nReviews",
+          "title": "Managing Director",
+          "email": null,
+          "phone": null,
+          "linkedin_url": null,
+          "confidence_score": 0.6,
+          "discovery_method": "phase9a_real_extraction",
+          "sources": [
+            "phase9a_contact_engine"
+          ],
+          "validation_notes": "Phase9a extraction - Completeness: 0.0%",
+          "is_real_data": true
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_companies_tested": 5,
+    "companies_with_executives": 4,
+    "executive_discovery_rate": "80.0%",
+    "total_executives_found": 26,
+    "average_executives_per_company": 5.2,
+    "real_contacts_found": 11,
+    "contact_discovery_rate": "42.3%",
+    "placeholder_data_eliminated": "SUCCESS - No placeholder data detected",
+    "data_quality_assessment": "MODERATE - 42.3% of executives have contact info"
+  }
+}

@@ -1,0 +1,527 @@
+{
+  "test_metadata": {
+    "test_name": "Comprehensive 8-Step Executive Discovery Test",
+    "timestamp": "2025-06-27T11:39:00.149897",
+    "total_urls": 10,
+    "batch_processing_time_seconds": 38.049644947052
+  },
+  "overall_metrics": {
+    "total_tests": 10,
+    "successful_tests": 10,
+    "success_rate_percentage": 100.0,
+    "total_executives_found": 5,
+    "average_executives_per_company": 0.5
+  },
+  "detailed_results": [
+    {
+      "url": "https://supremeplumbers.com",
+      "company_name": "supremeplumbers",
+      "companies_house_verified": false,
+      "overall_confidence": 0.3,
+      "total_processing_time_seconds": 1.7943768501281738,
+      "executives_found": 0,
+      "steps_completed": 2,
+      "validation_summary": {
+        "steps_completed": 2
+      },
+      "step_analysis": {
+        "step_1": {
+          "name": "Identify Company on Website",
+          "source": "website_extraction",
+          "success": false,
+          "confidence": 0.3,
+          "processing_time_ms": 1794,
+          "fallback_triggered": true,
+          "data_found": {
+            "company_name": "supremeplumbers",
+            "domain": "supremeplumbers.com"
+          },
+          "validation_results": {
+            "name_extracted": true
+          },
+          "error_message": null
+        },
+        "step_2": {
+          "name": "Retrieve Official Company Info",
+          "source": "companies_house",
+          "success": false,
+          "confidence": 0.0,
+          "processing_time_ms": 50,
+          "fallback_triggered": true,
+          "data_found": {},
+          "validation_results": {
+            "companies_house_verified": false
+          },
+          "error_message": null
+        }
+      },
+      "executive_analysis": []
+    },
+    {
+      "url": "https://idealplumbingservices.com",
+      "company_name": "idealplumbingservices",
+      "companies_house_verified": false,
+      "overall_confidence": 0.8,
+      "total_processing_time_seconds": 1.4497849941253662,
+      "executives_found": 1,
+      "steps_completed": 2,
+      "validation_summary": {
+        "steps_completed": 2
+      },
+      "step_analysis": {
+        "step_1": {
+          "name": "Identify Company on Website",
+          "source": "website_extraction",
+          "success": true,
+          "confidence": 0.8,
+          "processing_time_ms": 1449,
+          "fallback_triggered": false,
+          "data_found": {
+            "company_name": "idealplumbingservices",
+            "domain": "idealplumbingservices.com"
+          },
+          "validation_results": {
+            "name_extracted": true
+          },
+          "error_message": null
+        },
+        "step_2": {
+          "name": "Retrieve Official Company Info",
+          "source": "companies_house",
+          "success": false,
+          "confidence": 0.0,
+          "processing_time_ms": 50,
+          "fallback_triggered": true,
+          "data_found": {},
+          "validation_results": {
+            "companies_house_verified": false
+          },
+          "error_message": null
+        }
+      },
+      "executive_analysis": [
+        {
+          "name": "Managing Director",
+          "title": "Managing Director",
+          "confidence_score": 0.7,
+          "discovery_sources": [
+            "website_extraction"
+          ],
+          "discovery_method": "8_step_orchestration_demo",
+          "has_email": false,
+          "has_phone": false,
+          "has_linkedin": false,
+          "validation_notes": ""
+        }
+      ]
+    },
+    {
+      "url": "https://2ndcitygas.com",
+      "company_name": "2ndcitygas",
+      "companies_house_verified": false,
+      "overall_confidence": 0.3,
+      "total_processing_time_seconds": 0.35713815689086914,
+      "executives_found": 0,
+      "steps_completed": 2,
+      "validation_summary": {
+        "steps_completed": 2
+      },
+      "step_analysis": {
+        "step_1": {
+          "name": "Identify Company on Website",
+          "source": "website_extraction",
+          "success": false,
+          "confidence": 0.3,
+          "processing_time_ms": 357,
+          "fallback_triggered": true,
+          "data_found": {
+            "company_name": "2ndcitygas",
+            "domain": "2ndcitygas.com"
+          },
+          "validation_results": {
+            "name_extracted": true
+          },
+          "error_message": null
+        },
+        "step_2": {
+          "name": "Retrieve Official Company Info",
+          "source": "companies_house",
+          "success": false,
+          "confidence": 0.0,
+          "processing_time_ms": 50,
+          "fallback_triggered": true,
+          "data_found": {},
+          "validation_results": {
+            "companies_house_verified": false
+          },
+          "error_message": null
+        }
+      },
+      "executive_analysis": []
+    },
+    {
+      "url": "https://jacktheplumber.co.uk",
+      "company_name": "Jack The Plumber: Reliable Plumber in Birmingham",
+      "companies_house_verified": false,
+      "overall_confidence": 0.8,
+      "total_processing_time_seconds": 4.196639060974121,
+      "executives_found": 1,
+      "steps_completed": 2,
+      "validation_summary": {
+        "steps_completed": 2
+      },
+      "step_analysis": {
+        "step_1": {
+          "name": "Identify Company on Website",
+          "source": "website_extraction",
+          "success": true,
+          "confidence": 0.8,
+          "processing_time_ms": 4196,
+          "fallback_triggered": false,
+          "data_found": {
+            "company_name": "Jack The Plumber: Reliable Plumber in Birmingham",
+            "domain": "jacktheplumber.co.uk"
+          },
+          "validation_results": {
+            "name_extracted": true
+          },
+          "error_message": null
+        },
+        "step_2": {
+          "name": "Retrieve Official Company Info",
+          "source": "companies_house",
+          "success": false,
+          "confidence": 0.0,
+          "processing_time_ms": 50,
+          "fallback_triggered": true,
+          "data_found": {},
+          "validation_results": {
+            "companies_house_verified": false
+          },
+          "error_message": null
+        }
+      },
+      "executive_analysis": [
+        {
+          "name": "Managing Director",
+          "title": "Managing Director",
+          "confidence_score": 0.7,
+          "discovery_sources": [
+            "website_extraction"
+          ],
+          "discovery_method": "8_step_orchestration_demo",
+          "has_email": false,
+          "has_phone": false,
+          "has_linkedin": false,
+          "validation_notes": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.swiftemergencyplumber.co.uk",
+      "company_name": "swiftemergencyplumber",
+      "companies_house_verified": false,
+      "overall_confidence": 0.3,
+      "total_processing_time_seconds": 0.35305213928222656,
+      "executives_found": 0,
+      "steps_completed": 2,
+      "validation_summary": {
+        "steps_completed": 2
+      },
+      "step_analysis": {
+        "step_1": {
+          "name": "Identify Company on Website",
+          "source": "website_extraction",
+          "success": false,
+          "confidence": 0.3,
+          "processing_time_ms": 352,
+          "fallback_triggered": true,
+          "data_found": {
+            "company_name": "swiftemergencyplumber",
+            "domain": "www.swiftemergencyplumber.co.uk"
+          },
+          "validation_results": {
+            "name_extracted": true
+          },
+          "error_message": null
+        },
+        "step_2": {
+          "name": "Retrieve Official Company Info",
+          "source": "companies_house",
+          "success": false,
+          "confidence": 0.0,
+          "processing_time_ms": 50,
+          "fallback_triggered": true,
+          "data_found": {},
+          "validation_results": {
+            "companies_house_verified": false
+          },
+          "error_message": null
+        }
+      },
+      "executive_analysis": []
+    },
+    {
+      "url": "https://mkplumbingbirmingham.co.uk",
+      "company_name": "MK Plumbing Birmingham",
+      "companies_house_verified": false,
+      "overall_confidence": 0.8,
+      "total_processing_time_seconds": 2.7779173851013184,
+      "executives_found": 1,
+      "steps_completed": 2,
+      "validation_summary": {
+        "steps_completed": 2
+      },
+      "step_analysis": {
+        "step_1": {
+          "name": "Identify Company on Website",
+          "source": "website_extraction",
+          "success": true,
+          "confidence": 0.8,
+          "processing_time_ms": 2777,
+          "fallback_triggered": false,
+          "data_found": {
+            "company_name": "MK Plumbing Birmingham",
+            "domain": "mkplumbingbirmingham.co.uk"
+          },
+          "validation_results": {
+            "name_extracted": true
+          },
+          "error_message": null
+        },
+        "step_2": {
+          "name": "Retrieve Official Company Info",
+          "source": "companies_house",
+          "success": false,
+          "confidence": 0.0,
+          "processing_time_ms": 50,
+          "fallback_triggered": true,
+          "data_found": {},
+          "validation_results": {
+            "companies_house_verified": false
+          },
+          "error_message": null
+        }
+      },
+      "executive_analysis": [
+        {
+          "name": "Managing Director",
+          "title": "Managing Director",
+          "confidence_score": 0.7,
+          "discovery_sources": [
+            "website_extraction"
+          ],
+          "discovery_method": "8_step_orchestration_demo",
+          "has_email": false,
+          "has_phone": false,
+          "has_linkedin": false,
+          "validation_notes": ""
+        }
+      ]
+    },
+    {
+      "url": "https://rescueplumbing.co.uk",
+      "company_name": "rescueplumbing",
+      "companies_house_verified": false,
+      "overall_confidence": 0.3,
+      "total_processing_time_seconds": 0.9500067234039307,
+      "executives_found": 0,
+      "steps_completed": 2,
+      "validation_summary": {
+        "steps_completed": 2
+      },
+      "step_analysis": {
+        "step_1": {
+          "name": "Identify Company on Website",
+          "source": "website_extraction",
+          "success": false,
+          "confidence": 0.3,
+          "processing_time_ms": 949,
+          "fallback_triggered": true,
+          "data_found": {
+            "company_name": "rescueplumbing",
+            "domain": "rescueplumbing.co.uk"
+          },
+          "validation_results": {
+            "name_extracted": true
+          },
+          "error_message": null
+        },
+        "step_2": {
+          "name": "Retrieve Official Company Info",
+          "source": "companies_house",
+          "success": false,
+          "confidence": 0.0,
+          "processing_time_ms": 50,
+          "fallback_triggered": true,
+          "data_found": {},
+          "validation_results": {
+            "companies_house_verified": false
+          },
+          "error_message": null
+        }
+      },
+      "executive_analysis": []
+    },
+    {
+      "url": "https://gdplumbingandheating.co.uk",
+      "company_name": "gdplumbingandheating",
+      "companies_house_verified": false,
+      "overall_confidence": 0.3,
+      "total_processing_time_seconds": 2.100958824157715,
+      "executives_found": 0,
+      "steps_completed": 2,
+      "validation_summary": {
+        "steps_completed": 2
+      },
+      "step_analysis": {
+        "step_1": {
+          "name": "Identify Company on Website",
+          "source": "website_extraction",
+          "success": false,
+          "confidence": 0.3,
+          "processing_time_ms": 2100,
+          "fallback_triggered": true,
+          "data_found": {
+            "company_name": "gdplumbingandheating",
+            "domain": "gdplumbingandheating.co.uk"
+          },
+          "validation_results": {
+            "name_extracted": true
+          },
+          "error_message": null
+        },
+        "step_2": {
+          "name": "Retrieve Official Company Info",
+          "source": "companies_house",
+          "success": false,
+          "confidence": 0.0,
+          "processing_time_ms": 50,
+          "fallback_triggered": true,
+          "data_found": {},
+          "validation_results": {
+            "companies_house_verified": false
+          },
+          "error_message": null
+        }
+      },
+      "executive_analysis": []
+    },
+    {
+      "url": "https://mattplumbingandheating.com",
+      "company_name": "MATT Plumbing and Heating",
+      "companies_house_verified": false,
+      "overall_confidence": 0.8,
+      "total_processing_time_seconds": 2.8751091957092285,
+      "executives_found": 1,
+      "steps_completed": 2,
+      "validation_summary": {
+        "steps_completed": 2
+      },
+      "step_analysis": {
+        "step_1": {
+          "name": "Identify Company on Website",
+          "source": "website_extraction",
+          "success": true,
+          "confidence": 0.8,
+          "processing_time_ms": 2874,
+          "fallback_triggered": false,
+          "data_found": {
+            "company_name": "MATT Plumbing and Heating",
+            "domain": "mattplumbingandheating.com"
+          },
+          "validation_results": {
+            "name_extracted": true
+          },
+          "error_message": null
+        },
+        "step_2": {
+          "name": "Retrieve Official Company Info",
+          "source": "companies_house",
+          "success": false,
+          "confidence": 0.0,
+          "processing_time_ms": 50,
+          "fallback_triggered": true,
+          "data_found": {},
+          "validation_results": {
+            "companies_house_verified": false
+          },
+          "error_message": null
+        }
+      },
+      "executive_analysis": [
+        {
+          "name": "Managing Director",
+          "title": "Managing Director",
+          "confidence_score": 0.7,
+          "discovery_sources": [
+            "website_extraction"
+          ],
+          "discovery_method": "8_step_orchestration_demo",
+          "has_email": false,
+          "has_phone": false,
+          "has_linkedin": false,
+          "validation_notes": ""
+        }
+      ]
+    },
+    {
+      "url": "https://summitplumbingandheating.co.uk",
+      "company_name": "Summit Plumbing & Heating Ltd",
+      "companies_house_verified": false,
+      "overall_confidence": 0.8,
+      "total_processing_time_seconds": 3.1774330139160156,
+      "executives_found": 1,
+      "steps_completed": 2,
+      "validation_summary": {
+        "steps_completed": 2
+      },
+      "step_analysis": {
+        "step_1": {
+          "name": "Identify Company on Website",
+          "source": "website_extraction",
+          "success": true,
+          "confidence": 0.8,
+          "processing_time_ms": 3177,
+          "fallback_triggered": false,
+          "data_found": {
+            "company_name": "Summit Plumbing & Heating Ltd",
+            "domain": "summitplumbingandheating.co.uk"
+          },
+          "validation_results": {
+            "name_extracted": true
+          },
+          "error_message": null
+        },
+        "step_2": {
+          "name": "Retrieve Official Company Info",
+          "source": "companies_house",
+          "success": false,
+          "confidence": 0.0,
+          "processing_time_ms": 50,
+          "fallback_triggered": true,
+          "data_found": {},
+          "validation_results": {
+            "companies_house_verified": false
+          },
+          "error_message": null
+        }
+      },
+      "executive_analysis": [
+        {
+          "name": "Managing Director",
+          "title": "Managing Director",
+          "confidence_score": 0.7,
+          "discovery_sources": [
+            "website_extraction"
+          ],
+          "discovery_method": "8_step_orchestration_demo",
+          "has_email": false,
+          "has_phone": false,
+          "has_linkedin": false,
+          "validation_notes": ""
+        }
+      ]
+    }
+  ]
+}

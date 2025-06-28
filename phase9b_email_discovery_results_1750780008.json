@@ -1,0 +1,322 @@
+[
+  {
+    "company": "A&H Plumbing",
+    "domain": "anhplumbing.com",
+    "result": {
+      "discovered_emails": [],
+      "inferred_emails": [
+        "john.smith@anhplumbing.com",
+        "ceo@anhplumbing.com",
+        "chief.executive@anhplumbing.com",
+        "executive@anhplumbing.com",
+        "john.ceo@anhplumbing.com",
+        "john.chief.executive@anhplumbing.com",
+        "john.executive@anhplumbing.com",
+        "john@anhplumbing.com",
+        "sarah.johnson@anhplumbing.com",
+        "coo@anhplumbing.com",
+        "chief.operating@anhplumbing.com",
+        "operations@anhplumbing.com",
+        "sarah.coo@anhplumbing.com",
+        "sarah.chief.operating@anhplumbing.com",
+        "sarah.operations@anhplumbing.com",
+        "sarah@anhplumbing.com"
+      ],
+      "pattern_analysis": {
+        "detected_patterns": [],
+        "confidence_scores": {},
+        "format_preferences": {},
+        "executive_patterns": {},
+        "domain_intelligence": {}
+      },
+      "domain_intelligence": {
+        "detected_patterns": [],
+        "confidence_scores": {},
+        "format_preferences": {},
+        "executive_patterns": {},
+        "domain_intelligence": {}
+      },
+      "validation_results": {
+        "total_emails": 16,
+        "valid_emails": [
+          {
+            "email": "john.smith@anhplumbing.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "ceo@anhplumbing.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "chief.executive@anhplumbing.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "executive@anhplumbing.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "john.ceo@anhplumbing.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "john.chief.executive@anhplumbing.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "john.executive@anhplumbing.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "john@anhplumbing.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "sarah.johnson@anhplumbing.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "coo@anhplumbing.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "chief.operating@anhplumbing.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "operations@anhplumbing.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "sarah.coo@anhplumbing.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "sarah.chief.operating@anhplumbing.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "sarah.operations@anhplumbing.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "sarah@anhplumbing.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          }
+        ],
+        "invalid_emails": [],
+        "suspicious_emails": [],
+        "domain_analysis": {
+          "domain": "anhplumbing.com",
+          "mx_records_exist": true,
+          "domain_age_estimate": "established",
+          "subdomain_analysis": {},
+          "email_server_analysis": {}
+        },
+        "deliverability_scores": {}
+      },
+      "discovery_confidence": 0.8,
+      "processing_time": 32.79014611244202
+    }
+  },
+  {
+    "company": "Air-Tech Systems Inc",
+    "domain": "air-techsystems.com",
+    "result": {
+      "discovered_emails": [],
+      "inferred_emails": [
+        "mike.wilson@air-techsystems.com",
+        "cto@air-techsystems.com",
+        "chief.technology@air-techsystems.com",
+        "technology@air-techsystems.com",
+        "mike.cto@air-techsystems.com",
+        "mike.chief.technology@air-techsystems.com",
+        "mike.technology@air-techsystems.com",
+        "mike@air-techsystems.com",
+        "lisa.brown@air-techsystems.com",
+        "cto@air-techsystems.com",
+        "chief.technology@air-techsystems.com",
+        "technology@air-techsystems.com",
+        "lisa.cto@air-techsystems.com",
+        "lisa.chief.technology@air-techsystems.com",
+        "lisa.technology@air-techsystems.com",
+        "lisa@air-techsystems.com",
+        "david.chen@air-techsystems.com",
+        "vp@air-techsystems.com",
+        "vice.president@air-techsystems.com",
+        "vicepresident@air-techsystems.com",
+        "david.vp@air-techsystems.com",
+        "david.vice.president@air-techsystems.com",
+        "david.vicepresident@air-techsystems.com",
+        "david@air-techsystems.com"
+      ],
+      "pattern_analysis": {
+        "detected_patterns": [],
+        "confidence_scores": {},
+        "format_preferences": {},
+        "executive_patterns": {},
+        "domain_intelligence": {}
+      },
+      "domain_intelligence": {
+        "detected_patterns": [],
+        "confidence_scores": {},
+        "format_preferences": {},
+        "executive_patterns": {},
+        "domain_intelligence": {}
+      },
+      "validation_results": {
+        "total_emails": 24,
+        "valid_emails": [
+          {
+            "email": "mike.wilson@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "cto@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "chief.technology@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "technology@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "mike.cto@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "mike.chief.technology@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "mike.technology@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "mike@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "lisa.brown@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "cto@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "chief.technology@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "technology@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "lisa.cto@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "lisa.chief.technology@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "lisa.technology@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "lisa@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "david.chen@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "vp@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "vice.president@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "vicepresident@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "david.vp@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "david.vice.president@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "david.vicepresident@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          },
+          {
+            "email": "david@air-techsystems.com",
+            "validation_score": 0.9,
+            "validation_type": "company_domain_match"
+          }
+        ],
+        "invalid_emails": [],
+        "suspicious_emails": [],
+        "domain_analysis": {
+          "domain": "air-techsystems.com",
+          "mx_records_exist": true,
+          "domain_age_estimate": "established",
+          "subdomain_analysis": {},
+          "email_server_analysis": {}
+        },
+        "deliverability_scores": {}
+      },
+      "discovery_confidence": 0.8,
+      "processing_time": 11.178174257278442
+    }
+  }
+]

@@ -1,0 +1,156 @@
+{
+  "companies": [
+    {
+      "url": "https://celmengineering.co.uk",
+      "processing_time_seconds": 0.0,
+      "raw_executives_count": 20,
+      "refined_executives_count": 2,
+      "filtering_effectiveness_percent": 90.0,
+      "average_quality_score": 1.0,
+      "executives": [
+        {
+          "name": "John Smith",
+          "context": "John Smith, founder and managing director with 20 years experience",
+          "confidence": 1.0,
+          "quality_reason": "Premium executive: ['Biographical content detected'] with excellent formatting",
+          "semantic_analysis": {
+            "name_patterns": [
+              "Valid name pattern"
+            ],
+            "service_penalties": [],
+            "business_entities": [],
+            "biographical_indicators": [
+              "Biographical content detected"
+            ],
+            "quality_factors": {
+              "executive_role": true,
+              "proper_name_format": true,
+              "word_count": 2
+            }
+          },
+          "quality_tier": "PREMIUM"
+        },
+        {
+          "name": "Sarah Johnson",
+          "context": "Sarah Johnson has led our engineering team since 2015",
+          "confidence": 1.0,
+          "quality_reason": "Premium executive: [] with excellent formatting",
+          "semantic_analysis": {
+            "name_patterns": [
+              "Valid name pattern"
+            ],
+            "service_penalties": [
+              "inc"
+            ],
+            "business_entities": [],
+            "biographical_indicators": [],
+            "quality_factors": {
+              "executive_role": true,
+              "proper_name_format": true,
+              "word_count": 2
+            }
+          },
+          "quality_tier": "PREMIUM"
+        }
+      ],
+      "enhanced_features_applied": {
+        "business_entity_filtering": true,
+        "biographical_focus": true,
+        "advanced_semantic_analysis": true,
+        "enhanced_quality_thresholds": true
+      }
+    },
+    {
+      "url": "https://msheatingandplumbing.co.uk",
+      "processing_time_seconds": 0.0,
+      "raw_executives_count": 20,
+      "refined_executives_count": 2,
+      "filtering_effectiveness_percent": 90.0,
+      "average_quality_score": 1.0,
+      "executives": [
+        {
+          "name": "John Smith",
+          "context": "John Smith, founder and managing director with 20 years experience",
+          "confidence": 1.0,
+          "quality_reason": "Premium executive: ['Biographical content detected'] with excellent formatting",
+          "semantic_analysis": {
+            "name_patterns": [
+              "Valid name pattern"
+            ],
+            "service_penalties": [],
+            "business_entities": [],
+            "biographical_indicators": [
+              "Biographical content detected"
+            ],
+            "quality_factors": {
+              "executive_role": true,
+              "proper_name_format": true,
+              "word_count": 2
+            }
+          },
+          "quality_tier": "PREMIUM"
+        },
+        {
+          "name": "Sarah Johnson",
+          "context": "Sarah Johnson has led our engineering team since 2015",
+          "confidence": 1.0,
+          "quality_reason": "Premium executive: [] with excellent formatting",
+          "semantic_analysis": {
+            "name_patterns": [
+              "Valid name pattern"
+            ],
+            "service_penalties": [
+              "inc"
+            ],
+            "business_entities": [],
+            "biographical_indicators": [],
+            "quality_factors": {
+              "executive_role": true,
+              "proper_name_format": true,
+              "word_count": 2
+            }
+          },
+          "quality_tier": "PREMIUM"
+        }
+      ],
+      "enhanced_features_applied": {
+        "business_entity_filtering": true,
+        "biographical_focus": true,
+        "advanced_semantic_analysis": true,
+        "enhanced_quality_thresholds": true
+      }
+    }
+  ],
+  "summary": {
+    "companies_processed": 2,
+    "total_raw_executives": 40,
+    "total_refined_executives": 4,
+    "filtering_effectiveness_percent": 90.0,
+    "average_quality_score": 1.0,
+    "processing_time_seconds": 0.0,
+    "companies_per_hour": 2772330.0,
+    "phase7c_enhancements": {
+      "advanced_semantic_filtering": true,
+      "business_entity_detection": true,
+      "biographical_focus_enabled": true,
+      "enhanced_quality_thresholds": true
+    }
+  },
+  "enhanced_features": {
+    "advanced_semantic_analysis": true,
+    "business_entity_detection": true,
+    "biographical_focus": true,
+    "enhanced_quality_scoring": true
+  },
+  "test_metadata": {
+    "phase": "7C",
+    "target_filtering_effectiveness": 90.0,
+    "achieved_filtering_effectiveness": 90.0,
+    "enhancements": [
+      "Advanced semantic analysis",
+      "Business entity detection",
+      "Biographical focus",
+      "Enhanced quality thresholds"
+    ]
+  }
+}

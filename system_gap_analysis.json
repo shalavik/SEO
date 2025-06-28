@@ -1,0 +1,184 @@
+{
+  "timestamp": "2025-06-23T22:24:02.880402",
+  "summary": {
+    "total_gap_score": 79,
+    "critical_gaps_count": 13,
+    "average_gap_per_company": 6.076923076923077,
+    "issues_identified": 6
+  },
+  "critical_gaps": [
+    {
+      "company": "A Action Home Services",
+      "url": "https://www.aactionhomeservices.com/",
+      "gap_score": 6,
+      "issues": {
+        "name_accuracy": 0.0,
+        "discovery_rate": 1.0,
+        "missing_phone": true,
+        "missing_linkedin": true,
+        "fake_executives": 1
+      }
+    },
+    {
+      "company": "A-Advantage Heating & Air Conditioning",
+      "url": "http://www.a-advantage.com/",
+      "gap_score": 7,
+      "issues": {
+        "name_accuracy": 0.0,
+        "discovery_rate": 0.5,
+        "missing_phone": true,
+        "missing_linkedin": true,
+        "fake_executives": 1
+      }
+    },
+    {
+      "company": "AA Rapid Plumbing",
+      "url": "www.aarapid.com",
+      "gap_score": 7,
+      "issues": {
+        "name_accuracy": 0.0,
+        "discovery_rate": 0.5,
+        "missing_phone": true,
+        "missing_linkedin": true,
+        "fake_executives": 1
+      }
+    },
+    {
+      "company": "Air Treatment Heating & Cooling",
+      "url": "https://www.air-treatment.com/",
+      "gap_score": 7,
+      "issues": {
+        "name_accuracy": 0.0,
+        "discovery_rate": 0.5,
+        "missing_phone": true,
+        "missing_linkedin": true,
+        "fake_executives": 1
+      }
+    },
+    {
+      "company": "AllTech Services, Inc.",
+      "url": "http://alltechservicesinc.com",
+      "gap_score": 6,
+      "issues": {
+        "name_accuracy": 0.0,
+        "discovery_rate": 2.0,
+        "missing_phone": true,
+        "missing_linkedin": true,
+        "fake_executives": 2
+      }
+    },
+    {
+      "company": "Atlantic Plumbing Heating & Air Conditioning",
+      "url": "www.atlanticphac.com",
+      "gap_score": 6,
+      "issues": {
+        "name_accuracy": 0.0,
+        "discovery_rate": 1.0,
+        "missing_phone": true,
+        "missing_linkedin": true,
+        "fake_executives": 1
+      }
+    },
+    {
+      "company": "B&B Air Conditioning & Heating",
+      "url": "https://www.bbairconditioning.com/fairfax-va/",
+      "gap_score": 5,
+      "issues": {
+        "name_accuracy": 0.0,
+        "discovery_rate": 1.0,
+        "missing_phone": true,
+        "missing_linkedin": false,
+        "fake_executives": 1
+      }
+    },
+    {
+      "company": "Blue Ridge Heating & Air",
+      "url": "www.blueridgeheatingandair.com",
+      "gap_score": 6,
+      "issues": {
+        "name_accuracy": 0.0,
+        "discovery_rate": 1.0,
+        "missing_phone": true,
+        "missing_linkedin": true,
+        "fake_executives": 1
+      }
+    },
+    {
+      "company": "Boyers 72 Degrees",
+      "url": "www.boyers72degrees.com",
+      "gap_score": 5,
+      "issues": {
+        "name_accuracy": 0.0,
+        "discovery_rate": 1.0,
+        "missing_phone": true,
+        "missing_linkedin": false,
+        "fake_executives": 1
+      }
+    },
+    {
+      "company": "Bradley Mechanical",
+      "url": "http://bradleyhvac.com",
+      "gap_score": 4,
+      "issues": {
+        "name_accuracy": 1.0,
+        "discovery_rate": 1.0,
+        "missing_phone": true,
+        "missing_linkedin": true,
+        "fake_executives": 0
+      }
+    },
+    {
+      "company": "Caffi Contracting Services Inc",
+      "url": "https://www.caffiservices.com/?utm_source=google&utm_medium=organic&utm_campaign=GMB%20Listing",
+      "gap_score": 6,
+      "issues": {
+        "name_accuracy": 0.0,
+        "discovery_rate": 1.0,
+        "missing_phone": true,
+        "missing_linkedin": true,
+        "fake_executives": 1
+      }
+    },
+    {
+      "company": "Cyprus Air Heating & Cooling",
+      "url": "http://indoorcomfort.com",
+      "gap_score": 8,
+      "issues": {
+        "name_accuracy": 0.0,
+        "discovery_rate": 0.3333333333333333,
+        "missing_phone": true,
+        "missing_linkedin": true,
+        "fake_executives": 1
+      }
+    },
+    {
+      "company": "Falcon Heating & Air Conditioning",
+      "url": "http://falconhvac.com",
+      "gap_score": 6,
+      "issues": {
+        "name_accuracy": 0.0,
+        "discovery_rate": 1.0,
+        "missing_phone": true,
+        "missing_linkedin": true,
+        "fake_executives": 1
+      }
+    }
+  ],
+  "system_issues": [
+    "\ud83d\udea8 CRITICAL: Generating 5 fake executives instead of real ones",
+    "\ud83d\udea8 CRITICAL: Missing real executive detection - 0% real name accuracy",
+    "\ud83d\udea8 CRITICAL: Missing phone number extraction (0% vs 100% in reference)",
+    "\ud83d\udea8 CRITICAL: Missing LinkedIn profile extraction (0% vs 77.8% in reference)",
+    "\ud83d\udea8 CRITICAL: SEO analyzer not integrated into main pipeline",
+    "\ud83d\udea8 CRITICAL: Generating fake emails instead of finding real ones"
+  ],
+  "recommendations": [
+    "Implement real executive name extraction from website content",
+    "Add phone number extraction from contact pages",
+    "Integrate LinkedIn profile discovery",
+    "Add SEO analysis to main pipeline",
+    "Stop generating fake contact information",
+    "Implement multi-source executive discovery",
+    "Add business context extraction"
+  ]
+}

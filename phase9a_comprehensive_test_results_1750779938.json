@@ -1,0 +1,1745 @@
+{
+  "test_timestamp": 1750779607,
+  "test_configuration": {
+    "max_concurrent_companies": 5,
+    "max_pages_per_company": 15,
+    "session_timeout": 30,
+    "phone_confidence_threshold": 0.75,
+    "email_confidence_threshold": 0.7,
+    "linkedin_confidence_threshold": 0.65,
+    "contact_completeness_threshold": 0.6,
+    "enable_multi_format_phone": true,
+    "enable_email_inference": true,
+    "enable_linkedin_intelligence": true,
+    "enable_executive_attribution": true,
+    "min_contact_quality_score": 0.5,
+    "max_contacts_per_executive": 5,
+    "enable_contact_validation": true
+  },
+  "pattern_recognition_tests": {
+    "phone_patterns": {
+      "passed": 2,
+      "failed": 3,
+      "test_details": [
+        {
+          "test_name": "US_Standard_Format",
+          "expected": [
+            "(555) 123-4567"
+          ],
+          "extracted": [],
+          "passed": false,
+          "confidence_scores": []
+        },
+        {
+          "test_name": "US_Multiple_Formats",
+          "expected": [
+            "+1-555-987-6543",
+            "555.123.4567"
+          ],
+          "extracted": [
+            "555-987-6543",
+            "555.123.4567 ext 123",
+            "Mobile: +1-555-987-6543"
+          ],
+          "passed": true,
+          "confidence_scores": [
+            0.7999999999999999,
+            0.7999999999999999,
+            0.7999999999999999
+          ]
+        },
+        {
+          "test_name": "UK_Standard_Format",
+          "expected": [
+            "+44 20 1234 5678",
+            "07700 123456"
+          ],
+          "extracted": [
+            "20 1234 5678",
+            "07700 123456"
+          ],
+          "passed": false,
+          "confidence_scores": [
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "test_name": "International_Format",
+          "expected": [
+            "+33 1 23 45 67 89"
+          ],
+          "extracted": [
+            "33 1 23 45 67 89"
+          ],
+          "passed": false,
+          "confidence_scores": [
+            0.7999999999999999
+          ]
+        },
+        {
+          "test_name": "Invalid_Alphanumeric",
+          "expected": [],
+          "extracted": [],
+          "passed": true,
+          "confidence_scores": []
+        }
+      ]
+    },
+    "email_patterns": {
+      "passed": 4,
+      "failed": 0,
+      "test_details": [
+        {
+          "test_name": "Standard_Executive_Email",
+          "expected": [
+            "john.smith@company.com"
+          ],
+          "extracted": [
+            "john.smith@company.com"
+          ],
+          "passed": true,
+          "confidence_scores": [
+            0.9500000000000001,
+            0.4,
+            0.4,
+            0.4,
+            0.4
+          ]
+        },
+        {
+          "test_name": "Multiple_Executive_Emails",
+          "expected": [
+            "sarah.jones@firm.co.uk",
+            "ceo@firm.co.uk"
+          ],
+          "extracted": [
+            "ceo@firm.co.uk",
+            "sarah.jones@firm.co.uk"
+          ],
+          "passed": true,
+          "confidence_scores": [
+            1.0,
+            0.9
+          ]
+        },
+        {
+          "test_name": "Generic_Email_Filter",
+          "expected": [],
+          "extracted": [
+            "info@generic.com"
+          ],
+          "passed": true,
+          "confidence_scores": [
+            0.7000000000000001
+          ]
+        },
+        {
+          "test_name": "Initial_Based_Email",
+          "expected": [
+            "m.wilson@business.org"
+          ],
+          "extracted": [
+            "m.wilson@business.org"
+          ],
+          "passed": true,
+          "confidence_scores": [
+            0.9,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4
+          ]
+        }
+      ]
+    },
+    "linkedin_patterns": {
+      "passed": 3,
+      "failed": 0,
+      "test_details": [
+        {
+          "test_name": "Standard_LinkedIn_Profile",
+          "expected": [
+            "https://www.linkedin.com/in/john-smith-ceo"
+          ],
+          "extracted": [
+            "https://www.linkedin.com/in/john-smith-ceo",
+            "linkedin.com/in/john-smith-ceo"
+          ],
+          "passed": true,
+          "confidence_scores": [
+            1.0,
+            0.95
+          ]
+        },
+        {
+          "test_name": "Partial_LinkedIn_URL",
+          "expected": [
+            "linkedin.com/in/sarah-director"
+          ],
+          "extracted": [
+            "linkedin.com/in/sarah-director"
+          ],
+          "passed": true,
+          "confidence_scores": [
+            0.95
+          ]
+        },
+        {
+          "test_name": "Company_LinkedIn_Page",
+          "expected": [
+            "https://linkedin.com/company/our-business-ltd"
+          ],
+          "extracted": [
+            "https://linkedin.com/company/our-business-ltd"
+          ],
+          "passed": true,
+          "confidence_scores": [
+            0.8
+          ]
+        }
+      ]
+    }
+  },
+  "integration_tests": {
+    "companies_tested": 3,
+    "successful_extractions": 3,
+    "results": [
+      {
+        "company_name": "Company_0",
+        "website_url": "http://anhplumbing.com",
+        "extraction_result": {
+          "company_name": "Company_0",
+          "website_url": "http://anhplumbing.com",
+          "company_domain": "anhplumbing.com",
+          "executive_profiles": [
+            {
+              "name": "Advantage Air",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "703-406-9845"
+                ],
+                "email_addresses": [
+                  "estimating@advairac.com",
+                  "warranty@advairac.com"
+                ],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.6400000000000001,
+                "completeness_percentage": 80.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0.8000000000000002,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.9520000000000001,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "Virginia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "Design\nInstallation",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "Portfolio\nContact",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "Advantage\nAir",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "Virginia\n\nSystem",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "Installation\n\nSpecializing",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "Been Designing",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "Plumbing Systems",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "System Design",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "System Efficiency",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "Occupant Comfort",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "Code Compliance",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "System Integration",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "Sustainable Design",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "Project Management",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "Coordination\nDesigning",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "Air Conditioning",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "703-406-9845"
+                ],
+                "email_addresses": [
+                  "estimating@advairac.com",
+                  "warranty@advairac.com"
+                ],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.6400000000000001,
+                "completeness_percentage": 80.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0.8000000000000002,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.9520000000000001,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "Systems\nCooling",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            },
+            {
+              "name": "Tower Systems",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779680"
+            }
+          ],
+          "extraction_stats": {
+            "executives_found": 20,
+            "total_contacts_extracted": 6,
+            "average_completeness": 8.0,
+            "processing_time_seconds": 72.71902680397034,
+            "pages_analyzed": 1
+          },
+          "quality_assessment": {
+            "overall_quality": "LOW",
+            "quality_score": 0.2994133333333333,
+            "average_completeness": 8.0,
+            "average_confidence": 0.6351999999999999,
+            "contact_coverage": {
+              "phones": 2,
+              "emails": 2,
+              "linkedin": 0
+            }
+          },
+          "extraction_timestamp": 1750779680
+        },
+        "analysis": {
+          "test_passed": false,
+          "executives_found": 20,
+          "contacts_extracted": 6,
+          "quality_score": 0.2994133333333333,
+          "performance_metrics": {
+            "contacts_per_executive": 0.3,
+            "pages_per_second": 0.013751559171655494,
+            "average_completeness": 8.0
+          },
+          "processing_time": 72.71902680397034,
+          "pages_analyzed": 1,
+          "quality_tier": "LOW"
+        }
+      },
+      {
+        "company_name": "Company_1",
+        "website_url": "http://anhplumbing.com",
+        "extraction_result": {
+          "company_name": "Company_1",
+          "website_url": "http://anhplumbing.com",
+          "company_domain": "anhplumbing.com",
+          "executive_profiles": [
+            {
+              "name": "Advantage Air",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "703-406-9845"
+                ],
+                "email_addresses": [
+                  "estimating@advairac.com",
+                  "warranty@advairac.com"
+                ],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.6400000000000001,
+                "completeness_percentage": 80.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0.8000000000000002,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.9520000000000001,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "Virginia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "Design\nInstallation",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "Portfolio\nContact",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "Advantage\nAir",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "Virginia\n\nSystem",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "Installation\n\nSpecializing",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "Been Designing",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "Plumbing Systems",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "System Design",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "System Efficiency",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "Occupant Comfort",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "Code Compliance",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "System Integration",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "Sustainable Design",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "Project Management",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "Coordination\nDesigning",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "Air Conditioning",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "703-406-9845"
+                ],
+                "email_addresses": [
+                  "estimating@advairac.com",
+                  "warranty@advairac.com"
+                ],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.6400000000000001,
+                "completeness_percentage": 80.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0.8000000000000002,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.9520000000000001,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "Systems\nCooling",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            },
+            {
+              "name": "Tower Systems",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779754"
+            }
+          ],
+          "extraction_stats": {
+            "executives_found": 20,
+            "total_contacts_extracted": 6,
+            "average_completeness": 8.0,
+            "processing_time_seconds": 74.17877888679504,
+            "pages_analyzed": 1
+          },
+          "quality_assessment": {
+            "overall_quality": "LOW",
+            "quality_score": 0.2994133333333333,
+            "average_completeness": 8.0,
+            "average_confidence": 0.6351999999999999,
+            "contact_coverage": {
+              "phones": 2,
+              "emails": 2,
+              "linkedin": 0
+            }
+          },
+          "extraction_timestamp": 1750779754
+        },
+        "analysis": {
+          "test_passed": false,
+          "executives_found": 20,
+          "contacts_extracted": 6,
+          "quality_score": 0.2994133333333333,
+          "performance_metrics": {
+            "contacts_per_executive": 0.3,
+            "pages_per_second": 0.01348094448313998,
+            "average_completeness": 8.0
+          },
+          "processing_time": 74.17877888679504,
+          "pages_analyzed": 1,
+          "quality_tier": "LOW"
+        }
+      },
+      {
+        "company_name": "Company_2",
+        "website_url": "https://air-techsystems.com/",
+        "extraction_result": {
+          "company_name": "Company_2",
+          "website_url": "https://air-techsystems.com/",
+          "company_domain": "air-techsystems.com",
+          "executive_profiles": [
+            {
+              "name": "Northern Virginia",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "703) 239-4354",
+                  "703-435-0892",
+                  "571) 325-0744",
+                  "703-777-0066"
+                ],
+                "email_addresses": [
+                  "703-435-0892airtechsales@msn.com",
+                  "airtechsales@msn.com"
+                ],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.6200000000000001,
+                "completeness_percentage": 80.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0.7500000000000001,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.9460000000000001,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Furnace Repair",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "703) 239-4354",
+                  "703-435-0892"
+                ],
+                "email_addresses": [
+                  "703-435-0892airtechsales@msn.com",
+                  "airtechsales@msn.com"
+                ],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.6200000000000001,
+                "completeness_percentage": 80.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0.7500000000000001,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.9460000000000001,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Tech Systems",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "703) 239-4354",
+                  "703-435-0892",
+                  "571) 325-0744",
+                  "703-777-0066",
+                  "703-435-9469"
+                ],
+                "email_addresses": [
+                  "703-435-0892airtechsales@msn.com",
+                  "airtechsales@msn.com"
+                ],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.6200000000000001,
+                "completeness_percentage": 80.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0.7500000000000001,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.9460000000000001,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Serving Northern",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "703) 239-4354",
+                  "703-435-0892",
+                  "571) 325-0744"
+                ],
+                "email_addresses": [
+                  "703-435-0892airtechsales@msn.com",
+                  "airtechsales@msn.com"
+                ],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.6200000000000001,
+                "completeness_percentage": 80.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0.7500000000000001,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.9460000000000001,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Reliableand Fair",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "703) 239-4354",
+                  "703-435-0892"
+                ],
+                "email_addresses": [
+                  "703-435-0892airtechsales@msn.com",
+                  "airtechsales@msn.com"
+                ],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.6200000000000001,
+                "completeness_percentage": 80.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0.7500000000000001,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.9460000000000001,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "All Year",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "703) 239-4354",
+                  "703-435-0892"
+                ],
+                "email_addresses": [
+                  "703-435-0892airtechsales@msn.com",
+                  "airtechsales@msn.com"
+                ],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.6200000000000001,
+                "completeness_percentage": 80.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0.7500000000000001,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.9460000000000001,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Read More",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "703-435-0892"
+                ],
+                "email_addresses": [
+                  "703-435-0892airtechsales@msn.com"
+                ],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.6200000000000001,
+                "completeness_percentage": 80.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0.7500000000000001,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.9460000000000001,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Read More",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "703-435-0892"
+                ],
+                "email_addresses": [
+                  "703-435-0892airtechsales@msn.com"
+                ],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.6200000000000001,
+                "completeness_percentage": 80.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0.7500000000000001,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.9460000000000001,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Read More",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "703-435-0892"
+                ],
+                "email_addresses": [
+                  "703-435-0892airtechsales@msn.com"
+                ],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.6200000000000001,
+                "completeness_percentage": 80.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0.7500000000000001,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.9460000000000001,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Mother Earth",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Indoor Comfort",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Fairfax City",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Craig Gaylor",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Read More",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "703-435-0892"
+                ],
+                "email_addresses": [
+                  "703-435-0892airtechsales@msn.com"
+                ],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.6200000000000001,
+                "completeness_percentage": 80.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0.7500000000000001,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.9460000000000001,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Partners          Error",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.0,
+                "completeness_percentage": 0.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.6,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Review Stream",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "703-777-0066"
+                ],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.32,
+                "completeness_percentage": 40.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.776,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Emergency Service",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "571) 325-0744",
+                  "703-435-9469"
+                ],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.32,
+                "completeness_percentage": 40.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.776,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Available Until",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "571) 325-0744"
+                ],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.32,
+                "completeness_percentage": 40.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.776,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Tech Systems",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "703) 239-4354",
+                  "703-435-0892",
+                  "571) 325-0744",
+                  "703-777-0066",
+                  "703-435-9469"
+                ],
+                "email_addresses": [
+                  "703-435-0892airtechsales@msn.com",
+                  "airtechsales@msn.com"
+                ],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.6200000000000001,
+                "completeness_percentage": 80.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0.7500000000000001,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.9460000000000001,
+              "discovery_timestamp": "1750779784"
+            },
+            {
+              "name": "Clara Barton",
+              "title": "Unknown",
+              "company": "",
+              "contact_info": {
+                "phone_numbers": [
+                  "571) 325-0744",
+                  "703-777-0066",
+                  "703-435-9469"
+                ],
+                "email_addresses": [],
+                "linkedin_profiles": [],
+                "contact_quality_score": 0.32,
+                "completeness_percentage": 40.0,
+                "source_pages": [],
+                "confidence_scores": {
+                  "phone": 0.7999999999999999,
+                  "email": 0,
+                  "linkedin": 0
+                }
+              },
+              "extraction_source": "phase9a_contact_extraction",
+              "overall_confidence": 0.776,
+              "discovery_timestamp": "1750779784"
+            }
+          ],
+          "extraction_stats": {
+            "executives_found": 20,
+            "total_contacts_extracted": 52,
+            "average_completeness": 52.0,
+            "processing_time_seconds": 29.681113719940186,
+            "pages_analyzed": 2
+          },
+          "quality_assessment": {
+            "overall_quality": "HIGH",
+            "quality_score": 0.6248666666666667,
+            "average_completeness": 52.0,
+            "average_confidence": 0.8254999999999999,
+            "contact_coverage": {
+              "phones": 15,
+              "emails": 11,
+              "linkedin": 0
+            }
+          },
+          "extraction_timestamp": 1750779784
+        },
+        "analysis": {
+          "test_passed": true,
+          "executives_found": 20,
+          "contacts_extracted": 52,
+          "quality_score": 0.6248666666666667,
+          "performance_metrics": {
+            "contacts_per_executive": 2.6,
+            "pages_per_second": 0.06738291625008573,
+            "average_completeness": 52.0
+          },
+          "processing_time": 29.681113719940186,
+          "pages_analyzed": 2,
+          "quality_tier": "HIGH"
+        }
+      }
+    ],
+    "success_rate": 1.0
+  },
+  "performance_tests": {
+    "total_companies": 3,
+    "total_processing_time": 154.05012798309326,
+    "individual_results": [
+      {
+        "company": "Company_0",
+        "processing_time": 68.47908401489258,
+        "executives_found": 20,
+        "contacts_extracted": 6,
+        "pages_analyzed": 1
+      },
+      {
+        "company": "Company_1",
+        "processing_time": 69.0045108795166,
+        "executives_found": 20,
+        "contacts_extracted": 6,
+        "pages_analyzed": 1
+      },
+      {
+        "company": "Company_2",
+        "processing_time": 16.566524028778076,
+        "executives_found": 20,
+        "contacts_extracted": 52,
+        "pages_analyzed": 2
+      }
+    ],
+    "performance_metrics": {
+      "average_processing_time": 51.350039641062416,
+      "companies_per_hour": 70.10704983760404,
+      "average_executives_per_company": 20.0,
+      "average_contacts_per_company": 21.333333333333332,
+      "average_pages_per_company": 1.3333333333333333
+    }
+  },
+  "overall_assessment": {
+    "overall_score": 0.7701070498376041,
+    "grade": "B+",
+    "pattern_score": 0.75,
+    "integration_score": 1.0,
+    "performance_score": 0.3505352491880202,
+    "tests_passed": 12,
+    "total_tests": 15
+  }
+}

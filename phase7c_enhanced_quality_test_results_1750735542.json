@@ -1,0 +1,198 @@
+{
+  "companies": [
+    {
+      "url": "https://celmengineering.co.uk",
+      "processing_time_seconds": 0.0,
+      "raw_executives_count": 6,
+      "refined_executives_count": 3,
+      "filtering_effectiveness_percent": 50.0,
+      "average_quality_score": 1.0,
+      "executives": [
+        {
+          "name": "John Smith",
+          "context": "John Smith, founder and director",
+          "confidence": 1.0,
+          "quality_reason": "Premium executive: [] with excellent formatting",
+          "semantic_analysis": {
+            "name_patterns": [
+              "Valid name pattern"
+            ],
+            "service_penalties": [],
+            "business_entities": [],
+            "biographical_indicators": [],
+            "quality_factors": {
+              "executive_role": true,
+              "proper_name_format": true,
+              "word_count": 2
+            }
+          },
+          "quality_tier": "PREMIUM"
+        },
+        {
+          "name": "Sarah Johnson",
+          "context": "Sarah Johnson has 15 years experience and leads our team",
+          "confidence": 1.0,
+          "quality_reason": "Premium executive: ['Biographical content detected'] with excellent formatting",
+          "semantic_analysis": {
+            "name_patterns": [
+              "Valid name pattern"
+            ],
+            "service_penalties": [],
+            "business_entities": [],
+            "biographical_indicators": [
+              "Biographical content detected"
+            ],
+            "quality_factors": {
+              "executive_role": true,
+              "proper_name_format": true,
+              "word_count": 2
+            }
+          },
+          "quality_tier": "PREMIUM"
+        },
+        {
+          "name": "Mike Williams",
+          "context": "Mike Williams joined the company in 2010",
+          "confidence": 1.0,
+          "quality_reason": "Premium executive: ['Biographical content detected'] with excellent formatting",
+          "semantic_analysis": {
+            "name_patterns": [
+              "Valid name pattern"
+            ],
+            "service_penalties": [
+              "company"
+            ],
+            "business_entities": [],
+            "biographical_indicators": [
+              "Biographical content detected"
+            ],
+            "quality_factors": {
+              "proper_name_format": true,
+              "word_count": 2
+            }
+          },
+          "quality_tier": "PREMIUM"
+        }
+      ],
+      "enhanced_features_applied": {
+        "business_entity_filtering": true,
+        "biographical_focus": true,
+        "advanced_semantic_analysis": true,
+        "enhanced_quality_thresholds": true
+      }
+    },
+    {
+      "url": "https://msheatingandplumbing.co.uk",
+      "processing_time_seconds": 0.0,
+      "raw_executives_count": 6,
+      "refined_executives_count": 3,
+      "filtering_effectiveness_percent": 50.0,
+      "average_quality_score": 1.0,
+      "executives": [
+        {
+          "name": "John Smith",
+          "context": "John Smith, founder and director",
+          "confidence": 1.0,
+          "quality_reason": "Premium executive: [] with excellent formatting",
+          "semantic_analysis": {
+            "name_patterns": [
+              "Valid name pattern"
+            ],
+            "service_penalties": [],
+            "business_entities": [],
+            "biographical_indicators": [],
+            "quality_factors": {
+              "executive_role": true,
+              "proper_name_format": true,
+              "word_count": 2
+            }
+          },
+          "quality_tier": "PREMIUM"
+        },
+        {
+          "name": "Sarah Johnson",
+          "context": "Sarah Johnson has 15 years experience and leads our team",
+          "confidence": 1.0,
+          "quality_reason": "Premium executive: ['Biographical content detected'] with excellent formatting",
+          "semantic_analysis": {
+            "name_patterns": [
+              "Valid name pattern"
+            ],
+            "service_penalties": [],
+            "business_entities": [],
+            "biographical_indicators": [
+              "Biographical content detected"
+            ],
+            "quality_factors": {
+              "executive_role": true,
+              "proper_name_format": true,
+              "word_count": 2
+            }
+          },
+          "quality_tier": "PREMIUM"
+        },
+        {
+          "name": "Mike Williams",
+          "context": "Mike Williams joined the company in 2010",
+          "confidence": 1.0,
+          "quality_reason": "Premium executive: ['Biographical content detected'] with excellent formatting",
+          "semantic_analysis": {
+            "name_patterns": [
+              "Valid name pattern"
+            ],
+            "service_penalties": [
+              "company"
+            ],
+            "business_entities": [],
+            "biographical_indicators": [
+              "Biographical content detected"
+            ],
+            "quality_factors": {
+              "proper_name_format": true,
+              "word_count": 2
+            }
+          },
+          "quality_tier": "PREMIUM"
+        }
+      ],
+      "enhanced_features_applied": {
+        "business_entity_filtering": true,
+        "biographical_focus": true,
+        "advanced_semantic_analysis": true,
+        "enhanced_quality_thresholds": true
+      }
+    }
+  ],
+  "summary": {
+    "companies_processed": 2,
+    "total_raw_executives": 12,
+    "total_refined_executives": 6,
+    "filtering_effectiveness_percent": 50.0,
+    "average_quality_score": 1.0,
+    "processing_time_seconds": 0.0,
+    "companies_per_hour": 11805703.0,
+    "phase7c_enhancements": {
+      "advanced_semantic_filtering": true,
+      "business_entity_detection": true,
+      "biographical_focus_enabled": true,
+      "enhanced_quality_thresholds": true
+    }
+  },
+  "enhanced_features": {
+    "advanced_semantic_analysis": true,
+    "business_entity_detection": true,
+    "biographical_focus": true,
+    "enhanced_quality_scoring": true
+  },
+  "test_metadata": {
+    "phase": "7C",
+    "target_filtering_effectiveness": 90.0,
+    "achieved_filtering_effectiveness": 50.0,
+    "enhancements": [
+      "Advanced semantic analysis",
+      "Business entity detection",
+      "Biographical focus",
+      "Enhanced quality thresholds"
+    ]
+  }
+}

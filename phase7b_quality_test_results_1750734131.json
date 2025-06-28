@@ -1,0 +1,314 @@
+{
+  "phase7b_test_summary": {
+    "companies_tested": 2,
+    "total_processing_time": 4.914974927902222,
+    "total_raw_executives": 196,
+    "total_refined_executives": 91,
+    "filtering_effectiveness": 0.5357142857142857,
+    "average_quality_score": 0.7218749999999997,
+    "companies_per_hour": 1464.9108297838375
+  },
+  "detailed_results": [
+    {
+      "company_name": "Celm Engineering",
+      "website": "https://celmeng.co.uk/",
+      "raw_executives": 119,
+      "refined_executives": 43,
+      "filtering_rate": 0.6386554621848739,
+      "avg_quality_score": 0.6999999999999995,
+      "quality_distribution": {
+        "high": 0,
+        "medium": 43,
+        "low": 0
+      },
+      "top_executives": [
+        {
+          "name": "Celmeng Skip",
+          "context": "Home - Celmeng Skip to content Home Services plumbing New central heating system Bathroom fitters \u2013 free design consult",
+          "raw_confidence": 0.5,
+          "semantic_score": 0.7000000000000001,
+          "quality_reason": "Medium-quality executive: valid_name_pattern, appropriate_length, proper_capitalization",
+          "semantic_analysis": {
+            "name_analysis": {
+              "valid_pattern": true,
+              "word_count": 2
+            },
+            "context_analysis": {},
+            "final_score": 0.7000000000000001,
+            "quality_tier": "MEDIUM",
+            "flags": [
+              "valid_name_pattern",
+              "appropriate_length",
+              "proper_capitalization"
+            ]
+          },
+          "quality_tier": "MEDIUM"
+        },
+        {
+          "name": "Plan New",
+          "context": "ation Smart home thermostat \u2013 see offers now Commercial Commercial catering certificate Boiler Care Plan New Boiler Deals Contact Us X Call the experts 0121 608 0460 New Boiler Quote Contact us today for a ne",
+          "raw_confidence": 0.5,
+          "semantic_score": 0.7000000000000001,
+          "quality_reason": "Medium-quality executive: valid_name_pattern, appropriate_length, proper_capitalization",
+          "semantic_analysis": {
+            "name_analysis": {
+              "valid_pattern": true,
+              "word_count": 2
+            },
+            "context_analysis": {},
+            "final_score": 0.7000000000000001,
+            "quality_tier": "MEDIUM",
+            "flags": [
+              "valid_name_pattern",
+              "appropriate_length",
+              "proper_capitalization"
+            ]
+          },
+          "quality_tier": "MEDIUM"
+        },
+        {
+          "name": "Call Now",
+          "context": "the experts 0121 608 0460 New Boiler Quote Contact us today for a new boiler quote Get a Free Quote Call Now For  free survey Gas- Safe Engineers Near You In Birmingham,\nWest Midlands With a combined experien",
+          "raw_confidence": 0.5,
+          "semantic_score": 0.7000000000000001,
+          "quality_reason": "Medium-quality executive: valid_name_pattern, appropriate_length, proper_capitalization",
+          "semantic_analysis": {
+            "name_analysis": {
+              "valid_pattern": true,
+              "word_count": 2
+            },
+            "context_analysis": {},
+            "final_score": 0.7000000000000001,
+            "quality_tier": "MEDIUM",
+            "flags": [
+              "valid_name_pattern",
+              "appropriate_length",
+              "proper_capitalization"
+            ]
+          },
+          "quality_tier": "MEDIUM"
+        },
+        {
+          "name": "Safe Engineers",
+          "context": "oiler Quote Contact us today for a new boiler quote Get a Free Quote Call Now For  free survey Gas- Safe Engineers Near You In Birmingham,\nWest Midlands With a combined experience of over 25 years, we offer profess",
+          "raw_confidence": 0.5,
+          "semantic_score": 0.7000000000000001,
+          "quality_reason": "Medium-quality executive: valid_name_pattern, appropriate_length, proper_capitalization",
+          "semantic_analysis": {
+            "name_analysis": {
+              "valid_pattern": true,
+              "word_count": 2
+            },
+            "context_analysis": {},
+            "final_score": 0.7000000000000001,
+            "quality_tier": "MEDIUM",
+            "flags": [
+              "valid_name_pattern",
+              "appropriate_length",
+              "proper_capitalization"
+            ]
+          },
+          "quality_tier": "MEDIUM"
+        },
+        {
+          "name": "Near You",
+          "context": "tact us today for a new boiler quote Get a Free Quote Call Now For  free survey Gas- Safe Engineers Near You In Birmingham,\nWest Midlands With a combined experience of over 25 years, we offer professional Plu",
+          "raw_confidence": 0.5,
+          "semantic_score": 0.7000000000000001,
+          "quality_reason": "Medium-quality executive: valid_name_pattern, appropriate_length, proper_capitalization",
+          "semantic_analysis": {
+            "name_analysis": {
+              "valid_pattern": true,
+              "word_count": 2
+            },
+            "context_analysis": {},
+            "final_score": 0.7000000000000001,
+            "quality_tier": "MEDIUM",
+            "flags": [
+              "valid_name_pattern",
+              "appropriate_length",
+              "proper_capitalization"
+            ]
+          },
+          "quality_tier": "MEDIUM"
+        }
+      ],
+      "processing_time": 3.2776639461517334,
+      "sample_filtered_content": [
+        "Home Services",
+        "Gas Gas",
+        "Commercial Commercial",
+        "Boiler Care",
+        "Boiler Deals",
+        "New Boiler",
+        "Quote Contact",
+        "Free Quote",
+        "Boiler Installations",
+        "Boiler Repairs"
+      ]
+    },
+    {
+      "company_name": "MS Heating & Plumbing",
+      "website": "https://msheatingandplumbing.co.uk/",
+      "raw_executives": 77,
+      "refined_executives": 48,
+      "filtering_rate": 0.37662337662337664,
+      "avg_quality_score": 0.7437499999999999,
+      "quality_distribution": {
+        "high": 14,
+        "medium": 34,
+        "low": 0
+      },
+      "top_executives": [
+        {
+          "name": "Google Other",
+          "context": "er Service Gas or Plumbing Repairs Bathroom Installation Landlords Other How Did you Hear About Us? Google Other Search Engines Worcester Bosch Website Friends or Family Brochure/Leaflet Directories Billboards Ne",
+          "raw_confidence": 0.5,
+          "semantic_score": 0.8500000000000001,
+          "quality_reason": "High-quality executive: valid_name_pattern, appropriate_length, proper_capitalization",
+          "semantic_analysis": {
+            "name_analysis": {
+              "valid_pattern": true,
+              "word_count": 2
+            },
+            "context_analysis": {
+              "roles": [
+                "director"
+              ]
+            },
+            "final_score": 0.8500000000000001,
+            "quality_tier": "HIGH",
+            "flags": [
+              "valid_name_pattern",
+              "appropriate_length",
+              "proper_capitalization",
+              "role_director"
+            ]
+          },
+          "quality_tier": "HIGH"
+        },
+        {
+          "name": "Search Engines",
+          "context": "s or Plumbing Repairs Bathroom Installation Landlords Other How Did you Hear About Us? Google Other Search Engines Worcester Bosch Website Friends or Family Brochure/Leaflet Directories Billboards Newspaper Advert ",
+          "raw_confidence": 0.5,
+          "semantic_score": 0.8500000000000001,
+          "quality_reason": "High-quality executive: valid_name_pattern, appropriate_length, proper_capitalization",
+          "semantic_analysis": {
+            "name_analysis": {
+              "valid_pattern": true,
+              "word_count": 2
+            },
+            "context_analysis": {
+              "roles": [
+                "director"
+              ]
+            },
+            "final_score": 0.8500000000000001,
+            "quality_tier": "HIGH",
+            "flags": [
+              "valid_name_pattern",
+              "appropriate_length",
+              "proper_capitalization",
+              "role_director"
+            ]
+          },
+          "quality_tier": "HIGH"
+        },
+        {
+          "name": "Worcester Bosch",
+          "context": "epairs Bathroom Installation Landlords Other How Did you Hear About Us? Google Other Search Engines Worcester Bosch Website Friends or Family Brochure/Leaflet Directories Billboards Newspaper Advert Other When Is Th",
+          "raw_confidence": 0.5,
+          "semantic_score": 0.8500000000000001,
+          "quality_reason": "High-quality executive: valid_name_pattern, appropriate_length, proper_capitalization",
+          "semantic_analysis": {
+            "name_analysis": {
+              "valid_pattern": true,
+              "word_count": 2
+            },
+            "context_analysis": {
+              "roles": [
+                "director"
+              ]
+            },
+            "final_score": 0.8500000000000001,
+            "quality_tier": "HIGH",
+            "flags": [
+              "valid_name_pattern",
+              "appropriate_length",
+              "proper_capitalization",
+              "role_director"
+            ]
+          },
+          "quality_tier": "HIGH"
+        },
+        {
+          "name": "Website Friends",
+          "context": "Installation Landlords Other How Did you Hear About Us? Google Other Search Engines Worcester Bosch Website Friends or Family Brochure/Leaflet Directories Billboards Newspaper Advert Other When Is The Best Time To G",
+          "raw_confidence": 0.5,
+          "semantic_score": 0.8500000000000001,
+          "quality_reason": "High-quality executive: valid_name_pattern, appropriate_length, proper_capitalization",
+          "semantic_analysis": {
+            "name_analysis": {
+              "valid_pattern": true,
+              "word_count": 2
+            },
+            "context_analysis": {
+              "roles": [
+                "director"
+              ]
+            },
+            "final_score": 0.8500000000000001,
+            "quality_tier": "HIGH",
+            "flags": [
+              "valid_name_pattern",
+              "appropriate_length",
+              "proper_capitalization",
+              "role_director"
+            ]
+          },
+          "quality_tier": "HIGH"
+        },
+        {
+          "name": "Family Brochure",
+          "context": "rds Other How Did you Hear About Us? Google Other Search Engines Worcester Bosch Website Friends or Family Brochure/Leaflet Directories Billboards Newspaper Advert Other When Is The Best Time To Get In Touch? 6 AM -",
+          "raw_confidence": 0.5,
+          "semantic_score": 0.8500000000000001,
+          "quality_reason": "High-quality executive: valid_name_pattern, appropriate_length, proper_capitalization",
+          "semantic_analysis": {
+            "name_analysis": {
+              "valid_pattern": true,
+              "word_count": 2
+            },
+            "context_analysis": {
+              "roles": [
+                "director"
+              ]
+            },
+            "final_score": 0.8500000000000001,
+            "quality_tier": "HIGH",
+            "flags": [
+              "valid_name_pattern",
+              "appropriate_length",
+              "proper_capitalization",
+              "role_director"
+            ]
+          },
+          "quality_tier": "HIGH"
+        }
+      ],
+      "processing_time": 1.636904001235962,
+      "sample_filtered_content": [
+        "Service Interested",
+        "Central Heating",
+        "Heating Boiler",
+        "Service Gas",
+        "Plumbing Repairs",
+        "Bathroom Installation",
+        "Hear About",
+        "Home About",
+        "Services Offers",
+        "Boiler Checks"
+      ]
+    }
+  ]
+}

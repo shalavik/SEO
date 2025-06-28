@@ -1,0 +1,264 @@
+{
+  "test_timestamp": 1750780134,
+  "companies_processed": 5,
+  "successful_extractions": 5,
+  "total_executives_found": 80,
+  "total_contacts_extracted": 116,
+  "total_emails_discovered": 0,
+  "total_emails_inferred": 400,
+  "processing_times": [
+    104.66289472579956,
+    101.68394184112549,
+    26.771878004074097,
+    26.706940174102783,
+    0.004925727844238281
+  ],
+  "detailed_results": [
+    {
+      "company_name": "Company_0",
+      "processing_successful": true,
+      "processing_time": {
+        "contact_extraction_time": 73.86831378936768,
+        "email_discovery_time": 30.794580936431885,
+        "total_time": 104.66289472579956
+      },
+      "executive_discovery": {
+        "total_executives_found": 20,
+        "executives_with_contacts": 2,
+        "average_completeness": 8.0
+      },
+      "contact_extraction_summary": {
+        "total_contacts_extracted": 6,
+        "contact_types_found": 1,
+        "extraction_quality": "LOW"
+      },
+      "email_discovery_summary": {
+        "emails_discovered": 0,
+        "emails_inferred": 100,
+        "discovery_confidence": 0.8,
+        "pattern_analysis": {
+          "detected_patterns": [],
+          "confidence_scores": {},
+          "format_preferences": {},
+          "executive_patterns": {},
+          "domain_intelligence": {}
+        }
+      },
+      "contact_intelligence": {
+        "executives_with_complete_contacts": 2,
+        "executives_with_partial_contacts": 0,
+        "total_phone_numbers": 2,
+        "total_email_addresses": 100,
+        "total_linkedin_profiles": 0,
+        "contact_attribution_success_rate": 0.1
+      },
+      "quality_metrics": {
+        "overall_score": 0.49964800000000004,
+        "completeness_percentage": 28.0,
+        "contact_diversity_score": 0.36666666666666664,
+        "confidence_score": 0.6846399999999999
+      }
+    },
+    {
+      "company_name": "Company_1",
+      "processing_successful": true,
+      "processing_time": {
+        "contact_extraction_time": 71.03158378601074,
+        "email_discovery_time": 30.652358055114746,
+        "total_time": 101.68394184112549
+      },
+      "executive_discovery": {
+        "total_executives_found": 20,
+        "executives_with_contacts": 2,
+        "average_completeness": 8.0
+      },
+      "contact_extraction_summary": {
+        "total_contacts_extracted": 6,
+        "contact_types_found": 1,
+        "extraction_quality": "LOW"
+      },
+      "email_discovery_summary": {
+        "emails_discovered": 0,
+        "emails_inferred": 100,
+        "discovery_confidence": 0.8,
+        "pattern_analysis": {
+          "detected_patterns": [],
+          "confidence_scores": {},
+          "format_preferences": {},
+          "executive_patterns": {},
+          "domain_intelligence": {}
+        }
+      },
+      "contact_intelligence": {
+        "executives_with_complete_contacts": 2,
+        "executives_with_partial_contacts": 0,
+        "total_phone_numbers": 2,
+        "total_email_addresses": 100,
+        "total_linkedin_profiles": 0,
+        "contact_attribution_success_rate": 0.1
+      },
+      "quality_metrics": {
+        "overall_score": 0.49964800000000004,
+        "completeness_percentage": 28.0,
+        "contact_diversity_score": 0.36666666666666664,
+        "confidence_score": 0.6846399999999999
+      }
+    },
+    {
+      "company_name": "Company_2",
+      "processing_successful": true,
+      "processing_time": {
+        "contact_extraction_time": 17.141540050506592,
+        "email_discovery_time": 9.630337953567505,
+        "total_time": 26.771878004074097
+      },
+      "executive_discovery": {
+        "total_executives_found": 20,
+        "executives_with_contacts": 15,
+        "average_completeness": 52.0
+      },
+      "contact_extraction_summary": {
+        "total_contacts_extracted": 52,
+        "contact_types_found": 2,
+        "extraction_quality": "HIGH"
+      },
+      "email_discovery_summary": {
+        "emails_discovered": 0,
+        "emails_inferred": 100,
+        "discovery_confidence": 0.8,
+        "pattern_analysis": {
+          "detected_patterns": [],
+          "confidence_scores": {},
+          "format_preferences": {},
+          "executive_patterns": {},
+          "domain_intelligence": {}
+        }
+      },
+      "contact_intelligence": {
+        "executives_with_complete_contacts": 11,
+        "executives_with_partial_contacts": 4,
+        "total_phone_numbers": 34,
+        "total_email_addresses": 100,
+        "total_linkedin_profiles": 0,
+        "contact_attribution_success_rate": 0.75
+      },
+      "quality_metrics": {
+        "overall_score": 0.69492,
+        "completeness_percentage": 72.0,
+        "contact_diversity_score": 0.5833333333333334,
+        "confidence_score": 0.8178499999999999
+      }
+    },
+    {
+      "company_name": "Company_3",
+      "processing_successful": true,
+      "processing_time": {
+        "contact_extraction_time": 16.965914011001587,
+        "email_discovery_time": 9.741026163101196,
+        "total_time": 26.706940174102783
+      },
+      "executive_discovery": {
+        "total_executives_found": 20,
+        "executives_with_contacts": 15,
+        "average_completeness": 52.0
+      },
+      "contact_extraction_summary": {
+        "total_contacts_extracted": 52,
+        "contact_types_found": 2,
+        "extraction_quality": "HIGH"
+      },
+      "email_discovery_summary": {
+        "emails_discovered": 0,
+        "emails_inferred": 100,
+        "discovery_confidence": 0.8,
+        "pattern_analysis": {
+          "detected_patterns": [],
+          "confidence_scores": {},
+          "format_preferences": {},
+          "executive_patterns": {},
+          "domain_intelligence": {}
+        }
+      },
+      "contact_intelligence": {
+        "executives_with_complete_contacts": 11,
+        "executives_with_partial_contacts": 4,
+        "total_phone_numbers": 34,
+        "total_email_addresses": 100,
+        "total_linkedin_profiles": 0,
+        "contact_attribution_success_rate": 0.75
+      },
+      "quality_metrics": {
+        "overall_score": 0.69492,
+        "completeness_percentage": 72.0,
+        "contact_diversity_score": 0.5833333333333334,
+        "confidence_score": 0.8178499999999999
+      }
+    },
+    {
+      "company_name": "Company_4",
+      "processing_successful": true,
+      "processing_time": {
+        "contact_extraction_time": 0.003313779830932617,
+        "email_discovery_time": 0.001611948013305664,
+        "total_time": 0.004925727844238281
+      },
+      "executive_discovery": {
+        "total_executives_found": 0,
+        "executives_with_contacts": 0,
+        "average_completeness": 0.0
+      },
+      "contact_extraction_summary": {
+        "total_contacts_extracted": 0,
+        "contact_types_found": 0,
+        "extraction_quality": "POOR"
+      },
+      "email_discovery_summary": {
+        "emails_discovered": 0,
+        "emails_inferred": 0,
+        "discovery_confidence": 0.5,
+        "pattern_analysis": {
+          "detected_patterns": [],
+          "confidence_scores": {},
+          "format_preferences": {},
+          "executive_patterns": {},
+          "domain_intelligence": {}
+        }
+      },
+      "contact_intelligence": {
+        "executives_with_complete_contacts": 0,
+        "executives_with_partial_contacts": 0,
+        "total_phone_numbers": 0,
+        "total_email_addresses": 0,
+        "total_linkedin_profiles": 0,
+        "contact_attribution_success_rate": 0.0
+      },
+      "quality_metrics": {
+        "overall_score": 0.2,
+        "completeness_percentage": 0.0,
+        "contact_diversity_score": 0.0,
+        "confidence_score": 0.15
+      }
+    }
+  ],
+  "quality_metrics": {
+    "overall_score": 0.67534816,
+    "quality_grade": "B",
+    "average_quality_score": 0.5178272,
+    "average_completeness": 40.0,
+    "average_confidence": 0.6309959999999999,
+    "average_diversity": 0.38,
+    "success_rate": 1.0,
+    "total_companies_tested": 5,
+    "successful_extractions": 5
+  },
+  "performance_assessment": {
+    "performance_grade": "GOOD",
+    "average_processing_time_seconds": 51.96611609458923,
+    "min_processing_time_seconds": 0.004925727844238281,
+    "max_processing_time_seconds": 104.66289472579956,
+    "companies_per_hour": 69.27591035372443,
+    "executives_per_minute": 18.473576094326514,
+    "contacts_per_minute": 119.15456580840602,
+    "total_processing_time_seconds": 259.83058047294617
+  }
+}

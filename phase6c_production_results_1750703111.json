@@ -1,0 +1,259 @@
+{
+  "phase6c_summary": {
+    "total_companies_processed": 10,
+    "total_executives_found": 7,
+    "total_pages_analyzed": 10,
+    "total_processing_time": 6670.209084033966,
+    "success_rate": 0.2,
+    "average_processing_time": 1627.8352964162827,
+    "average_quality_score": 0.19499999999999998,
+    "average_contact_completeness": 0.05
+  },
+  "performance_metrics": {
+    "companies_per_hour": 5.3971321657923435,
+    "executives_per_company": 0.7,
+    "pages_per_company": 1.0
+  },
+  "top_discoveries": [
+    {
+      "company_name": "Celm Engineering",
+      "executives_count": 4,
+      "quality_score": 0.9999999999999999,
+      "processing_time": 1864.3738069534302
+    },
+    {
+      "company_name": "MS Heating & Plumbing",
+      "executives_count": 3,
+      "quality_score": 0.95,
+      "processing_time": 3885.531996011734
+    },
+    {
+      "company_name": "CH Parker Plumbing",
+      "executives_count": 0,
+      "quality_score": 0.0,
+      "processing_time": 9.173795223236084
+    },
+    {
+      "company_name": "Absolute Plumbing Solutions",
+      "executives_count": 0,
+      "quality_score": 0.0,
+      "processing_time": 133.79472994804382
+    },
+    {
+      "company_name": "Cold Spring Plumbers",
+      "executives_count": 0,
+      "quality_score": 0.0,
+      "processing_time": 3866.151631116867
+    }
+  ],
+  "detailed_results": [
+    {
+      "company_id": "phase6c_1750696450_0",
+      "company_name": "CH Parker Plumbing",
+      "executives_found": 0,
+      "executives": [],
+      "quality_metrics": {
+        "quality_score": 0.0,
+        "confidence_distribution": {
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "contact_completeness": 0.0
+      }
+    },
+    {
+      "company_id": "phase6c_1750700327_0",
+      "company_name": "MS Heating & Plumbing",
+      "executives_found": 3,
+      "executives": [
+        {
+          "name": "Us Benefits",
+          "title": "Executive",
+          "confidence_score": 0.7999999999999999,
+          "email": "",
+          "phone": "",
+          "has_contact_info": false
+        },
+        {
+          "name": "Us About",
+          "title": "Executive",
+          "confidence_score": 0.7999999999999999,
+          "email": "",
+          "phone": "",
+          "has_contact_info": false
+        },
+        {
+          "name": "Us All",
+          "title": "Executive",
+          "confidence_score": 0.7999999999999999,
+          "email": "",
+          "phone": "",
+          "has_contact_info": false
+        }
+      ],
+      "quality_metrics": {
+        "quality_score": 0.95,
+        "confidence_distribution": {
+          "high": 0,
+          "medium": 3,
+          "low": 0
+        },
+        "contact_completeness": 0.0
+      }
+    },
+    {
+      "company_id": "phase6c_1750696575_0",
+      "company_name": "Absolute Plumbing Solutions",
+      "executives_found": 0,
+      "executives": [],
+      "quality_metrics": {
+        "quality_score": 0.0,
+        "confidence_distribution": {
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "contact_completeness": 0.0
+      }
+    },
+    {
+      "company_id": "phase6c_1750700317_0",
+      "company_name": "Cold Spring Plumbers",
+      "executives_found": 0,
+      "executives": [],
+      "quality_metrics": {
+        "quality_score": 0.0,
+        "confidence_distribution": {
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "contact_completeness": 0.0
+      }
+    },
+    {
+      "company_id": "phase6c_1750700328_0",
+      "company_name": "Mere Green Gas & Plumbing",
+      "executives_found": 0,
+      "executives": [],
+      "quality_metrics": {
+        "quality_score": 0.0,
+        "confidence_distribution": {
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "contact_completeness": 0.0
+      }
+    },
+    {
+      "company_id": "phase6c_1750701234_0",
+      "company_name": "Manor Vale Heating",
+      "executives_found": 0,
+      "executives": [],
+      "quality_metrics": {
+        "quality_score": 0.0,
+        "confidence_distribution": {
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "contact_completeness": 0.0
+      }
+    },
+    {
+      "company_id": "phase6c_1750701245_0",
+      "company_name": "Star Cities Heating",
+      "executives_found": 0,
+      "executives": [],
+      "quality_metrics": {
+        "quality_score": 0.0,
+        "confidence_distribution": {
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "contact_completeness": 0.0
+      }
+    },
+    {
+      "company_id": "phase6c_1750701247_0",
+      "company_name": "Your Plumbing Services",
+      "executives_found": 0,
+      "executives": [],
+      "quality_metrics": {
+        "quality_score": 0.0,
+        "confidence_distribution": {
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "contact_completeness": 0.0
+      }
+    },
+    {
+      "company_id": "phase6c_1750701248_0",
+      "company_name": "Complete Heating",
+      "executives_found": 0,
+      "executives": [],
+      "quality_metrics": {
+        "quality_score": 0.0,
+        "confidence_distribution": {
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        },
+        "contact_completeness": 0.0
+      }
+    },
+    {
+      "company_id": "phase6c_1750703111_0",
+      "company_name": "Celm Engineering",
+      "executives_found": 4,
+      "executives": [
+        {
+          "name": "Us About",
+          "title": "Executive",
+          "confidence_score": 0.7999999999999999,
+          "email": "info@celmeng.co.uk",
+          "phone": "",
+          "has_contact_info": true
+        },
+        {
+          "name": "Us News",
+          "title": "Executive",
+          "confidence_score": 0.7999999999999999,
+          "email": "info@celmeng.co.uk",
+          "phone": "",
+          "has_contact_info": true
+        },
+        {
+          "name": "Us Questions",
+          "title": "Executive",
+          "confidence_score": 0.7999999999999999,
+          "email": "info@celmeng.co.uk",
+          "phone": "",
+          "has_contact_info": true
+        },
+        {
+          "name": "Information Get",
+          "title": "Executive",
+          "confidence_score": 0.7999999999999999,
+          "email": "info@celmeng.co.uk",
+          "phone": "",
+          "has_contact_info": true
+        }
+      ],
+      "quality_metrics": {
+        "quality_score": 0.9999999999999999,
+        "confidence_distribution": {
+          "high": 0,
+          "medium": 4,
+          "low": 0
+        },
+        "contact_completeness": 0.5
+      }
+    }
+  ]
+}

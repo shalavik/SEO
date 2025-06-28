@@ -1,0 +1,42 @@
+{
+  "test_timestamp": "2025-06-27T17:45:02.674894",
+  "test_purpose": "Validate HIGH-QUALITY executive discovery with real executive names",
+  "companies_tested": 3,
+  "results": [
+    {
+      "company_name": "Sample Business Services",
+      "test_url": "https://mattplumbingandheating.com",
+      "actual_url": "https://mattplumbingandheating.com",
+      "total_executives_found": 0,
+      "high_quality_executives": 0,
+      "processing_time_seconds": 5.36,
+      "executives": []
+    },
+    {
+      "company_name": "Summit Plumbing Business",
+      "test_url": "https://summitplumbingandheating.co.uk",
+      "actual_url": "https://summitplumbingandheating.co.uk",
+      "total_executives_found": 2,
+      "high_quality_executives": 0,
+      "processing_time_seconds": 18.92,
+      "executives": []
+    },
+    {
+      "company_name": "UK Professional Services",
+      "test_url": "https://mkplumbingbirmingham.co.uk",
+      "actual_url": "https://mkplumbingbirmingham.co.uk",
+      "total_executives_found": 8,
+      "high_quality_executives": 0,
+      "processing_time_seconds": 15.45,
+      "executives": []
+    }
+  ],
+  "quality_analysis": {
+    "total_companies_tested": 3,
+    "high_quality_executives_found": 0,
+    "average_quality_per_company": 0.0,
+    "total_contacts_found": 0,
+    "contact_rate_on_quality_executives": "0.0%",
+    "overall_assessment": "POOR - No high-quality executives found"
+  }
+}
